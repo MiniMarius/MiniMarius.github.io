@@ -1,0 +1,62 @@
+{
+    "Bistro Garros": [
+        "Flankstek, gösfilé, äkta spansk chorizo, vegetariska blomkålskroketter",
+        "Chimichurri, mashed corn, potatisgratäng, grillade grönsaker",
+        "Gräddiserad fisksoppa, ingår i lunchen",
+        "Fråga personalen om allergier"
+    ],
+    "PokéBurger": {
+        "Veckans No Bowl": [
+            "Wallenbergare - kalvfärsbiffar med potatispuré, skirat smör, lingon & ärtor"
+        ],
+        "Poké Bowls": [
+            "The greek - gyroskött med srirachamayo, tzatziki, tomat-& löksallad, vårlök, sushiris, rawsallad, edamame",
+            "Juan of a kind - mexikansk kryddad vego-färs, nachos pico de gallo & avokadokräm, rawsallad, edamame, sushiris, rättika & gari",
+            "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+            "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo  avokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+            "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo  avokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+            "The hot prawns - smörstekta tigerräkor med chili, vitlök,  citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari"
+        ],
+        "The Burgers": [
+            "Smoke joe - 150g burgare med chipotlemayo, coleslaw, cheddar & rödlök serveras med pommes & dipp",
+            "Truffle n onion - 150g burgare med cheddar, syrad lök,  rostad lök & tryffel-mayo. serveras med pommes och dipp",
+            "Tropicana - friterad halloumi med syrad lök,  ananassalsa, chipotle-mayo & sallad. serveras med pommes och dipp",
+            "French quarter - 150g burgare med gruyere, karamelliserad lök, senapspicklad gurka & röd chili-aioli. serveras med pommes och dipp"
+        ]
+    },
+    "Al Caminetto": [
+        "Helstekt Black Angus biff med kantareller sås och potatis gratäng",
+        "Isterband med senap sky rödbetor och persilja stuvad potatis",
+        "Panerad Flundrafilé med Västerbotten kräfta röra och kokt potatis",
+        "Spagetti Carbonara special med bacon purjolök champinjoner i en krämig parmesansås",
+        "Oxfilé på planka med potatismos grillad parmesan packad tomat och bearnaisesås 179:-",
+        "Risotto med sparris och broccoli  Cannelloni vegetariani med Ricotaost  kantareller"
+    ],
+    "Gustafs": [
+        "Fläsknoisette Oscar rödvinssås bearnaisesås räkor sparris och klyftpotatis",
+        "Huset fisk och skaldjursgryta saffran och aioli",
+        "Lasagne al forno med ostsås",
+        "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
+        "Caesarsallad kyckling räkor eller halloumi",
+        "Per special Caesarsallad räkor och halloumi",
+        "Kebab tallrik med pommes tomatsås och vitlökssås",
+        "Obs alla caesarsallad innehåller bacon krutonger parmesan och cesar dressing",
+        "smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar"
+    ],
+    "Bastard Burgers": [
+        "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing."
+    ],
+    "Sjöpaviljongen": [
+        "Varmrökt laxsallad, mozzarella, fänkål, kapris,ägg och örtdressing",
+        "Risotto med saltbakad gulbeta, smulad getost och frasig ostronskivling",
+        "Ångad lofotentorsk med räkor, ägg, brynt smör och pepparrot",
+        "Viltköttbullar serveras med svampgräddsås, syltade kantareller och potatispuré",
+        "Fisk- och skaldjurswallenbergare med små gröna ärtor, citron, färskriven pepparot och brynt smör ”Wallenbergare” of fish and shellfish with green peas, lemon, horseradish and browned butter",
+        "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
+        "Vitchokladmousse med hallonsylt och knäck-crunch"
+    ],
+    "Melanders": [
+        "Spättafilé med musselsås, fänkål, champinjoner, blåmusslor & kokt potatis",
+        "Ugnsbakad kycklinglårfilé med dragonsås, rostad potatis & grönsaker"
+    ]
+}
