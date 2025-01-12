@@ -243,9 +243,10 @@ menus.append({
 
 # Output JSON data
 menus = clean_menus(menus)
+output_path = os.path.join("public", "menus.json")
 
 # Save the menus to a JSON file
-with open('menus.json', 'w', encoding='utf-8') as f:
+with open(output_path, 'w', encoding='utf-8') as f:
     json.dump(menus, f, ensure_ascii=False, indent=4)
 
 print("Menus saved to menus.json")
