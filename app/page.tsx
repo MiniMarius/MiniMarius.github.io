@@ -21,9 +21,7 @@ export default function Home() {
               ))}
             </ul>
           ) : (
-            <p className="text-gray-500">
-              Inga rätter tillgängliga för tillfället.
-            </p>
+            <p className="text-gray-500">Ingen lunch serveras här idag</p>
           )}
         </div>
       ))}
