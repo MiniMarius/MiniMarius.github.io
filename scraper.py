@@ -1,3 +1,4 @@
+import os
 import requests
 import urllib.request
 from bs4 import BeautifulSoup
@@ -54,17 +55,22 @@ menus = []
 
 # Garros
 headers = {'User-Agent': 'Mozilla/5.0'}
-garroshtml = requests.get("https://bistrogarros.se/menyer/meny", headers=headers)
-garrosSoup = BeautifulSoup(garroshtml.content, 'html.parser')
-class_name = f'Screen__day Screen__day--visible Screen__day--{datetime.now().strftime("%A").lower()}'
-day_div = garrosSoup.find('div', {'class': class_name})
+try:
+    garroshtml = requests.get("https://bistrogarros.se/menyer/meny", headers=headers)
+    garroshtml.raise_for_status()
+    garrosSoup = BeautifulSoup(garroshtml.content, 'html.parser')
+    class_name = f'Screen__day Screen__day--visible Screen__day--{datetime.now().strftime("%A").lower()}'
+    day_div = garrosSoup.find('div', {'class': class_name})
 
-garros_menu = []
-if day_div:
-    menu_paragraph = day_div.find('p')
-    lunch_menu = menu_paragraph.get_text(separator="\n", strip=True)
-    # Split the menu into separate dishes based on newline characters
-    garros_menu = [{"name": dish.strip(), "price": ""} for dish in lunch_menu.split('\n') if dish.strip()]
+    garros_menu = []
+    if day_div:
+        menu_paragraph = day_div.find('p')
+        if menu_paragraph:
+            lunch_menu = menu_paragraph.get_text(separator="\n", strip=True)
+            garros_menu = [{"name": dish.strip(), "price": ""} for dish in lunch_menu.split('\n') if dish.strip()]
+except requests.exceptions.RequestException as e:
+    print(f"Error fetching Garros menu: {e}")
+    garros_menu = []
 
 menus.append({
     "name": "Bistro Garros",
@@ -73,29 +79,35 @@ menus.append({
 })
 
 # PokéBurger
-pokeHtml = requests.get("https://pokeburger.se/meny/alvik/", headers=headers)
-pokeSoup = BeautifulSoup(pokeHtml.content, 'html.parser')
-AllPokeMenus = pokeSoup.find_all('div', class_='dine-menu-wrapper')
+try:
+    pokeHtml = requests.get("https://pokeburger.se/meny/alvik/", headers=headers)
+    pokeHtml.raise_for_status()
+    pokeSoup = BeautifulSoup(pokeHtml.content, 'html.parser')
+    AllPokeMenus = pokeSoup.find_all('div', class_='dine-menu-wrapper')
 
-poke_dishes = []
+    poke_dishes = []
+    heading_map = {
+        'VECKANS NO BOWL': 'Veckans No Bowl',
+        'POKÉ BOWLS': 'Poké Bowls',
+        'THE BURGERS': 'The Burgers'
+    }
 
-# Map headings to the keys in poke_menu
-heading_map = {
-    'VECKANS NO BOWL': 'Veckans No Bowl',
-    'POKÉ BOWLS': 'Poké Bowls',
-    'THE BURGERS': 'The Burgers'
-}
-
-for menu in AllPokeMenus[:3]:
-    heading = menu.find('h2', class_='dine-menu-heading').text
-    key = heading_map.get(heading.upper(), None)
-    
-    if key:
-        menu_items = menu.find_all('div', class_='dine-menu-item')
-        for item in menu_items:
-            name = item.find('h3', class_='menu-item-name').text.capitalize()
-            description = item.find('div', class_='menu-item-desc').text.strip().lower()
-            poke_dishes.append({"name": f"{name} - {description}", "price": ""})
+    for menu in AllPokeMenus[:3]:
+        heading = menu.find('h2', class_='dine-menu-heading')
+        if heading:
+            heading = heading.text
+            key = heading_map.get(heading.upper(), None)
+        
+            if key:
+                menu_items = menu.find_all('div', class_='dine-menu-item')
+                for item in menu_items:
+                    name = item.find('h3', class_='menu-item-name')
+                    description = item.find('div', class_='menu-item-desc')
+                    if name and description:
+                        poke_dishes.append({"name": f"{name.text.capitalize()} - {description.text.strip().lower()}", "price": ""})
+except requests.exceptions.RequestException as e:
+    print(f"Error fetching PokéBurger menu: {e}")
+    poke_dishes = []
 
 menus.append({
     "name": "PokéBurger",
@@ -104,18 +116,23 @@ menus.append({
 })
 
 # Al Caminetto
-alCamiHtml = requests.get("https://www.alcaminetto.se/lunch/", headers=headers)
-alCamiSoup = BeautifulSoup(alCamiHtml.content, 'html.parser')
-current_day_swedish = get_current_day_swedish()
-todays_menu = []
-current_day = None
+try:
+    alCamiHtml = requests.get("https://www.alcaminetto.se/lunch/", headers=headers)
+    alCamiHtml.raise_for_status()
+    alCamiSoup = BeautifulSoup(alCamiHtml.content, 'html.parser')
+    current_day_swedish = get_current_day_swedish()
+    todays_menu = []
+    current_day = None
 
-for header in alCamiSoup.find_all('h3'):
-    text = header.get_text(strip=True)
-    if text in day_translation.values():
-        current_day = text
-    elif current_day == current_day_swedish:
-        todays_menu.append({"name": text, "price": ""})
+    for header in alCamiSoup.find_all('h3'):
+        text = header.get_text(strip=True)
+        if text in day_translation.values():
+            current_day = text
+        elif current_day == current_day_swedish:
+            todays_menu.append({"name": text, "price": ""})
+except requests.exceptions.RequestException as e:
+    print(f"Error fetching Al Caminetto menu: {e}")
+    todays_menu = []
 
 menus.append({
     "name": "Al Caminetto",
@@ -124,37 +141,42 @@ menus.append({
 })
 
 # Gustafs
-gustafsHtml = requests.get("https://www.gustafsrestaurang.se/index.php/lunch", headers=headers)
-gustafsSoup = BeautifulSoup(gustafsHtml.content, 'html.parser')
+try:
+    gustafsHtml = requests.get("https://www.gustafsrestaurang.se/index.php/lunch", headers=headers)
+    gustafsHtml.raise_for_status()
+    gustafsSoup = BeautifulSoup(gustafsHtml.content, 'html.parser')
 
-day_translationGustafs = {
-    'monday': 'Måndag',
-    'tuesday': 'Tisdag',
-    'wednesday': 'Onsdag',
-    'thursday': 'Torsdag',
-    'friday': 'Fredag',
-    'saturday': 'Lördag',
-    'sunday': 'Söndag'
-}
+    day_translationGustafs = {
+        'monday': 'Måndag',
+        'tuesday': 'Tisdag',
+        'wednesday': 'Onsdag',
+        'thursday': 'Torsdag',
+        'friday': 'Fredag',
+        'saturday': 'Lördag',
+        'sunday': 'Söndag'
+    }
 
-# Get the current weekday in Swedish
-current_weekday = datetime.now().strftime('%A').lower()
-current_day_swedish = day_translationGustafs.get(current_weekday)
+    # Get the current weekday in Swedish
+    current_weekday = datetime.now().strftime('%A').lower()
+    current_day_swedish = day_translationGustafs.get(current_weekday)
 
-# Initialize to store today's menu
-todays_menu = []
+    # Initialize to store today's menu
+    todays_menu = []
 
-current_day = None
+    current_day = None
 
-# Iterate over all <h3> and <h5> elements
-for element in gustafsSoup.find_all(['h3', 'h5']):
-    text = element.get_text(strip=True)
-    # Check if the text is a day of the week in Swedish
-    if text in day_translationGustafs.values():
-        current_day = text
-    elif current_day == current_day_swedish:
-        # If the current header is not a weekday and it matches today, add the item to today's menu
-        todays_menu.extend({"name": item.strip(), "price": ""} for item in re.split(r'[.!?]', text) if item.strip())
+    # Iterate over all <h3> and <h5> elements
+    for element in gustafsSoup.find_all(['h3', 'h5']):
+        text = element.get_text(strip=True)
+        # Check if the text is a day of the week in Swedish
+        if text in day_translationGustafs.values():
+            current_day = text
+        elif current_day == current_day_swedish:
+            # If the current header is not a weekday and it matches today, add the item to today's menu
+            todays_menu.extend({"name": item.strip(), "price": ""} for item in re.split(r'[.!?]', text) if item.strip())
+except requests.exceptions.RequestException as e:
+    print(f"Error fetching Gustafs menu: {e}")
+    todays_menu = []
 
 menus.append({
     "name": "Gustafs",
@@ -163,39 +185,57 @@ menus.append({
 })
 
 # Bastard Burgers
-bastardHtml = requests.get("https://bastardburgers.com/se/dagens-lunch/bromma/", headers=headers)
-bastardSoup = BeautifulSoup(bastardHtml.content, "html.parser")
-menu_title = bastardSoup.find('h4').get_text(strip=True)
-menu_description = bastardSoup.find('p').get_text(strip=True)
+try:
+    bastardHtml = requests.get("https://bastardburgers.com/se/dagens-lunch/bromma/", headers=headers)
+    bastardHtml.raise_for_status()
+    bastardSoup = BeautifulSoup(bastardHtml.content, "html.parser")
+    menu_title = bastardSoup.find('h4')
+    menu_description = bastardSoup.find('p')
 
-menus.append({
-    "name": "Bastard Burgers",
-    "location": "Location details here",
-    "menu": {"dishes": [{"name": f"{menu_title}: {menu_description}", "price": ""}]}
-})
+    if menu_title and menu_description:
+        menus.append({
+            "name": "Bastard Burgers",
+            "location": "Location details here",
+            "menu": {"dishes": [{"name": f"{menu_title.get_text(strip=True)}: {menu_description.get_text(strip=True)}", "price": ""}]}
+        })
+    else:
+        menus.append({
+            "name": "Bastard Burgers",
+            "location": "Location details here",
+            "menu": {"dishes": []}
+        })
+except requests.exceptions.RequestException as e:
+    print(f"Error fetching Bastard Burgers menu: {e}")
+    menus.append({
+        "name": "Bastard Burgers",
+        "location": "Location details here",
+        "menu": {"dishes": []}
+    })
 
 # Sjöpaviljongen
-sjoPaviljHtml = requests.get("https://sjopaviljongen.se/lunchmeny/", headers=headers)
-sjoPaviljSoup = BeautifulSoup(sjoPaviljHtml.content, "html.parser")
-first_table = sjoPaviljSoup.find('table')
-menu_items = first_table.find_all('p')
+try:
+    sjoPaviljHtml = requests.get("https://sjopaviljongen.se/lunchmeny/", headers=headers)
+    sjoPaviljHtml.raise_for_status()
+    sjoPaviljSoup = BeautifulSoup(sjoPaviljHtml.content, "html.parser")
+    first_table = sjoPaviljSoup.find('table')
+    if first_table:
+        menu_items = first_table.find_all('p')
 
-sjopaviljongen_menu = []
-for item in menu_items:
-    text = item.get_text(separator="\n", strip=True)
-    # Check if the dish starts with "DAGENS" and remove only the first line
-    if text.startswith("DAGENS"):
-        parts = text.split('\n', 1)  # Split only at the first newline
-        if len(parts) > 1:
-            text = parts[1]  # Keep everything after the first newline
-    
-    # Split at the first capital letter after a lowercase word
-    split_pattern = re.compile(r'(?<=\s)[A-ZÅÄÖ]')
-    parts = split_pattern.split(text, 1)
-    # Use only the first part, which should be the Swedish description
-    cleaned_text = parts[0].strip() if parts else text
-    
-    sjopaviljongen_menu.append({"name": cleaned_text, "price": ""})
+        sjopaviljongen_menu = []
+        for item in menu_items:
+            text = item.get_text(separator="\n", strip=True)
+            if text.startswith("DAGENS"):
+                parts = text.split('\n', 1)
+                if len(parts) > 1:
+                    text = parts[1]
+            
+            split_pattern = re.compile(r'(?<=\s)[A-ZÅÄÖ]')
+            parts = split_pattern.split(text, 1)
+            cleaned_text = parts[0].strip() if parts else text
+            sjopaviljongen_menu.append({"name": cleaned_text, "price": ""})
+except requests.exceptions.RequestException as e:
+    print(f"Error fetching Sjöpaviljongen menu: {e}")
+    sjopaviljongen_menu = []
 
 menus.append({
     "name": "Sjöpaviljongen",
@@ -204,36 +244,39 @@ menus.append({
 })
 
 # Melanders (Get PDF link and process)
-melandersHtml = requests.get("https://melanders.se/restauranger/melanders-alvik/", headers=headers)
-melandersSoup = BeautifulSoup(melandersHtml.content, 'html.parser')
+try:
+    melandersHtml = requests.get("https://melanders.se/restauranger/melanders-alvik/", headers=headers)
+    melandersHtml.raise_for_status()
+    melandersSoup = BeautifulSoup(melandersHtml.content, 'html.parser')
 
-# Find the PDF link
-pdf_link_tag = melandersSoup.find('a', text="DAGENS LUNCH")
-pdf_url = pdf_link_tag['href'] if pdf_link_tag else None
+    # Find the PDF link
+    pdf_link_tag = melandersSoup.find('a', text="DAGENS LUNCH")
+    pdf_url = pdf_link_tag['href'] if pdf_link_tag else None
 
-melanders_menu = []
-if pdf_url:
-    pdf_path = "menu.pdf"
+    melanders_menu = []
+    if pdf_url:
+        pdf_path = "menu.pdf"
 
-    try:
-        urllib.request.urlretrieve(pdf_url, pdf_path)
-        pdf = pdfquery.PDFQuery(pdf_path)
-        pdf.load()
-        all_text = ""
-        for page_number in range(len(pdf.pq('LTPage'))):
-            pdf.load(page_number)
-            page_text = pdf.pq('LTTextLineHorizontal').text()
-            all_text += page_text + "\n"
-        
-        sections = all_text.split(current_day_swedish)
-        if len(sections) > 1:
-            today_section = sections[1].strip()
-            # Remove all content within parentheses
-            today_section = re.sub(r'\(.*?\)', '', today_section)
-            # Split based on capitalized words
-            melanders_menu = [{"name": dish.strip(), "price": ""} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_section) if dish.strip() and dish.strip() not in day_translation.values()]
-    except Exception as e:
-        melanders_menu = [{"name": "Error", "price": str(e)}]
+        try:
+            urllib.request.urlretrieve(pdf_url, pdf_path)
+            pdf = pdfquery.PDFQuery(pdf_path)
+            pdf.load()
+            all_text = ""
+            for page_number in range(len(pdf.pq('LTPage'))):
+                pdf.load(page_number)
+                page_text = pdf.pq('LTTextLineHorizontal').text()
+                all_text += page_text + "\n"
+            
+            sections = all_text.split(current_day_swedish)
+            if len(sections) > 1:
+                today_section = sections[1].strip()
+                today_section = re.sub(r'\(.*?\)', '', today_section)
+                melanders_menu = [{"name": dish.strip(), "price": ""} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_section) if dish.strip() and dish.strip() not in day_translation.values()]
+        except Exception as e:
+            melanders_menu = [{"name": "Error", "price": str(e)}]
+except requests.exceptions.RequestException as e:
+    print(f"Error fetching Melanders menu: {e}")
+    melanders_menu = [{"name": "Error", "price": "Network issue"}]
 
 menus.append({
     "name": "Melanders",
