@@ -3,7 +3,24 @@
         "name": "Bistro Garros",
         "location": "Location details here",
         "menu": {
-            "dishes": []
+            "dishes": [
+                {
+                    "name": "Biff i pepparsås med lök, cognac, champinjoner och ugnsbakad potatis",
+                    "price": ""
+                },
+                {
+                    "name": "Färsk norsk sej Tempura med asiatiskt marinerade grönsaker, sesammayo och ris",
+                    "price": ""
+                },
+                {
+                    "name": "Vegetariska potatiskakor toppade med fetaoströra, hackade oliver och kryddig tomatröra",
+                    "price": ""
+                },
+                {
+                    "name": "Vid allergier fråga personalen",
+                    "price": ""
+                }
+            ]
         }
     },
     {
@@ -76,7 +93,12 @@
         "name": "Bastard Burgers",
         "location": "Location details here",
         "menu": {
-            "dishes": []
+            "dishes": [
+                {
+                    "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                    "price": ""
+                }
+            ]
         }
     },
     {
@@ -119,7 +141,40 @@
         "name": "Melanders",
         "location": "Location details here",
         "menu": {
-            "dishes": []
+            "dishes": [
+                {
+                    "name": "Spättafilé med vitvinssås, kokt potatis & stekta grönsaker",
+                    "price": ""
+                },
+                {
+                    "name": "Isterband med senapstuvad potatis, rödbetor & rödvinssås",
+                    "price": ""
+                },
+                {
+                    "name": "Fjällbrosme med brynt smör, rostad spetskål & kokt potatis",
+                    "price": ""
+                },
+                {
+                    "name": "Stekt prinskorv med rödvinssås, rostade rotfrukter & stekt ägg",
+                    "price": ""
+                },
+                {
+                    "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                    "price": ""
+                },
+                {
+                    "name": "Köttfärslimpa med gräddsås, kokt potatis, svartvinbärsgelé & saltgurka",
+                    "price": ""
+                },
+                {
+                    "name": "Spättafilé med musselsås, fänkål, champinjoner, blåmusslor & kokt potatis",
+                    "price": ""
+                },
+                {
+                    "name": "Ugnsbakad kycklinglårfilé med dragonsås, rostad potatis & grönsaker",
+                    "price": ""
+                }
+            ]
         }
     }
 ]
