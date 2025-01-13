@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen p-4">
-      <img alt="logo" src={logo.src} className={"mx-auto md:w-48 lg:w-48"} />
+      <img alt="logo" src={logo.src} className={"mx-auto sm:w-48 md:w-48 lg:w-48"} />
       <Accordion.Root type="multiple" className="space-y-4">
         {sortedMenuData.map((restaurant) => (
           <Accordion.Item value={restaurant.name} key={restaurant.name} className="bg-white shadow-md rounded-lg">
