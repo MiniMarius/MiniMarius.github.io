@@ -9,8 +9,8 @@ export default function Home() {
   const sortedMenuData = menuData.sort((a, b) => a.name.localeCompare(b.name));
 
   return (
-    <div className="p-4">
-      <img alt="logo" src={logo.src} className={"mx-auto"} />
+    <div className="min-h-screen p-4">
+      <img alt="logo" src={logo.src} className={"mx-auto lg:w-48"} />
       <Accordion.Root type="multiple" className="space-y-4">
         {sortedMenuData.map((restaurant) => (
           <Accordion.Item value={restaurant.name} key={restaurant.name} className="bg-white shadow-md rounded-lg">
