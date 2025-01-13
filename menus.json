@@ -86,7 +86,28 @@
         "name": "Gustafs",
         "location": "Location details here",
         "menu": {
-            "dishes": []
+            "dishes": [
+                {
+                    "name": "Pannbiff löksky skivad gurka lingon och klyftpotatis",
+                    "price": ""
+                },
+                {
+                    "name": "Pankopanerad torsk dansk remouladsås citron dill och kokt potatis",
+                    "price": ""
+                },
+                {
+                    "name": "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
+                    "price": ""
+                },
+                {
+                    "name": "Caesarsallad kyckling räkor eller halloumi",
+                    "price": ""
+                },
+                {
+                    "name": "pogrePer special Caesarsallad räkor och halloumi",
+                    "price": ""
+                }
+            ]
         }
     },
     {
