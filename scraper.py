@@ -9,13 +9,13 @@ import re
 
 # Day translation dictionary at the global scope
 day_translation = {
-    'monday': 'MÅNDAG',
-    'tuesday': 'TISDAG',
-    'wednesday': 'ONSDAG',
-    'thursday': 'TORSDAG',
-    'friday': 'FREDAG',
-    'saturday': 'LÖRDAG',
-    'sunday': 'SÖNDAG'
+    'monday': 'Måndag',
+    'tuesday': 'Tisdag',
+    'wednesday': 'Onsdag',
+    'thursday': 'Torsdag',
+    'friday': 'Fredag',
+    'saturday': 'Lördag',
+    'sunday': 'Söndag'
 }
 
 # Function to get current weekday in Swedish
@@ -117,19 +117,34 @@ menus.append({
 
 # Al Caminetto
 try:
-    alCamiHtml = requests.get("https://www.alcaminetto.se/lunch/", headers=headers)
+    alCamiHtml = requests.get("https://www.kvartersmenyn.se/index.php/rest/14320")
     alCamiHtml.raise_for_status()
     alCamiSoup = BeautifulSoup(alCamiHtml.content, 'html.parser')
+
+    # Extract the menu
+    menu_div = alCamiSoup.find('div', class_='meny')
     current_day_swedish = get_current_day_swedish()
     todays_menu = []
-    current_day = None
 
-    for header in alCamiSoup.find_all('h3'):
-        text = header.get_text(strip=True)
-        if text in day_translation.values():
-            current_day = text
-        elif current_day == current_day_swedish:
-            todays_menu.append({"name": text, "price": ""})
+    if menu_div:
+        # Split content by day sections
+        content = menu_div.decode_contents()
+        day_sections = re.split(r'<strong>(.*?)</strong>', content)
+
+        for i in range(1, len(day_sections), 2):
+            day_name = day_sections[i].strip()
+            menu_items_html = day_sections[i + 1]
+
+            if day_name == current_day_swedish:
+                # Remove unwanted HTML and extract menu items
+                menu_items_text = BeautifulSoup(menu_items_html, 'html.parser').get_text(separator="\n", strip=True)
+                # Remove unwanted trailing text like 'pogre', 'bdg', etc.
+                cleaned_items = re.sub(r'\s*\.\w+', '', menu_items_text)
+
+                # Split items by line and add to today's menu
+                for item in cleaned_items.split('\n'):
+                    if item.strip():
+                        todays_menu.append({"name": item.strip(), "price": ""})
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Al Caminetto menu: {e}")
     todays_menu = []
@@ -172,8 +187,12 @@ try:
         if text in day_translationGustafs.values():
             current_day = text
         elif current_day == current_day_swedish:
-            # If the current header is not a weekday and it matches today, add the item to today's menu
-            todays_menu.extend({"name": item.strip(), "price": ""} for item in re.split(r'[.!?]', text) if item.strip())
+            # Split the text on capitalized letters
+            items = re.split(r'(?=[A-ZÅÄÖ])', text)
+            for item in items:
+                cleaned_item = re.sub(r'\.[a-z]+$', '', item.strip())  # Remove trailing period followed by lowercase letters
+                if cleaned_item:
+                    todays_menu.append({"name": cleaned_item, "price": ""})
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Gustafs menu: {e}")
     todays_menu = []
