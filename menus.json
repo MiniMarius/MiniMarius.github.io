@@ -5,23 +5,19 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Biff i pepparsås med lök, cognac, champinjoner och ugnsbakad potatis",
+                    "name": "GFC (Garros fried chicken) med Thousand island dipp, sotad paprika och bakad potatis",
                     "price": ""
                 },
                 {
-                    "name": "Färsk norsk sej Tempura med asiatiskt marinerade grönsaker, sesammayo och ris",
+                    "name": "Torskgratäng med ädelostsås, knaprigt bacon, helgrillad blomkål och bulgur",
                     "price": ""
                 },
                 {
-                    "name": "Vegetariska potatiskakor toppade med fetaoströra och kryddig tomatröra",
+                    "name": "Vegetariska raggmunkar med frästa edamamebönor och rårörda lingon (Går att få med stekt fläsk)",
                     "price": ""
                 },
                 {
-                    "name": "Västerbottenostsoppa, ingår i lunchen",
-                    "price": ""
-                },
-                {
-                    "name": "Vid allergier fråga personalen",
+                    "name": "Wokad biff Chop suey med ris",
                     "price": ""
                 }
             ]
@@ -92,23 +88,23 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Pannbiff löksky skivad gurka lingon och klyftpotatis",
+                    "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
                     "price": ""
                 },
                 {
-                    "name": "Pankopanerad torsk dansk remouladsås citron dill och kokt potatis",
+                    "name": "baUgnsbakad lax aioli citron dill och potatis puré",
                     "price": ""
                 },
                 {
-                    "name": "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
+                    "name": "beePoke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
                     "price": ""
                 },
                 {
-                    "name": "Caesarsallad kyckling räkor eller halloumi",
+                    "name": "cefCaesarsallad kyckling räkor eller halloumi",
                     "price": ""
                 },
                 {
-                    "name": "pogrePer special Caesarsallad räkor och halloumi",
+                    "name": "Per special Caesarsallad räkor och halloumi",
                     "price": ""
                 }
             ]
@@ -120,7 +116,7 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                    "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                     "price": ""
                 }
             ]
