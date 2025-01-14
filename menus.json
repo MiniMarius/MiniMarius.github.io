@@ -92,19 +92,19 @@
                     "price": ""
                 },
                 {
-                    "name": "baUgnsbakad lax aioli citron dill och potatis puré",
+                    "name": "Ugnsbakad lax aioli citron dill och potatis puré",
                     "price": ""
                 },
                 {
-                    "name": "beePoke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
+                    "name": "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
                     "price": ""
                 },
                 {
-                    "name": "cefCaesarsallad kyckling räkor eller halloumi",
+                    "name": "Caesarsallad kyckling räkor eller halloumi.",
                     "price": ""
                 },
                 {
-                    "name": "Per special Caesarsallad räkor och halloumi",
+                    "name": "Caesarsallad räkor och halloumi.",
                     "price": ""
                 }
             ]
@@ -164,35 +164,11 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Spättafilé med vitvinssås, kokt potatis & stekta grönsaker",
+                    "name": "Spättafilé med havskräftsås, kokt potatis & stekta grönsaker",
                     "price": ""
                 },
                 {
-                    "name": "Isterband med senapstuvad potatis, rödbetor & rödvinssås",
-                    "price": ""
-                },
-                {
-                    "name": "Fjällbrosme med brynt smör, rostad spetskål & kokt potatis",
-                    "price": ""
-                },
-                {
-                    "name": "Stekt prinskorv med rödvinssås, rostade rotfrukter & stekt ägg",
-                    "price": ""
-                },
-                {
-                    "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
-                    "price": ""
-                },
-                {
-                    "name": "Köttfärslimpa med gräddsås, kokt potatis, svartvinbärsgelé & saltgurka",
-                    "price": ""
-                },
-                {
-                    "name": "Spättafilé med musselsås, fänkål, champinjoner, blåmusslor & kokt potatis",
-                    "price": ""
-                },
-                {
-                    "name": "Ugnsbakad kycklinglårfilé med dragonsås, rostad potatis & grönsaker",
+                    "name": "Köttfärslimpa med gräddsås, potatispuré, svartvinbärsgelé & saltgurka",
                     "price": ""
                 }
             ]
