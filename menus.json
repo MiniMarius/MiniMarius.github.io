@@ -128,31 +128,11 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Varmrökt laxsallad, mozzarella, fänkål, kapris,ägg och örtdressing",
+                    "name": "Caesarsallad med stekt kycklingbröst, bacon, parmesan och krutonger",
                     "price": ""
                 },
                 {
-                    "name": "Risotto med saltbakad gulbeta, smulad getost och frasig ostronskivling",
-                    "price": ""
-                },
-                {
-                    "name": "Ångad lofotentorsk med räkor, ägg, brynt smör och pepparrot",
-                    "price": ""
-                },
-                {
-                    "name": "Viltköttbullar serveras med svampgräddsås, syltade kantareller och potatispuré",
-                    "price": ""
-                },
-                {
-                    "name": "Fisk- och skaldjurswallenbergare med små gröna ärtor, citron, färskriven pepparot och brynt smör ”Wallenbergare” of fish and shellfish with green peas, lemon, horseradish and browned butter",
-                    "price": ""
-                },
-                {
-                    "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
-                    "price": ""
-                },
-                {
-                    "name": "Vitchokladmousse med hallonsylt och knäck-crunch",
+                    "name": "Potatiskrokett med ost och",
                     "price": ""
                 }
             ]
