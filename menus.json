@@ -5,19 +5,19 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "GFC (Garros fried chicken) med Thousand island dipp, sotad paprika och bakad potatis",
+                    "name": "Gräddstuvad renskav med mandelpotatispuré och rårörda lingon",
                     "price": ""
                 },
                 {
-                    "name": "Torskgratäng med ädelostsås, knaprigt bacon, helgrillad blomkål och bulgur",
+                    "name": "Laxfärserade spättarullader med smörad vitvinssås, gröna ärtor petit pois med dill och krossad potatis",
                     "price": ""
                 },
                 {
-                    "name": "Vegetariska raggmunkar med frästa edamamebönor och rårörda lingon (Går att få med stekt fläsk)",
+                    "name": "Zucchinipiccata med tomatsås och ris",
                     "price": ""
                 },
                 {
-                    "name": "Wokad biff Chop suey med ris",
+                    "name": "Wokade tigerräkor med grönsaker, röd curry och ris",
                     "price": ""
                 }
             ]
@@ -88,15 +88,15 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
+                    "name": "Fläskschnitzel ärtor citron rödvinssås och rostade potatis.",
                     "price": ""
                 },
                 {
-                    "name": "Ugnsbakad lax aioli citron dill och potatis puré",
+                    "name": "Pocherad torsk skirat smör räkor pepparrot dill citron kokt potatis.",
                     "price": ""
                 },
                 {
-                    "name": "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
+                    "name": "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
                     "price": ""
                 },
                 {
@@ -116,7 +116,7 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                    "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                     "price": ""
                 }
             ]
@@ -134,6 +134,18 @@
                 {
                     "name": "Potatiskrokett med ost och",
                     "price": ""
+                },
+                {
+                    "name": "Smörstekt knorrhane med råstekt blomkål, babyspenat, curryremoulad och örtslungad potatis",
+                    "price": ""
+                },
+                {
+                    "name": "Kronhjortskav med kantareller, potatispuré, morotscrudité och råröra lingon",
+                    "price": ""
+                },
+                {
+                    "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
+                    "price": ""
                 }
             ]
         }
@@ -142,16 +154,7 @@
         "name": "Melanders",
         "location": "Location details here",
         "menu": {
-            "dishes": [
-                {
-                    "name": "Spättafilé med havskräftsås, kokt potatis & stekta grönsaker",
-                    "price": ""
-                },
-                {
-                    "name": "Köttfärslimpa med gräddsås, potatispuré, svartvinbärsgelé & saltgurka",
-                    "price": ""
-                }
-            ]
+            "dishes": []
         }
     }
 ]
