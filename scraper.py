@@ -119,7 +119,8 @@ menus.append({
 
 # Al Caminetto
 try:
-    alCamiHtml = requests.get("https://www.kvartersmenyn.se/index.php/rest/14320", headers=headers)
+    req = requests.Session()
+    alCamiHtml = req.get("https://www.kvartersmenyn.se/index.php/rest/14320", headers=headers)
     alCamiHtml.raise_for_status()
     alCamiSoup = BeautifulSoup(alCamiHtml.content, 'html.parser')
 
