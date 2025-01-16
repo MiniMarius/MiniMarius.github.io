@@ -38,7 +38,7 @@ def clean_menus(menus):
     
     for restaurant in menus:
         cleaned_dishes = [
-            {"name": clean_item(dish["name"]), "price": ""} 
+            {"name": clean_item(dish["name"]), "price": dish["price"]} 
             for dish in restaurant["menu"]["dishes"]
             if len(dish["name"]) >= 25 and not time_pattern.search(dish["name"])
         ]
@@ -67,7 +67,7 @@ try:
         menu_paragraph = day_div.find('p')
         if menu_paragraph:
             lunch_menu = menu_paragraph.get_text(separator="\n", strip=True)
-            garros_menu = [{"name": dish.strip(), "price": ""} for dish in lunch_menu.split('\n') if dish.strip()]
+            garros_menu = [{"name": dish.strip(), "price": "145"} for dish in lunch_menu.split('\n') if dish.strip()]
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Garros menu: {e}")
     garros_menu = []
@@ -103,8 +103,10 @@ try:
                 for item in menu_items:
                     name = item.find('h3', class_='menu-item-name')
                     description = item.find('div', class_='menu-item-desc')
+                    price_tag = item.find('span', class_='menu-item-price')
                     if name and description:
-                        poke_dishes.append({"name": f"{name.text.capitalize()} - {description.text.strip().lower()}", "price": ""})
+                        price = price_tag.text.strip() if price_tag else ""
+                        poke_dishes.append({"name": f"{name.text.capitalize()} - {description.text.strip().lower()}", "price": price})
 except requests.exceptions.RequestException as e:
     print(f"Error fetching PokéBurger menu: {e}")
     poke_dishes = []
@@ -144,7 +146,7 @@ try:
                 # Split items by line and add to today's menu
                 for item in cleaned_items.split('\n'):
                     if item.strip():
-                        todays_menu.append({"name": item.strip(), "price": ""})
+                        todays_menu.append({"name": item.strip(), "price": "135"})
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Al Caminetto menu: {e}")
     todays_menu = []
@@ -192,7 +194,7 @@ try:
             for item in items:
                 cleaned_item = re.sub(r'\.[a-z]+$', '', item.strip())  # Remove trailing period followed by lowercase letters
                 if cleaned_item:
-                    todays_menu.append({"name": cleaned_item, "price": ""})
+                    todays_menu.append({"name": cleaned_item, "price": "149"})
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Gustafs menu: {e}")
     todays_menu = []
@@ -215,7 +217,7 @@ try:
         menus.append({
             "name": "Bastard Burgers",
             "location": "Location details here",
-            "menu": {"dishes": [{"name": f"{menu_title.get_text(strip=True)}: {menu_description.get_text(strip=True)}", "price": ""}]}
+            "menu": {"dishes": [{"name": f"{menu_title.get_text(strip=True)}: {menu_description.get_text(strip=True)}", "price": "132"}]}
         })
     else:
         menus.append({
@@ -262,13 +264,16 @@ try:
                 
                 if match_start:
                     cleaned_dish_name = match_start.group(1).strip()
+                    price = match_start.group(0).strip()
                 elif match_end:
                     cleaned_dish_name = match_end.group(1).strip()
+                    price = match_end.group(0).strip()
                 else:
                     cleaned_dish_name = dish_name.strip()
-                
+                    price = ""
+                price_numeric = re.sub(r'\D', '', price)
                 if cleaned_dish_name:
-                    sjopaviljongen_menu.append({"name": cleaned_dish_name, "price": ""})
+                    sjopaviljongen_menu.append({"name": cleaned_dish_name, "price": price_numeric})
 
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Sjöpaviljongen menu: {e}")
@@ -330,9 +335,9 @@ try:
             today_melanders_menu = []
 
             if today_menu != "No menu available for today":
-                today_melanders_menu = [{"name": dish.strip(), "price": ""} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
+                today_melanders_menu = [{"name": dish.strip(), "price": "149"} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
         except Exception as e:
-            today_melanders_menu = [{"name": "Error", "price": str(e)}]
+            today_melanders_menu = [{"name": "Error", "price": "Error"}]
 
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Melanders menu: {e}")
