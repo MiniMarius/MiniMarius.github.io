@@ -41,15 +41,7 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Obs endast lunch 11:00-14:00 - ",
-                    "price": ""
-                },
-                {
                     "name": "Raggmunk - med stekt fläsk, lingon & löksås",
-                    "price": ""
-                },
-                {
-                    "name": "Obs endast måndag - fredag 11:00-14:00 - ",
                     "price": ""
                 },
                 {
@@ -57,7 +49,7 @@
                     "price": ""
                 },
                 {
-                    "name": "Hot puff - friterad tzay (soya protein) med hot-mayo, \n mangosalsa & marinerade groddar, rawsallad, edamame, sushiris, rättika & gari",
+                    "name": "Hot puff - friterad tzay (soya protein) med hot-mayo,   mangosalsa & marinerade groddar, rawsallad, edamame, sushiris, rättika & gari",
                     "price": ""
                 },
                 {
@@ -65,19 +57,15 @@
                     "price": ""
                 },
                 {
-                    "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                    "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo  avokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
                     "price": ""
                 },
                 {
-                    "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                    "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo  avokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
                     "price": ""
                 },
                 {
-                    "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
-                    "price": ""
-                },
-                {
-                    "name": "Obs endast lunch 11:00-14:00 - ",
+                    "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,  citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
                     "price": ""
                 },
                 {
@@ -85,11 +73,11 @@
                     "price": ""
                 },
                 {
-                    "name": "Little fat bastard - 150g burgare med cheddar, lökring, \npulled pork & tryffelmayo. serveras med pommes och dipp",
+                    "name": "Little fat bastard - 150g burgare med cheddar, lökring,  pulled pork & tryffelmayo. serveras med pommes och dipp",
                     "price": ""
                 },
                 {
-                    "name": "Almost chicken - vegansk ”chicken style” burger med sallad,\npicklad rödkål, srirachamayo & jalapeños.\nserveras med pommes och dipp",
+                    "name": "Almost chicken - vegansk ”chicken style” burger med sallad, picklad rödkål, srirachamayo & jalapeños. serveras med pommes och dipp",
                     "price": ""
                 },
                 {
@@ -116,10 +104,6 @@
                     "price": ""
                 },
                 {
-                    "name": "Biff ala",
-                    "price": ""
-                },
-                {
                     "name": "Lindström kryddsmör rödvinssås och råstekt potatis.",
                     "price": ""
                 },
@@ -133,10 +117,6 @@
                 },
                 {
                     "name": "Caesarsallad kyckling räkor eller halloumi.",
-                    "price": ""
-                },
-                {
-                    "name": "Per special",
                     "price": ""
                 },
                 {
@@ -199,10 +179,6 @@
         "location": "Location details here",
         "menu": {
             "dishes": [
-                {
-                    "name": "Torsdag",
-                    "price": ""
-                },
                 {
                     "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
                     "price": ""
