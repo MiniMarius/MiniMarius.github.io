@@ -345,7 +345,7 @@ menus.append({
 })
 
 # Output JSON data
-#menus = clean_menus(menus)
+menus = clean_menus(menus)
 output_path = os.path.join("public", "menus.json")
 
 # Save the menus to a JSON file
