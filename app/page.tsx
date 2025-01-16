@@ -27,7 +27,7 @@ export default function Home() {
                     <li className="text-gray-700 mb-2" key={index}>
                       {dish.name}{" "}
                       {dish.price && (
-                        <span className="text-gray-500">- {dish.price}</span>
+                        <span className="text-gray-500">- {dish.price} kr</span>
                       )}
                     </li>
                   ))}
