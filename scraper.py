@@ -268,6 +268,12 @@ try:
     melandersHtml.raise_for_status()
     melandersSoup = BeautifulSoup(melandersHtml.content, 'html.parser')
 
+    # Define the Swedish days of the week
+    days = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag"]
+
+    # Create a regular expression pattern to split the text based on the days
+    pattern = '|'.join(days)
+            
     # Find the PDF link
     pdf_link_tag = melandersSoup.find('a', text="DAGENS LUNCH")
     pdf_url = pdf_link_tag['href'] if pdf_link_tag else None
@@ -286,21 +292,38 @@ try:
                 page_text = pdf.pq('LTTextLineHorizontal').text()
                 all_text += page_text + "\n"
             
-            sections = all_text.split(current_day_swedish)
-            if len(sections) > 1:
-                today_section = sections[1].strip()
-                today_section = re.sub(r'\(.*?\)', '', today_section)
-                melanders_menu = [{"name": dish.strip(), "price": ""} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_section) if dish.strip() and dish.strip() not in day_translation.values()]
+            split_text = re.split(f'(?=({pattern}))', all_text)
+            # Remove any leading text before the first day
+            split_text = split_text[1:]
+            menus_by_day = {}
+            for i in range(0, len(split_text), 2):
+                day = split_text[i].strip()
+                menu = split_text[i+1].strip() if i+1 < len(split_text) else ""
+                menu = re.sub(r'\(.*?\)', '', menu)
+                menus_by_day[day] = menu
+            # Determine today's day in Swedish
+            today_index = datetime.now().weekday()  # Monday is 0, Sunday is 6
+            swedish_days = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"]
+
+            today_swedish = swedish_days[today_index]
+
+            today_menu = menus_by_day.get(today_swedish, "No menu available for today")
+
+            today_melanders_menu = []
+
+            if today_menu != "No menu available for today":
+                today_melanders_menu = [{"name": dish.strip(), "price": ""} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
         except Exception as e:
-            melanders_menu = [{"name": "Error", "price": str(e)}]
+            today_melanders_menu = [{"name": "Error", "price": str(e)}]
+
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Melanders menu: {e}")
-    melanders_menu = [{"name": "Error", "price": "Network issue"}]
+    today_melanders_menu = [{"name": "Error", "price": "Network issue"}]
 
 menus.append({
     "name": "Melanders",
     "location": "Location details here",
-    "menu": {"dishes": melanders_menu}
+    "menu": {"dishes": today_melanders_menu}
 })
 
 # Output JSON data
