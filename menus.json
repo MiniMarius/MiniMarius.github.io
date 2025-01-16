@@ -94,14 +94,44 @@
         "name": "Gustafs",
         "location": "Location details here",
         "menu": {
-            "dishes": []
+            "dishes": [
+                {
+                    "name": "Ärtsoppa med pannkaksbuffé.",
+                    "price": ""
+                },
+                {
+                    "name": "Lindström kryddsmör rödvinssås och råstekt potatis.",
+                    "price": ""
+                },
+                {
+                    "name": "Panerad kolja skagenröra dill citron och potatis puré.",
+                    "price": ""
+                },
+                {
+                    "name": "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                    "price": ""
+                },
+                {
+                    "name": "Caesarsallad kyckling räkor eller halloumi.",
+                    "price": ""
+                },
+                {
+                    "name": "Caesarsallad räkor och halloumi.",
+                    "price": ""
+                }
+            ]
         }
     },
     {
         "name": "Bastard Burgers",
         "location": "Location details here",
         "menu": {
-            "dishes": []
+            "dishes": [
+                {
+                    "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                    "price": ""
+                }
+            ]
         }
     },
     {
