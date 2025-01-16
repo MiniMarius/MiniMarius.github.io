@@ -237,21 +237,39 @@ try:
     sjoPaviljHtml.raise_for_status()
     sjoPaviljSoup = BeautifulSoup(sjoPaviljHtml.content, "html.parser")
     first_table = sjoPaviljSoup.find('table')
+    sjopaviljongen_menu = []
     if first_table:
         menu_items = first_table.find_all('p')
-
-        sjopaviljongen_menu = []
         for item in menu_items:
-            text = item.get_text(separator="\n", strip=True)
-            if text.startswith("DAGENS"):
-                parts = text.split('\n', 1)
-                if len(parts) > 1:
-                    text = parts[1]
+            # Find all <strong> tags within the <p> tag
+            strong_tags = item.find_all('strong')
+            # Combine all strong tags' text into a single string
+            combined_text = " ".join([strong_tag.get_text(strip=True) for strong_tag in strong_tags])
             
-            split_pattern = re.compile(r'(?<=\s)[A-ZÅÄÖ]')
-            parts = split_pattern.split(text, 1)
-            cleaned_text = parts[0].strip() if parts else text
-            sjopaviljongen_menu.append({"name": cleaned_text, "price": ""})
+            dishes = combined_text.split('DAGENS')
+            
+            for dish in dishes:
+                dish_name = dish.strip()
+                
+                # Remove "TIPS " if it exists at the start
+                if dish_name.startswith("TIPS "):
+                    dish_name = dish_name[5:].strip()
+                
+                # Check for price at the beginning
+                match_start = re.search(r'\d+ kr\s*(.+)', dish_name)
+                # Check for price at the end
+                match_end = re.search(r'(.+?)\s*\d+\s*kr$', dish_name)
+                
+                if match_start:
+                    cleaned_dish_name = match_start.group(1).strip()
+                elif match_end:
+                    cleaned_dish_name = match_end.group(1).strip()
+                else:
+                    cleaned_dish_name = dish_name.strip()
+                
+                if cleaned_dish_name:
+                    sjopaviljongen_menu.append({"name": cleaned_dish_name, "price": ""})
+
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Sjöpaviljongen menu: {e}")
     sjopaviljongen_menu = []
@@ -327,7 +345,7 @@ menus.append({
 })
 
 # Output JSON data
-menus = clean_menus(menus)
+#menus = clean_menus(menus)
 output_path = os.path.join("public", "menus.json")
 
 # Save the menus to a JSON file
