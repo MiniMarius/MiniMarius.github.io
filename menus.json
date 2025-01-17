@@ -5,27 +5,11 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Helstekt kalvbiff med choronsås, nattbakad tomat och råstekt potatis",
+                    "name": "Protein: Knaprigt grillad lammrostbiff, bratwurst, parmesanarancini, regnbågsfilé",
                     "price": "145"
                 },
                 {
-                    "name": "Gumbo, het fisk och skaldjurssoppa med syrad grädde och vildris",
-                    "price": "145"
-                },
-                {
-                    "name": "Nudelwok med grönsaker, ägg och sojadipp",
-                    "price": "145"
-                },
-                {
-                    "name": "Sprödpanerad tofu med currystuvade grönsaker, picklad lök och ris",
-                    "price": "145"
-                },
-                {
-                    "name": "Krämig laxsoppa, ingår i lunchen",
-                    "price": "145"
-                },
-                {
-                    "name": "Varje torsdag serveras pannkaksbuffé som dessert!",
+                    "name": "Tillbehör: Ört- och chilibearnaise, surkål, basilikadipp, grillad zucchini",
                     "price": "145"
                 },
                 {
@@ -100,15 +84,15 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Ärtsoppa med pannkaksbuffé.",
+                    "name": "Skomakarlåda (fläsknoisette bacon purjolök rödvinssås och potatis puré.",
                     "price": "149"
                 },
                 {
-                    "name": "Lindström kryddsmör rödvinssås och råstekt potatis.",
+                    "name": "Huset fisk och skaldjursgryta saffran och aioli.",
                     "price": "149"
                 },
                 {
-                    "name": "Panerad kolja skagenröra dill citron och potatis puré.",
+                    "name": "Lasagne al forno med ostsås.",
                     "price": "149"
                 },
                 {
@@ -122,6 +106,18 @@
                 {
                     "name": "Caesarsallad räkor och halloumi.",
                     "price": "149"
+                },
+                {
+                    "name": "Kebab tallrik med pommes tomatsås och vitlökssås.",
+                    "price": "149"
+                },
+                {
+                    "name": "Obs alla caesarsallad innehåller bacon krutonger parmesan och cesar dressing.",
+                    "price": "149"
+                },
+                {
+                    "name": "Inkl. smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar.",
+                    "price": "149"
                 }
             ]
         }
@@ -132,7 +128,7 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                    "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                     "price": "132"
                 }
             ]
@@ -156,11 +152,11 @@
                     "price": "195"
                 },
                 {
-                    "name": "Kronhjortskav med kantareller, potatispuré, morotscrudité och råröra lingon",
+                    "name": "Rosastekt kalv med pepparsås, brytbönor, vitlöksstekta skogschampinjoner och parmesanpuré",
                     "price": "195"
                 },
                 {
-                    "name": "Biff á la Lindstöm med rostad potatis, kaprissky och persiljesmör",
+                    "name": "Kronhjortskav med kantareller, potatispuré, morotscrudité och råröra lingon",
                     "price": "195"
                 },
                 {
@@ -180,11 +176,11 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                    "name": "Koljafilé med mandelbrynt smör, ugnsbakad spetskål och potatisstomp smaksatt med citron och timjan.",
                     "price": "149"
                 },
                 {
-                    "name": "Ugnsbakad falukorv med potatispuré",
+                    "name": "Grekiska nötfärsbiffar med tzatziki, klyftpotatis & rödvinssås",
                     "price": "149"
                 }
             ]
