@@ -96,11 +96,7 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Pannbiff löksky skivad gurka lingon och klyftpotatis.",
-                    "price": "149"
-                },
-                {
-                    "name": "Pankopanerad torsk dansk remouladsås citron dill och kokt potatis.",
+                    "name": "Panerad torsk remouladsås citron dill och potatis puré.",
                     "price": "149"
                 },
                 {
@@ -108,11 +104,11 @@
                     "price": "149"
                 },
                 {
-                    "name": "Caesarsallad kyckling räkor eller halloumi",
+                    "name": "Caesarsallad kyckling, räkor eller halloumi",
                     "price": "149"
                 },
                 {
-                    "name": "Caesarsallad räkor och halloumi.",
+                    "name": "Caesarsallad räkor och halloumi",
                     "price": "149"
                 }
             ]
