@@ -5,15 +5,27 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Protein: Knaprigt grillad lammrostbiff, bratwurst, parmesanarancini, regnbågsfilé",
+                    "name": "Rödvinsbakad högrev med vitlöksgratinerad potatispuré",
                     "price": "145"
                 },
                 {
-                    "name": "Tillbehör: Ört- och chilibearnaise, surkål, basilikadipp, grillad zucchini",
+                    "name": "Teriyakigriljerad lax med sesamcrust, basmatiris och edamamebönor",
                     "price": "145"
                 },
                 {
-                    "name": "Vid allergier fråga personalen",
+                    "name": "Vegetarisk risotto alla Milanese med torkade tomater och grana padano",
+                    "price": "145"
+                },
+                {
+                    "name": "Wokad kyckling med grönsaker, toppad med jordnötssås och ris",
+                    "price": "145"
+                },
+                {
+                    "name": "Fisksoppa, ingår i lunchen",
+                    "price": "145"
+                },
+                {
+                    "name": "Fråga personalen om allergier",
                     "price": "145"
                 }
             ]
@@ -25,15 +37,15 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Raggmunk - med stekt fläsk, lingon & löksås",
-                    "price": "145"
+                    "name": "Beouf bourguignon - med ryggbiff, bacon, svamp & syltlök. serveras med potatispuré",
+                    "price": "155"
                 },
                 {
-                    "name": "Macho tex mex - el macho köttfärs, pico de gallo, avokadokräm & gräddfil",
+                    "name": "Buffalo chicken - het kyckling i buffalosmörsås picklad rödkål, majssalsa, vårlök, rawsallad, edamame, gari & rättika",
                     "price": "125"
                 },
                 {
-                    "name": "Hot puff - friterad tzay (soya protein) med hot-mayo,   mangosalsa & marinerade groddar, rawsallad, edamame, sushiris, rättika & gari",
+                    "name": "Spicy tiger - friterad tofu med sesampicklad gurka tigersås & coleslaw, rawsallad, edamame, sushiris, rättika & gari",
                     "price": "125"
                 },
                 {
@@ -53,15 +65,15 @@
                     "price": "175"
                 },
                 {
-                    "name": "The hot mama - 150g burgare med cheddar, sallad, tärnad gul lök, mango & jallapenomayo. serveras med pommes & dipp",
+                    "name": "Sweet onion - 150g burgare med cheddar, rostad lök sweet onion dressing, sallad & tomat. serveras med pommes & dipp",
                     "price": "129"
                 },
                 {
-                    "name": "Little fat bastard - 150g burgare med cheddar, lökring,  pulled pork & tryffelmayo. serveras med pommes och dipp",
+                    "name": "Little fat bastard - 150g burgare med cheddar, bacon, sallad  picklad gurka & tryffelmayo. serveras med pommes och dipp",
                     "price": "129"
                 },
                 {
-                    "name": "Almost chicken - vegansk ”chicken style” burger med sallad, picklad rödkål, srirachamayo & jalapeños. serveras med pommes och dipp",
+                    "name": "Spicy mex - friterad halloumi, jalapeño-mayo, sallad & pico de gallo. serveras med pommes och dipp",
                     "price": "129"
                 },
                 {
@@ -84,15 +96,11 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Skomakarlåda (fläsknoisette bacon purjolök rödvinssås och potatis puré.",
+                    "name": "Pannbiff löksky skivad gurka lingon och klyftpotatis.",
                     "price": "149"
                 },
                 {
-                    "name": "Huset fisk och skaldjursgryta saffran och aioli.",
-                    "price": "149"
-                },
-                {
-                    "name": "Lasagne al forno med ostsås.",
+                    "name": "Pankopanerad torsk dansk remouladsås citron dill och kokt potatis.",
                     "price": "149"
                 },
                 {
@@ -100,23 +108,11 @@
                     "price": "149"
                 },
                 {
-                    "name": "Caesarsallad kyckling räkor eller halloumi.",
+                    "name": "Caesarsallad kyckling räkor eller halloumi",
                     "price": "149"
                 },
                 {
                     "name": "Caesarsallad räkor och halloumi.",
-                    "price": "149"
-                },
-                {
-                    "name": "Kebab tallrik med pommes tomatsås och vitlökssås.",
-                    "price": "149"
-                },
-                {
-                    "name": "Obs alla caesarsallad innehåller bacon krutonger parmesan och cesar dressing.",
-                    "price": "149"
-                },
-                {
-                    "name": "Inkl. smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar.",
                     "price": "149"
                 }
             ]
@@ -128,7 +124,7 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
+                    "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
                     "price": "132"
                 }
             ]
@@ -138,36 +134,7 @@
         "name": "Sjöpaviljongen",
         "location": "Location details here",
         "menu": {
-            "dishes": [
-                {
-                    "name": "Caesarsallad med stekt kycklingbröst, bacon, parmesan och krutonger",
-                    "price": "195"
-                },
-                {
-                    "name": "Potatiskrokett med ost och Jalapeño, kryddbakad rotselleri, kålsallad med salladslök, koriander och rökt Jalapeñodressing",
-                    "price": "195"
-                },
-                {
-                    "name": "Smörstekt knorrhane med råstekt blomkål, babyspenat, curryremoulad och örtslungad potatis",
-                    "price": "195"
-                },
-                {
-                    "name": "Rosastekt kalv med pepparsås, brytbönor, vitlöksstekta skogschampinjoner och parmesanpuré",
-                    "price": "195"
-                },
-                {
-                    "name": "Kronhjortskav med kantareller, potatispuré, morotscrudité och råröra lingon",
-                    "price": "195"
-                },
-                {
-                    "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
-                    "price": "295"
-                },
-                {
-                    "name": "Mörk chokladmousse med misoglass och knäcksmul",
-                    "price": "65"
-                }
-            ]
+            "dishes": []
         }
     },
     {
@@ -176,11 +143,7 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Koljafilé med mandelbrynt smör, ugnsbakad spetskål och potatisstomp smaksatt med citron och timjan.",
-                    "price": "149"
-                },
-                {
-                    "name": "Grekiska nötfärsbiffar med tzatziki, klyftpotatis & rödvinssås",
+                    "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
                     "price": "149"
                 }
             ]
