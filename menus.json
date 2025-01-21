@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-21 14:57:49",
+    "last_updated": "2025-01-21 15:10:49",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -103,11 +103,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Fläsk med raggmunk rårörda lingon alt lök sås och kokt potatis",
+                        "name": "Stekt Fläsk med raggmunk rårörda lingon alt lök sås och kokt potatis",
                         "price": "139"
                     },
                     {
@@ -115,11 +111,7 @@
                         "price": "139"
                     },
                     {
-                        "name": "Panerad",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Flundrafilé med dansk remouladsås och kokt potatis",
+                        "name": "Panerad Flundrafilé med dansk remouladsås och kokt potatis",
                         "price": "139"
                     },
                     {
@@ -155,11 +147,7 @@
                         "price": "149"
                     },
                     {
-                        "name": "Per special",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Caesarsallad räkor och halloumi.",
+                        "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
                     }
                 ]
