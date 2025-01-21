@@ -7,22 +7,6 @@ import pdfquery
 import json
 import re
 
-# Day translation dictionary at the global scope
-day_translation = {
-    'monday': 'Måndag',
-    'tuesday': 'Tisdag',
-    'wednesday': 'Onsdag',
-    'thursday': 'Torsdag',
-    'friday': 'Fredag',
-    'saturday': 'Lördag',
-    'sunday': 'Söndag'
-}
-
-# Function to get current weekday in Swedish
-def get_current_day_swedish():
-    current_weekday = datetime.now().strftime('%A').lower()
-    return day_translation.get(current_weekday)
-
 def clean_menus(menus):
     cleaned_menus = []
     
@@ -119,43 +103,64 @@ menus.append({
 
 # Al Caminetto
 try:
-    req = requests.Session()
-    alCamiHtml = req.get("https://www.kvartersmenyn.se/index.php/rest/14320", headers=headers)
-    alCamiHtml.raise_for_status()
-    alCamiSoup = BeautifulSoup(alCamiHtml.content, 'html.parser')
+    alcamHtml = requests.get("https://www.alcaminetto.se/", headers=headers)
+    alcamHtml.raise_for_status()
+    alcamSoup = BeautifulSoup(alcamHtml.content, 'html.parser')
+    # Define the Swedish days of the week
+    days = ["MÅNDAG", "TISDAG", "ONSDAG", "TORSDAG", "FREDAG"]
 
-    # Extract the menu
-    menu_div = alCamiSoup.find('div', class_='meny')
-    current_day_swedish = get_current_day_swedish()
-    todays_menu = []
+    # Create a regular expression pattern to split the text based on the days
+    pattern = '|'.join(days)
+            
+    # Find the PDF link
+    pdf_link_tag = alcamSoup.find('a', string=" Lunch") if alcamSoup else None
+    pdf_url = pdf_link_tag['href'] if pdf_link_tag else None
 
-    if menu_div:
-        # Split content by day sections
-        content = menu_div.decode_contents()
-        day_sections = re.split(r'<strong>(.*?)</strong>', content)
+    alcam_menu = []
+    if pdf_url:
+        pdf_path = "acmenu.pdf"
 
-        for i in range(1, len(day_sections), 2):
-            day_name = day_sections[i].strip()
-            menu_items_html = day_sections[i + 1]
+        try:
+            urllib.request.urlretrieve(pdf_url, pdf_path)
+            pdf = pdfquery.PDFQuery(pdf_path)
+            pdf.load()
+            all_text = ""
+            for page_number in range(len(pdf.pq('LTPage'))):
+                pdf.load(page_number)
+                page_text = pdf.pq('LTTextLineHorizontal').text()
+                all_text += page_text + "\n"
+            
+            split_text = re.split(f'(?=({pattern}))', all_text)
+            # Remove any leading text before the first day
+            split_text = split_text[1:]
+            menus_by_day = {}
+            for i in range(0, len(split_text), 2):
+                if i + 1 < len(split_text):
+                    day = split_text[i].strip()
+                    menu = split_text[i+1].strip()
+                    # Remove the day's name from the menu
+                    if menu.startswith(day):
+                        menu = menu[len(day):].strip()
+                    menu = re.sub(r'\(.*?\)', '', menu)  # Remove text in parentheses
+                    menus_by_day[day] = menu
+            # Determine today's day in Swedish
+            today_index = datetime.now().weekday()  # Monday is 0, Sunday is 6
+            swedish_days = ["MÅNDAG", "TISDAG", "ONSDAG", "TORSDAG", "FREDAG", "LÖRDAG", "SÖNDAG"]
+            today_swedish = swedish_days[today_index]
+            today_menu = menus_by_day.get(today_swedish, "No menu available for today")
+            today_alcam_menu = []
+            if today_menu != "No menu available for today":
+                today_alcam_menu = [{"name": dish.strip(), "price": "139"} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
+        except Exception as e:
+            today_alcam_menu = [{"name": "Error", "price": "Error"}]
 
-            if day_name == current_day_swedish:
-                # Remove unwanted HTML and extract menu items
-                menu_items_text = BeautifulSoup(menu_items_html, 'html.parser').get_text(separator="\n", strip=True)
-                # Remove unwanted trailing text like 'pogre', 'bdg', etc.
-                cleaned_items = re.sub(r'\s*\.\w+', '', menu_items_text)
-
-                # Split items by line and add to today's menu
-                for item in cleaned_items.split('\n'):
-                    if item.strip():
-                        todays_menu.append({"name": item.strip(), "price": "135"})
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Al Caminetto menu: {e}")
-    todays_menu = []
-
+    today_alcam_menu = [{"name": "Error", "price": "Network issue"}]
 menus.append({
     "name": "Al Caminetto",
     "location": "Location details here",
-    "menu": {"dishes": todays_menu}
+    "menu": {"dishes": today_alcam_menu}
 })
 
 # Gustafs
@@ -321,10 +326,14 @@ try:
             split_text = split_text[1:]
             menus_by_day = {}
             for i in range(0, len(split_text), 2):
-                day = split_text[i].strip()
-                menu = split_text[i+1].strip() if i+1 < len(split_text) else ""
-                menu = re.sub(r'\(.*?\)', '', menu)
-                menus_by_day[day] = menu
+                if i + 1 < len(split_text):
+                    day = split_text[i].strip()
+                    menu = split_text[i+1].strip()
+                    # Remove the day's name from the menu
+                    if menu.startswith(day):
+                        menu = menu[len(day):].strip()
+                    menu = re.sub(r'\(.*?\)', '', menu)  # Remove text in parentheses
+                    menus_by_day[day] = menu
             # Determine today's day in Swedish
             today_index = datetime.now().weekday()  # Monday is 0, Sunday is 6
             swedish_days = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"]
