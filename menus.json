@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-21 14:47:45",
+    "last_updated": "2025-01-21 14:57:49",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -181,7 +181,32 @@
             "name": "Sjöpaviljongen",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "BiBimBap på chiliglaserad entrecôte, kimchi, spenat, stekt ägg, böngroddar, chilipicklad gurka och ris",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Palak paneer – en indisk gryta med spenat, tomat och paneerost. Serveras med med ris",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Smörstekt Lofoten sej med gubbröra, babyspenat, brynt smör och nyriven pepparrot",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Älggryta med rödvin, svamp, rotfrukter och rökt fläsk serveras med potatispuré",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Kalv tri tip med en krokett på ost och jalapeno, tomatsallad och parmesancreme",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
+                        "price": "295"
+                    }
+                ]
             }
         },
         {
