@@ -5,23 +5,19 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Rödvinsbakad högrev med vitlöksgratinerad potatispuré",
+                    "name": "GFC (Garros fried chicken) med tryffel/parmesandipp, vitlöksstekta haricotsverts och klyftpotatis",
                     "price": "145"
                 },
                 {
-                    "name": "Teriyakigriljerad lax med sesamcrust, basmatiris och edamamebönor",
+                    "name": "Pocherade torskrullader i smörsås med gröna ärtor, dill, pepparrot och potatis",
                     "price": "145"
                 },
                 {
-                    "name": "Vegetarisk risotto alla Milanese med torkade tomater och grana padano",
+                    "name": "Garros hemlagade kroppkakor, med stekt fläsk eller vegetariska med bönfyllning",
                     "price": "145"
                 },
                 {
-                    "name": "Wokad kyckling med grönsaker, toppad med jordnötssås och ris",
-                    "price": "145"
-                },
-                {
-                    "name": "Fisksoppa, ingår i lunchen",
+                    "name": "Skivad biff i grön currysås med grönsaker och ris",
                     "price": "145"
                 },
                 {
@@ -96,7 +92,15 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Panerad torsk remouladsås citron dill och potatis puré.",
+                    "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
+                    "price": "149"
+                },
+                {
+                    "name": "Pocherad rödspätta persilja och ägg sås serveras med kokt potatis",
+                    "price": "149"
+                },
+                {
+                    "name": "Chili gryta med potatispuré",
                     "price": "149"
                 },
                 {
@@ -104,11 +108,11 @@
                     "price": "149"
                 },
                 {
-                    "name": "Caesarsallad kyckling, räkor eller halloumi",
+                    "name": "Caesarsallad kyckling, räkor eller halloumi .",
                     "price": "149"
                 },
                 {
-                    "name": "Caesarsallad räkor och halloumi",
+                    "name": "Caesarsallad räkor och halloumi.",
                     "price": "149"
                 }
             ]
@@ -120,7 +124,7 @@
         "menu": {
             "dishes": [
                 {
-                    "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                    "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                     "price": "132"
                 }
             ]
@@ -137,12 +141,7 @@
         "name": "Melanders",
         "location": "Location details here",
         "menu": {
-            "dishes": [
-                {
-                    "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
-                    "price": "149"
-                }
-            ]
+            "dishes": []
         }
     }
 ]
