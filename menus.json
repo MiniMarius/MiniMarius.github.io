@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-21 13:14:42",
+    "last_updated": "2025-01-21 14:47:45",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -101,7 +101,32 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Stekt",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Fläsk med raggmunk rårörda lingon alt lök sås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Slottsstek med gräddsås svartvinbärsgelé och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Panerad",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Flundrafilé med dansk remouladsås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Pasta med kycklingfilé grönsaker och tomatsås",
+                        "price": "139"
+                    }
+                ]
             }
         },
         {
@@ -164,10 +189,6 @@
             "location": "Location details here",
             "menu": {
                 "dishes": [
-                    {
-                        "name": "Tisdag",
-                        "price": "149"
-                    },
                     {
                         "name": "Hellefilé med skaldjurssås, bakad blomkål & kokt potatis",
                         "price": "149"
