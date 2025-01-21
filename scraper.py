@@ -150,7 +150,18 @@ try:
             today_menu = menus_by_day.get(today_swedish, "No menu available for today")
             today_alcam_menu = []
             if today_menu != "No menu available for today":
-                today_alcam_menu = [{"name": dish.strip(), "price": "139"} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
+                dishes = [dish.strip() for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
+                # Join one-word dishes with the next dish
+                fixed_dishes = []
+                i = 0
+                while i < len(dishes):
+                    if i < len(dishes) - 1 and ' ' not in dishes[i]:
+                        fixed_dishes.append(dishes[i] + ' ' + dishes[i+1])
+                        i += 2
+                    else:
+                        fixed_dishes.append(dishes[i])
+                        i += 1
+                today_alcam_menu = [{"name": dish, "price": "139"} for dish in fixed_dishes]
         except Exception as e:
             today_alcam_menu = [{"name": "Error", "price": "Error"}]
 
@@ -179,28 +190,33 @@ try:
         'sunday': 'Söndag'
     }
 
-    # Get the current weekday in Swedish
     current_weekday = datetime.now().strftime('%A').lower()
     current_day_swedish = day_translationGustafs.get(current_weekday)
 
-    # Initialize to store today's menu
     todays_menu = []
-
     current_day = None
 
-    # Iterate over all <h3> and <h5> elements
     for element in gustafsSoup.find_all(['h3', 'h5']):
         text = element.get_text(strip=True)
-        # Check if the text is a day of the week in Swedish
         if text in day_translationGustafs.values():
             current_day = text
         elif current_day == current_day_swedish:
-            # Split the text on capitalized letters
             items = re.split(r'(?=[A-ZÅÄÖ])', text)
-            for item in items:
-                cleaned_item = re.sub(r'\.[a-z]+$', '', item.strip())  # Remove trailing period followed by lowercase letters
-                if cleaned_item:
-                    todays_menu.append({"name": cleaned_item, "price": "149"})
+            cleaned_items = [re.sub(r'\.[a-z]+$', '', item.strip()) for item in items if item.strip()]
+            
+            combined_items = []
+            i = 0
+            while i < len(cleaned_items):
+                words = cleaned_items[i].split()
+                if len(words) <= 2 and i < len(cleaned_items) - 1:
+                    combined_items.append(cleaned_items[i] + ' ' + cleaned_items[i+1])
+                    i += 2
+                else:
+                    combined_items.append(cleaned_items[i])
+                    i += 1
+
+            todays_menu = [{"name": item, "price": "149"} for item in combined_items]
+
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Gustafs menu: {e}")
     todays_menu = []
