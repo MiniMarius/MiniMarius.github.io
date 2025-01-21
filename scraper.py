@@ -244,47 +244,48 @@ try:
     sjoPaviljHtml = requests.get("https://sjopaviljongen.se/lunchmeny/", headers=headers)
     sjoPaviljHtml.raise_for_status()
     sjoPaviljSoup = BeautifulSoup(sjoPaviljHtml.content, "html.parser")
-    first_table = sjoPaviljSoup.find('table')
+    
+    # Find all tables
+    tables = sjoPaviljSoup.find_all('table')
     sjopaviljongen_menu = []
-    if first_table:
-        menu_items = first_table.find_all('p')
-        for item in menu_items:
-            # Find all <strong> tags within the <p> tag
-            strong_tags = item.find_all('strong')
-            # Combine all strong tags' text into a single string
-            combined_text = " ".join([strong_tag.get_text(strip=True) for strong_tag in strong_tags])
-            
-            dishes = combined_text.split('DAGENS')
-            
-            for dish in dishes:
-                dish_name = dish.strip()
+
+    for table in tables:
+        # Check if the table is not too short
+        menu_items = table.find_all('p')
+        if len(menu_items) >= 3:  # Adjust the length check as needed
+            for item in menu_items:
+                strong_tags = item.find_all('strong')
+                combined_text = " ".join([strong_tag.get_text(strip=True) for strong_tag in strong_tags])
                 
-                # Remove "TIPS " if it exists at the start
-                if dish_name.startswith("TIPS "):
-                    dish_name = dish_name[5:].strip()
+                dishes = combined_text.split('DAGENS')
                 
-                # Check for price at the beginning
-                match_start = re.search(r'\d+ kr\s*(.+)', dish_name)
-                # Check for price at the end
-                match_end = re.search(r'(.+?)\s*\d+\s*kr$', dish_name)
-                
-                if match_start:
-                    cleaned_dish_name = match_start.group(1).strip()
-                    price = match_start.group(0).strip()
-                elif match_end:
-                    cleaned_dish_name = match_end.group(1).strip()
-                    price = match_end.group(0).strip()
-                else:
-                    cleaned_dish_name = dish_name.strip()
-                    price = ""
-                price_numeric = re.sub(r'\D', '', price)
-                if cleaned_dish_name:
-                    sjopaviljongen_menu.append({"name": cleaned_dish_name, "price": price_numeric})
+                for dish in dishes:
+                    dish_name = dish.strip()
+                    if dish_name.startswith("TIPS "):
+                        dish_name = dish_name[5:].strip()
+                    
+                    match_start = re.search(r'\d+ kr\s*(.+)', dish_name)
+                    match_end = re.search(r'(.+?)\s*\d+\s*kr$', dish_name)
+                    
+                    if match_start:
+                        cleaned_dish_name = match_start.group(1).strip()
+                        price = match_start.group(0).strip()
+                    elif match_end:
+                        cleaned_dish_name = match_end.group(1).strip()
+                        price = match_end.group(0).strip()
+                    else:
+                        cleaned_dish_name = dish_name.strip()
+                        price = ""
+                    
+                    price_numeric = re.sub(r'\D', '', price)
+                    if cleaned_dish_name:
+                        sjopaviljongen_menu.append({"name": cleaned_dish_name, "price": price_numeric})
+            break  # Exit the loop once a suitable table is found
 
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Sjöpaviljongen menu: {e}")
     sjopaviljongen_menu = []
-
+    
 menus.append({
     "name": "Sjöpaviljongen",
     "location": "Location details here",
