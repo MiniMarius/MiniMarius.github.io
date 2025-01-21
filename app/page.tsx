@@ -6,10 +6,10 @@ import { ChevronDownIcon } from "@radix-ui/react-icons";
 
 export default function Home() {
   // Sort the menuData array alphabetically based on restaurant name
-  const sortedMenuData = menuData.sort((a, b) => a.name.localeCompare(b.name));
+  const sortedMenuData = menuData.restaurants.sort((a, b) => a.name.localeCompare(b.name));
 
   return (
-    <div className="min-h-screen p-4">
+    <div className="p-4">
       <img alt="logo" src={logo.src} className={"mx-auto sm:w-48 md:w-48 lg:w-48"} />
       <Accordion.Root type="multiple" className="space-y-4">
         {sortedMenuData.map((restaurant) => (

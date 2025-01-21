@@ -350,12 +350,17 @@ menus.append({
     "menu": {"dishes": today_melanders_menu}
 })
 
-# Output JSON data
-menus = clean_menus(menus)
+# Add a timestamp to the JSON data
+timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+output_data = {
+    "last_updated": timestamp,
+    "restaurants": menus
+}
+
 output_path = os.path.join("public", "menus.json")
 
 # Save the menus to a JSON file
 with open(output_path, 'w', encoding='utf-8') as f:
-    json.dump(menus, f, ensure_ascii=False, indent=4)
+    json.dump(output_data, f, ensure_ascii=False, indent=4)
 
 print("Menus saved to menus.json")
