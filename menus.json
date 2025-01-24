@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-24 03:13:39",
+    "last_updated": "2025-01-24 10:32:55",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -15,11 +15,15 @@
                         "price": "145"
                     },
                     {
-                        "name": "Tillbehör: Bearnaise, salsa verde, rösti, medelhavsgrönsaker",
+                        "name": "Tillbehör: Italian style tomato sauce, salsa verde, rösti, medelhavsgrönsaker",
                         "price": "145"
                     },
                     {
-                        "name": "Vegetariskt: Varm nachotallrik med sojaprotein, svarta bönor, guacamole, jalapenos, picklad lök, gräddfil",
+                        "name": "Vegetariskt: Lasagne alla Pomodoro",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vi önskar alla gäster en underbar helg❤️",
                         "price": "145"
                     },
                     {
@@ -166,6 +170,22 @@
             "location": "Location details here",
             "menu": {
                 "dishes": [
+                    {
+                        "name": "Pocherad",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Koljafilé med skaldjurssås, bakade småtomater, fänkål, spenat & kokt potatis",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Biff",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Lindström med stekt ägg, rödvinssås & stekt potatis",
+                        "price": "149"
+                    },
                     {
                         "name": "Serveras mellan 11.00-14.00",
                         "price": "149"
