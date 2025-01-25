@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-24 10:32:55",
+    "last_updated": "2025-01-25 03:11:33",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,27 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillfredag…",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Protein: Grillad Porchetta, grillad gösfilé, chistorra (spansk korv)",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Tillbehör: Italian style tomato sauce, salsa verde, rösti, medelhavsgrönsaker",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vegetariskt: Lasagne alla Pomodoro",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vi önskar alla gäster en underbar helg❤️",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Fråga personalen om allergier",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -113,24 +93,14 @@
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "0763 37 57 32",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -169,36 +139,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Pocherad",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Koljafilé med skaldjurssås, bakade småtomater, fänkål, spenat & kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Biff",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Lindström med stekt ägg, rödvinssås & stekt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Serveras mellan 11.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
