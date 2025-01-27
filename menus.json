@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-26 03:13:59",
+    "last_updated": "2025-01-27 03:14:23",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Pepparstek på nötinnanlår med grönpepparsås, vinbärsgelé och hasselbackspotatis",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Smörstekt färsk koljafilé a là Meunière med gröna ärtor och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Wokad kycklingfilé med grönsaker i sötsur sås med ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vegetarisk bowl med sushiris, sojastekta grönsaker, edamamebönor, wasabiärtor, koreansk chilicrème",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Fråga personalen om allergier",
                         "price": "145"
                     }
                 ]
@@ -23,20 +39,20 @@
                         "price": ""
                     },
                     {
-                        "name": "Beouf bourguignon - med ryggbiff, bacon, svamp & syltlök. serveras med potatispuré",
-                        "price": "155"
+                        "name": "Fish n' chips - friterad sejfile, het tartarsås, pommes & citron",
+                        "price": "145KR"
                     },
                     {
                         "name": "Obs endast måndag - fredag 11:00-14:00 - ",
                         "price": ""
                     },
                     {
-                        "name": "Miss piggy - friterad fläsk schnitzel med sweet chili-mayo, sesam picklad gurka rawsallad, edamame, gari & rättika",
-                        "price": "125"
+                        "name": "Lemon chic - citronsmörbakad kyckling, aioli, tomat&löksallad, sushiris rawsallad, edamame, gari & rättika",
+                        "price": "125KR"
                     },
                     {
-                        "name": "Spicy tiger - friterad tofu med sesampicklad gurka\ntigersås & coleslaw, rawsallad, edamame, sushiris, rättika & gari",
-                        "price": "125"
+                        "name": "Caribbean feta - jerkkryddad pankofriterad fetaost, gouchangmayo, ananassalsa, vårök, rawsallad, edamame, sushiris, rättika & gari",
+                        "price": "125KR"
                     },
                     {
                         "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
@@ -59,20 +75,20 @@
                         "price": ""
                     },
                     {
-                        "name": "Bbq madness - 150g burgare med cheddar, bbq-mayo, majssalsa & bbq-slaw. serveras med pommes & dipp",
-                        "price": "129"
+                        "name": "Spicy classic - 150g burgare med cheddar, chilimayo, bacon, sallad & picklad gurka. serveras med pommes & dipp",
+                        "price": "129KR"
                     },
                     {
-                        "name": "Truffle n bacon - 150g burgare med cheddar, bacon, sallad \npicklad gurka & tryffelmayo. serveras med pommes och dipp",
-                        "price": "129"
+                        "name": "Posh johnsson - 150g burgare med cheddar, sallad, tomat, rödlök & tryffelmayo. serveras med pommes och dipp",
+                        "price": "129KR"
                     },
                     {
-                        "name": "Spicy mex - friterad halloumi, jalapeño-mayo,\nsallad & pico de gallo.\nserveras med pommes och dipp",
-                        "price": "129"
+                        "name": "Veggisson - soyaburgare, vegansk ost, dijonaise, karameliserad lök, tomat & sallad.\nserveras med pommes och dipp",
+                        "price": "129KR"
                     },
                     {
                         "name": "French quarter - 150g burgare med gruyere, karamelliserad lök, senapspicklad gurka & röd chili-aioli. serveras med pommes och dipp",
-                        "price": "149"
+                        "price": "149KR"
                     }
                 ]
             }
@@ -93,14 +109,40 @@
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Korv Stroganoff med ris.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Panerad torsk remouladsås citron dill och potatis puré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Caesarsallad kyckling, räkor eller halloumi ",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -139,7 +181,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Isterband med senapstuvad potatis, rödbetor, rödvinssås & skånsk senap",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
