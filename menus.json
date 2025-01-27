@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-27 03:14:23",
+    "last_updated": "2025-01-27 09:00:54",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -20,6 +20,10 @@
                     },
                     {
                         "name": "Vegetarisk bowl med sushiris, sojastekta grönsaker, edamamebönor, wasabiärtor, koreansk chilicrème",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Paprikasoppa, ingår i lunchen",
                         "price": "145"
                     },
                     {
@@ -111,11 +115,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Korv Stroganoff med ris.",
+                        "name": "Kalv entrecôte pepparsås serveras med klyftpotatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad torsk remouladsås citron dill och potatis puré.",
+                        "name": "Panerad flundrafilé Skagenröra dill citron och potatis puré.",
                         "price": "149"
                     },
                     {
@@ -123,11 +127,11 @@
                         "price": "149"
                     },
                     {
-                        "name": "Caesarsallad kyckling, räkor eller halloumi ",
+                        "name": "Caesarsallad kyckling, räkor eller halloumi",
                         "price": "149"
                     },
                     {
-                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "name": "Per special Caesarsallad räkor och halloumibh",
                         "price": "149"
                     }
                 ]
