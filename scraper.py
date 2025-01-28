@@ -84,13 +84,17 @@ try:
         
             if key:
                 menu_items = menu.find_all('div', class_='dine-menu-item')
-                for item in menu_items:
-                    name = item.find('h3', class_='menu-item-name')
-                    description = item.find('div', class_='menu-item-desc')
-                    price_tag = item.find('span', class_='menu-item-price')
-                    if name and description:
-                        price = price_tag.text.strip() if price_tag else ""
-                        poke_dishes.append({"name": f"{name.text.capitalize()} - {description.text.strip().lower()}", "price": price})
+            for item in menu_items:
+                name = item.find('h3', class_='menu-item-name')
+                description = item.find('div', class_='menu-item-desc')
+                price_tag = item.find('span', class_='menu-item-price')
+                
+                if name and description:
+                    if "11:00-14:00" in name.text:
+                        continue
+                    
+                    price = price_tag.text.strip() if price_tag else ""
+                    poke_dishes.append({"name": f"{name.text.capitalize()} - {description.text.strip().lower()}", "price": price})
 except requests.exceptions.RequestException as e:
     print(f"Error fetching PokéBurger menu: {e}")
     poke_dishes = []
