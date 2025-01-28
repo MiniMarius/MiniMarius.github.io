@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-28 10:07:57",
+    "last_updated": "2025-01-28 10:18:18",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -39,16 +39,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Obs endast lunch 11:00-14:00 - ",
-                        "price": ""
-                    },
-                    {
                         "name": "Fish n' chips - friterad sejfile, het tartarsås, pommes & citron",
                         "price": "145KR"
-                    },
-                    {
-                        "name": "Obs endast måndag - fredag 11:00-14:00 - ",
-                        "price": ""
                     },
                     {
                         "name": "Lemon chic - citronsmörbakad kyckling, aioli, tomat&löksallad, sushiris rawsallad, edamame, gari & rättika",
@@ -73,10 +65,6 @@
                     {
                         "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
                         "price": "175"
-                    },
-                    {
-                        "name": "Obs endast lunch 11:00-14:00 - ",
-                        "price": ""
                     },
                     {
                         "name": "Spicy classic - 150g burgare med cheddar, chilimayo, bacon, sallad & picklad gurka. serveras med pommes & dipp",
