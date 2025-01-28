@@ -103,7 +103,7 @@ menus.append({
 
 # Al Caminetto
 try:
-    alcamHtml = requests.get("https://www.alcaminetto.se/", headers=headers)
+    alcamHtml = requests.get("https://www.alcaminetto.se/index.php/lunch", headers=headers)
     alcamHtml.raise_for_status()
     alcamSoup = BeautifulSoup(alcamHtml.content, 'html.parser')
     # Define the Swedish days of the week
@@ -113,7 +113,7 @@ try:
     pattern = '|'.join(days)
             
     # Find the PDF link
-    pdf_link_tag = alcamSoup.find('a', string=" Lunch") if alcamSoup else None
+    pdf_link_tag = alcamSoup.find('a', string="Ladda ner i PDF") if alcamSoup else None
     pdf_url = pdf_link_tag['href'] if pdf_link_tag else None
 
     alcam_menu = []
@@ -151,16 +151,20 @@ try:
             today_alcam_menu = []
             if today_menu != "No menu available for today":
                 dishes = [dish.strip() for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
-                # Join one-word dishes with the next dish
+                # Join dishes with three or fewer words
                 fixed_dishes = []
                 i = 0
                 while i < len(dishes):
-                    if i < len(dishes) - 1 and ' ' not in dishes[i]:
-                        fixed_dishes.append(dishes[i] + ' ' + dishes[i+1])
-                        i += 2
-                    else:
-                        fixed_dishes.append(dishes[i])
+                    current_dish = dishes[i]
+                    current_word_count = len(current_dish.split())
+                    # Check if the current dish has three or fewer words
+                    while i < len(dishes) - 1 and current_word_count <= 3:
+                        # Join with the next dish
+                        current_dish += ' ' + dishes[i+1]
                         i += 1
+                        current_word_count = len(current_dish.split())
+                    fixed_dishes.append(current_dish)
+                    i += 1
                 today_alcam_menu = [{"name": dish, "price": "139"} for dish in fixed_dishes]
         except Exception as e:
             today_alcam_menu = [{"name": "Error", "price": "Error"}]
