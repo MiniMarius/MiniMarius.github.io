@@ -94,6 +94,7 @@ try:
                         continue
                     
                     price = price_tag.text.strip() if price_tag else ""
+                    price = ''.join(re.findall(r'\d+', price))
                     poke_dishes.append({"name": f"{name.text.capitalize()} - {description.text.strip().lower()}", "price": price})
 except requests.exceptions.RequestException as e:
     print(f"Error fetching PokéBurger menu: {e}")
