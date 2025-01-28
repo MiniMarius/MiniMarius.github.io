@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-28 10:18:18",
+    "last_updated": "2025-01-28 10:24:56",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -40,15 +40,15 @@
                 "dishes": [
                     {
                         "name": "Fish n' chips - friterad sejfile, het tartarsås, pommes & citron",
-                        "price": "145KR"
+                        "price": "145"
                     },
                     {
                         "name": "Lemon chic - citronsmörbakad kyckling, aioli, tomat&löksallad, sushiris rawsallad, edamame, gari & rättika",
-                        "price": "125KR"
+                        "price": "125"
                     },
                     {
                         "name": "Caribbean feta - jerkkryddad pankofriterad fetaost, gouchangmayo, ananassalsa, vårök, rawsallad, edamame, sushiris, rättika & gari",
-                        "price": "125KR"
+                        "price": "125"
                     },
                     {
                         "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
@@ -68,19 +68,19 @@
                     },
                     {
                         "name": "Spicy classic - 150g burgare med cheddar, chilimayo, bacon, sallad & picklad gurka. serveras med pommes & dipp",
-                        "price": "129KR"
+                        "price": "129"
                     },
                     {
                         "name": "Posh johnsson - 150g burgare med cheddar, sallad, tomat, rödlök & tryffelmayo. serveras med pommes och dipp",
-                        "price": "129KR"
+                        "price": "129"
                     },
                     {
                         "name": "Veggisson - soyaburgare, vegansk ost, dijonaise, karameliserad lök, tomat & sallad.\nserveras med pommes och dipp",
-                        "price": "129KR"
+                        "price": "129"
                     },
                     {
                         "name": "French quarter - 150g burgare med gruyere, karamelliserad lök, senapspicklad gurka & röd chili-aioli. serveras med pommes och dipp",
-                        "price": "149KR"
+                        "price": "149"
                     }
                 ]
             }
