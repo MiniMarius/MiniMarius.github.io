@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-28 03:13:07",
+    "last_updated": "2025-01-28 10:07:57",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -20,6 +20,10 @@
                     },
                     {
                         "name": "Yakiniku med ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Grönsakssoppa, ingår i lunchen",
                         "price": "145"
                     },
                     {
@@ -99,8 +103,20 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "Error"
+                        "name": "Stekt Fläsk med raggmunk rårörda lingon alt lök sås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Pljeskavica med bearnaisesås ajvar gräddfil lök och rösti potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Ugnsbakad Torskfilé med skaldjur sås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Pasta med Oxfilé i en krämig tryffel champinjoner sås",
+                        "price": "139"
                     }
                 ]
             }
