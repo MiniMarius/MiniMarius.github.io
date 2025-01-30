@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-29 03:13:27",
+    "last_updated": "2025-01-30 03:13:46",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Coq au vin (Tupp i vin) med tryffelsmaksatt potatispuré",
+                        "name": "Garros schnitzel med sardellsmör, citron, kapris och ugnsstekt kulpotatis",
                         "price": "145"
                     },
                     {
-                        "name": "Ugnsbakad rödingfilé med sandefjordsås, blancherad spenat och kokt potatis",
+                        "name": "Ångad lättrimmad torskfilé med gräddiserad fiskfond, saffransaioli och kokt potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Wokade tigerräkor med grönsaker, röd curry, kokos, lime, koriander och ris",
+                        "name": "Rotsellerischnitzel med citronsmör, kapris och ugnsstekt kulpotatis (Vegan)",
                         "price": "145"
                     },
                     {
-                        "name": "Vegetarisk korv stroganoff med ris",
+                        "name": "Tom Kha Gai med Shanxinudlar",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Varje torsdag serveras pannkaksbuffé som dessert!",
                         "price": "145"
                     },
                     {
@@ -87,27 +91,55 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Kyckling schnitzel med B.",
+                        "name": "Grillad Entrecote med rödvinssky café de paris och rostad potatis",
                         "price": "139"
                     },
                     {
-                        "name": "B. Q sås soltorkat tomat crème och klyft potatis",
+                        "name": "Gräddstuvad pytt i panna med rödbetor och stekt ägg",
                         "price": "139"
                     },
                     {
-                        "name": "Wokad Fläskfilé med Taka",
+                        "name": "Panko Panerad Rödingfilé med chili",
                         "price": "139"
                     },
                     {
-                        "name": "Masala sås och grönsaker ris",
+                        "name": "Skagen röra och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "Fisk Piccata  med tomatsås och ris",
+                        "name": "Pasta Antipasto med italiensk charkuteri basilika tomat i en krämig ost sås",
                         "price": "139"
                     },
                     {
-                        "name": "Pasta med chorizo grönsaker i en krämig tomatsås",
+                        "name": "V I B J",
+                        "price": "139"
+                    },
+                    {
+                        "name": "U D E R",
+                        "price": "139"
+                    },
+                    {
+                        "name": "P A N K",
+                        "price": "139"
+                    },
+                    {
+                        "name": "A K O R",
+                        "price": "139"
+                    },
+                    {
+                        "name": "S Y L T",
+                        "price": "139"
+                    },
+                    {
+                        "name": "O C H G",
+                        "price": "139"
+                    },
+                    {
+                        "name": "R Ä D D",
+                        "price": "139"
+                    },
+                    {
+                        "name": "E",
                         "price": "139"
                     }
                 ]
@@ -119,11 +151,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fläskschnitzel ärtor citron rödvinssås och rostade potatis.",
+                        "name": "Ärtsoppa med pannkaksbuffé.",
                         "price": "149"
                     },
                     {
-                        "name": "Sotad lax aioli picklad rödlök citron och potatis puré.",
+                        "name": "Wallenbergare skirat smör ärtor lingon och potatis puré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Fish and chips tartarsås citron dill och pommes.",
                         "price": "149"
                     },
                     {
@@ -147,7 +183,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
+                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
                         "price": "132"
                     }
                 ]
@@ -171,7 +207,7 @@
                         "price": "195"
                     },
                     {
-                        "name": "Småländskt Isterband med persiljestuvad potatis, stark senap och rödbetor",
+                        "name": "Biffstek a la Strindberg med potatispuré, brytbönor och rödvinssås",
                         "price": "195"
                     },
                     {
@@ -179,12 +215,16 @@
                         "price": "195"
                     },
                     {
-                        "name": "Kycklingschnitzel Cordon Bleu med friterad potatis, små gröna ärtor och skysås",
+                        "name": "Oxsvansragu med rökt fläsk, champinjoner och smålök",
                         "price": "195"
                     },
                     {
                         "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
                         "price": "295"
+                    },
+                    {
+                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås",
+                        "price": "265"
                     },
                     {
                         "name": "Färskostmousse med päronkompott och mördegskaka",
@@ -199,11 +239,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Koljafilé med vitvinssås, champinjon, fänkål, spenat & kokt potatis",
+                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
                         "price": "149"
                     },
                     {
-                        "name": "Isterband med gräslökstuvad potatis, rödbetor & skånsk senap",
+                        "name": "Kålpudding med gräddsås, kokt potatis & rårörda lingon",
                         "price": "149"
                     }
                 ]
