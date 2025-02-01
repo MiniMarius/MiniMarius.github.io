@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-31 03:13:02",
+    "last_updated": "2025-02-01 03:16:21",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,27 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillfredag…",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Protein: Garros slow cooked smokey short ribs (Nötribs), Grillad regnbågsfilé, lammkorv",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Tillbehör: Bbq-kryddad bearnaise, krämig fransk tomatsallad, surkål, råstekt potatis, ugnsgrillade grönsaker",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vegetariskt: Varm nachotallrik med sojaprotein, svarta bönor, guacamole, jalapenos, picklad lök, gräddfil",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Fråga personalen om allergier",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vi önskar alla gäster en underbar helg❤️",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -39,15 +19,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fish n' chips - friterad sejfile, het tartarsås, pommes & citron",
-                        "price": "145"
+                        "name": "Schnitzel  - dubbelpanerad kyckling med rödvinssås, friterad kapris, \nvitlök-& persiljesmör & örtrostad potatis",
+                        "price": "155"
                     },
                     {
-                        "name": "Lemon chic - citronsmörbakad kyckling, aioli, tomat&löksallad, sushiris rawsallad, edamame, gari & rättika",
+                        "name": "Sticky chicken - hoisinslungad kyckling med gurksalsa,\nsesam, vårlök, sushiris rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
-                        "name": "Caribbean feta - jerkkryddad pankofriterad fetaost, gouchangmayo, ananassalsa, vårök, rawsallad, edamame, sushiris, rättika & gari",
+                        "name": "No chicken - friterad no chicken chicken, \npicklad gurka, coleslaw & hot mayo, rawsallad, edamame, sushiris, rättika & gari",
                         "price": "125"
                     },
                     {
@@ -67,20 +47,20 @@
                         "price": "175"
                     },
                     {
-                        "name": "Spicy classic - 150g burgare med cheddar, chilimayo, bacon, sallad & picklad gurka. serveras med pommes & dipp",
+                        "name": "Italian job - 150g burgare med tomat-& löksallad\ncheddar, parmesan-mayo & basilika. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Posh johnsson - 150g burgare med cheddar, sallad, tomat, rödlök & tryffelmayo. serveras med pommes och dipp",
+                        "name": "Dubble cheese - 150g burgare med cheddar, emmentaler\nkaramelliserad lök, tryffel-mayo & sallad. serveras med pommes och dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Veggisson - soyaburgare, vegansk ost, dijonaise, karameliserad lök, tomat & sallad.\nserveras med pommes och dipp",
+                        "name": "Mango loco - friterad halloumi med mangosalsa,\n syrad löksallad & chipotle-mayo \nserveras med pommes och dipp",
                         "price": "129"
                     },
                     {
-                        "name": "French quarter - 150g burgare med gruyere, karamelliserad lök, senapspicklad gurka & röd chili-aioli. serveras med pommes och dipp",
-                        "price": "149"
+                        "name": "Triple cheese - 150g burgare med cheddar, pepper jack, jalapeno-& chedarkräm, bacon, picklade jalapeno & dorito-crumbles. serveras med pommes och dipp",
+                        "price": "145"
                     }
                 ]
             }
@@ -89,112 +69,21 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Helstekt Fläskfilé med kantarell sås och potatisgratäng",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Kåldolmar med Gräddsås lingonsylt och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Wokad scampi med Masman curry och grönsaker ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Pasta med räkor fänkålpaprika i en krämig saffran sås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "V I B J",
-                        "price": "139"
-                    },
-                    {
-                        "name": "U D E R",
-                        "price": "139"
-                    },
-                    {
-                        "name": "D E S S",
-                        "price": "139"
-                    },
-                    {
-                        "name": "E R T V",
-                        "price": "139"
-                    },
-                    {
-                        "name": "E C K A",
-                        "price": "139"
-                    },
-                    {
-                        "name": "N T I P",
-                        "price": "139"
-                    },
-                    {
-                        "name": "S:179:- Black Angus Hamburgare med söt senap",
-                        "price": "139"
-                    },
-                    {
-                        "name": "B. B. Q cheddar ost, bacon, dressing, grönt, pommes",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Vegetarisk alternativt # Risotto med sparris och broccoli #",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Cannelloni vegetarian med Ricotaost kantareller",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Vi serverar även en",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Dagens Sallad samt Pizza från nr 1-18 under lunchtid",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Lunchkuponger 10 st 1290:-",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Öppet: Mån - Tors 10:00-22:00",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Fre10:00-23:00 Lör-11:30-23:00 - Sön 11:30-22:00",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Adress: Gustavslundsvägen 173 Tel: 08-251520",
-                        "price": "139"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "0763 37 57 32",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -241,28 +130,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Dagens fisk med brynt smör, potatispuré toppas med knaperstekt bacon & purjolök",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Fläskschnitzel med persiljesmör, rostad potatis, ärtor & rödvinssås",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Serveras mellan 11.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
