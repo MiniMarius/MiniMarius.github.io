@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-02 03:14:40",
+    "last_updated": "2025-02-03 03:20:01",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Yakiniku med ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Ugnsbakad lax med beurre blanc, ärtor och pommes duchesse",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Citronrisotto med knaprig rotselleri",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Wokad fläskfilé sweet and sour med grönsaker och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Fråga personalen om allergier",
                         "price": "145"
                     }
                 ]
@@ -69,68 +85,131 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "H E L S",
+                        "price": "139"
+                    },
+                    {
+                        "name": "T E K T",
+                        "price": "139"
+                    },
+                    {
+                        "name": "H Ö G R",
+                        "price": "139"
+                    },
+                    {
+                        "name": "E V Med chili bearnaisesås och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "K O R V",
+                        "price": "139"
+                    },
+                    {
+                        "name": "S T R O",
+                        "price": "139"
+                    },
+                    {
+                        "name": "G A N O",
+                        "price": "139"
+                    },
+                    {
+                        "name": "F F Med ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "P A N K",
+                        "price": "139"
+                    },
+                    {
+                        "name": "O P A N",
+                        "price": "139"
+                    },
+                    {
+                        "name": "E R A D",
+                        "price": "139"
+                    },
+                    {
+                        "name": "F L U N",
+                        "price": "139"
+                    },
+                    {
+                        "name": "D R A F",
+                        "price": "139"
+                    },
+                    {
+                        "name": "I LÉ Med kräftröra och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "P A S T",
+                        "price": "139"
+                    },
+                    {
+                        "name": "A Med kycklingfilé och grönsaker i en krämig curry sås",
+                        "price": "139"
+                    }
+                ]
             }
         },
         {
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Kalv entrecôte pepparsås serveras med klyftpotatis.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Panerad flundrafilé Skagenröra dill citron och potatis puré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Caesarsallad kyckling, räkor eller halloumi",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumibh",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
             "name": "Sjöpaviljongen",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Sallad med gratinerad getost, gulbetor, rostade valnötter och en senapsvinägrett",
-                        "price": "195"
-                    },
-                    {
-                        "name": "Vegetariska biffar med fetaost, kålsallad och tzatziki",
-                        "price": "195"
-                    },
-                    {
-                        "name": "Smörstekt knorrhane Grenoble, dillmajonnäs och örtslungad potatis",
-                        "price": "195"
-                    },
-                    {
-                        "name": "Järpar på svensk Dovhjort med skogssvampsås, potatispuré, svartvinbärsgelé och pressgurka",
-                        "price": "195"
-                    },
-                    {
-                        "name": "Oxsvansragu med rökt fläsk, champinjoner och smålök",
-                        "price": "195"
-                    },
-                    {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
-                        "price": "295"
-                    },
-                    {
-                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås",
-                        "price": "265"
-                    },
-                    {
-                        "name": "Färskostmousse med päronkompott och mördegskaka",
-                        "price": "65"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Error",
+                        "price": "Network issue"
+                    }
+                ]
             }
         }
     ]
