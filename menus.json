@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-03 03:20:01",
+    "last_updated": "2025-02-03 09:01:10",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -20,6 +20,10 @@
                     },
                     {
                         "name": "Wokad fläskfilé sweet and sour med grönsaker och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Grönsakssoppa, ingår i lunchen",
                         "price": "145"
                     },
                     {
@@ -159,15 +163,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Kalv entrecôte pepparsås serveras med klyftpotatis.",
+                        "name": "Köttfärslimpa gräddsås lingon gurka och kokt potatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad flundrafilé Skagenröra dill citron och potatis puré.",
+                        "name": "Panerad rödspätta remouladsås citron dill och kokt potatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Poke bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "name": "Poké bowl ris avokado pikclad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
                         "price": "149"
                     },
                     {
@@ -197,7 +201,40 @@
             "name": "Sjöpaviljongen",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Sallad med gratinerad getost, gulbetor, rostade valnötter samt senapsvinägrett",
+                        "price": "195"
+                    },
+                    {
+                        "name": "VEG",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Ångad kummel med vitvinssås, pesto och broccoli",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Bräckt rimmad oxbringa med persiljestuvad potatis, rödvinsbrässerad smålök och riven pepparrot",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Järpar på svensk dovhjort med skogsvampsås, svartvinbärsgelé, pressgurka och potatispure",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
+                        "price": "295"
+                    },
+                    {
+                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås",
+                        "price": ""
+                    },
+                    {
+                        "name": "2",
+                        "price": "265"
+                    }
+                ]
             }
         },
         {
@@ -206,8 +243,12 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "Network issue"
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Kalops med kokt potatis & rödbetor senap",
+                        "price": "149"
                     }
                 ]
             }
