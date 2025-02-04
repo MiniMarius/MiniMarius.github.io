@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-03 09:01:10",
+    "last_updated": "2025-02-04 03:14:18",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Yakiniku med ris",
+                        "name": "GFC (Garros fried chicken) med varm ostdipp, lök och jalapenopotatis",
                         "price": "145"
                     },
                     {
-                        "name": "Ugnsbakad lax med beurre blanc, ärtor och pommes duchesse",
+                        "name": "Spättarullader med dillsås, fänkålscrudité och ris",
                         "price": "145"
                     },
                     {
-                        "name": "Citronrisotto med knaprig rotselleri",
+                        "name": "Raggmunk med stekt fläsk eller stekt halloumi med lingon",
                         "price": "145"
                     },
                     {
-                        "name": "Wokad fläskfilé sweet and sour med grönsaker och ris",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Grönsakssoppa, ingår i lunchen",
+                        "name": "Wokad strimlad biff med cashewnötter, grönsaker och ris",
                         "price": "145"
                     },
                     {
@@ -75,7 +71,7 @@
                         "price": "129"
                     },
                     {
-                        "name": "Mango loco - friterad halloumi med mangosalsa,\n syrad löksallad & chipotle-mayo \nserveras med pommes och dipp",
+                        "name": "Tropical - friterad halloumi med ananassalsa,\n syrad löksallad & chipotle-mayo \nserveras med pommes och dipp",
                         "price": "129"
                     },
                     {
@@ -91,67 +87,75 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "H E L S",
+                        "name": "S T E K",
                         "price": "139"
                     },
                     {
-                        "name": "T E K T",
+                        "name": "T F L Ä",
                         "price": "139"
                     },
                     {
-                        "name": "H Ö G R",
+                        "name": "S K Med raggmunk, rårörda lingon alt. löksås och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "E V Med chili bearnaisesås och rostad potatis",
+                        "name": "T E X A",
                         "price": "139"
                     },
                     {
-                        "name": "K O R V",
+                        "name": "S P A N",
                         "price": "139"
                     },
                     {
-                        "name": "S T R O",
+                        "name": "N B I F",
                         "price": "139"
                     },
                     {
-                        "name": "G A N O",
+                        "name": "F Med färsk jalapeno, krämig ost,",
                         "price": "139"
                     },
                     {
-                        "name": "F F Med ris",
+                        "name": "B. B. Q-sås och klyftpotatis",
                         "price": "139"
                     },
                     {
-                        "name": "P A N K",
+                        "name": "U G N S",
                         "price": "139"
                     },
                     {
-                        "name": "O P A N",
+                        "name": "B A K A",
                         "price": "139"
                     },
                     {
-                        "name": "E R A D",
+                        "name": "D K O L",
                         "price": "139"
                     },
                     {
-                        "name": "F L U N",
+                        "name": "J A F I",
                         "price": "139"
                     },
                     {
-                        "name": "D R A F",
+                        "name": "LÉ <med vitvinssås och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "I LÉ Med kräftröra och kokt potatis",
+                        "name": "F E T T",
                         "price": "139"
                     },
                     {
-                        "name": "P A S T",
+                        "name": "U C I N",
                         "price": "139"
                     },
                     {
-                        "name": "A Med kycklingfilé och grönsaker i en krämig curry sås",
+                        "name": "E Al A V",
+                        "price": "139"
+                    },
+                    {
+                        "name": "O C A D",
+                        "price": "139"
+                    },
+                    {
+                        "name": "O Med scampi, vitlök, chili och persilja i en krämig hummersås",
                         "price": "139"
                     }
                 ]
@@ -163,23 +167,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Köttfärslimpa gräddsås lingon gurka och kokt potatis.",
+                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad rödspätta remouladsås citron dill och kokt potatis.",
+                        "name": "Chili gryta med potatispuré",
                         "price": "149"
                     },
                     {
-                        "name": "Poké bowl ris avokado pikclad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "name": "Pocherad flundra vitvinssås purjolök räkor och potatis puré",
                         "price": "149"
                     },
                     {
-                        "name": "Caesarsallad kyckling, räkor eller halloumi",
+                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
                         "price": "149"
                     },
                     {
-                        "name": "Per special Caesarsallad räkor och halloumibh",
+                        "name": "Caesarsallad kyckling, räkor eller halloumi.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
                     }
                 ]
@@ -191,7 +199,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -243,11 +251,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "name": "Spättafilé med skaldjurssås, kokt potatis & broccoli-blomkål",
                         "price": "149"
                     },
                     {
-                        "name": "Kalops med kokt potatis & rödbetor senap",
+                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
                         "price": "149"
                     }
                 ]
