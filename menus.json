@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-06 03:15:10",
+    "last_updated": "2025-02-07 03:15:55",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,27 +7,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Wallenbergare med brynt smör, lingon, ärtor och potatispuré",
+                        "name": "Grillfredag…",
                         "price": "145"
                     },
                     {
-                        "name": "Fiskknyte med torsk, räkor, pepparrots-crème fraiche, potatis, dill",
+                        "name": "Protein: Grillad hängmörad högrev prime, grillad röding, spansk korv chistorra",
                         "price": "145"
                     },
                     {
-                        "name": "Zucchinipiccata med tomatsås och ris",
+                        "name": "Tillbehör: Chilibearnaise, stenbitsromsås, rösti, helgrillad blomkål",
                         "price": "145"
                     },
                     {
-                        "name": "Wokad kyckling med svamp, purjolök och ris",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Varje torsdag serveras pannkaksbuffé som dessert!",
+                        "name": "Vegetariskt: Grillad halloumi med ovan tillbehör",
                         "price": "145"
                     },
                     {
                         "name": "Fråga personalen om allergier",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vi önskar alla gäster en underbar helg❤️",
                         "price": "145"
                     }
                 ]
@@ -43,7 +43,7 @@
                         "price": "155"
                     },
                     {
-                        "name": "Sticky chicken - hoisinslungad kyckling med gurksalsa,\nsesam, vårlök, sushiris rawsallad, edamame, gari & rättika",
+                        "name": "Lao chicken - stekt kycklingfärs med chili, koriander & vitlök. serveras med gurksalsa, picklad rödkål, srirachamayo\nsesam, vårlök, sushiris rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -67,7 +67,7 @@
                         "price": "175"
                     },
                     {
-                        "name": "Italian job - 150g burgare med tomat-& löksallad\ncheddar, parmesan-mayo & basilika. serveras med pommes & dipp",
+                        "name": "Texakana - 150g burgare med cheddar, pulled pork, tortillachips, salad & chilimayo. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -91,67 +91,51 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "W I E N",
+                        "name": "K Ö T T",
                         "price": "139"
                     },
                     {
-                        "name": "E R S C",
+                        "name": "B U L L",
                         "price": "139"
                     },
                     {
-                        "name": "H N I T",
+                        "name": "A R Med gräddsås, lingonsylt och potatismos",
                         "price": "139"
                     },
                     {
-                        "name": "Z E L Med rödvinssky, bearnaisesås och klyftpotatis",
+                        "name": "L Å N G",
                         "price": "139"
                     },
                     {
-                        "name": "S R I R",
+                        "name": "K O K T",
                         "price": "139"
                     },
                     {
-                        "name": "A C H A",
+                        "name": "F L Ä S",
                         "price": "139"
                     },
                     {
-                        "name": "M A R I",
+                        "name": "K L Ä G",
                         "price": "139"
                     },
                     {
-                        "name": "N E R A",
+                        "name": "G Med söt senap och rotmos",
                         "price": "139"
                     },
                     {
-                        "name": "D K Y C",
+                        "name": "F R I T",
                         "price": "139"
                     },
                     {
-                        "name": "K L I N",
+                        "name": "E R A D",
                         "price": "139"
                     },
                     {
-                        "name": "G L Å R",
+                        "name": "S C A M",
                         "price": "139"
                     },
                     {
-                        "name": "F I LÈ Med tomatsås och ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "L A X- S",
-                        "price": "139"
-                    },
-                    {
-                        "name": "C A M P",
-                        "price": "139"
-                    },
-                    {
-                        "name": "I S P E",
-                        "price": "139"
-                    },
-                    {
-                        "name": "T T Med saffransås, grönsaker och ris",
+                        "name": "P I Med sweet chili, grönsaker och risnudlar",
                         "price": "139"
                     },
                     {
@@ -159,7 +143,15 @@
                         "price": "139"
                     },
                     {
-                        "name": "A Med oxfilé och grönsaker i en krämig sparris sås",
+                        "name": "A B U S",
+                        "price": "139"
+                    },
+                    {
+                        "name": "S O L A",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Med skinka och räkor i en krämig oreganosås",
                         "price": "139"
                     },
                     {
@@ -171,27 +163,87 @@
                         "price": "139"
                     },
                     {
-                        "name": "P A N K",
+                        "name": "D E S S",
                         "price": "139"
                     },
                     {
-                        "name": "A K O R",
+                        "name": "E R T V",
                         "price": "139"
                     },
                     {
-                        "name": "S Y L T",
+                        "name": "E C K A",
                         "price": "139"
                     },
                     {
-                        "name": "O C H G",
+                        "name": "N T I P",
                         "price": "139"
                     },
                     {
-                        "name": "R Ä D D",
+                        "name": "S: 159:- K E",
                         "price": "139"
                     },
                     {
-                        "name": "E",
+                        "name": "B A B T",
+                        "price": "139"
+                    },
+                    {
+                        "name": "A L L R",
+                        "price": "139"
+                    },
+                    {
+                        "name": "I K Med kebabsås, tomatsås, grönt och pommes frites",
+                        "price": "139"
+                    },
+                    {
+                        "name": "V E G E",
+                        "price": "139"
+                    },
+                    {
+                        "name": "T A R I",
+                        "price": "139"
+                    },
+                    {
+                        "name": "S K T A",
+                        "price": "139"
+                    },
+                    {
+                        "name": "L T E R",
+                        "price": "139"
+                    },
+                    {
+                        "name": "N A T I",
+                        "price": "139"
+                    },
+                    {
+                        "name": "V # Risotto med sparris och broccoli #",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Cannelloni vegetarian med Ricotaost kantareller",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vi serverar även en",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Dagens Sallad samt Pizza från nr 1-18 under lunchtid",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Lunchkuponger 10 st 1290:-",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Öppet: Mån - Tors 10:00-22:00",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Fre10:00-23:00 Lör-11:30-23:00 - Sön 11:30-22:00",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Adress: Gustavslundsvägen 173 Tel: 08-251520",
                         "price": "139"
                     }
                 ]
@@ -203,31 +255,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ärtsoppa med pannkaksbuffé.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Biff ala Lindström kryddsmör rödvinssås och råstekt potatis.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Halstrad gös picklad gurka dillsås och potatis puré.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Isterband persilja stuvad potatis och rödbetor.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Caesarsallad kyckling, räkor eller halloumi.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Per special Caesarsallad räkor och halloumi.",
+                        "name": "0763 37 57 32",
                         "price": "149"
                     }
                 ]
@@ -239,7 +267,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -259,7 +287,7 @@
                         "price": "195"
                     },
                     {
-                        "name": "Ångad kummel med vitvinssås, pesto, räkor och broccoli",
+                        "name": "Lax och skaldjursfräserad glasvarsfilé med havskräftsås, fänkål och glaserade morötter",
                         "price": "195"
                     },
                     {
@@ -287,11 +315,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                        "name": "Spättafilé",
                         "price": "149"
                     },
                     {
-                        "name": "Biff lindström med persiljesmör, stekt potatis, bönor & rödvinssås",
+                        "name": "Grenoble & kokt potatis",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Pyttipanna med stekt ägg & rödbetor",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Serveras mellan 11.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
