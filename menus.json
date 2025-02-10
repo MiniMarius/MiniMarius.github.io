@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-09 03:16:22",
+    "last_updated": "2025-02-10 03:17:05",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Yakiniku med ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Ugnsbakad lax med beurre blanc, ärtor och pommes duchesse",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Citronrisotto med knaprig rotselleri",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Wokad fläskfilé sweet and sour med grönsaker och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Grönsakssoppa, ingår i lunchen",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Fråga personalen om allergier",
                         "price": "145"
                     }
                 ]
@@ -69,21 +89,112 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "S C H W",
+                        "price": "139"
+                    },
+                    {
+                        "name": "E I Z E",
+                        "price": "139"
+                    },
+                    {
+                        "name": "R S C H",
+                        "price": "139"
+                    },
+                    {
+                        "name": "N I T Z",
+                        "price": "139"
+                    },
+                    {
+                        "name": "E L Med rödvinssky, ärtor och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "M E X I",
+                        "price": "139"
+                    },
+                    {
+                        "name": "K A N S",
+                        "price": "139"
+                    },
+                    {
+                        "name": "K K Ö T",
+                        "price": "139"
+                    },
+                    {
+                        "name": "T G R Y",
+                        "price": "139"
+                    },
+                    {
+                        "name": "T A Med jalapeño och ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "P A N E",
+                        "price": "139"
+                    },
+                    {
+                        "name": "R A D G",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Ö S F I",
+                        "price": "139"
+                    },
+                    {
+                        "name": "LÉ Med skirat smör, champinjoner, purjolök, kapris och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "P A S T",
+                        "price": "139"
+                    },
+                    {
+                        "name": "A Med Lax och spenat i en krämig hummersås",
+                        "price": "139"
+                    }
+                ]
             }
         },
         {
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Köttfärslimpa gräddsås lingon gurka och kokt potatis.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Panerad rödspätta remouladsås citron dill och kokt potatis.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Poké bowl ris avokado pikclad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Caesarsallad kyckling, räkor eller halloumi",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumibh",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -126,7 +237,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Kålpudding med gräddsås & kokt potatis",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
