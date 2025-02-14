@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-13 03:15:44",
+    "last_updated": "2025-02-14 03:15:31",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,27 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Biff Rydberg med senapsgrädde, äggula, pepparrot",
+                        "name": "Grillfredag…",
                         "price": "145"
                     },
                     {
-                        "name": "Ugnsstekt regnbågsfilé med färska örter, citronsås och ris",
+                        "name": "Protein: Grillad flankstek, Grillad gösfilé, Korvfestival (olika korvar med lök)",
                         "price": "145"
                     },
                     {
-                        "name": "Pestobakad blomkål med ris",
+                        "name": "Tillbehör: Råstekt potatis med vitlök, medelhavsgrönsaker, bearnaise, chimichurri",
                         "price": "145"
                     },
                     {
-                        "name": "Wokad fläskfilé sweet and sour med grönsaker och ris",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Varje torsdag serveras pannkaksbuffé som dessert!",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Fråga personalen om allergier",
+                        "name": "Vegetariskt: Basilikarisotto med buffelmozzarella och knaprig jordärtskocka",
                         "price": "145"
                     }
                 ]
@@ -43,7 +35,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Chicken bahn mi - thai style fläskfärs med chili, vitlök,\ningefära, koriander, \n picklad morot & spicy-mayo, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Thai bowl - thai style fläskfärs med chili, vitlök,\ningefära, koriander, \n picklad morot & spicy-mayo, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -91,103 +83,151 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "O X F I",
+                        "name": "F I LÈ O",
                         "price": "139"
                     },
                     {
-                        "name": "LÈ R Y D",
+                        "name": "S C A R",
                         "price": "139"
                     },
                     {
-                        "name": "B E R G",
+                        "name": "Med rödvinssky, bearnaisesås, räkor, sparris och rostad potatis",
                         "price": "139"
                     },
                     {
-                        "name": "Med senapscrème, lök, äggula och rösti potatis",
+                        "name": "K L A S",
                         "price": "139"
                     },
                     {
-                        "name": "G R A T",
+                        "name": "S I S K",
                         "price": "139"
                     },
                     {
-                        "name": "I N E R",
+                        "name": "P A N N",
                         "price": "139"
                     },
                     {
-                        "name": "A D F A",
+                        "name": "B I F F",
                         "price": "139"
                     },
                     {
-                        "name": "L U K O",
+                        "name": "Med löksky, stekt ägg och rostad potatis",
                         "price": "139"
                     },
                     {
-                        "name": "R V Med potatismos",
+                        "name": "G R I L",
                         "price": "139"
                     },
                     {
-                        "name": "P A N K",
+                        "name": "L A D L",
                         "price": "139"
                     },
                     {
-                        "name": "O P A N",
+                        "name": "A X F I",
                         "price": "139"
                     },
                     {
-                        "name": "E R A D",
+                        "name": "LÈ Med chevrecrème, broccoli och svamprisotto",
                         "price": "139"
                     },
                     {
-                        "name": "F L U N",
+                        "name": "S P A G",
                         "price": "139"
                     },
                     {
-                        "name": "D R A F",
+                        "name": "H E T T",
                         "price": "139"
                     },
                     {
-                        "name": "I LÉ Med chili skagenröra och kokt potatis",
+                        "name": "I C A R",
                         "price": "139"
                     },
                     {
-                        "name": "P A S T",
+                        "name": "B O N A",
                         "price": "139"
                     },
                     {
-                        "name": "A Med Fläskfilé och grönsaker i en krämig",
+                        "name": "R A S P",
                         "price": "139"
                     },
                     {
-                        "name": "Taka Masala sås V",
+                        "name": "E C I A",
                         "price": "139"
                     },
                     {
-                        "name": "I B J U",
+                        "name": "L Med bacon, champinjoner och purjolök i en krämig parmesansås",
                         "price": "139"
                     },
                     {
-                        "name": "D E R P",
+                        "name": "V I B J",
                         "price": "139"
                     },
                     {
-                        "name": "A N K A",
+                        "name": "U D E R",
                         "price": "139"
                     },
                     {
-                        "name": "K O R S",
+                        "name": "D E S S",
                         "price": "139"
                     },
                     {
-                        "name": "Y L T O",
+                        "name": "E R T V",
                         "price": "139"
                     },
                     {
-                        "name": "C H G R",
+                        "name": "E C K A",
                         "price": "139"
                     },
                     {
-                        "name": "Ä D D E",
+                        "name": "N S T I",
+                        "price": "139"
+                    },
+                    {
+                        "name": "P S:179:- S T",
+                        "price": "139"
+                    },
+                    {
+                        "name": "E K T S",
+                        "price": "139"
+                    },
+                    {
+                        "name": "A N D W",
+                        "price": "139"
+                    },
+                    {
+                        "name": "I C H Med",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Oxfilé, grillad surdegsbröd, persiljesmör, karamelliserad lök, tomat, sallad, srirachamajo och pommes frites",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vegetarisk alternativt # Risotto med sparris och broccoli #",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Cannelloni vegetarian med Ricotaost kantareller",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vi serverar även en",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Dagens Sallad samt Pizza från nr 1-18 under lunchtid",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Lunchkuponger 10 st 1290:-",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Öppet: Mån - Tors 10:00-22:00",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Fre10:00-23:00 Lör-11:30-23:00 - Sön 11:30-22:00",
                         "price": "139"
                     }
                 ]
@@ -199,31 +239,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ärtsoppa med pannkaksbuffé.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hemlagade köttbullar gräddsås gurka lingon och potatispuré.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Panerad gösfilé gurka majonnäs dill citron och kokt potatis.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Het korvgryta med ris.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Caesarsallad kyckling räkor eller halloumi.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Per special Caesarsallad räkor och halloumi.",
+                        "name": "0763 37 57 32",
                         "price": "149"
                     }
                 ]
@@ -235,7 +251,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -251,7 +267,7 @@
                         "price": "195"
                     },
                     {
-                        "name": "Smörstekt svartpeppargnocchi med bakad jordärtskocka, frasig grönkål, syrad jordärtskocka och parmesanskum",
+                        "name": "Potatis- och jalapeñokrokett med jordärtskocka, parmesancremé rökt tofu och kålsallad",
                         "price": "195"
                     },
                     {
@@ -259,11 +275,11 @@
                         "price": "195"
                     },
                     {
-                        "name": "Coq au vin på majskyckling serveras med potatispuré",
+                        "name": "Biff ”Minute” med rå äggula, potatispuré, bryt bönor, rödvinssås och riven pepparrot",
                         "price": "195"
                     },
                     {
-                        "name": "Ärtsoppa med fläsk, korv och starksenap Samt plättar med jordgubbssylt och vispad grädde",
+                        "name": "Kokt kalv i dillsås med sockerärtor och morot",
                         "price": "195"
                     },
                     {
@@ -275,8 +291,8 @@
                         "price": "245"
                     },
                     {
-                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås",
-                        "price": "265"
+                        "name": "DESSERT",
+                        "price": "65"
                     }
                 ]
             }
@@ -287,11 +303,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                        "name": "Ångad torskfilé med skaldjurssås, spetskål & fänkål samt kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Ugnsbakad kycklinglårfilé med dragonsås, råstekt potatis & champinjon",
+                        "name": "Nattbakad fläsksida med rödvinssås, bakad tomat & champinjoner, rostad potatis samt picklad rödlök",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Serveras mellan 11.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
