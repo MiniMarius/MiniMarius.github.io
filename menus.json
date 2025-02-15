@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-14 03:15:31",
+    "last_updated": "2025-02-15 03:15:11",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillfredag…",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Protein: Grillad flankstek, Grillad gösfilé, Korvfestival (olika korvar med lök)",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Tillbehör: Råstekt potatis med vitlök, medelhavsgrönsaker, bearnaise, chimichurri",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vegetariskt: Basilikarisotto med buffelmozzarella och knaprig jordärtskocka",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -81,180 +69,21 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "F I LÈ O",
-                        "price": "139"
-                    },
-                    {
-                        "name": "S C A R",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Med rödvinssky, bearnaisesås, räkor, sparris och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "K L A S",
-                        "price": "139"
-                    },
-                    {
-                        "name": "S I S K",
-                        "price": "139"
-                    },
-                    {
-                        "name": "P A N N",
-                        "price": "139"
-                    },
-                    {
-                        "name": "B I F F",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Med löksky, stekt ägg och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "G R I L",
-                        "price": "139"
-                    },
-                    {
-                        "name": "L A D L",
-                        "price": "139"
-                    },
-                    {
-                        "name": "A X F I",
-                        "price": "139"
-                    },
-                    {
-                        "name": "LÈ Med chevrecrème, broccoli och svamprisotto",
-                        "price": "139"
-                    },
-                    {
-                        "name": "S P A G",
-                        "price": "139"
-                    },
-                    {
-                        "name": "H E T T",
-                        "price": "139"
-                    },
-                    {
-                        "name": "I C A R",
-                        "price": "139"
-                    },
-                    {
-                        "name": "B O N A",
-                        "price": "139"
-                    },
-                    {
-                        "name": "R A S P",
-                        "price": "139"
-                    },
-                    {
-                        "name": "E C I A",
-                        "price": "139"
-                    },
-                    {
-                        "name": "L Med bacon, champinjoner och purjolök i en krämig parmesansås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "V I B J",
-                        "price": "139"
-                    },
-                    {
-                        "name": "U D E R",
-                        "price": "139"
-                    },
-                    {
-                        "name": "D E S S",
-                        "price": "139"
-                    },
-                    {
-                        "name": "E R T V",
-                        "price": "139"
-                    },
-                    {
-                        "name": "E C K A",
-                        "price": "139"
-                    },
-                    {
-                        "name": "N S T I",
-                        "price": "139"
-                    },
-                    {
-                        "name": "P S:179:- S T",
-                        "price": "139"
-                    },
-                    {
-                        "name": "E K T S",
-                        "price": "139"
-                    },
-                    {
-                        "name": "A N D W",
-                        "price": "139"
-                    },
-                    {
-                        "name": "I C H Med",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Oxfilé, grillad surdegsbröd, persiljesmör, karamelliserad lök, tomat, sallad, srirachamajo och pommes frites",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Vegetarisk alternativt # Risotto med sparris och broccoli #",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Cannelloni vegetarian med Ricotaost kantareller",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Vi serverar även en",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Dagens Sallad samt Pizza från nr 1-18 under lunchtid",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Lunchkuponger 10 st 1290:-",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Öppet: Mån - Tors 10:00-22:00",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Fre10:00-23:00 Lör-11:30-23:00 - Sön 11:30-22:00",
-                        "price": "139"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "0763 37 57 32",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -301,28 +130,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Ångad torskfilé med skaldjurssås, spetskål & fänkål samt kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Nattbakad fläsksida med rödvinssås, bakad tomat & champinjoner, rostad potatis samt picklad rödlök",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Serveras mellan 11.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
