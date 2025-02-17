@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-17 03:18:31",
+    "last_updated": "2025-02-17 09:01:14",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -159,11 +159,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Kycklingfilé pepparsås och rösti potatis.",
+                        "name": "Pytt i Bellman (gräddstuvad",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad torsk dillmajonnäs citron och potatispuré.",
+                        "name": "Pyttipanna) stekt ägg och rödbetor.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Pankopanerad gösfilé remouladsås citron dill och potatis puré.",
                         "price": "149"
                     },
                     {
