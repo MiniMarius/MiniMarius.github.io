@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-16 03:18:29",
+    "last_updated": "2025-02-17 03:18:31",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Köttbullar med gräddsås, lingon, pressgurka och potatispuré",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Spättafilé Tempura med sojadipp, edamamebönor och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Veg: Vegobullar med gräddsås, lingon, pressgurka och potatispuré",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Wokad biff med grönsaker i tigersås med ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Fråga personalen om allergier",
                         "price": "145"
                     }
                 ]
@@ -19,15 +35,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pannbiffar - med löksky, kokt potatis, lingon, press gurka & gröna ärtor",
+                        "name": "Lasagne - med parmesanost, körsbärstomater & ruccolasallad",
                         "price": "145"
                     },
                     {
-                        "name": "Thai bowl - thai style fläskfärs med chili, vitlök,\ningefära, koriander, \n picklad morot & spicy-mayo, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Japanese katzu - pankofriterad kyckling med tonkatzu-mayo, gurksalsa, vårlök, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
-                        "name": "Hot halloumi - friterad halloumi med mangosalsa\npicklad rödkål & chili-mayo, rawsallad, edamame, sushiris, rättika & gari",
+                        "name": "Juan of a kind - mexikansk kryddad vego-färs, nachos\npico de gallo & avokadokräm, rawsallad, edamame, sushiris, rättika & gari",
                         "price": "125"
                     },
                     {
@@ -47,15 +63,15 @@
                         "price": "175"
                     },
                     {
-                        "name": "Jala jala  - 150g burgare med picklade jalapeños,\n cheddar, majssalsa, isberg & jalapeñomayo. serveras med pommes & dipp",
+                        "name": "The chilli cheese - 150g burgare med cheddar, bacon &\nchilicheddar-mayo. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Korean truffle - 150g burgare med yakiniku, tryffel-mayo\nsesam & cheddar. serveras med pommes och dipp",
+                        "name": "Truffle n onion - 150g burgare med cheddar, syrad lök, \nrostad lök, tryffel-mayo sallad. serveras med pommes och dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Spanish vegan - sojaburgare med chilimayo, “cheddar”,\npico de gallo & sallad.\nserveras med pommes och dipp",
+                        "name": "Tropicana - friterad halloumi med syrad lök, \nananassalsa, chipotle-mayo & sallad.\nserveras med pommes och dipp",
                         "price": "129"
                     },
                     {
@@ -69,21 +85,112 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "W A L L",
+                        "price": "139"
+                    },
+                    {
+                        "name": "E N B E",
+                        "price": "139"
+                    },
+                    {
+                        "name": "R G A R",
+                        "price": "139"
+                    },
+                    {
+                        "name": "E Med gräddsås, ärtor, lingonsylt och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "B O U E",
+                        "price": "139"
+                    },
+                    {
+                        "name": "F B O U",
+                        "price": "139"
+                    },
+                    {
+                        "name": "R G U I",
+                        "price": "139"
+                    },
+                    {
+                        "name": "G N O N",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Med bacon, syltlök, champinjoner och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "U G N S",
+                        "price": "139"
+                    },
+                    {
+                        "name": "B A K A",
+                        "price": "139"
+                    },
+                    {
+                        "name": "D T O R",
+                        "price": "139"
+                    },
+                    {
+                        "name": "S K F I",
+                        "price": "139"
+                    },
+                    {
+                        "name": "LÉ Med persilja i vitvinssås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "P A S T",
+                        "price": "139"
+                    },
+                    {
+                        "name": "A Med kräftstjärtar och champinjoner i en krämig pesto sås",
+                        "price": "139"
+                    }
+                ]
             }
         },
         {
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Kycklingfilé pepparsås och rösti potatis.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Panerad torsk dillmajonnäs citron och potatispuré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -92,23 +199,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad Nicoise med tonfisk, oliver, ägg, nakenhavre och nobisdressing",
+                        "name": "Sallad med sötsur glaserade kycklinglårfilé med bulgur, melon, honung och citronyoghurt Innehåller sesam Contains sesame",
                         "price": "195"
                     },
                     {
-                        "name": "Potatis- och jalapeñokrokett med jordärtskocka, parmesancremé rökt tofu och kålsallad",
+                        "name": "Frasig saltbakad rotselleri, socca plätt, linsragu, marconamandlar, citron och honungsyoghurt",
                         "price": "195"
                     },
                     {
-                        "name": "Halstrad lättgravad svensk makrillfilé med dillstuvad potatis och hovmästarsås",
-                        "price": "195"
-                    },
-                    {
-                        "name": "Biff ”Minute” med rå äggula, potatispuré, bryt bönor, rödvinssås och riven pepparrot",
+                        "name": "Pocherad kungsflundra filé på bädd av sauterat kål och havskräfta med musselskum",
                         "price": "195"
                     },
                     {
                         "name": "Kokt kalv i dillsås med sockerärtor och morot",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Biff ”Minute” med rå äggula, potatispuré, rödvinssås och riven pepparrot",
                         "price": "195"
                     },
                     {
@@ -120,7 +227,7 @@
                         "price": "245"
                     },
                     {
-                        "name": "DESSERT",
+                        "name": "Citronmuffins med vaniljkräm och bär",
                         "price": "65"
                     }
                 ]
@@ -130,7 +237,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Kycklingsfärsbiffar med rostade rotfrukter & rödvinssås",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
