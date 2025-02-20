@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-19 03:17:02",
+    "last_updated": "2025-02-20 03:16:43",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Peppargriljerad nötinnanlår med portvinssås, stekt pärllök och ugnsstekt potatis",
+                        "name": "Schnitzel på ben med hollandaise, citronettesallad och krögarpotatis",
                         "price": "145"
                     },
                     {
-                        "name": "Gumbo, fisk och skaldjursgryta från Louisiana toppad med aioli",
+                        "name": "Moules Mariniere med tomat, basilika, vitlök, vitt vin, serveras med aioli och tärnad potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Vegonuggets med currydipp och nudelsallad",
+                        "name": "Vegetarisk Gulasch med gräddfil",
                         "price": "145"
                     },
                     {
-                        "name": "Wokat ankbröst med grönsaker i ingefärssås med ris",
+                        "name": "Yakiniku med ris",
                         "price": "145"
                     },
                     {
@@ -87,83 +87,51 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "M O Z Z",
+                        "name": "H E L S",
                         "price": "139"
                     },
                     {
-                        "name": "A R E L",
+                        "name": "T E K T",
                         "price": "139"
                     },
                     {
-                        "name": "L A & S",
+                        "name": "O X F I",
                         "price": "139"
                     },
                     {
-                        "name": "A L S I",
+                        "name": "LÉ Med kantarellsås och potatisgratäng",
                         "price": "139"
                     },
                     {
-                        "name": "C C I A",
+                        "name": "T E X A",
                         "price": "139"
                     },
                     {
-                        "name": "F Y L L",
+                        "name": "S L A M",
                         "price": "139"
                     },
                     {
-                        "name": "D K Y C",
+                        "name": "M- K Ö T",
                         "price": "139"
                     },
                     {
-                        "name": "K L I N",
+                        "name": "T G R Y",
                         "price": "139"
                     },
                     {
-                        "name": "G F I LÉ",
+                        "name": "T A Med bönor, jalapeño och ris",
                         "price": "139"
                     },
                     {
-                        "name": "Med soltorkad tomatsky och klyft potatis",
+                        "name": "L A X P",
                         "price": "139"
                     },
                     {
-                        "name": "N Ö T K",
+                        "name": "U D D I",
                         "price": "139"
                     },
                     {
-                        "name": "O R V S",
-                        "price": "139"
-                    },
-                    {
-                        "name": "T R O G",
-                        "price": "139"
-                    },
-                    {
-                        "name": "A N O F",
-                        "price": "139"
-                    },
-                    {
-                        "name": "F Med ris P",
-                        "price": "139"
-                    },
-                    {
-                        "name": "A N E R",
-                        "price": "139"
-                    },
-                    {
-                        "name": "A D F L",
-                        "price": "139"
-                    },
-                    {
-                        "name": "U N D R",
-                        "price": "139"
-                    },
-                    {
-                        "name": "A F I LÉ",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Med avocadoröra och rödbets risotto",
+                        "name": "N G Med skirat smör",
                         "price": "139"
                     },
                     {
@@ -171,7 +139,39 @@
                         "price": "139"
                     },
                     {
-                        "name": "A Med biff i en krämig tryffel champinjonsås",
+                        "name": "A Med kycklingfilé och grönsaker i en krämig curry sås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "V I B J",
+                        "price": "139"
+                    },
+                    {
+                        "name": "U D E R",
+                        "price": "139"
+                    },
+                    {
+                        "name": "P A N K",
+                        "price": "139"
+                    },
+                    {
+                        "name": "A K O R",
+                        "price": "139"
+                    },
+                    {
+                        "name": "S Y L T",
+                        "price": "139"
+                    },
+                    {
+                        "name": "O C H G",
+                        "price": "139"
+                    },
+                    {
+                        "name": "R Ä D D",
+                        "price": "139"
+                    },
+                    {
+                        "name": "E",
                         "price": "139"
                     }
                 ]
@@ -183,11 +183,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fläskschnitzel ärtor citron rödvinssås och rostade potatis.",
+                        "name": "Ärtsoppa med pannkaksbuffé.",
                         "price": "149"
                     },
                     {
-                        "name": "Sotad lax citron och dillstuvad potatis.",
+                        "name": "Wallenbergare skirat smör ärtor lingon och potatis puré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Panerad sejfilé kantarellsås picklad gurka och kokt potatis.",
                         "price": "149"
                     },
                     {
@@ -211,7 +215,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
+                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
                         "price": "132"
                     }
                 ]
@@ -235,7 +239,7 @@
                         "price": "195"
                     },
                     {
-                        "name": "Kalvgryta med grönpeppar, champinjoner och bakad smålök",
+                        "name": "Ärtsoppa med fläsk, korv och starksenap Samt plättar med jordgubbssylt och vispad grädde",
                         "price": "195"
                     },
                     {
@@ -243,7 +247,7 @@
                         "price": "195"
                     },
                     {
-                        "name": "Oxsvansragu bourguignon med potatispuré",
+                        "name": "Kalvgryta med grönpeppar, champinjoner och bakad smålök",
                         "price": "195"
                     },
                     {
@@ -252,7 +256,7 @@
                     },
                     {
                         "name": "Helstekt rödspätta rygg från Nordnorge med räkor, champinjoner, brynt smör och pepparrot",
-                        "price": "245"
+                        "price": ""
                     },
                     {
                         "name": "Mjuk saffranskaka med vaniljkräm och bär",
@@ -267,11 +271,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens fisk med brynt mandelsmör, broccoli, blomkål & kokt potatis",
+                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
                         "price": "149"
                     },
                     {
-                        "name": "Oxbringa med rostade rotfrukter & senapssky",
+                        "name": "Krämig kycklinggryta med champinjoner & ris",
                         "price": "149"
                     }
                 ]
