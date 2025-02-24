@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-24 09:01:10",
+    "last_updated": "2025-02-24 09:39:56",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -91,67 +91,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "W I E N",
+                        "name": "WIENERSCHNITZEL Med rödvinssky, bearnaisesås och rostad potatis",
                         "price": "139"
                     },
                     {
-                        "name": "E R S C",
+                        "name": "WOKAD KYCKLINGFILÉ Med jordnötssås, grönsaker och ris",
                         "price": "139"
                     },
                     {
-                        "name": "H N I T",
+                        "name": "UGNSBAKAD KOLJAFILÉ Med skaldjurssås och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "Z E L Med rödvinssky, bearnaisesås och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "W O K A",
-                        "price": "139"
-                    },
-                    {
-                        "name": "D K Y C",
-                        "price": "139"
-                    },
-                    {
-                        "name": "K L I N",
-                        "price": "139"
-                    },
-                    {
-                        "name": "G F I LÉ",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Med jordnötssås, grönsaker och ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "U G N S",
-                        "price": "139"
-                    },
-                    {
-                        "name": "B A K A",
-                        "price": "139"
-                    },
-                    {
-                        "name": "D K O L",
-                        "price": "139"
-                    },
-                    {
-                        "name": "J A F I",
-                        "price": "139"
-                    },
-                    {
-                        "name": "LÉ Med skaldjurssås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "P A S T",
-                        "price": "139"
-                    },
-                    {
-                        "name": "A Med italiensk salami och grönsaker i en krämig tomatsås",
+                        "name": "PASTA Med italiensk salami och grönsaker i en krämig tomatsås",
                         "price": "139"
                     }
                 ]
