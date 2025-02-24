@@ -51,7 +51,14 @@ try:
         menu_paragraph = day_div.find('p')
         if menu_paragraph:
             lunch_menu = menu_paragraph.get_text(separator="\n", strip=True)
-            garros_menu = [{"name": dish.strip(), "price": "145"} for dish in lunch_menu.split('\n') if dish.strip()]
+            garros_menu = [
+                {
+                    "name": dish.strip(),
+                    "price": "" if "ingår i lunchen" in dish else "145"
+                }
+                for dish in lunch_menu.split('\n')
+                if dish.strip() and dish.strip() != "Fråga personalen om allergier"
+            ]
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Garros menu: {e}")
     garros_menu = []
