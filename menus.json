@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-24 09:39:56",
+    "last_updated": "2025-02-24 09:46:10",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -24,11 +24,7 @@
                     },
                     {
                         "name": "Fisk- och tomatsoppa, ingår i lunchen",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Fråga personalen om allergier",
-                        "price": "145"
+                        "price": ""
                     }
                 ]
             }
