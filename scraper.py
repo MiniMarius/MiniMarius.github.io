@@ -155,7 +155,7 @@ try:
             today_menu = menus_by_day.get(today_swedish, "No menu available for today")
             today_alcam_menu = []
             if today_menu != "No menu available for today":
-                dishes = [dish.strip() for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
+                dishes = [dish.strip() for dish in re.split(r'([A-ZÅÄÖ\s]+Med [^A-ZÅÄÖ]+)', today_menu) if dish.strip()]
                 # Join dishes with three or fewer words
                 fixed_dishes = []
                 i = 0
