@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-24 03:20:20",
+    "last_updated": "2025-02-24 09:01:10",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -20,6 +20,10 @@
                     },
                     {
                         "name": "Wokad fläskfilé med grönsaker och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Fisk- och tomatsoppa, ingår i lunchen",
                         "price": "145"
                     },
                     {
@@ -159,15 +163,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pytt i Bellman (gräddstuvad",
+                        "name": "Kycklingfilé pepparsås och rostade potatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Pyttipanna) stekt ägg och rödbetor.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Pankopanerad gösfilé remouladsås citron dill och potatis puré.",
+                        "name": "Panerad sejfilé aioli citron dill och potatis puré.",
                         "price": "149"
                     },
                     {
