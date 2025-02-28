@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-27 03:19:52",
+    "last_updated": "2025-02-28 03:20:16",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Helstekt biff med choronsås, tomatsallad och klyftpotatis",
+                        "name": "Grillfredag…",
                         "price": "145"
                     },
                     {
-                        "name": "Stekt spättafilé med svampsås, spenat och ris",
+                        "name": "Protein:",
                         "price": "145"
                     },
                     {
-                        "name": "Vegetarisk korv stroganoff med ris",
+                        "name": "Koreansk Bulgogi på entrecôte, lax teriyaki, risfritters",
                         "price": "145"
                     },
                     {
-                        "name": "Wokade tigerräkor med grönsaker och ris",
+                        "name": "Tillbehör:",
                         "price": "145"
                     },
                     {
-                        "name": "Varje torsdag serveras våra hemlagade pannkakor med vår egen hallonsylt som dessert!",
+                        "name": "Pak soy, jasminris, grillad spetskål, kimchimayo, söt sojadipp med chili och risvinäger",
                         "price": "145"
                     }
                 ]
@@ -39,7 +39,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Kachang chicken - krämig kyckling med jordnötter, chili, kokos. \nserveras med nötig hoisin-mayo, \nmarinerade groddar-& suger snaps, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Macho tex mex - tex-mex kryddad köttfärs med pico de gallo, gucamole, gräddfil, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -63,7 +63,7 @@
                         "price": "175"
                     },
                     {
-                        "name": "The original - 150g burgare med cheddar, tomat, sallad, syrad lök\n& orginaldressing. serveras med pommes & dipp",
+                        "name": "Hot mama - 150g burgare med cheddar, mango-jalapeno mayo, gul lök & sallad. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -87,27 +87,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "HELSTEKT KALVRULLE Med ugnsbakade rotfrukter, chipotlemayo och klyft potatis",
+                        "name": "FLÄSKNOISETTE Med grönpepparsås, haricoverts och stekt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "GRATINERAD FALUKORV Med potatismos",
+                        "name": "NASIGORENG Med kyckling, räkor, ananas och stekt ägg",
                         "price": "139"
                     },
                     {
-                        "name": "RÄK & SPENATFYLLD FLUNDRAFILÉ",
+                        "name": "GRILLAD LAXFILÉ Med hollandaisesås, sockerärtor och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "Med citronsås och potatismos",
+                        "name": "PASTA Med räkor, fänkål och paprika i en krämig saffransås",
                         "price": "139"
                     },
                     {
-                        "name": "PASTA Med fläskfilé och grönsaker i en krämig",
+                        "name": "VI BJUDER DESSERT VECKANS TIPS: 159:-",
                         "price": "139"
                     },
                     {
-                        "name": "Dijonsenap sås VI BJUDER PANKAKOR SYLT OCH GRÄDDE",
+                        "name": "KEBABTALLRIK Med tomatsås, kebabsås, grönt och pommes frites",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vegetarisk alternativt # Risotto med sparris och broccoli # Cannelloni vegetarian med Ricotaost kantareller Vi serverar även en Dagens Sallad samt Pizza från nr 1-18 under lunchtid Lunchkuponger 10 st 1290:- Öppet: Mån - Tors 10:00-22:00 Fre10:00-23:00 Lör-11:30-23:00 -Sön 11:30-22:00 Adress: Gustavslundsvägen 173 Tel: 08-251520",
                         "price": "139"
                     }
                 ]
@@ -119,27 +123,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ärtsoppa med pannkaksbuffé.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Chili con carne ris gräddfil och nahtsos.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Panerad gösfilé remouladsås citron dill och kokt potatis.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Caesarsallad kyckling räkor eller halloumi.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Per special Caesarsallad räkor och halloumi.",
+                        "name": "0763 37 57 32",
                         "price": "149"
                     }
                 ]
@@ -151,7 +135,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -171,19 +155,11 @@
                         "price": ""
                     },
                     {
-                        "name": "Ärtsoppa med fläsk, korv och stark senap, samt plättar med jordgubbssylt och grädde 195",
+                        "name": "Jägarbiff på svensk dovhjort med lök och skogssvampssky, potatispuré och inlagd gurka 195",
                         "price": ""
                     },
                     {
-                        "name": "Ungersk gulasch med, saltgurka, smetana och potatispuré  195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Biffstroganoff med potatispuré, cremé fraiche och saltgurka",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
+                        "name": "Biffstroganoff med potatispuré, cremé fraiche och saltgurka   195",
                         "price": ""
                     },
                     {
@@ -203,11 +179,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                        "name": "Laxpudding med brynt smör & haricotsverts",
                         "price": "149"
                     },
                     {
-                        "name": "Kalops med kokt potatis & rödbetor",
+                        "name": "Plommonspäckad fläskkarré med gräddsås, ärtor, äpplemos & potatis",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Serveras mellan 11.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
