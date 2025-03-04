@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-03 09:09:30",
+    "last_updated": "2025-03-04 03:22:12",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Rödvinsbrässerad kycklingfilé (Polen) med tryffelsmaksatt potatispuré, syltlök och champinjoner",
+                        "name": "Ragu på högrev (Polen) med chili, vitlök, tomat, serveras med örtslungad pasta",
                         "price": "145"
                     },
                     {
-                        "name": "Pankofriterad skreitorsk (Norge) med gochujang-mayo, haricotsverts och ris",
+                        "name": "Fransk fiskgratäng på färsk koljafilé (Norge) med räkor, fänkålscrudité och pommes duchesse",
                         "price": "145"
                     },
                     {
-                        "name": "Vegetariska risfritters med basilikadipp, grillad aubergine och ris",
+                        "name": "Raggmunk med stekt fläsk (Sverige) eller friterade kikärtor med lingon",
                         "price": "145"
                     },
                     {
-                        "name": "Japansk yakiniku på entrecôte (Polen) med rostade sesamfrön, sesamcrème och ris",
+                        "name": "Wokade grönsaker med panerad tofu och ris",
                         "price": "145"
                     },
                     {
@@ -87,19 +87,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "SCHWEITZERSCHNITZEL  Med rödvinssky, ärtor och rostad potatis",
+                        "name": "STEKT FLÄSK Med raggmunk, rårörda lingon alt. löksås och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "KYCKLINGBURGARE Med sötsenap, B.B.Q, cheddarost, grönt, dressing och pommes frites PANERAD RÖDINGFILÉ",
+                        "name": "WALLENBERGARE Med gräddsås, ärtor, lingonsylt och potatismos",
                         "price": "139"
                     },
                     {
-                        "name": "Med skiratsmör, pepparrot crème, rostade rödbetor och kokt potatis",
+                        "name": "GRILLAD LAXFILÉ Med stuvad spenat och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "LASAGNE AL FORNO Toppad med ruccola och rödlök i en krämig parmesansås",
+                        "name": "PASTA Med Oxfilé i en krämig tryffel champinjonsås",
                         "price": "139"
                     }
                 ]
@@ -111,11 +111,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Korv Stroganoff med ris.",
+                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Pankopanerad kolja gurk majonnäs citron dill och kokt potatis.",
+                        "name": "Pocherad torsk skirat smör räkor dill pepparrot och kokt potatis",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Kycklinggryta (kycklingfilé, grönsaker, curry och grädde) serveras med ris",
                         "price": "149"
                     },
                     {
@@ -123,11 +127,11 @@
                         "price": "149"
                     },
                     {
-                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "name": "Caesarsallad kyckling räkor eller halloumi.",
                         "price": "149"
                     },
                     {
-                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
                     }
                 ]
@@ -139,7 +143,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -149,32 +153,7 @@
             "name": "Sjöpaviljongen",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Sallad med rensteksröra, syrad pumpa, matvete, rostad lök och kantareller  195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Vegetariska köttbullar med gräddsås, potatispuré rårörda lingon och pressgurka  195  Pankopanerad vitlingfilé med västkuströra, sallad på fänkål och gurka samt smörslungad potatis  195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Jägarbiff på svensk dovhjort med lök och skogssvampssky, potatispuré och inlagd gurka 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Biffstroganoff med potatispuré, cremé fraiche och saltgurka   195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur 295",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT  Brownie med färskostglass och hallonkompott",
-                        "price": ""
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -183,11 +162,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "name": "Pocherad koljafilé med vitvinssås smaksatt med citron, stekta grönsaker & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Isterband med gräslökstuvad potatis, rödvinssås & rödbetor",
+                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
                         "price": "149"
                     }
                 ]
