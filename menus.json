@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-05 03:20:54",
+    "last_updated": "2025-03-05 07:56:42",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -35,7 +35,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekfläsk - med raggmunk, löksås & lingon",
+                        "name": "Stekfläsk - med kokt potatis, löksås & lingon",
                         "price": "145"
                     },
                     {
