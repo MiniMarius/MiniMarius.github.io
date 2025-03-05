@@ -393,7 +393,7 @@ menus.append({
 })
 
 # Add a timestamp to the JSON data
-timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
 output_data = {
     "last_updated": timestamp,
     "restaurants": menus

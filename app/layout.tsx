@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="flex-grow">{children}</div>
-        <footer className="text-center text-gray-500 mt-4">
+        <footer className="text-center text-gray-400 pb-4 text-sm">
           Uppdaterad {menuData.last_updated}
         </footer>
       </body>
