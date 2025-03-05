@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-04 03:22:12",
+    "last_updated": "2025-03-05 03:20:54",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ragu på högrev (Polen) med chili, vitlök, tomat, serveras med örtslungad pasta",
+                        "name": "Garros oxrullader (Argentina) fyllda med duxellmassa och serveras med cognacsgräddsås, brödpanerad potatis och vinbärsgelé",
                         "price": "145"
                     },
                     {
-                        "name": "Fransk fiskgratäng på färsk koljafilé (Norge) med räkor, fänkålscrudité och pommes duchesse",
+                        "name": "Lättrimmad torskfilé (Norge) i chablissås med sotad purjolök och smörat ris",
                         "price": "145"
                     },
                     {
-                        "name": "Raggmunk med stekt fläsk (Sverige) eller friterade kikärtor med lingon",
+                        "name": "Vegetarisk rödbetsgryta med honungsgratinerad getost och rostade pinjenötter",
                         "price": "145"
                     },
                     {
-                        "name": "Wokade grönsaker med panerad tofu och ris",
+                        "name": "Kyckling (Polen) Tom Kha Gai",
                         "price": "145"
                     },
                     {
@@ -87,19 +87,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "STEKT FLÄSK Med raggmunk, rårörda lingon alt. löksås och kokt potatis",
+                        "name": "FLÄSKSKOMAKARLÅDA Med bacon, purjolökssky och potatismos",
                         "price": "139"
                     },
                     {
-                        "name": "WALLENBERGARE Med gräddsås, ärtor, lingonsylt och potatismos",
+                        "name": "VILTSKAVSGRYTA Med kantareller, rårörda lingon och potatismos",
                         "price": "139"
                     },
                     {
-                        "name": "GRILLAD LAXFILÉ Med stuvad spenat och kokt potatis",
+                        "name": "FRITERAD STRÖBAKAD TORSKFILÉ Med Västerbotten, kräftröra och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "PASTA Med Oxfilé i en krämig tryffel champinjonsås",
+                        "name": "PASTA Med kycklingfilé och grönsaker i en krämig curry sås",
                         "price": "139"
                     }
                 ]
@@ -111,15 +111,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
+                        "name": "Fläskschnitzel ärtor citron rödvinssås och rostade potatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Pocherad torsk skirat smör räkor dill pepparrot och kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Kycklinggryta (kycklingfilé, grönsaker, curry och grädde) serveras med ris",
+                        "name": "Ugnsbakad lax aioli citron dill och kokt potatis.",
                         "price": "149"
                     },
                     {
@@ -143,7 +139,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -162,11 +158,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pocherad koljafilé med vitvinssås smaksatt med citron, stekta grönsaker & kokt potatis",
+                        "name": "Dagens fisk med vitvinssås, lökfräst spenat & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
+                        "name": "Biff",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Lindström med stekt potatis, rödvinssås & stekt ägg",
                         "price": "149"
                     }
                 ]
