@@ -212,6 +212,8 @@ try:
     todays_menu = []
     current_day = None
 
+
+    # Ensure the container is found before proceeding
     for element in gustafsSoup.find_all(['h3', 'h5']):
         text = element.get_text(strip=True)
         if text in day_translationGustafs.values():
@@ -230,8 +232,12 @@ try:
                 else:
                     combined_items.append(cleaned_items[i])
                     i += 1
+            filtered_items = [
+                item for item in combined_items
+                if len(item) >= 15 and not re.search(r'\d', item)
+            ]
 
-            todays_menu = [{"name": item, "price": "149"} for item in combined_items]
+            todays_menu.extend([{"name": item, "price": "149"} for item in filtered_items])
 
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Gustafs menu: {e}")
