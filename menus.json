@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-07 03:22",
+    "last_updated": "2025-03-07 10:08",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -32,10 +32,6 @@
                     },
                     {
                         "name": "Lasagna alla burrata",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Från den 1/3 har vi restauranger skyldighet att meddela vart köttet och fisken kommer ifrån, vi väljer att skriva detta i menyn",
                         "price": "145"
                     }
                 ]
@@ -135,7 +131,39 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "0763 37 57 32",
+                        "name": "Kycklingfilé madeira sås serveras med potatisgratäng.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Fisk och skaldjursgryta saffran och aioli.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Lasagne al forno med ostsås.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Caesarsallad kyckling räkor eller halloumi.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumi.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Kebab tallrik med pommes tomatsås och vitlökssås.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Obs alla caesarsallad innehåller bacon krutonger parmesan och cesar dressing.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Inkl. smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar.",
                         "price": "149"
                     }
                 ]
@@ -159,6 +187,10 @@
             "menu": {
                 "dishes": [
                     {
+                        "name": "Sallad med kallrökt lax med örtsås, honungsrostade morötter, fänkål glasbakad gurka, potatis och ägg  195",
+                        "price": ""
+                    },
+                    {
                         "name": "Paj på Gammel knas med karameliserad spetskål, vita bönor och sås på tångrom 195",
                         "price": ""
                     },
@@ -167,7 +199,19 @@
                         "price": ""
                     },
                     {
-                        "name": "Jägarbiff på svensk dovhjort med lök och skogssvampssky, potatispuré och inlagd gurka 195Ärtsoppa med fläsk, korv och stark senapSamt plättar med jordgubbssylt och vispad grädde  195",
+                        "name": "Jägarbiff på svensk dovhjort med lök och skogssvampssky, potatispuré och pressgurka 195Wallenbergare med små ärtor, potatispuré, brynt smör och rårörda lingon 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Pytt Bellman med rå äggula, rödbeta och saltgurka  195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur 295",
+                        "price": ""
+                    },
+                    {
+                        "name": "DESSERT  Salt chokladkola tarte med kanderade mandlar och bärgelé 65",
                         "price": ""
                     }
                 ]
