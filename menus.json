@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-06 03:21",
+    "last_updated": "2025-03-07 03:22",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,35 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Kycklingschnitzel (Polen) Cordon bleu med chilimayo och stekt grönsaksris",
+                        "name": "Grillfredag…",
                         "price": "145"
                     },
                     {
-                        "name": "Mustig fisk och skaldjursgryta (Norge och Smögen) a la Garros med saffransaioli",
+                        "name": "Protein:",
                         "price": "145"
                     },
                     {
-                        "name": "Vegetariska falafel med tzatziki och tabbouleh",
+                        "name": "Grillad marinerad fläskkarré (Tyskland), äkta spansk chistorra (Spanien), grillad marinerad regnbågsfilé (Island)",
                         "price": "145"
                     },
                     {
-                        "name": "Wokad entrecôte (Polen) med grönsaker, hoi sin sås och ris",
+                        "name": "Tillbehör:",
                         "price": "145"
                     },
                     {
-                        "name": "Varje torsdag har vi pannkaksbuffé med vår hemlagade hallonsylt som dessert:)!",
+                        "name": "Chilibea, mojo på rökt paprika, potatiskaka fylld med cheddar, medelhavsgrönsaker",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vegetariskt:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Lasagna alla burrata",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Från den 1/3 har vi restauranger skyldighet att meddela vart köttet och fisken kommer ifrån, vi väljer att skriva detta i menyn",
                         "price": "145"
                     }
                 ]
@@ -39,7 +51,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Buffalo chicken - kyckling i het smörsås med picklad rödkål, majssalsa, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Miss piggy - friterad fläsk schnitzel med sesamgurka, sweet chili kräm, vårlök, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -63,7 +75,7 @@
                         "price": "175"
                     },
                     {
-                        "name": "Sweet onion - 150g burgare med cheddar, rostad lök\nsweet onion dressing, sallad & tomat. serveras med pommes & dipp",
+                        "name": "Bbq madness - 150g burgare med cheddar, bbq-mayo, bbq-slaw & majssalsa. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -87,23 +99,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "FILÉ OSCAR Med rödvinssky, bearnaisesås, sparris och rostad potatis",
+                        "name": "PEPPARRULLAD FLÄSKKARRÉ Med champinjonsås och klyft potatis",
                         "price": "139"
                     },
                     {
-                        "name": "OXBRINGA Med pepparrotsås och rotmos",
+                        "name": "KYCKLINGFILÉ Mozzarella och salsiccia fylld Med B.B.Q och klyft potatis PANERAD FLUNDRAFILÉ",
                         "price": "139"
                     },
                     {
-                        "name": "PANKOPANERAD KAPKUMMEL Med skaldjur, skagenröra och kokt potatis",
+                        "name": "Med dansk remouladsås, broccoli och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "SPAGHETTI FRUTTI DI MARE Med skaldjur och het tomatsås",
+                        "name": "PASTA BUSSOLA Med skinka och räkor i en krämig oreganosås",
                         "price": "139"
                     },
                     {
-                        "name": "VI BJUDER PANKAKOR SYLT OCH GRÄDDE",
+                        "name": "VI BJUDER DESSERT VECKANS TIPS: 179:-",
+                        "price": "139"
+                    },
+                    {
+                        "name": "GRILLMIX SPETT  Med bearnaisesås och pommes frites",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vegetarisk alternativt # Risotto med sparris och broccoli # Cannelloni vegetarian med Ricotaost kantareller Vi serverar även en Dagens Sallad samt Pizza från nr 1-18 under lunchtid Lunchkuponger 10 st 1290:- Öppet: Mån - Tors 10:00-22:00 Fre10:00-23:00 Lör-11:30-23:00 -Sön 11:30-22:00 Adress: Gustavslundsvägen 173 Tel: 08-251520",
                         "price": "139"
                     }
                 ]
@@ -115,27 +135,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ärtsoppa med pannkaks buffé.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Kalv köttbullar gräddsås gurka lingon och potatis puré.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Fish and chips tartarsås citron dill och pommes frites.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Caesarsallad kyckling räkor eller halloumi.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Per special Caesarsallad räkor och halloumi.",
+                        "name": "0763 37 57 32",
                         "price": "149"
                     }
                 ]
@@ -147,7 +147,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -179,11 +179,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                        "name": "Dagens fisk med brynt smör, rödbetor, svamp, potatis & baconkrisp",
                         "price": "149"
                     },
                     {
-                        "name": "Kalops med kokt potatis & rödbetor",
+                        "name": "Plommonspäckad fläskkarré med gräddsås, ärtor, äpplemos & potatis",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Serveras mellan 11.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
