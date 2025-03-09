@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-08 03:16",
+    "last_updated": "2025-03-09 03:11",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -17,19 +17,59 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Schnitzel - dubbelpanerad kyckling med örtslungad potatis, rödvinssås, vitlök-& persiljesmör",
+                        "price": "155"
+                    },
+                    {
+                        "name": "Lemon chic - citron-& vitlöksbakad kyckling, aioli\ntomat-& löksallad, sushiris, rawsallad, edamame, gari & rättika",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Carribean feta - jerkkryddad friterad fetaost, vårlök,\nananassalsa & gochujang-mayo, rawsallad, edamame, sushiris, rättika & gari",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
+                        "price": "175"
+                    },
+                    {
+                        "name": "Spicy classic - 150g burgare med cheddar, bacon, sallad\nchili-mayo & picklad gurka. serveras med pommes & dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Posh johnsson - 150g burgare med cheddar, tomat, \nsallad, lök & tryffel-mayo. serveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Veggison - sojaburgare med honungsdijonaise,  \nvegansk ost, tomat, sallad & \nkarameliserad lök.\nserveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "The flipp - 150g \"mustard flipp\" burgare med chipotle-bacon, krispig lök, brynt smör mayo, senapspicklad gurka & sallad . serveras med pommes och dipp",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Error",
-                        "price": "Network issue"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -52,31 +92,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med kallrökt lax med örtsås, honungsrostade morötter, fänkål glasbakad gurka, potatis och ägg  195",
+                        "name": "Halloumisallad med syrad silverlök, jalapeño, honungoch nakenhavre 195Vegetarisk schnitzel med bönkräm, brynt smör och kålsallad 195",
                         "price": ""
                     },
                     {
-                        "name": "Paj på Gammel knas med karameliserad spetskål, vita bönor och sås på tångrom 195",
+                        "name": "Pocherad fjällbrosme filé med gulbetor, räkor,spenat och örtsås 195",
                         "price": ""
                     },
                     {
-                        "name": "Havets wallenbergare med potatispuré, små gröna ärtor,färsk riven pepparrot och brynt smör 195",
+                        "name": "Kalvgryta med vitt vin, skogschampinjoner, pärllök, rotfrukter, källarrökt fläsk och parmesanpuré 195Wallenbergare med små ärtor, potatispuré, brynt smör och rårörda lingon 195",
                         "price": ""
                     },
                     {
-                        "name": "Jägarbiff på svensk dovhjort med lök och skogssvampssky, potatispuré och pressgurka 195Wallenbergare med små ärtor, potatispuré, brynt smör och rårörda lingon 195",
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
                         "price": ""
                     },
                     {
-                        "name": "Pytt Bellman med rå äggula, rödbeta och saltgurka  195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur 295",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT  Salt chokladkola tarte med kanderade mandlar och bärgelé 65",
+                        "name": "DESSERT  Nyfriterad munk 65",
                         "price": ""
                     }
                 ]
