@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-10 03:12",
+    "last_updated": "2025-03-10 09:07",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -11,7 +11,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Pankofriterad färsk smögensej med tartarsås, potatis och stekt fänkål",
+                        "name": "Pankofriterad färsk smögensej med paprikadipp, potatis och stekt fänkål",
                         "price": "145"
                     },
                     {
@@ -20,6 +20,10 @@
                     },
                     {
                         "name": "Wokade tigerräkor med grönsaker och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Extrarätt: Vegetarisk lasagne",
                         "price": "145"
                     }
                 ]
@@ -107,11 +111,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Korv Stroganoff med ris.",
+                        "name": "Skomakarlåda (fläsknoisette bacon purjolök rödvinssås) serveras med potatis puré.",
                         "price": "149"
                     },
                     {
-                        "name": "Pankopanerad kolja gurk majonnäs citron dill och kokt potatis.",
+                        "name": "Pankopanerad torsk gurkmajonnäs citron dill och kokt potatis.",
                         "price": "149"
                     },
                     {
