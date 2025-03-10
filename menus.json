@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-09 03:11",
+    "last_updated": "2025-03-10 03:12",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Boeuf Bourguignon (Kött från Polen) med ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Pankofriterad färsk smögensej med tartarsås, potatis och stekt fänkål",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Bön och grönsaksfyllda quesadillas med tomatsallad och avokadoröra",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Wokade tigerräkor med grönsaker och ris",
                         "price": "145"
                     }
                 ]
@@ -69,21 +81,64 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "FLÄSKFILÉ Med kantarellsås och potatisgratäng",
+                        "price": "139"
+                    },
+                    {
+                        "name": "MEXIKANSK KÖTTGRYTA Med jalapeno och ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANERAD GÖSFILÉ Med skirat smör, champinjoner, kapris, purjolök och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med oxfilé i en krämig champinjon sås",
+                        "price": "139"
+                    }
+                ]
             }
         },
         {
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Korv Stroganoff med ris.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Pankopanerad kolja gurk majonnäs citron dill och kokt potatis.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -118,7 +173,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Kycklinglårfilé med currysås, rostad potatis samt broccoli & blomkål",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
