@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-10 09:07",
+    "last_updated": "2025-03-11 03:23",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Boeuf Bourguignon (Kött från Polen) med ris",
+                        "name": "GFC (Garros fried chicken) (Kyckling från Polen) med ostdipp, klyftpotatis och haricotsverts",
                         "price": "145"
                     },
                     {
-                        "name": "Pankofriterad färsk smögensej med paprikadipp, potatis och stekt fänkål",
+                        "name": "Ångad lättrimmad färsk koljafilé (Fisk från Norge) med beurre blanc, blancherade morötter och kokt potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Bön och grönsaksfyllda quesadillas med tomatsallad och avokadoröra",
+                        "name": "Zucchinipiccata med tomatsås och haricotsverts",
                         "price": "145"
                     },
                     {
-                        "name": "Wokade tigerräkor med grönsaker och ris",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Extrarätt: Vegetarisk lasagne",
+                        "name": "Wokat ankbröst (Kött från Frankrike) med grönsaker, ingefära, apelsin och ris",
                         "price": "145"
                     }
                 ]
@@ -87,19 +83,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "FLÄSKFILÉ Med kantarellsås och potatisgratäng",
+                        "name": "STEKT FLÄSK Med raggmunk, rårörda lingon alt. löksås och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "MEXIKANSK KÖTTGRYTA Med jalapeno och ris",
+                        "name": "KÖTTBULLAR Med gräddsås, lingonsylt och potatismos",
                         "price": "139"
                     },
                     {
-                        "name": "PANERAD GÖSFILÉ Med skirat smör, champinjoner, kapris, purjolök och kokt potatis",
+                        "name": "PANERAD FLUNDRAFILÈ Med avocadoröra och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "PASTA Med oxfilé i en krämig champinjon sås",
+                        "name": "PASTA Med kräftstjärtar och champinjoner i en krämig pesto sås",
                         "price": "139"
                     }
                 ]
@@ -111,23 +107,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Skomakarlåda (fläsknoisette bacon purjolök rödvinssås) serveras med potatis puré.",
+                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Pankopanerad torsk gurkmajonnäs citron dill och kokt potatis.",
+                        "name": "Pocherad torsk ägg och persilja sås serveras med kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "name": "Nasi goreng stekt ägg och",
                         "price": "149"
                     },
                     {
-                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "name": "Sriracha majonnäs Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
                         "price": "149"
                     },
                     {
-                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "name": "Caesarsallad kyckling räkor eller halloumi.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
                     }
                 ]
@@ -139,7 +139,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -159,7 +159,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Kalvgryta med vitt vin, skogschampinjoner, pärllök, rotfrukter, källarrökt fläsk och parmesanpuré 195Wallenbergare med små ärtor, potatispuré, brynt smör och rårörda lingon 195",
+                        "name": "Kalvgryta med vitt vin, skogschampinjoner, pärllök, rotfrukter, källarrökt fläsk och parmesanpuré 195Stekt fläsk med löksås och kokt potatis 195",
                         "price": ""
                     },
                     {
@@ -179,11 +179,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "name": "Pocherad koljafilé med vitvinssås smaksatt med citron, stekta grönsaker & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Kycklinglårfilé med currysås, rostad potatis samt broccoli & blomkål",
+                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
                         "price": "149"
                     }
                 ]
