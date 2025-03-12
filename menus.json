@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-11 03:23",
+    "last_updated": "2025-03-12 03:23",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "GFC (Garros fried chicken) (Kyckling från Polen) med ostdipp, klyftpotatis och haricotsverts",
+                        "name": "Pepparstek (Kött från Argentina) av nöt med grönpepparsås, bakad tomat och råstekt potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Ångad lättrimmad färsk koljafilé (Fisk från Norge) med beurre blanc, blancherade morötter och kokt potatis",
+                        "name": "Ugnsbakad rödingfilé (Fisk från Jämtland) florentine (Färsk spenat, vitvinssås) med pressad potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Zucchinipiccata med tomatsås och haricotsverts",
+                        "name": "Vegetarisk korv stroganoff med potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Wokat ankbröst (Kött från Frankrike) med grönsaker, ingefära, apelsin och ris",
+                        "name": "Wokad biff (Kött från Sverige) Chop Suey med ris",
                         "price": "145"
                     }
                 ]
@@ -83,19 +83,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "STEKT FLÄSK Med raggmunk, rårörda lingon alt. löksås och kokt potatis",
+                        "name": "FLÄSKNOISETTE Med rödvinssky, bearnaisesås och rostad potatis",
                         "price": "139"
                     },
                     {
-                        "name": "KÖTTBULLAR Med gräddsås, lingonsylt och potatismos",
+                        "name": "KYCKLINGBURGARE Med B.B.Q, cheddarost, saltgurka, grönt, dressing och pommes frites PANKOPANERAD REGNBÅGSFILÉ",
                         "price": "139"
                     },
                     {
-                        "name": "PANERAD FLUNDRAFILÈ Med avocadoröra och kokt potatis",
+                        "name": "Med fetaostcrème och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "PASTA Med kräftstjärtar och champinjoner i en krämig pesto sås",
+                        "name": "FETTUCINE AL AVOCADO Med scampi, färsk chili, vitlök och persilja i en krämig hummer sås",
                         "price": "139"
                     }
                 ]
@@ -105,32 +105,7 @@
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Pocherad torsk ägg och persilja sås serveras med kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Nasi goreng stekt ägg och",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Sriracha majonnäs Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Caesarsallad kyckling räkor eller halloumi.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Per special Caesarsallad räkor och halloumi.",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -139,7 +114,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -179,11 +154,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pocherad koljafilé med vitvinssås smaksatt med citron, stekta grönsaker & kokt potatis",
+                        "name": "Fisk med vitvinssås, citronsauterad kålrabbi, spenat & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
+                        "name": "Stekt kycklinglårfilé med rostade rotfrukter & rödvinssås",
                         "price": "149"
                     }
                 ]
