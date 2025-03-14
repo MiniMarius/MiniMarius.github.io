@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-13 03:23",
+    "last_updated": "2025-03-14 03:22",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Italiens schnitzel (Kött från Sverige) med pesto, barolosås, örtpotatis",
+                        "name": "Grillfredag…",
                         "price": "145"
                     },
                     {
-                        "name": "Saffransstuvad fiskgryta (Torsk från Nordatlanten) med chili, salladslök och ris",
+                        "name": "Protein: Grillad butchers steak (Kalv från Holland), grillad halloumi, grillad rödspätta (Fisk från Nordatlanten)",
                         "price": "145"
                     },
                     {
-                        "name": "Helbakad blomkål med pesto och örtpotatis",
+                        "name": "Tillbehör:  Våra egna pommes, Texas mayo, chimichurri, ugnsgrillad broccoli med chili och vitlök",
                         "price": "145"
                     },
                     {
-                        "name": "Knaperbakad fläsksida (Kött från Sverige) med strimlade grönsaker i sojamarinad med ris",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Varje torsdag har vi pannkaksbuffé med vår hemlagade hallonsylt som dessert!",
+                        "name": "Vegetariskt: Grillad halloumi, grillad saltbakad rotselleri med ovan tillbehör",
                         "price": "145"
                     }
                 ]
@@ -87,23 +83,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "GRILLAD ENTRECOTE Med rödvinssky, café de paris och rostad potatis",
+                        "name": "WIENERSCHNITZEL Med rödvinssky, bearnaisesås och klyftpotatis",
                         "price": "139"
                     },
                     {
-                        "name": "GRILL B.B.Q- RIBBS Med lökringar, coleslaw och pommes frites",
+                        "name": "WOKAD KYCKLINGFILÉ Med jordnötssås och grönsaker ris",
                         "price": "139"
                     },
                     {
-                        "name": "UGNSBAKAD TORSKFILÈ Med vitvinssås och kokt potatis",
+                        "name": "LAX & SCAMPISPETT Med saffransås och grönsaker ris",
                         "price": "139"
                     },
                     {
-                        "name": "PASTA Med fläskfilé och grönsaker i en krämig dragonsås",
+                        "name": "LASAGNE AL FORNO Med ruccola, rödlök och krämig parmesan sås",
                         "price": "139"
                     },
                     {
-                        "name": "VI BJUDER PANKAKOR SYLT OCH GRÄDDE",
+                        "name": "VI BJUDER DESSERT VECKANS TIPS: 179:-",
+                        "price": "139"
+                    },
+                    {
+                        "name": "GRILLMIX SPETT  Med bearnaisesås och pommes frites",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vegetarisk alternativt # Risotto med sparris och broccoli # Cannelloni vegetarian med Ricotaost kantareller Vi serverar även en Dagens Sallad samt Pizza från nr 1-18 under lunchtid Lunchkuponger 10 st 1290:- Öppet: Mån - Tors 10:00-22:00 Fre10:00-23:00 Lör-11:30-23:00 -Sön 11:30-22:00 Adress: Gustavslundsvägen 173 Tel: 08-251520",
                         "price": "139"
                     }
                 ]
@@ -115,19 +119,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ärtsoppa med pannkaksbuffé.",
+                        "name": "Kyckling spett timjansky tzatziki och pommes.",
                         "price": "149"
                     },
                     {
-                        "name": "Biff ala Lindström kryddsmör rödvinssås och råstekt potatis.",
+                        "name": "Husets fisk och skaldjursgryta saffran och aioli.",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad kolja skagenröra dill citron och kokt potatis.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Dillkött med kokt potatis.",
+                        "name": "Lasagne al forno med ostsås.",
                         "price": "149"
                     },
                     {
@@ -141,6 +141,18 @@
                     {
                         "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
+                    },
+                    {
+                        "name": "Kebab tallrik med pommes tomatsås och vitlökssås.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Obs alla caesarsallad innehåller bacon krutonger parmesan och cesar dressing.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Inkl. smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar.",
+                        "price": "149"
                     }
                 ]
             }
@@ -151,7 +163,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -191,11 +203,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                        "name": "Dagens fisk med brynt smör, broccoli & champinjon, friterad palsternacka & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Tomatbaserad högrevsgryta med champinjoner, bönor & ris",
+                        "name": "Lammfärsbiff med tzatziki, rostad potatis, tomat, bönor & rödvinssås",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
