@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-16 03:26",
+    "last_updated": "2025-03-17 03:26",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Köttbullar med gräddsås, lingon, pressgurka och potatispuré",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Fiskpiccata på färsk smögensej med tomatsås, stekt zucchini och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vegetarisk schnitzel med pesto och bakad blomkål",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Wokad biff med grönsaker i söt sojasås",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Fråga personalen om allergier och ursprung",
                         "price": "145"
                     }
                 ]
@@ -69,21 +85,52 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "HELSTEKT FLÄSKFILÉ med rosépeppar sås och klyft potatis FLYGANDE JAKOB  och ris WOKAD SCAMPI med masman curry och grönsaker ris LASAGNE AL FORNO toppad med ruccola rödlök och parmesan",
+                        "price": "139"
+                    }
+                ]
             }
         },
         {
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Skomakarlåda (fläsknoisette bacon purjolök rödvinssås) serveras med potatis puré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Pankopanerad torsk gurkmajonnäs citron dill och kokt potatis.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -92,23 +139,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Halloumisallad med syrad silverlök, jalapeño, honungoch nakenhavre 195Vegetarisk schnitzel med bönkräm, brynt smör och kålsallad 195",
-                        "price": ""
+                        "name": "Sallad med friterad getost, bulgur, nektarin, betor,valnötter, basilika och honungsdressing",
+                        "price": "195"
                     },
                     {
-                        "name": "Halstrad lax med dijonhollandaise, broccoli och spenat 195",
-                        "price": ""
+                        "name": "1",
+                        "price": "195"
                     },
                     {
-                        "name": "Slottsstek på kalv med gräddsås, svartvinbärsgele, pressgurka och glaserade morötter 195Dansk sjömansbiff med saltgurka 195",
-                        "price": ""
+                        "name": "Ångad skrei med gubbröra, citron, brynt smöroch färsk riven pepparrot",
+                        "price": "195"
                     },
                     {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
-                        "price": ""
+                        "name": "Dansk sjömansbiff med saltgurka",
+                        "price": "195"
                     },
                     {
-                        "name": "DESSERT  Nyfriterad munk",
+                        "name": "Slottsstek på kalv med gräddsås, svartvinbärsgele, pressgurka och glaserade morötter",
+                        "price": "195"
+                    },
+                    {
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
+                        "price": "295"
+                    },
+                    {
+                        "name": "DESSERT  Chocolate chip cookie med marconamandlar,hallon och vaniljparfait",
                         "price": ""
                     }
                 ]
@@ -118,7 +173,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Isterband med gräslökstuvad potatis & rödbetor",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
