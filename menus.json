@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-17 09:09",
+    "last_updated": "2025-03-18 03:25",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Köttbullar med gräddsås, lingon, pressgurka och potatispuré",
+                        "name": "Raggmunk med stekt fläsk och rårörda lingon",
                         "price": "145"
                     },
                     {
-                        "name": "Rimmad lax med dillstuvad potatis och citrusångade ärtor",
+                        "name": "Ångad färsk smögensej med smörsås, stekt zucchini och pommes duchesse",
                         "price": "145"
                     },
                     {
-                        "name": "Vegetarisk schnitzel med pesto och bakad blomkål",
+                        "name": "Grekisk fetaostpaj med soltorkad tomatcrème",
                         "price": "145"
                     },
                     {
-                        "name": "Wokad biff med grönsaker i söt sojasås",
+                        "name": "Knaprig fläskfilé med sötsur sås, wokade grönsaker och ris",
                         "price": "145"
                     },
                     {
@@ -35,15 +35,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Schnitzel - dubbelpanerad kyckling med örtslungad potatis, rödvinssås, vitlök-& persiljesmör",
-                        "price": "155"
+                        "name": "Oxpytt - ox-pyttipanna med inlagd gurka, picklad rödbeta & stekt ägg",
+                        "price": "139"
                     },
                     {
-                        "name": "Garlic n' pepper - garlic & pepper fried chicken, svamp,\närtskott & syrad sojamayo, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Sticky chicken - hoisin-slungad kyckling med gurksalsa, vårlök,  sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
-                        "name": "Carribean feta - jerkkryddad friterad fetaost, vårlök,\nananassalsa & gochujang-mayo, rawsallad, edamame, sushiris, rättika & gari",
+                        "name": "No chicken - friterad no chicken chicken, \npicklad gurka, coleslaw & hot mayo, rawsallad, edamame, sushiris, rättika & gari",
                         "price": "125"
                     },
                     {
@@ -63,15 +63,15 @@
                         "price": "175"
                     },
                     {
-                        "name": "Bea-trix - 150g burgare med cheddar, bacon,  sallad\ndragon-mayo & syrad lök. serveras med pommes & dipp",
+                        "name": "Italian job - 150g burgare med cheddar, basilika, tomat-& löksallad och sallad. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Posh johnsson - 150g burgare med cheddar, tomat, \nsallad, lök & tryffel-mayo. serveras med pommes och dipp",
+                        "name": "Dubbel cheese - 150g burgare med cheddar, pepper jack, karamelliserad lök & sallad. serveras med pommes och dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Veggison - sojaburgare med honungsdijonaise,  \nvegansk ost, tomat, sallad & \nkarameliserad lök.\nserveras med pommes och dipp",
+                        "name": "Tropical - friterad halloumi med ananassalsa,\n syrad lök, sallad & chipotle-mayo. \nserveras med pommes och dipp",
                         "price": "129"
                     },
                     {
@@ -87,7 +87,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "HELSTEKT FLÄSKFILÉ med rosépeppar sås och klyft potatis FLYGANDE JAKOB  och ris WOKAD SCAMPI med masman curry och grönsaker ris LASAGNE AL FORNO toppad med ruccola rödlök och parmesan",
+                        "name": "STEKT FLÄSK med raggmunk rårörda lingonalt lök sås och kokt potatis TEXAS PANBIFF med färsk jalapeno krämig ost B.B.Q sås och rostad potatis GRILLAD LAXFILÉ med basilika crème och sparris saffran risotto PASTA MED KYCKLINGFILÉ grönsaker i en krämig dragonsås",
                         "price": "139"
                     }
                 ]
@@ -99,11 +99,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fläsknoisette champinjonsås och klyftpotatis.",
+                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad skäddafilé remouladsås dill citron och kokt potatis.",
+                        "name": "Pocherad torsk filé vitvinssås purjolök rostad bacon och potatis puré",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Kyckling spett timjansky tzatziki och potatis puré",
                         "price": "149"
                     },
                     {
@@ -111,11 +115,11 @@
                         "price": "149"
                     },
                     {
-                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "name": "Caesarsallad kyckling räkor eller halloumi.",
                         "price": "149"
                     },
                     {
-                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
                     }
                 ]
@@ -127,7 +131,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -143,7 +147,7 @@
                         "price": "195"
                     },
                     {
-                        "name": "1",
+                        "name": "Smörstekt gnocchi, tomatsås, ramslöks och mandelpesto, råstekt blomkål och marconamandlar",
                         "price": "195"
                     },
                     {
@@ -155,8 +159,8 @@
                         "price": "195"
                     },
                     {
-                        "name": "Slottsstek på kalv med gräddsås, svartvinbärsgele, pressgurka och glaserade morötter",
-                        "price": "195"
+                        "name": "Isterband med persiljestuvad potatis, hemmagjord grov senap, rödbeta och rödvinssky 195",
+                        "price": ""
                     },
                     {
                         "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
@@ -175,11 +179,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "name": "Pocherad spättafilé med vitvinssås, stekta grönsaker & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Isterband med gräslökstuvad potatis & rödbetor",
+                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
                         "price": "149"
                     }
                 ]
