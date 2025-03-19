@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-18 03:25",
+    "last_updated": "2025-03-19 03:24",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Raggmunk med stekt fläsk och rårörda lingon",
+                        "name": "Confiterad anka med surkål, dijoncrème, potatispuré",
                         "price": "145"
                     },
                     {
-                        "name": "Ångad färsk smögensej med smörsås, stekt zucchini och pommes duchesse",
+                        "name": "Gratinerad regnbågsfilé med potatistäcke, vitvinssås, slungad spenat",
                         "price": "145"
                     },
                     {
-                        "name": "Grekisk fetaostpaj med soltorkad tomatcrème",
+                        "name": "Grillad halloumi med citronettesallad, picklad rättika och potatispuré",
                         "price": "145"
                     },
                     {
-                        "name": "Knaprig fläskfilé med sötsur sås, wokade grönsaker och ris",
+                        "name": "Wokad kyckling med röd curry, kokos, grönsaker och ris",
                         "price": "145"
                     },
                     {
@@ -87,7 +87,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "STEKT FLÄSK med raggmunk rårörda lingonalt lök sås och kokt potatis TEXAS PANBIFF med färsk jalapeno krämig ost B.B.Q sås och rostad potatis GRILLAD LAXFILÉ med basilika crème och sparris saffran risotto PASTA MED KYCKLINGFILÉ grönsaker i en krämig dragonsås",
+                        "name": "FLÄSK SKOMAKARLÅDA med bacon purjolöksky och potatismos KÖTTBULLAR med gräddsås lingon sylt och potatismos PANERAD FLUNDRAFILÉ med dansk remoulad sås och kokt potatis PASTA ANIPASTO med italiensk charkuteri tomat basilika i en krämig tallegiaoost sås",
                         "price": "139"
                     }
                 ]
@@ -99,15 +99,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
+                        "name": "Ost och skink schnitzel rödvinssås ärtor citron och rostade potatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Pocherad torsk filé vitvinssås purjolök rostad bacon och potatis puré",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Kyckling spett timjansky tzatziki och potatis puré",
+                        "name": "Ugnsbakad lax romsås dill citron och färsk potatis.",
                         "price": "149"
                     },
                     {
@@ -131,7 +127,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -155,7 +151,7 @@
                         "price": "195"
                     },
                     {
-                        "name": "Dansk sjömansbiff med saltgurka",
+                        "name": "Pannbiff med lök, saltgurka och potatispuré 1",
                         "price": "195"
                     },
                     {
@@ -179,11 +175,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pocherad spättafilé med vitvinssås, stekta grönsaker & kokt potatis",
+                        "name": "Fisk med citronsås, bakad blomkål, kokt potatis & fänkålscrudité",
                         "price": "149"
                     },
                     {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
+                        "name": "Tomatbaserad högrevsgryta med champinjoner, bönor & ris",
                         "price": "149"
                     }
                 ]
