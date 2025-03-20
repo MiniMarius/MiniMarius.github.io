@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-19 03:24",
+    "last_updated": "2025-03-20 03:28",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Confiterad anka med surkål, dijoncrème, potatispuré",
+                        "name": "Biff Rydberg med pepparrot, äggula, senapscrème",
                         "price": "145"
                     },
                     {
-                        "name": "Gratinerad regnbågsfilé med potatistäcke, vitvinssås, slungad spenat",
+                        "name": "Fiskknyte med svamp, sparris, café de paris smör, potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Grillad halloumi med citronettesallad, picklad rättika och potatispuré",
+                        "name": "Crepes fyllda med svampcrème, serveras med stekta grönsaker",
                         "price": "145"
                     },
                     {
-                        "name": "Wokad kyckling med röd curry, kokos, grönsaker och ris",
+                        "name": "Torpedoräkor med grön curry, grönsaker och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Varje torsdag har vi pannkaksbuffé med vår egen hallonsylt som dessert!",
                         "price": "145"
                     },
                     {
@@ -33,52 +37,7 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Oxpytt - ox-pyttipanna med inlagd gurka, picklad rödbeta & stekt ägg",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Sticky chicken - hoisin-slungad kyckling med gurksalsa, vårlök,  sushiris, rawsallad, edamame, gari & rättika",
-                        "price": "125"
-                    },
-                    {
-                        "name": "No chicken - friterad no chicken chicken, \npicklad gurka, coleslaw & hot mayo, rawsallad, edamame, sushiris, rättika & gari",
-                        "price": "125"
-                    },
-                    {
-                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
-                        "price": "175"
-                    },
-                    {
-                        "name": "Italian job - 150g burgare med cheddar, basilika, tomat-& löksallad och sallad. serveras med pommes & dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Dubbel cheese - 150g burgare med cheddar, pepper jack, karamelliserad lök & sallad. serveras med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Tropical - friterad halloumi med ananassalsa,\n syrad lök, sallad & chipotle-mayo. \nserveras med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "The flipp - 150g \"mustard flipp\" burgare med chipotle-bacon, krispig lök, brynt smör mayo, senapspicklad gurka & sallad . serveras med pommes och dipp",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -87,8 +46,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "FLÄSK SKOMAKARLÅDA med bacon purjolöksky och potatismos KÖTTBULLAR med gräddsås lingon sylt och potatismos PANERAD FLUNDRAFILÉ med dansk remoulad sås och kokt potatis PASTA ANIPASTO med italiensk charkuteri tomat basilika i en krämig tallegiaoost sås",
-                        "price": "139"
+                        "name": "Error",
+                        "price": "Network issue"
                     }
                 ]
             }
@@ -99,11 +58,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ost och skink schnitzel rödvinssås ärtor citron och rostade potatis.",
+                        "name": "Ärtsoppa med pannkaksbuffé.",
                         "price": "149"
                     },
                     {
-                        "name": "Ugnsbakad lax romsås dill citron och färsk potatis.",
+                        "name": "Wallenbergare skirat smör ärtor lingon och potatis puré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Panerad rödspätta västkust röra citron dill och kokt potatis.",
                         "price": "149"
                     },
                     {
@@ -127,7 +90,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
+                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
                         "price": "132"
                     }
                 ]
@@ -175,11 +138,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fisk med citronsås, bakad blomkål, kokt potatis & fänkålscrudité",
+                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
                         "price": "149"
                     },
                     {
-                        "name": "Tomatbaserad högrevsgryta med champinjoner, bönor & ris",
+                        "name": "Lammkorv med rostad potatis & grönsaker samt rödvinssås",
                         "price": "149"
                     }
                 ]
