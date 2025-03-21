@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-20 03:28",
+    "last_updated": "2025-03-21 03:30",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Biff Rydberg med pepparrot, äggula, senapscrème",
+                        "name": "Grillfredag…",
                         "price": "145"
                     },
                     {
-                        "name": "Fiskknyte med svamp, sparris, café de paris smör, potatis",
+                        "name": "Protein:",
                         "price": "145"
                     },
                     {
-                        "name": "Crepes fyllda med svampcrème, serveras med stekta grönsaker",
+                        "name": "Grillad Tri-Tip av kalv, äkta spansk chorizo, grillad gös",
                         "price": "145"
                     },
                     {
-                        "name": "Torpedoräkor med grön curry, grönsaker och ris",
+                        "name": "Tillbehör:",
                         "price": "145"
                     },
                     {
-                        "name": "Varje torsdag har vi pannkaksbuffé med vår egen hallonsylt som dessert!",
+                        "name": "Rösti, helgrillad blomkål, bearnaise, salsa verde",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vegetariskt:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Grillad burrito fylld med bönsalsa, serveras med guacamole",
                         "price": "145"
                     },
                     {
@@ -58,15 +66,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ärtsoppa med pannkaksbuffé.",
+                        "name": "Lammstek Provençale råstekt potatis rosmarinsky och vitlökssmör.",
                         "price": "149"
                     },
                     {
-                        "name": "Wallenbergare skirat smör ärtor lingon och potatis puré.",
+                        "name": "Fisk och skaldjursgryta saffran och aioli.",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad rödspätta västkust röra citron dill och kokt potatis.",
+                        "name": "Lasagne al forno med ostsås.",
                         "price": "149"
                     },
                     {
@@ -80,6 +88,18 @@
                     {
                         "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
+                    },
+                    {
+                        "name": "Kebab tallrik med pommes tomatsås och vitlökssås.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Obs alla caesarsallad innehåller bacon krutonger parmesan och cesar dressing.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Inkl. smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar.",
+                        "price": "149"
                     }
                 ]
             }
@@ -90,7 +110,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -110,20 +130,20 @@
                         "price": "195"
                     },
                     {
-                        "name": "Ångad skrei med gubbröra, citron, brynt smöroch färsk riven pepparrot",
+                        "name": "Frikassé på lax och sej med hummerskum, spenat, räkor och fänkålscrudité",
                         "price": "195"
                     },
                     {
-                        "name": "Pannbiff med lök, saltgurka och potatispuré 1",
-                        "price": "195"
-                    },
-                    {
-                        "name": "Isterband med persiljestuvad potatis, hemmagjord grov senap, rödbeta och rödvinssky 195",
+                        "name": "Italiensk högrevsgryta med vitt vin, Karl-Johansvamp, kronärtskocka och oliver, serveras med potatispuré",
                         "price": ""
                     },
                     {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur",
-                        "price": "295"
+                        "name": "195 Lammfärsbiffar med ramslöksmör, zucchini, skogschampinjoner, rödvinssky och rostad potatis 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur 295Kalvlever Anglais med bacon, kaprisoch rödvinssås 265",
+                        "price": ""
                     },
                     {
                         "name": "DESSERT  Chocolate chip cookie med marconamandlar,hallon och vaniljparfait",
@@ -138,11 +158,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                        "name": "Örtbakad fjällbrosme med blåmusslor, stekta grönsaker & musselsås",
                         "price": "149"
                     },
                     {
-                        "name": "Lammkorv med rostad potatis & grönsaker samt rödvinssås",
+                        "name": "Lammfärsbiff med svampsås, potatismos, saltgurka & svartvinbärsgelé",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
