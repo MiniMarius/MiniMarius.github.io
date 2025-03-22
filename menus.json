@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-21 03:30",
+    "last_updated": "2025-03-22 03:25",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,35 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillfredag…",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Protein:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Grillad Tri-Tip av kalv, äkta spansk chorizo, grillad gös",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Tillbehör:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Rösti, helgrillad blomkål, bearnaise, salsa verde",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vegetariskt:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Grillad burrito fylld med bönsalsa, serveras med guacamole",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Fråga personalen om allergier och ursprung",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -45,75 +17,73 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Oxpytt - ox-pyttipanna med inlagd gurka, picklad rödbeta & stekt ägg",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Lao chicken - strimlad kycklinglårfilé med chili, \nkoriander, gurksalsa, picklad rödkål &\nsrirachamayo,  sushiris, rawsallad, edamame, gari & rättika",
+                        "price": "125"
+                    },
+                    {
+                        "name": "No chicken - friterad no chicken chicken, \npicklad gurka, coleslaw & hot mayo, rawsallad, edamame, sushiris, rättika & gari",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
+                        "price": "175"
+                    },
+                    {
+                        "name": "Texarkana - 150g burgare med cheddar, pulled pork, \nnachos, sallad & sriracha-mayo. serveras med pommes & dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Dubbel cheese - 150g burgare med cheddar, pepper jack, karamelliserad lök & sallad. serveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Tropical - friterad halloumi med ananassalsa,\n syrad lök, sallad & chipotle-mayo. \nserveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "The flipp - 150g \"mustard flipp\" burgare med chipotle-bacon, krispig lök, brynt smör mayo, senapspicklad gurka & sallad . serveras med pommes och dipp",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Error",
-                        "price": "Network issue"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Lammstek Provençale råstekt potatis rosmarinsky och vitlökssmör.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Fisk och skaldjursgryta saffran och aioli.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Lasagne al forno med ostsås.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Caesarsallad kyckling räkor eller halloumi.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Per special Caesarsallad räkor och halloumi.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Kebab tallrik med pommes tomatsås och vitlökssås.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Obs alla caesarsallad innehåller bacon krutonger parmesan och cesar dressing.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Inkl. smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar.",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -156,24 +126,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Örtbakad fjällbrosme med blåmusslor, stekta grönsaker & musselsås",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Lammfärsbiff med svampsås, potatismos, saltgurka & svartvinbärsgelé",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
