@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-24 09:23",
+    "last_updated": "2025-03-24 09:32",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -25,10 +25,6 @@
                     {
                         "name": "Dagens varma grönsak: Spetskål (ingår i alla rätter)",
                         "price": "145"
-                    },
-                    {
-                        "name": "Fråga personalen om allergier och ursprung",
-                        "price": "145"
                     }
                 ]
             }
@@ -37,19 +33,59 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Chorizo (150g) - ungsbakad chorizo med syrad lök, fransk potatissallad & senapskräm",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Chicken bahn mi - vietnam style kyckling med chili, gurksalsa, picklad rödkål &\nkimchimayo,  sushiris, rawsallad, edamame, gari & rättika",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Hot halloumi - friterad halloumi med mangosalsa\npicklad rödkål & samurai-mayo, rawsallad, edamame, sushiris, rättika & gari",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
+                        "price": "175"
+                    },
+                    {
+                        "name": "The swenson - 150g burgare med karamelliserad lök,\ntomat, sallad, cheddar &\nhonungsdijonaise. serveras med pommes & dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Korean truffle - 150g burgare med yakiniku, tryffel-mayo\nsesam & cheddar. serveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Spanish vegan - sojaburgare med chilimayo, \n”cheddarkräm”, pico de gallo & sallad.\nserveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "The flipp - 150g \"mustard flipp\" burgare med chipotle-bacon, krispig lök, brynt smör mayo, senapspicklad gurka & sallad . serveras med pommes och dipp",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Error",
-                        "price": "Network issue"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
