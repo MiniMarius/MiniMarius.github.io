@@ -128,7 +128,7 @@ try:
     pdf_link_tag = alcamSoup.find('a', string="Ladda ner i PDF") if alcamSoup else None
     pdf_url = pdf_link_tag['href'] if pdf_link_tag else None
 
-    alcam_menu = []
+    today_alcam_menu = []
     if pdf_url:
         pdf_path = "acmenu.pdf"
 
@@ -160,7 +160,6 @@ try:
             swedish_days = ["MÅNDAG", "TISDAG", "ONSDAG", "TORSDAG", "FREDAG", "LÖRDAG", "SÖNDAG"]
             today_swedish = swedish_days[today_index]
             today_menu = menus_by_day.get(today_swedish, "No menu available for today")
-            today_alcam_menu = []
             if today_menu != "No menu available for today":
                 dishes = [dish.strip() for dish in re.split(r'([A-ZÅÄÖ\s]+Med [^A-ZÅÄÖ]+)', today_menu) if dish.strip()]
                 # Join dishes with three or fewer words
