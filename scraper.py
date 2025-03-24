@@ -57,7 +57,7 @@ try:
                     "price": "" if "ingår i lunchen" in dish else "145"
                 }
                 for dish in lunch_menu.split('\n')
-                if dish.strip() and dish.strip() != "Fråga personalen om allergier"
+                if dish.strip() and "Fråga personalen" not in dish
             ]
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Garros menu: {e}")
