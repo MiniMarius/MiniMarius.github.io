@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-24 09:32",
+    "last_updated": "2025-03-25 03:27",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Slottsstek med rödvinssås, vinbärsgelé, hasselbackspotatis",
+                        "name": "GFC, Garros fried chicken med jalapenodipp, klyftpotatis",
                         "price": "145"
                     },
                     {
-                        "name": "Pankofriterade torskslag med kimchidipp och jasminris",
+                        "name": "Fisk och räkgryta med fänkål, vitt vin, tomat, aioli",
                         "price": "145"
                     },
                     {
-                        "name": "Melanzane alla Parmigiana",
+                        "name": "Wokad fläskfilé med sötsur sås, grönsaker, ris",
                         "price": "145"
                     },
                     {
-                        "name": "Wokad biff med röd curry, lime, koriander, ris",
+                        "name": "Rotsellerischnitzel med persiljesmör, klyftpotatis",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Spetskål (ingår i alla rätter)",
+                        "name": "Dagens varma grönsak: Paprika (ingår i alla rätter)",
                         "price": "145"
                     }
                 ]
@@ -63,7 +63,7 @@
                         "price": "175"
                     },
                     {
-                        "name": "The swenson - 150g burgare med karamelliserad lök,\ntomat, sallad, cheddar &\nhonungsdijonaise. serveras med pommes & dipp",
+                        "name": "Jalapeno king  - 150g burgare med cheddar, picklade jalapenos, majssalsa, jalapenomayo & sallad. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -94,27 +94,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Köttfärslimpa champinjonsås skivad gurka och potatis puré.",
+                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Färsk panerad sejfilé remouladsås citron dill och potatis puré.",
+                        "name": "Pocherad torsk skirat smör räkor dill pepparrot och kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Korv Stroganoff med ris.",
+                        "name": "Spagetti bolognese (nött köttfärssås) toppad med parmesanost.",
                         "price": "149"
                     },
                     {
-                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
+                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
                         "price": "149"
                     },
                     {
-                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "name": "Caesarsallad kyckling räkor eller halloumi.",
                         "price": "149"
                     },
                     {
-                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
                     }
                 ]
@@ -126,7 +126,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -138,11 +138,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Falafelsallad med couscous, fetaost, tahiniyoghurtdressing, bladpersilja, coriander och mynta 195Vegetarisk lasagne med skummad bechamelsåsoch liten sallad 195",
+                        "name": "Falafelsallad med couscous, fetaost, tahiniyoghurtdressing, bladpersilja, coriander och mynta 195",
                         "price": ""
                     },
                     {
-                        "name": "Frikassé på lax och sej med hummerskum, spenat,räkor och fänkålscrudité 195",
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Smörstekt sejfilé, sauterad spetskål, sandefjordsåsmed stenbitsrom och örter 195",
                         "price": ""
                     },
                     {
@@ -150,7 +154,11 @@
                         "price": ""
                     },
                     {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295Kalvlever Anglais med bacon, kaprisoch rödvinssås  265",
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
+                        "price": ""
+                    },
+                    {
+                        "name": "265",
                         "price": ""
                     },
                     {
@@ -166,11 +174,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "name": "Dagens fisk med vitvinssås, stekta grönsaker & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Isterband med senapsstuvad potatis, rödvinssås & rödbetor",
+                        "name": "Lammkorv med rödbeta, fänkål, rödvinssås & rostad potatis",
                         "price": "149"
                     }
                 ]
