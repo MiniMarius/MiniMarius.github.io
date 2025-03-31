@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-31 03:32",
+    "last_updated": "2025-03-31 09:09",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -21,6 +21,10 @@
                     {
                         "name": "Dagens varma grönsak: Primörer (ingår i alla rätter)",
                         "price": "145"
+                    },
+                    {
+                        "name": "Fisksoppa, ingår i lunchen",
+                        "price": ""
                     }
                 ]
             }
@@ -90,15 +94,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Köttfärslimpa champinjonsås skivad gurka och potatis puré.",
+                        "name": "Fläsknoisette pepparssfsdfdsfs och råstekt potatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Färsk panerad sejfilé remouladsås citron dill och potatis puré.",
+                        "name": "Panerad kolja gurkmajonnäs dill citron och potatis puré.",
                         "price": "149"
                     },
                     {
-                        "name": "Korv Stroganoff med ris.",
+                        "name": "Pasta con pollo (kycklingfilé, champinjoner, lök och gorgonzola sås) toppad med parmesanost.",
                         "price": "149"
                     },
                     {
@@ -134,35 +138,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Falafelsallad med couscous, fetaost, tahiniyoghurtdressing, bladpersilja, koriander och mynta 195Vegetarisk lasagne med skummad bechamelsåsoch liten sallad 195",
+                        "name": "Bibimpapsallad med kimchi, böngroddar, stekt ägg och chiliglacerad entrecote 195Vegetariska kroppkakor med kål, skogschaminjoner, västerbottenost och brynt smör 195",
                         "price": ""
                     },
                     {
-                        "name": "Havets wallenbergare med potatispuré, små gröna ärtor,färskriven pepparrot och brynt smör 195",
+                        "name": "Pancopanerad fjällbrosme med curryremoulad, spenat, vitlöksfrästa skogschampinjoner och örtslungad potatis 195",
                         "price": ""
                     },
                     {
-                        "name": "Fläsk schnitzel med nduja smör, brytbönor ochljummen potatissallad",
+                        "name": "Lövbiff med brytbönor, färskriven pepparrot,rå äggula och potatispuré 195",
                         "price": ""
                     },
                     {
-                        "name": "195",
+                        "name": "Stek fläsk med löksås och örtslungad potatis 195 Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295Kalvlever Anglais med bacon, kaprisoch rödvinssås  265",
                         "price": ""
                     },
                     {
-                        "name": "Italiensk högrevsgryta med vitt vin, Karl-Johansvamp, kronärtskocka och oliver, serveras med potatispuré",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295Kalvlever Anglais med bacon, kaprisoch rödvinssås  265",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT  Hallon och blåbärs paj medlättvispadgrädde",
+                        "name": "DESSERT  Mjuk pepparkaka med kolakrisp, färskostmousseoch bärcreme 65",
                         "price": ""
                     }
                 ]
@@ -178,7 +170,19 @@
                         "price": "149"
                     },
                     {
-                        "name": "Kokt rimmad oxbringa med senapsky & rostade rotfrukter",
+                        "name": "Lammkorv med tzatziki, rostad potatis, broccoli & tomater",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Meny för veckan kommer upp imorgon tisdag.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
