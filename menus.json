@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-30 03:32",
+    "last_updated": "2025-03-31 03:32",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Helgrillad kalvbiff med dragonsås och bakad potatis",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Ångad lättrimmad koljafilé med brynt smör, pepparrot, dill och kokt potatis",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Rice crackers med röd currydipp",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens varma grönsak: Primörer (ingår i alla rätter)",
                         "price": "145"
                     }
                 ]
@@ -76,14 +88,44 @@
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Köttfärslimpa champinjonsås skivad gurka och potatis puré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Färsk panerad sejfilé remouladsås citron dill och potatis puré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Korv Stroganoff med ris.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -130,7 +172,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Kokt rimmad oxbringa med senapsky & rostade rotfrukter",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
