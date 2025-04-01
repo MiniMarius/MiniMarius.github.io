@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-31 09:09",
+    "last_updated": "2025-04-01 03:39",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,24 +7,20 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Helgrillad kalvbiff med dragonsås och bakad potatis",
+                        "name": "GFC, Garros fried chicken med kokosdipp smaksatt med grön curry, serveras med Nasi Goreng",
                         "price": "145"
                     },
                     {
-                        "name": "Ångad lättrimmad koljafilé med brynt smör, pepparrot, dill och kokt potatis",
+                        "name": "Grillad smögensej i smörad fond med gremolata och rotsakspuré",
                         "price": "145"
                     },
                     {
-                        "name": "Rice crackers med röd currydipp",
+                        "name": "Vegetariska kåldolmar med örtagårdsås",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Primörer (ingår i alla rätter)",
+                        "name": "Dagens varma grönsak: Broccoli (ingår i alla rätter)",
                         "price": "145"
-                    },
-                    {
-                        "name": "Fisksoppa, ingår i lunchen",
-                        "price": ""
                     }
                 ]
             }
@@ -94,27 +90,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fläsknoisette pepparssfsdfdsfs och råstekt potatis.",
+                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad kolja gurkmajonnäs dill citron och potatis puré.",
+                        "name": "Pocherad torsk vitvinssås purjolök räkor dill och kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Pasta con pollo (kycklingfilé, champinjoner, lök och gorgonzola sås) toppad med parmesanost.",
+                        "name": "Pyttipanna Stekt ägg och rödbetor.",
                         "price": "149"
                     },
                     {
-                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
+                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
                         "price": "149"
                     },
                     {
-                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "name": "Caesarsallad kyckling räkor eller halloumi.",
                         "price": "149"
                     },
                     {
-                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
                     }
                 ]
@@ -126,7 +122,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -164,28 +160,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Lammkorv med tzatziki, rostad potatis, broccoli & tomater",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Meny för veckan kommer upp imorgon tisdag.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
