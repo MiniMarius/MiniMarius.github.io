@@ -115,7 +115,6 @@ menus.append({
 
 # Al Caminetto
 try:
-    headers = {}  # Add your headers if needed
     alcamHtml = requests.get("https://www.alcaminetto.se/index.php/lunch", headers=headers)
     alcamHtml.raise_for_status()
     alcamSoup = BeautifulSoup(alcamHtml.content, 'html.parser')
