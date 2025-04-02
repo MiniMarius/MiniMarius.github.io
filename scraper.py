@@ -54,7 +54,7 @@ try:
             garros_menu = [
                 {
                     "name": dish.strip(),
-                    "price": "" if "ingår i lunchen" in dish else "145"
+                    "price": "" if "ingår" in dish else "145"
                 }
                 for dish in lunch_menu.split('\n')
                 if dish.strip() and "Fråga personalen" not in dish
