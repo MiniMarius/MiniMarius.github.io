@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-02 08:29",
+    "last_updated": "2025-04-02 08:36",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -20,7 +20,7 @@
                     },
                     {
                         "name": "Dagens varma grönsak: Spetskål (ingår i alla rätter)",
-                        "price": "145"
+                        "price": ""
                     },
                     {
                         "name": "Dagens side-soppa, fisk (ingår i lunchen)",
