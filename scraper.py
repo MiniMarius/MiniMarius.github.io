@@ -68,6 +68,7 @@ menus.append({
     "location": "Location details here",
     "menu": {"dishes": garros_menu}
 })
+print(garros_menu)
 
 # PokéBurger
 try:
@@ -156,7 +157,6 @@ except requests.exceptions.RequestException as e:
     print(f"Error fetching Al Caminetto menu: {e}")
     today_alcam_menu = [{"name": "Error", "price": "Network issue"}]
 
-menus = []  # Assuming menus is defined elsewhere
 menus.append({
     "name": "Al Caminetto",
     "location": "Location details here",
