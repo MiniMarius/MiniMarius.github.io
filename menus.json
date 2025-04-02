@@ -1,6 +1,86 @@
 {
-    "last_updated": "2025-04-02 03:29",
+    "last_updated": "2025-04-02 08:29",
     "restaurants": [
+        {
+            "name": "Bistro Garros",
+            "location": "Location details here",
+            "menu": {
+                "dishes": [
+                    {
+                        "name": "Rosastekt ankbröst med Pinot noir sås och pommes duchesse",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Heta räkor med grönsaker och tomat med ris och myntayoghurt",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vegetarisk korv stroganoff med ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens varma grönsak: Spetskål (ingår i alla rätter)",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens side-soppa, fisk (ingår i lunchen)",
+                        "price": ""
+                    }
+                ]
+            }
+        },
+        {
+            "name": "PokéBurger",
+            "location": "Location details here",
+            "menu": {
+                "dishes": [
+                    {
+                        "name": "Biff stroganoff  - på kalv, persilja, jasminris & rostad vitlök",
+                        "price": "155"
+                    },
+                    {
+                        "name": "Japanese katzu - pankofriterad kyckling med tonkatzu-mayo, gurksalsa,  sushiris, rawsallad, edamame, gari & rättika",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Juan of a kind - tex-mexkryddad vegofärs med pico de gallo, krossade nachos, avokadokräm, rawsallad, edamame, sushiris, rättika & gari",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
+                        "price": "175"
+                    },
+                    {
+                        "name": "The cbc - 150g burgare med chili-cheddarmayo, bacon & cheddar. serveras med pommes & dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Truffle n onion - 150g burgare med tryffelmayo, picklad rödlök, rostad lök & cheddar. serveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Tropical  - friterad halloumi med chipotlemayo, sallad & ananassalsa.\nserveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "The big mack - 160g burgare med cheddar, pepperjack, finhackad gul lök, picklad gurka  & sallad . serveras med pommes och dipp",
+                        "price": "139"
+                    }
+                ]
+            }
+        },
         {
             "name": "Al Caminetto",
             "location": "Location details here",
