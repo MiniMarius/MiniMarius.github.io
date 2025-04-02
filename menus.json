@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-01 09:25",
+    "last_updated": "2025-04-02 03:29",
     "restaurants": [
         {
             "name": "Al Caminetto",
@@ -7,19 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "STEKT FLÄSK Med raggmunk, rårörda lingon alt. löksås och kokt potatis",
+                        "name": "HELSTEKT FLÄSKFILÉ Med grönpepparsås och klyftpotatis",
                         "price": "139"
                     },
                     {
-                        "name": "BOUEF BOURGUIGNON Med syltlök, champinjoner, bacon och parmesan slagen potatismos",
+                        "name": "KLASSIK PANNBIFF Med löksky, stekt ägg och klyftpotatis",
                         "price": "139"
                     },
                     {
-                        "name": "UGNSBAKAD TORSKFILÉ Med citronsås och kokt potatis",
+                        "name": "STEKT STRÖMMING Med skirat smör, rårörda lingon och potatismos",
                         "price": "139"
                     },
                     {
-                        "name": "KYCKLINGFILÉ PASTA Med paprika och spenat i en krämig parmesan sås",
+                        "name": "PASTA GRATÄNG Med köttfärs och bacon",
                         "price": "139"
                     }
                 ]
@@ -31,15 +31,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
+                        "name": "Fläskschnitzel ärtor citron rödvinssås och rostade potatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Pocherad torsk vitvinssås purjolök räkor dill och kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Pyttipanna Stekt ägg och rödbetor.",
+                        "name": "Rimmad lax dillstuvad potatis.",
                         "price": "149"
                     },
                     {
@@ -63,7 +59,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -75,19 +71,39 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Bibimpapsallad med kimchi, böngroddar, stekt ägg och chiliglacerad entrecote 195Vegetariska kroppkakor med kål, skogschaminjoner, västerbottenost och brynt smör 195",
+                        "name": "Bibimpapsallad med kimchi, böngroddar, stekt ägg och chiliglacerad entrecote 195",
                         "price": ""
                     },
                     {
-                        "name": "Pancopanerad fjällbrosme med curryremoulad, spenat, vitlöksfrästa skogschampinjoner och örtslungad potatis 195",
+                        "name": "Vegetariska kroppkakor med kål, skogschaminjoner, västerbottenost och brynt smör 195",
                         "price": ""
                     },
                     {
-                        "name": "Lövbiff med brytbönor, färskriven pepparrot,rå äggula och potatispuré 195",
+                        "name": "Pocherad torsk med råstekt blomkål, räkor, hollandaisesåsoch örtslungad potatis 195",
                         "price": ""
                     },
                     {
-                        "name": "Stek fläsk med löksås och örtslungad potatis 195 Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295Kalvlever Anglais med bacon, kaprisoch rödvinssås  265",
+                        "name": "Wallenbergare på vilt med potatispuré, små gröna ärtoroch brynt smör",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Boeuf bourguignon med bacon, smålök, champinjoner,serveras med potatispuré",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
+                        "price": ""
+                    },
+                    {
+                        "name": "265",
                         "price": ""
                     },
                     {
@@ -103,11 +119,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens fisk med vitvinssås, stekta grönsaker & kokt potatis",
+                        "name": "Fjällbrosme med brynt smör, spetskål, kokt potatis & fänkålskrudité",
                         "price": "149"
                     },
                     {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
+                        "name": "Kycklinglårfilé med dragonsås, pakchoi, champinjon & rostad potatis",
                         "price": "149"
                     }
                 ]
