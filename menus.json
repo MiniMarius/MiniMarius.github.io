@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-03 03:29",
+    "last_updated": "2025-04-04 03:27",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Schnitzel med citronettesallad, hollandaise och pommes rissolées",
+                        "name": "Grillfredag Korean style",
                         "price": "145"
                     },
                     {
-                        "name": "Torskgratäng med gorgonzola och vildris",
+                        "name": "Protein:",
                         "price": "145"
                     },
                     {
-                        "name": "Vegomedaljong med hummus och friterad persilja",
+                        "name": "Bulgogi av entrecote, Tigerräkor",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Vitlöksstekta haricotsverts (ingår i alla rätter)",
-                        "price": ""
+                        "name": "Tillbehör:",
+                        "price": "145"
                     },
                     {
-                        "name": "Varje torsdag har vi pannkaksbuffé med vår egen hallonsylt som dessert!",
+                        "name": "Koreanskt ris, kimchi, stekt ägg, pak soy, chilidipp, sojamarinad",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vegetariskt: Grillad fylld spetskål med ovan tillbehör",
                         "price": "145"
                     }
                 ]
@@ -39,7 +43,7 @@
                         "price": "155"
                     },
                     {
-                        "name": "Japanese katzu - pankofriterad kyckling med tonkatzu-mayo, gurksalsa,  sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "The greek - gyros med tzatziki , chili-mayo\n& tomatsallad,  sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -63,7 +67,7 @@
                         "price": "175"
                     },
                     {
-                        "name": "The cbc - 150g burgare med chili-cheddarmayo, bacon & cheddar. serveras med pommes & dipp",
+                        "name": "Smokey joe - 150g burgare med cheddar,  chipotle-mayo,\ncoleslaw & rödlök. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -87,23 +91,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "OXFILÉ RYDBERG Med senaps crème, lök, äggula och rösti",
+                        "name": "SCHWEIZERSCHNITZEL (OST, SKINKA FYLLD) Med rödvinssky, ärtor och rostad potatis",
                         "price": "139"
                     },
                     {
-                        "name": "KALVLEVER ANGLAISE Med kalvsky, bacon, kapris, persilja och potatismos",
+                        "name": "NASIGORENG Med kyckling, räkor, ananas och stekt ägg",
                         "price": "139"
                     },
                     {
-                        "name": "FISKGRATÄNG Med blomkål, champinjoner, hummersås och potatismos",
+                        "name": "FISK PICCATA Med rödspättafilé, tomatsås och ris",
                         "price": "139"
                     },
                     {
-                        "name": "FLÄSKFILÉ PASTA Med grönsaker i en krämig masman/currysås",
+                        "name": "PASTA BUSSOLA Med skinka och räkor i en krämig sås",
                         "price": "139"
                     },
                     {
-                        "name": "VI BJUDER PÅ PANKAKOR SYLT OCH GRÄDDE",
+                        "name": "VI BJUDER PÅ DESSERT",
                         "price": "139"
                     }
                 ]
@@ -115,15 +119,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ärtsoppa med pannkaksbuffé.",
+                        "name": "Fläskfilé Oscar rödvinssås bearnaisesås räkor sparris och klyftpotatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Hemlagade köttbullar gräddsås gurka lingon och potatis puré.",
+                        "name": "Fisk och skaldjursgryta saffran och aioli.",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad sejfilé remouladsås citron dill och kokt potatis.",
+                        "name": "Lasagne al forno med ostsås.",
                         "price": "149"
                     },
                     {
@@ -137,6 +141,18 @@
                     {
                         "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
+                    },
+                    {
+                        "name": "Kebab tallrik med pommes tomatsås och vitlökssås.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Obs alla caesarsallad innehåller bacon krutonger parmesan och cesar dressing.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Inkl. smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar.",
+                        "price": "149"
                     }
                 ]
             }
@@ -147,7 +163,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -167,11 +183,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Pocherad torsk med råstekt blomkål, räkor, hollandaisesåsoch örtslungad potatis 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Wallenbergare på vilt med potatispuré, små gröna ärtoroch brynt smör",
+                        "name": "Pocherad sejfilé med rödbetor, kapris, tomat,färsk riven pepparrot, dillmajonnäs och örtslungad potatis 195 Pepparstek på svensk kotlettrad med stekt zucchini, gräddig pepparsås och rostad Annika potatis",
                         "price": ""
                     },
                     {
@@ -207,11 +219,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                        "name": "Dagens fisk med citronsås, rödbeta, grönkål, fänkål & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Kryddig gryta på fläskkarré, champinjoner, broccoli & ris",
+                        "name": "Köttfärslimpa med gräddsås, saltgurka, gelé & kokt potatis",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
