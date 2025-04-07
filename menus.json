@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-07 03:31",
+    "last_updated": "2025-04-07 09:09",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -95,15 +95,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fläsknoisette pepparssfsdfdsfs och råstekt potatis.",
+                        "name": "Pannbiff löksky skivad gurka och potatis puré.",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad kolja gurkmajonnäs dill citron och potatis puré.",
+                        "name": "Panerad sejfilé remouladsås citron dill och potatis puré.",
                         "price": "149"
                     },
                     {
-                        "name": "Pasta con pollo (kycklingfilé, champinjoner, lök och gorgonzola sås) toppad med parmesanost.",
+                        "name": "Korv Stroganoff med ris.",
                         "price": "149"
                     },
                     {
@@ -139,27 +139,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Bibimpapsallad med kimchi, böngroddar, stekt ägg och chiliglacerad entrecote 195",
+                        "name": "Poke bowl med lax, kimchi, soyabönor, ris, picklad rättikaoch chillimajonnäs 195Gnocci med frasig getost, ramslökspesto, vita bönor, zucchini och rostad paprika 195",
                         "price": ""
                     },
                     {
-                        "name": "Vegetariska kroppkakor med kål, skogschaminjoner, västerbottenost och brynt smör 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Pocherad sejfilé med rödbetor, kapris, tomat,färsk riven pepparrot, dillmajonnäs och örtslungad potatis 195 Pepparstek på svensk kotlettrad med stekt zucchini, gräddig pepparsås och rostad Annika potatis",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Boeuf bourguignon med bacon, smålök, champinjoner,serveras med potatispuré",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
+                        "name": "Pocherad sejfilé med rödbetor, kapris, tomat,färsk riven pepparrot, dillmajonnäs och örtslungad potatis 195 Pepparstek på svensk kotlettrad med stekt zucchini, gräddig pepparsås och rostad Annika potatis 195",
                         "price": ""
                     },
                     {
@@ -167,11 +151,7 @@
                         "price": ""
                     },
                     {
-                        "name": "265",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT  Mjuk pepparkaka med kolakrisp, färskostmousseoch bärcreme 65",
+                        "name": "DESSERT  Banankaka med kolakräm och lättvispad grädde",
                         "price": ""
                     }
                 ]
@@ -187,7 +167,7 @@
                         "price": "149"
                     },
                     {
-                        "name": "Lammkorv med rostad potatis, grönsaker & tzatziki",
+                        "name": "Köttfärslimpa med gräddsås, kokt potatis, saltgurka & gelé",
                         "price": "149"
                     }
                 ]
