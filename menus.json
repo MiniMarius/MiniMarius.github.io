@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-06 03:30",
+    "last_updated": "2025-04-07 03:31",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Helstekt fläskfilé med svampsås, gelé och hasselbackspotatis",
                         "price": "145"
                     }
                 ]
@@ -71,8 +71,20 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "No menu available for today"
+                        "name": "WIENERSCHNITZEL med rödvinssky bearnaisesås och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "MEXIKANKS KÖTTGYTTA med färsk jalapeno och ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "LAX-SCAMPI SPETT med saffran sås och grönsaker ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA med kräftstjärtar champinjoner i en krämig pesto sås",
+                        "price": "139"
                     }
                 ]
             }
@@ -81,14 +93,44 @@
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fläsknoisette pepparssfsdfdsfs och råstekt potatis.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Panerad kolja gurkmajonnäs dill citron och potatis puré.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Pasta con pollo (kycklingfilé, champinjoner, lök och gorgonzola sås) toppad med parmesanost.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Caesarsallad kyckling räkor eller halloumi",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Per special Caesarsallad räkor och halloumi",
+                        "price": "149"
+                    }
+                ]
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -139,7 +181,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Lammkorv med rostad potatis, grönsaker & tzatziki",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
