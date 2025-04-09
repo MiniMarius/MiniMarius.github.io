@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-08 03:32",
+    "last_updated": "2025-04-09 03:33",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Raggmunk med stekt fläsk och lingon",
+                        "name": "Coq au vin på majskyckling med tryffelsmaksatt potatispuré",
                         "price": "145"
                     }
                 ]
@@ -38,15 +38,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt fläsk raggmunk rårörda lingon alternativ löksås och kokt potatis",
+                        "name": "Fläskschnitzel ärtor citron rödvinssås och rostade potatis.",
                         "price": "149"
                     },
                     {
-                        "name": "Pocherad torsk skirat smör räkor dill pepparrot och kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Kycklinggryta (kycklingfilé, champinjoner, lök, paprika, curry och grädde) serveras med ris.",
+                        "name": "Ugnsbakad lax hollandaisesås dill citron och kokt potatis.",
                         "price": "149"
                     },
                     {
@@ -70,7 +66,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -116,28 +112,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Dagens fisk med vitvinssås, stekta grönsaker & kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Meny för resterande veckodagar kommer upp onsdag 9/4.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
