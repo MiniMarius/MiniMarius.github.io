@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-10 03:29",
+    "last_updated": "2025-04-11 03:29",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Biff Rydberg med äggula, pepparrot, dijonsenapscrème",
+                        "name": "Grillfredag Italian style",
                         "price": "145"
                     }
                 ]
@@ -23,7 +23,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Kacang chicken - krämig kyckling med jordnötter, chili & kokos, nötig hoisin-mayo, marinerade böngroddar & sugersnaps, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Macho tex mex - el macho köttfärs, pico de gallo\navokadokräm & chili-mayo, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -47,7 +47,7 @@
                         "price": "175"
                     },
                     {
-                        "name": "The original - 150g burgare med cheddar, tomat, sallad, syrad lök & originaldressing.  serveras med pommes & dipp",
+                        "name": "Hot mama - 150g burgare med cheddar, sallad \ntärnad gulök, mango-& jalapenomayo. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -71,19 +71,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Färsk ost fylld lövbiff med svampsås och klyftpotatis",
+                        "name": "PEPPARRULAD FLÄSKKARRÉ med gräddsås äppelmos och rostad potatis",
                         "price": "139"
                     },
                     {
-                        "name": "KORV STRAGNOF med ris",
+                        "name": "LÅNG KOKT SKINKA OXKIND I rödvinssås med rotfrukter och rostad potatis",
                         "price": "139"
                     },
                     {
-                        "name": "GRÄSLÖK-FETAOST ÖVERBAKAD LAXFILÉ med citron crème och sparris saffran risotto",
+                        "name": "PANERAD GÖSFILÉ med purjolök kapris champinjoner i smör och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "PASTA med parmaskinka basilika tomat i en krämig gorgonzola sås(VI BJUDER PANKAKOR SYLT OCH GRÄDDE)",
+                        "name": "PASTA med kycklingfilé grönsaker i en krämig dragonsås(VI BJUDER DESSERT)",
                         "price": "139"
                     }
                 ]
@@ -95,15 +95,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ärtsoppa med pannkaksbuffé.",
+                        "name": "Kycklingfilé madeira sås serveras med potatisgratäng.",
                         "price": "149"
                     },
                     {
-                        "name": "Kalvfärs biff grönsaks ris och het tomatsås.",
+                        "name": "Huset fisk och skaldjursgryta saffran och aioli.",
                         "price": "149"
                     },
                     {
-                        "name": "Panerad kolja skagenröra dill citron och potatis puré.",
+                        "name": "Lasagne al forno med ostsås.",
                         "price": "149"
                     },
                     {
@@ -117,6 +117,10 @@
                     {
                         "name": "Per special Caesarsallad räkor och halloumi.",
                         "price": "149"
+                    },
+                    {
+                        "name": "Inkl. smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar.",
+                        "price": "149"
                     }
                 ]
             }
@@ -127,7 +131,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -179,11 +183,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré & rårörda lingon",
+                        "name": "Torskfilé med brynt smör, potatismos, fänkål & champinjon, knaperstekt bacon och purjolök",
                         "price": "149"
                     },
                     {
-                        "name": "Pytt i panna med stekt ägg & rödbetor",
+                        "name": "Bakad fläsksida med rödvinssås, rostad potatis, spetskål & bakad tomat",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
