@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-11 03:29",
+    "last_updated": "2025-04-12 03:26",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillfredag Italian style",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -71,20 +71,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "PEPPARRULAD FLÄSKKARRÉ med gräddsås äppelmos och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "LÅNG KOKT SKINKA OXKIND I rödvinssås med rotfrukter och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PANERAD GÖSFILÉ med purjolök kapris champinjoner i smör och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA med kycklingfilé grönsaker i en krämig dragonsås(VI BJUDER DESSERT)",
-                        "price": "139"
+                        "name": "Error",
+                        "price": "No menu available for today"
                     }
                 ]
             }
@@ -93,48 +81,14 @@
             "name": "Gustafs",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Kycklingfilé madeira sås serveras med potatisgratäng.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Huset fisk och skaldjursgryta saffran och aioli.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Lasagne al forno med ostsås.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Poké bowl ris avokado picklad lök sjögräs sojabönor kidneybönor mango rödkål och falafel.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Caesarsallad kyckling räkor eller halloumi.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Per special Caesarsallad räkor och halloumi.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Inkl. smör, bröd, kaffe, bordsvatten, salladsbuffé, dessert på fredagar.",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -181,24 +135,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Torskfilé med brynt smör, potatismos, fänkål & champinjon, knaperstekt bacon och purjolök",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Bakad fläsksida med rödvinssås, rostad potatis, spetskål & bakad tomat",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
