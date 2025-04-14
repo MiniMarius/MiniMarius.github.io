@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-14 03:34",
+    "last_updated": "2025-04-14 09:00",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -15,12 +15,16 @@
                         "price": "145"
                     },
                     {
-                        "name": "Vegetariska medaljonger med fransk tomatsallad och dijoncrème",
+                        "name": "Vegetariska medaljonger med fransk tomatsallad och curryremoulade",
                         "price": "145"
                     },
                     {
                         "name": "Dagens varma grönsak: Haricotsverts",
                         "price": "145"
+                    },
+                    {
+                        "name": "Oxsoppa, ingår i lunchen",
+                        "price": ""
                     }
                 ]
             }
@@ -170,35 +174,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Poke bowl med lax, kimchi, soyabönor, ris,mango, picklad rättikaoch chillimajonnäs 195",
+                        "name": "Poke bowl med med teriakikyckling, chilimarinerad gurka, sojabönor, böngroddar, picklad spetskål och jalapenomajonäs 195Fylld bakad potatis med honungsyoughurt, rödbetor, getost och kålsallad 195",
                         "price": ""
                     },
                     {
-                        "name": "Gnocci med frasig getost, ramslökspesto, vita bönor, zucchini och rostad paprika 195",
+                        "name": "Ångad lofotentorsk med beurre blanch på ramslök, vit sparris och broccoli",
                         "price": ""
                     },
                     {
-                        "name": "Pocherad skaldjursfärserad flundrafilé medhavskräftsås , smörad broccoli och örtslungad potatis",
+                        "name": "195 Bräckt rimmad oxbringa med dijonstuvad potatis, rödvinssås, saltgurka och nyriven pepparrot",
                         "price": ""
                     },
                     {
-                        "name": "195 Kokt rimmad oxbringa med kapris, spetskål,buljong och dijonnaise",
+                        "name": "195Järpar på dovhjort med potatispuré, gräddsky med skogschampinjoner och pressgurka",
                         "price": ""
                     },
                     {
-                        "name": "195Fetaostbiffar med rostad potatis, tzatziki och rödvinssky 195",
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
                         "price": ""
                     },
                     {
-                        "name": "gäddqueneller med havskräftsås, spenat och skaldjur  295",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT  Banankaka med kolakräm och lättvispad grädde",
-                        "price": ""
-                    },
-                    {
-                        "name": "65",
+                        "name": "DESSERT  Saffranskaka med vaniljparfait",
                         "price": ""
                     }
                 ]
@@ -214,7 +210,7 @@
                         "price": "149"
                     },
                     {
-                        "name": "Köttfärslimpa med gräddsås, saltgurka, kokt potatis & gelé",
+                        "name": "Pytt bellman med äggula & rödbetor",
                         "price": "149"
                     }
                 ]
