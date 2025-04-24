@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-23 03:32",
+    "last_updated": "2025-04-24 03:34",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "NYHET! Dagens husman: Isterband med stuvad potatis och rödbetor",
+                        "name": "NYHET! Dagens husman: Kalvjärpar med gräddsås, pressgurka och potatispuré",
                         "price": "145"
                     },
                     {
-                        "name": "Confiterat ankbröst med rödvinssås, surkål och krögarpotatis",
+                        "name": "Wienerschnitzel på nötinnanlår med citronsmör, kapris",
                         "price": "145"
                     },
                     {
-                        "name": "Nuggets på färsk torskfilé med currydipp och ris",
+                        "name": "Bouillabaisse med aioli",
                         "price": "145"
                     },
                     {
-                        "name": "Stekta nudlar med friterad tofu, soja och salladslök",
+                        "name": "Vegetarisk blomkålscrème med tryffel och tångkaviar",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Savoykål",
+                        "name": "Dagens varma grönsak: Haricotsverts",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Varje torsdag har vi pannkaksbuffé med vår egen hallonsylt som dessert!",
                         "price": "145"
                     }
                 ]
@@ -87,7 +91,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Köttbullar med gräddsås lingonsylt och potatismos",
+                        "name": "ONSDAGKöttbullar med gräddsås lingonsylt och potatismos",
                         "price": "139"
                     },
                     {
@@ -134,7 +138,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
+                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
                         "price": "132"
                     }
                 ]
@@ -178,11 +182,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pocherad spättafilé med citronsås, stekta grönsaker & kokt potatis",
+                        "name": "Stekt strömming med brynt smör, potatispuré, rårörda lingon & bönor",
                         "price": "149"
                     },
                     {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
+                        "name": "Kycklingcurry gryta med ris",
                         "price": "149"
                     }
                 ]
