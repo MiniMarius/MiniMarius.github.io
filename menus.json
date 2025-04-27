@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-26 03:27",
+    "last_updated": "2025-04-27 03:34",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -23,11 +23,11 @@
                         "price": "145"
                     },
                     {
-                        "name": "Lemon chic - citron & vitlöksbakad kyckling, aioli, tomat & löksallad\n sweet chili-mayo & sesampicklad gurka, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Sticky chicken - hoisinslungad kyckling med gurksalsa,\nsesam &  vårlök, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
-                        "name": "Caribbean feta - jerkkryddad friterad fetaost, \nananassalsa & gochujang-mayo, rawsallad, edamame, sushiris, rättika & gari",
+                        "name": "No chicken - friterad no chicken chicken, \npicklad gurka, coleslaw & hot mayo, rawsallad, edamame, sushiris, rättika & gari",
                         "price": "125"
                     },
                     {
@@ -47,11 +47,11 @@
                         "price": "175"
                     },
                     {
-                        "name": "Spicy classic - 150g burgare med cheddar,  bacon, sallad, chili-mayo, picklad gurka. serveras med pommes & dipp",
+                        "name": "Italian job - 150g burgare med tomat-& löksallad\ncheddar, parmesan-mayo & basilika. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Posh johnsson - 150g burgare med tryffelmayo, cheddar, tomat, sallad, lök. serveras med pommes och dipp",
+                        "name": "Dubble cheese - 150g burgare med cheddar, emmentaler\nkaramelliserad lök, tryffel-mayo & sallad.serveras med pommes och dipp",
                         "price": "129"
                     },
                     {
