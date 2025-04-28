@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-27 03:34",
+    "last_updated": "2025-04-28 03:37",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Dagens husman: Kålpudding med gräddsås, lingon och kokt potatis",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Koreansk biff i tunna skivor med kimchimayo, sesamstekt salladslök och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Pankofriterad färsk smögensej med wasabidipp och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Falafel med vitlöksdressing och stekt ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens varma grönsak: Ugnsstekt spetskål",
                         "price": "145"
                     }
                 ]
@@ -71,8 +87,20 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "No menu available for today"
+                        "name": "WALLENBERGARE med gräddsås ärtor lingonsylt och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "KALVLEVER ANGLAISE med kalv sky bacon kapris persilja och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANERAD RÖDINGFILÉ med skirat smör rostade rödbetor pepparrot crème och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA med kycklingfilé grönsaker i en krämig curry sås",
+                        "price": "139"
                     }
                 ]
             }
@@ -88,7 +116,12 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -97,16 +130,24 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med getost, rostade gulbetor, zucchini, fänkål, tahini dressing, sesamfrön och frasig jordärtskocka 195",
+                        "name": "Råbiff på svensk kalv med parmesancreme, citron, sardell,",
                         "price": ""
                     },
                     {
-                        "name": "Sparris risotto med örtsallad och parmesan 195",
+                        "name": "pomme alumette och färsk riven parmesan",
                         "price": ""
                     },
                     {
-                        "name": "Ångad lofotentorsk med chablissås, ramslök, spenat,räkor och fänkålscrudité",
+                        "name": "– Stor 345 kr   VARMRÄTTER  Oxfilé Tournedos med grillad färsk vit sparris,pepparsky, boulangère-potatis 425 kr",
+                        "price": "245345425"
+                    },
+                    {
+                        "name": "Smörstekt hjälmargös med skaldjursfylld toppmurkla,bränd purjolök, ramslök och musselskum",
                         "price": ""
+                    },
+                    {
+                        "name": "4",
+                        "price": "445"
                     }
                 ]
             }
@@ -115,7 +156,12 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Stängt",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
