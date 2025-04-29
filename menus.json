@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-28 10:42",
+    "last_updated": "2025-04-29 03:33",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,28 +7,24 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Kålpudding med gräddsås, lingon och kokt potatis",
+                        "name": "Dagens husman: Köttbullar med gräddsås, potatispuré och lingon",
                         "price": "145"
                     },
                     {
-                        "name": "Koreansk biff i tunna skivor med kimchimayo och ris",
+                        "name": "Mozzarellafylld majskyckling med tomatsås och ris",
                         "price": "145"
                     },
                     {
-                        "name": "Pankofriterad färsk smögensej med wasabidipp och ris",
+                        "name": "Ångad färsk torskfilé med sandefjordsås och potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Falafel med vitlöksdressing och ris",
+                        "name": "Grönsaksquiche med västerbottenost och gurksallad",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Ugnsstekt savoykål",
+                        "name": "Dagens varma grönsak: Gröna ärtor",
                         "price": "145"
-                    },
-                    {
-                        "name": "Rotsellerisoppa, ingår i lunchen",
-                        "price": ""
                     }
                 ]
             }
@@ -91,19 +87,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "WALLENBERGARE med gräddsås ärtor lingonsylt och potatismos",
+                        "name": "STEKT FLÄSK med raggmunk rårörda lingon alt lök sås och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "KALVLEVER ANGLAISE med kalv sky bacon kapris persilja och potatismos",
+                        "name": "ÖRT MARINERAD KYCKLINGFILÉ med Ceasar dressing och svamp risotto GRILLAD LAXFILÉ med citron crème och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "PANERAD RÖDINGFILÉ med skirat smör rostade rödbetor pepparrot crème och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA med kycklingfilé grönsaker i en krämig curry sås",
+                        "name": "PASTA med Oxfilé i en krämig tryffel champinjoner sås",
                         "price": "139"
                     }
                 ]
@@ -122,7 +114,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -162,31 +154,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli  eller",
+                        "name": "Pocherad koljafilé med citronsås, stekta grönsaker & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Kycklinglårfilé med råstekt potatis, rödvinssås, broccoli & bönor",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Vi serverar även sushi, pokebowls & bibimbap.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Resterande meny för veckan kommer upp imorgon bitti tisdag.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Stängt på torsdag!",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
+                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
                         "price": "149"
                     }
                 ]
