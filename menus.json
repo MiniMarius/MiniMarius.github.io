@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-29 03:33",
+    "last_updated": "2025-04-30 03:38",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Köttbullar med gräddsås, potatispuré och lingon",
+                        "name": "Dagens husman: Skånsk kalops med inlagda rödbetor och kokt potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Mozzarellafylld majskyckling med tomatsås och ris",
+                        "name": "Helgrillad entrecote med chilibearnaise och klyftpotatis",
                         "price": "145"
                     },
                     {
-                        "name": "Ångad färsk torskfilé med sandefjordsås och potatis",
+                        "name": "Fiskpiccata med tomatsås och ris",
                         "price": "145"
                     },
                     {
-                        "name": "Grönsaksquiche med västerbottenost och gurksallad",
+                        "name": "Bakad zucchini fylld med kryddig cous cous, fetaost, soltorkade tomater",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Gröna ärtor",
+                        "name": "Dagens varma grönsak: Karamelliserade morötter",
                         "price": "145"
                     }
                 ]
@@ -33,52 +33,7 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Tryffelpasta - färsk pasta med portabello, parmesan, ruccola & serrano \"crumbles\"",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Sticky chicken - hoisinslungad kyckling med gurksalsa,\nsesam &  vårlök, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
-                        "price": "125"
-                    },
-                    {
-                        "name": "No chicken - friterad no chicken chicken, \npicklad gurka, coleslaw & hot mayo, rawsallad, edamame, sushiris, rättika & gari",
-                        "price": "125"
-                    },
-                    {
-                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
-                        "price": "175"
-                    },
-                    {
-                        "name": "Italian job - 150g burgare med tomat-& löksallad\ncheddar, parmesan-mayo & basilika. serveras med pommes & dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Dubble cheese - 150g burgare med cheddar, emmentaler\nkaramelliserad lök, tryffel-mayo & sallad.serveras med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Veggison - sojaburgare, honungsdijonaise, vegansk ost, tomat, sallad & karameliserad lök\nserveras med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "The big mack - 150g burgare med cheddar, pepperjack, finhackad gul lök, picklad gurka  & sallad . serveras med pommes och dipp",
-                        "price": "139"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -87,16 +42,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "STEKT FLÄSK med raggmunk rårörda lingon alt lök sås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "ÖRT MARINERAD KYCKLINGFILÉ med Ceasar dressing och svamp risotto GRILLAD LAXFILÉ med citron crème och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA med Oxfilé i en krämig tryffel champinjoner sås",
-                        "price": "139"
+                        "name": "Error",
+                        "price": "Network issue"
                     }
                 ]
             }
@@ -114,7 +61,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -154,11 +101,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pocherad koljafilé med citronsås, stekta grönsaker & kokt potatis",
+                        "name": "Laxpudding med brynt smör & haricotsverts",
                         "price": "149"
                     },
                     {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
+                        "name": "Stekt falukorv med stuvade makaroner, rödvinssås & stekt ägg",
                         "price": "149"
                     }
                 ]
