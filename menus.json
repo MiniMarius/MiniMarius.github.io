@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-04-30 03:38",
+    "last_updated": "2025-05-01 03:41",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Skånsk kalops med inlagda rödbetor och kokt potatis",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Helgrillad entrecote med chilibearnaise och klyftpotatis",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Fiskpiccata med tomatsås och ris",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Bakad zucchini fylld med kryddig cous cous, fetaost, soltorkade tomater",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens varma grönsak: Karamelliserade morötter",
+                        "name": "Stängt!",
                         "price": "145"
                     }
                 ]
@@ -33,7 +17,52 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Tryffelpasta - färsk pasta med portabello, parmesan, ruccola & serrano \"crumbles\"",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Sticky chicken - hoisinslungad kyckling med gurksalsa,\nsesam &  vårlök, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
+                        "price": "125"
+                    },
+                    {
+                        "name": "No chicken - friterad no chicken chicken, \npicklad gurka, coleslaw & hot mayo, rawsallad, edamame, sushiris, rättika & gari",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
+                        "price": "175"
+                    },
+                    {
+                        "name": "Italian job - 150g burgare med tomat-& löksallad\ncheddar, parmesan-mayo & basilika. serveras med pommes & dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Dubble cheese - 150g burgare med cheddar, emmentaler\nkaramelliserad lök, tryffel-mayo & sallad.serveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Veggison - sojaburgare, honungsdijonaise, vegansk ost, tomat, sallad & karameliserad lök\nserveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "The big mack - 150g burgare med cheddar, pepperjack, finhackad gul lök, picklad gurka  & sallad . serveras med pommes och dipp",
+                        "price": "139"
+                    }
+                ]
             }
         },
         {
@@ -42,8 +71,20 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "Network issue"
+                        "name": "ONSDAGFLÄSK NOISETTE med rödvinssky bearnaisesås och rostad potatis FÅROST FYLLD KÖTFÄRSLIMPA med champinjoner sås lingonsylt och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "STEKT STRÖMMING med skirat smör rårörda lingon och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SPAGETTI FRUTTI DI MARIE med skaldjur i en het tomatsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TORSDAGVI ÖPPNAR 11.30 Till 22.00",
+                        "price": "139"
                     }
                 ]
             }
@@ -61,7 +102,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
+                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
                         "price": "132"
                     }
                 ]
@@ -71,28 +112,7 @@
             "name": "Sjöpaviljongen",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Råbiff på svensk kalv med parmesancreme, citron, sardell,",
-                        "price": ""
-                    },
-                    {
-                        "name": "pomme alumette och färsk riven parmesan",
-                        "price": ""
-                    },
-                    {
-                        "name": "– Stor 345 kr   VARMRÄTTER  Oxfilé Tournedos med grillad färsk vit sparris,pepparsky, boulangère-potatis 425 kr",
-                        "price": "245345425"
-                    },
-                    {
-                        "name": "Smörstekt hjälmargös med skaldjursfylld toppmurkla,bränd purjolök, ramslök och musselskum",
-                        "price": ""
-                    },
-                    {
-                        "name": "4",
-                        "price": "445"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -101,12 +121,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Laxpudding med brynt smör & haricotsverts",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Stekt falukorv med stuvade makaroner, rödvinssås & stekt ägg",
-                        "price": "149"
+                        "name": "Error",
+                        "price": "Network issue"
                     }
                 ]
             }
