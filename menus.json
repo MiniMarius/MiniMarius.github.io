@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-01 03:41",
+    "last_updated": "2025-05-02 03:36",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -71,19 +71,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "ONSDAGFLÄSK NOISETTE med rödvinssky bearnaisesås och rostad potatis FÅROST FYLLD KÖTFÄRSLIMPA med champinjoner sås lingonsylt och rostad potatis",
+                        "name": "BLACK AND WHITE (oxfilé, fläskfilé) med rödvinssky bearnaisesås och rostad potatis",
                         "price": "139"
                     },
                     {
-                        "name": "STEKT STRÖMMING med skirat smör rårörda lingon och potatismos",
+                        "name": "ISTERBAND Med rödbetor och persilja stuvad potatis PANKO PANERAD TORSKFILÉ med chili Skagenröra och kokt potatis",
                         "price": "139"
                     },
                     {
-                        "name": "SPAGETTI FRUTTI DI MARIE med skaldjur i en het tomatsås",
+                        "name": "FETTUCINE AL AVOCADO med scampi vitlök färsk chili persilja i en krämig hummer sås",
                         "price": "139"
                     },
                     {
-                        "name": "TORSDAGVI ÖPPNAR 11.30 Till 22.00",
+                        "name": "VI BJUDER DESSERTVECKAN TIPS: 179:-GRILL MIX (OXFILÉ, FLÄSKFILÉ, KYCKLINGFILÉ) MED BEARNAISE SÅS GRILLAD SPARRIS OCH POMMES FRITES",
                         "price": "139"
                     }
                 ]
@@ -102,7 +102,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -112,7 +112,44 @@
             "name": "Sjöpaviljongen",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Caesarsallad med kycklingbröst, bacon, parmesan och krutonger 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Vegetarisk bolognese med mozzarella och parmesan 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Stekta knorrhane filéer med smörad skaldjursbuljong, spetskål, salladslök, handskalade räkor och musslor 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Sill och strömmingstallrik med västerbottenost och kokt potatis 175",
+                        "price": ""
+                    },
+                    {
+                        "name": "Dansk sjömansbiff med saltgurka 195Kalvlever Anglais med bacon, kapris och rödvinssky",
+                        "price": ""
+                    },
+                    {
+                        "name": "265",
+                        "price": ""
+                    },
+                    {
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
+                        "price": ""
+                    },
+                    {
+                        "name": "DESSERT  Bakad yoghurt med hjortron och krossade drömmar",
+                        "price": ""
+                    },
+                    {
+                        "name": "65",
+                        "price": ""
+                    }
+                ]
             }
         },
         {
@@ -121,8 +158,20 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "Network issue"
+                        "name": "Spättafilé med brynt smör, bakad spetskål, kokt potatis, saltrostade pumpakärnor & fänkålskrudité",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Rödvinbrässerad oxkind med potatismos, rödvinssås & bönor",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
+                        "price": "149"
                     }
                 ]
             }
