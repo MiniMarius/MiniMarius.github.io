@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-02 03:36",
+    "last_updated": "2025-05-03 03:32",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt!",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -19,11 +19,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Tryffelpasta - färsk pasta med portabello, parmesan, ruccola & serrano \"crumbles\"",
+                        "name": "Shish kebab - nötfärsspett med raita, salsa roja, jasminris & persilja",
                         "price": "145"
                     },
                     {
-                        "name": "Sticky chicken - hoisinslungad kyckling med gurksalsa,\nsesam &  vårlök, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Lao chicken - lao-kryddad kycklingfärs med picklat rödkål, gurksalsa, chilimayo, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -47,7 +47,7 @@
                         "price": "175"
                     },
                     {
-                        "name": "Italian job - 150g burgare med tomat-& löksallad\ncheddar, parmesan-mayo & basilika. serveras med pommes & dipp",
+                        "name": "Texakana - 150g burgare med pulled pork, krossade nachos, srirachamayo. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -55,12 +55,12 @@
                         "price": "129"
                     },
                     {
-                        "name": "Veggison - sojaburgare, honungsdijonaise, vegansk ost, tomat, sallad & karameliserad lök\nserveras med pommes och dipp",
+                        "name": "Tropical - friterad halloumi med mangosalsa,\n syrad lök, sallad & chipotle-mayo \nserveras med pommes och dipp",
                         "price": "129"
                     },
                     {
-                        "name": "The big mack - 150g burgare med cheddar, pepperjack, finhackad gul lök, picklad gurka  & sallad . serveras med pommes och dipp",
-                        "price": "139"
+                        "name": "The orkney - 150g burgare med lagrad orkney cheddar, \npicklad chili, gemsallad & lagrad cheddarkräm . serveras med pommes och dipp",
+                        "price": "145"
                     }
                 ]
             }
@@ -71,20 +71,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "BLACK AND WHITE (oxfilé, fläskfilé) med rödvinssky bearnaisesås och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "ISTERBAND Med rödbetor och persilja stuvad potatis PANKO PANERAD TORSKFILÉ med chili Skagenröra och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FETTUCINE AL AVOCADO med scampi vitlök färsk chili persilja i en krämig hummer sås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "VI BJUDER DESSERTVECKAN TIPS: 179:-GRILL MIX (OXFILÉ, FLÄSKFILÉ, KYCKLINGFILÉ) MED BEARNAISE SÅS GRILLAD SPARRIS OCH POMMES FRITES",
-                        "price": "139"
+                        "name": "Error",
+                        "price": "No menu available for today"
                     }
                 ]
             }
@@ -100,12 +88,7 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -156,24 +139,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Spättafilé med brynt smör, bakad spetskål, kokt potatis, saltrostade pumpakärnor & fänkålskrudité",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Rödvinbrässerad oxkind med potatismos, rödvinssås & bönor",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
