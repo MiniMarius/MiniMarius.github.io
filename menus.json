@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-08 03:38",
+    "last_updated": "2025-05-09 03:37",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Pannbiff med stekt lök, sås och stekt potatis",
+                        "name": "Grillfredag, en tallrik grillmix av nedan… Välj kött/fisk eller vegetariskt",
                         "price": "145"
                     },
                     {
-                        "name": "Schnitzel (Fläsk) Holstein (Stekt ägg, kapris, sardeller, citron)",
+                        "name": "Protein:",
                         "price": "145"
                     },
                     {
-                        "name": "Bouillabaisse med aioli",
+                        "name": "Flankstek, Korean fried chicken, regnbåge",
                         "price": "145"
                     },
                     {
-                        "name": "Bakad fetaost med italiensk tomatsallad och grillad aubergine (Veg)",
+                        "name": "Tillbehör:",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Gröna ärtor",
+                        "name": "Garros potato chips, grillad majs, spetskål, bbq sås, kimchidipp",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vegetariskt:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Grillad halloumi, grillat svampspett",
                         "price": "145"
                     }
                 ]
@@ -126,7 +134,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -138,19 +146,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sojaglaserad lax med nudlar, papayasallad,koriander och cashewnötter",
+                        "name": "195",
                         "price": ""
                     },
                     {
-                        "name": "195 Hemgjord Falafel med couscous, russin,salladslök och myntayoghurt 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Smörstekt Uer, ragu på tomat, oliver, salladslök och sardellServeras med aioli 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Lövbiff med persiljesmör, frasiga jordärtskockor,potatispuré och rödvinssky",
+                        "name": "Baconlindad köttfärslimpa med skogssvampsås, gelé och pressgurka, serveras med potatispuré",
                         "price": ""
                     },
                     {
@@ -194,11 +194,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré, rårörda lingon &bönor",
+                        "name": "Halstrad laxfilé med vitlök/basilika crème, rostad potatis, betor & spenat",
                         "price": "149"
                     },
                     {
-                        "name": "Köttfärslimpa med gräddsås, kokt potatis, saltgurka & gelé",
+                        "name": "Ugnsbakad kycklinglårfilé med rostade rotfrukter & potatis samt rödvinssås",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
