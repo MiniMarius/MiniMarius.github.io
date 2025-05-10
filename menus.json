@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-09 03:37",
+    "last_updated": "2025-05-10 03:32",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,31 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillfredag, en tallrik grillmix av nedan… Välj kött/fisk eller vegetariskt",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Protein:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Flankstek, Korean fried chicken, regnbåge",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Tillbehör:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Garros potato chips, grillad majs, spetskål, bbq sås, kimchidipp",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vegetariskt:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Grillad halloumi, grillat svampspett",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -95,28 +71,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "MÅNDAGSCHWEIZERSCHNITZEL (ost, skinka fylld) med rödvinssky, ärtor och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "WOKAD KYCKLINGFILÉ med jordnötter sås och grönsaker ris FISK PICCATA (Rödspättafilé) med tomatsås och ris SPAGETTI CARBONARA special med bacon champinjoner purjolök i en krämig parmesansås TISDAGSTEKT FLÄSK med raggmunk rårörda lingonalt lök sås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "GREKISK BIFF med rosmarinsky tzatziki och rostad potatis PANKO PANERAD GÖSFILÉ med purjolök champinjoner kapris i skirat smör och kokt potatis KRÄMIG PASTA GRATÄNG med oxfilé och grönsaker ONSDAGKYCKLING SCHNITZELL Med soltorkat tomatsky och klyftpotatis GRÄDDSTUVAD PYTT I PANNA med rödbetor och stekt ägg WOKAD TANDOORI LAXFILÉ med grönsaker ris PASTA med chorizo grönsaker i en krämig tomatsås TORSDAGGRILLAD ENTRECOTE med rödvinssky bearnaisesås och rostad potatis GRATINERAD FALUKORV med potatismos PANERAD FLUNDRAFILÉ med Västerbottenost kräftröra och potatismos",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA Med ANTIPASTO ITALIENSK charkuteri basilika tomat i en krämig tallegiaoost sås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "VI BJUDER PANKAKOR GRÄDDEOCH SYLTFREDAGFLÄSKFILÉ med kantarellsås och rostad potatis LAMMFÄRS BIFF med timjansky fetaostcrème och Hasselbackspotatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "UGNSBAKAD KOLJAFILÉ med gräslöksås och kokt potatis PASTA med kycklingfilé grönsaker i en krämig curry sås VI BJUDER DESSERT VECKAN TIPS: 169: -GRILLAD LAXFILÉ PÅ PLANKA MED POTATISMOSGRILLAD PARMESAN PACKAD TOMAT GRILLAD SPARRIS OCH AVOCADO RUCCOLA CREME",
-                        "price": "139"
+                        "name": "Error",
+                        "price": "No menu available for today"
                     }
                 ]
             }
@@ -132,12 +88,7 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -192,24 +143,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Halstrad laxfilé med vitlök/basilika crème, rostad potatis, betor & spenat",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Ugnsbakad kycklinglårfilé med rostade rotfrukter & potatis samt rödvinssås",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
