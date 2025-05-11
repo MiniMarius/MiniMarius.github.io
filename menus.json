@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-10 03:32",
+    "last_updated": "2025-05-11 03:39",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -19,15 +19,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Schnitzel - dubbelpanerad kycklingschnitzel med örtrostad potatis, persilja-& vitlökssmör, citron & rödvinssås",
+                        "name": "Köttfärslimpa - med tryffel, bacon, portabello gräddsås, kokt potatis, pressgurka & lingon",
                         "price": "155"
                     },
                     {
-                        "name": "Chicken bahn mi - vitnam style kyckling med kimchimayo, gurksallad, picklat rödkål, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Japanese katsu - pankofriterad kyckling, gurksalsa,\ntonkatsu-mayo & vårlök, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
-                        "name": "Hot cheese - friterad halloumi med picklat rödkål, srirachamayo, mangosalsa, rawsallad, edamame, sushiris, rättika & gari",
+                        "name": "Juan of a kind - mexikansk kryddad vego-färs, nachos\npico de gallo & avokadokräm, rawsallad, edamame, sushiris, rättika & gari",
                         "price": "125"
                     },
                     {
@@ -47,15 +47,15 @@
                         "price": "175"
                     },
                     {
-                        "name": "Jalapeno king - 150g burgare med picklade jalapenos, jalapeno-mayo, sallad & majssalsa. serveras med pommes & dipp",
+                        "name": "The cbc - 150g burgare med cheddar, bacon,  sallad\n& chili-cheddar-mayo. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Korean truffle - 150g burgare med cheddar, yakiniku kött & tryffel-mayo.serveras med pommes och dipp",
+                        "name": "Truffle n onion - 150g burgare med cheddar, syrad lök, \nrostad lök & tryffel-mayo. med pommes och dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Spanish vegan - sojaburgare med pico de gallo, chilimayo,  \"cheddar\" & sallad\nserveras med pommes och dipp",
+                        "name": "Tropical - friterad halloumi med syrad lök, \nananassalsa, chipotle-mayo & sallad.\nserveras med pommes och dipp",
                         "price": "129"
                     },
                     {
