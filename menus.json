@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-11 03:39",
+    "last_updated": "2025-05-12 03:40",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Dagens husman: Kalv i dillsås med potatispuré",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Högrevschili med smetana, nachos och picklad lök",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Tempurafriterad färsk havskattfilé med röd currydipp och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vegonuggets med syrad kålsallad och ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens varma grönsak: Haricotsverts",
                         "price": "145"
                     }
                 ]
@@ -71,8 +87,60 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "No menu available for today"
+                        "name": "FLÄSK SKOMAKARLÅDA Med purjolöksky, bacon och potatismos NASI GORENG (kyckling, räkor, ananas) och stekt ägg",
+                        "price": "139"
+                    },
+                    {
+                        "name": "RÄK-SPENAT FYLLD FLUNDRAFILÉ Med vitvinsky och potatismos PASTA Med italiensk salami och grönsaker i en krämig tomatsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TISDAGSTEKT FLÄSK Med raggmunk, rårörda lingon alt. löksås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SLOTTSTEKT Med gräddsås, svartvinbärsgelé och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANKO PANERAD RÖDINGFILÉ Med skirat smör, pepparrotscrème, grillade rödbetor och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med kräftstjärtar och champinjoner i en krämig pestosås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "ONSDAGHELSTEKT HÖGREV Med chimichurri, chipotlemayo och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "OXJÄRPAR Med champinjonsås och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "FRITERAD TORSKFILÉ Med gubbröra och kokt potatis SPAGETTI CARBONARA Med äggula i en krämig parmesansås TORSDAGWIENERSCHNITZEL Med rödvinssky, bearnaisesås och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "VILTSKAVSGRYTA Med kantareller, rårörda lingon och potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANERAD FLUNDRAFILÉ Med stenbitsromröra och kokt potatis PASTA Med fläskfilé och grönsaker i en krämig grönpeppar sås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "VI BJUDER PANKAKOR GRÄDDE OCH SYLTFREDAGPLJESKAVICA Med bearnaisesås, ajvar, gräddfil, lök och röstipotatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "KALVLEVER ANGLAIESE Med kalvsky, bacon, kapris, persilja och potatismos FISKGRATÄNG Med blomkål, champinjoner, hummersås och potatismos PASTA Med rostbiff och grönsaker i en krämig tomatsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "VI BJUDER DESSERT VECKAN TIPS: 189: -OXFILÉ PÅ PLANKA MED POTATISMOS, GRILLAD SPARRIS, GRILLAD PARMESAN TOMAT OCH BEARNAISESÅS",
+                        "price": "139"
                     }
                 ]
             }
@@ -88,7 +156,12 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -143,7 +216,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Isterband med senapstuvad potatis, rödbetor & rödvinssås",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
