@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-12 03:40",
+    "last_updated": "2025-05-12 09:10",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -11,11 +11,11 @@
                         "price": "145"
                     },
                     {
-                        "name": "Högrevschili med smetana, nachos och picklad lök",
+                        "name": "Högrevschili (Nötkött) med smetana, nachos och picklad lök",
                         "price": "145"
                     },
                     {
-                        "name": "Tempurafriterad färsk havskattfilé med röd currydipp och ris",
+                        "name": "Tempurafriterad färsk havskattfilé (Glutenfri)  med röd currydipp och ris",
                         "price": "145"
                     },
                     {
@@ -25,6 +25,10 @@
                     {
                         "name": "Dagens varma grönsak: Haricotsverts",
                         "price": "145"
+                    },
+                    {
+                        "name": "Champinjonsoppa, ingår i lunchen",
+                        "price": ""
                     }
                 ]
             }
@@ -170,6 +174,22 @@
             "menu": {
                 "dishes": [
                     {
+                        "name": "Bulgur med burrata, basilikavinägrett vindruvor, vattenmelon, tomat och rostade mandlar",
+                        "price": ""
+                    },
+                    {
+                        "name": "195 Pasta pesto med tomater mozzarella och pinjenötter",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Stekt panerad havskattsfilé med tartarsåsoch smörslungad färsk vitkål",
+                        "price": ""
+                    },
+                    {
                         "name": "195",
                         "price": ""
                     },
@@ -182,31 +202,15 @@
                         "price": ""
                     },
                     {
-                        "name": "Isterband med persiljestuvad potatis, röderbetor, rödvinssky och hemgjord stark senap",
+                        "name": "Parmesangratinerade laxqueneller med havskräftsås,spenat och skaldjur  295",
                         "price": ""
                     },
                     {
-                        "name": "195Kalvlever Anglais med bacon, kapris och rödvinssky",
-                        "price": ""
-                    },
-                    {
-                        "name": "265",
-                        "price": ""
-                    },
-                    {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT  Rabarberkompott med brioche, italiensk maräng",
+                        "name": "DESSERT  Banankaka, vaniljgrädde och karameliserad banan",
                         "price": ""
                     },
                     {
                         "name": "65",
-                        "price": ""
-                    },
-                    {
-                        "name": "Alltid på lunchen!",
                         "price": ""
                     }
                 ]
@@ -222,7 +226,7 @@
                         "price": "149"
                     },
                     {
-                        "name": "Isterband med senapstuvad potatis, rödbetor & rödvinssås",
+                        "name": "Oxkind med potatismos, rödvinssås & bönor",
                         "price": "149"
                     }
                 ]
