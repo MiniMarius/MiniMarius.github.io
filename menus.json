@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-12 09:10",
+    "last_updated": "2025-05-13 03:38",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,28 +7,24 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Kalv i dillsås med potatispuré",
+                        "name": "Dagens husman: Raggmunk (Gluten och mjölkfria) med stekt fläsk och lingon",
                         "price": "145"
                     },
                     {
-                        "name": "Högrevschili (Nötkött) med smetana, nachos och picklad lök",
+                        "name": "Örtbakad nötinnanlår med rosépepparsås och ströbrödsbakad potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Tempurafriterad färsk havskattfilé (Glutenfri)  med röd currydipp och ris",
+                        "name": "Italiensk fiskgratäng med kryddigt ris",
                         "price": "145"
                     },
                     {
-                        "name": "Vegonuggets med syrad kålsallad och ris",
+                        "name": "Raggmunk med edamamebönor och lingon (Veg)",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Haricotsverts",
+                        "name": "Dagens varma grönsak: Zucchini",
                         "price": "145"
-                    },
-                    {
-                        "name": "Champinjonsoppa, ingår i lunchen",
-                        "price": ""
                     }
                 ]
             }
@@ -91,7 +87,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "FLÄSK SKOMAKARLÅDA Med purjolöksky, bacon och potatismos NASI GORENG (kyckling, räkor, ananas) och stekt ägg",
+                        "name": "MÅNDAGFLÄSK SKOMAKARLÅDA Med purjolöksky, bacon och potatismos NASI GORENG (kyckling, räkor, ananas) och stekt ägg",
                         "price": "139"
                     },
                     {
@@ -162,7 +158,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -178,7 +174,11 @@
                         "price": ""
                     },
                     {
-                        "name": "195 Pasta pesto med tomater mozzarella och pinjenötter",
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Pasta pesto med tomater mozzarella och pinjenötter",
                         "price": ""
                     },
                     {
@@ -191,6 +191,10 @@
                     },
                     {
                         "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Kokt rimmad oxbringa med buljongkokta rotsaker, kål, dijonnaise, potatispuré och picklade senapsfrön 195",
                         "price": ""
                     },
                     {
@@ -222,11 +226,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "name": "Koljafilé med citronsås, kokt potatis, fänkål, champinjon & spenat",
                         "price": "149"
                     },
                     {
-                        "name": "Oxkind med potatismos, rödvinssås & bönor",
+                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Resterande meny för veckan kommer upp imorgon.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
