@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-13 03:38",
+    "last_updated": "2025-05-14 03:37",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Raggmunk (Gluten och mjölkfria) med stekt fläsk och lingon",
+                        "name": "Dagens husman: Kalvlever Anglais (rödvinssky, kapris, lök)",
                         "price": "145"
                     },
                     {
-                        "name": "Örtbakad nötinnanlår med rosépepparsås och ströbrödsbakad potatis",
+                        "name": "Coq au vin på majskyckling från Bjärehalvön med ris",
                         "price": "145"
                     },
                     {
-                        "name": "Italiensk fiskgratäng med kryddigt ris",
+                        "name": "Fiskpiccata med tomatsås och ris",
                         "price": "145"
                     },
                     {
-                        "name": "Raggmunk med edamamebönor och lingon (Veg)",
+                        "name": "Moussaka med grillad halloumi (Veg)",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Zucchini",
+                        "name": "Dagens varma grönsak: Spetskål",
                         "price": "145"
                     }
                 ]
@@ -158,7 +158,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -186,19 +186,15 @@
                         "price": ""
                     },
                     {
-                        "name": "Stekt panerad havskattsfilé med tartarsåsoch smörslungad färsk vitkål",
+                        "name": "Smörstekt långafilé med havskräftsås, blåmusslor,vitsparris och spenat",
                         "price": ""
                     },
                     {
-                        "name": "195",
+                        "name": "195 Kokt rimmad oxbringa med buljongkokta rotsaker, kål, dijonnaise, potatispuré och picklade senapsfrön 195",
                         "price": ""
                     },
                     {
-                        "name": "Kokt rimmad oxbringa med buljongkokta rotsaker, kål, dijonnaise, potatispuré och picklade senapsfrön 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Baconlindad köttfärslimpa med skogssvampsås, gelé och pressgurka, serveras med potatispuré",
+                        "name": "Knaperstekt fläsk med löksås",
                         "price": ""
                     },
                     {
@@ -224,28 +220,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Koljafilé med citronsås, kokt potatis, fänkål, champinjon & spenat",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Resterande meny för veckan kommer upp imorgon.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
