@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-15 03:38",
+    "last_updated": "2025-05-16 03:39",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,27 +7,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Köttbullar med gräddsås, lingon och potatispuré",
+                        "name": "Grillfredag, en tallrik grillmix av nedan…",
                         "price": "145"
                     },
                     {
-                        "name": "Biff Rydberg med äggula, pepparrot, senapsgrädde",
+                        "name": "Protein:",
                         "price": "145"
                     },
                     {
-                        "name": "Het scampigryta med champinjoner, paprika, lök toppad med myntayoghurt",
+                        "name": "Lammrostbiff, korvfestival, gösfilé",
                         "price": "145"
                     },
                     {
-                        "name": "Grillad sparris med hollandaise och stekt skivling (Veg)",
+                        "name": "Tillbehör:",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Ugnsstekta morötter",
+                        "name": "Rösti, chili och vitlöksstekt blomkål, barolosås, Garros aivar",
                         "price": "145"
                     },
                     {
-                        "name": "Varje torsdag har vi pannkaksbuffé med vår egen hallonsylt som dessert!",
+                        "name": "Vegetariskt:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Grönsaksknyte med brynt smör och knaprig jordärtskocka med aivar",
                         "price": "145"
                     }
                 ]
@@ -162,7 +166,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -174,35 +178,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Bulgur med burrata, basilikavinägrett vindruvor, vattenmelon, tomat och rostade mandlar",
+                        "name": "Bulgur med burrata, basilikavinägrett, vindruvor, vattenmelon, tomat och rostade mandlar 195 Pasta pesto med tomater, mozzarella och pinjenötter 195",
                         "price": ""
                     },
                     {
-                        "name": "195",
+                        "name": "Smörstekta fjärsingfiléer med spenatstuvad färsk vitkål, räkor och färskpotatis 195 Kokt rimmad oxbringa med buljongkokta rotsaker, kål, dijonnaise, potatispuré och picklade senapsfrön 195",
                         "price": ""
                     },
                     {
-                        "name": "Pasta pesto med tomater mozzarella och pinjenötter",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Smörstekt långafilé med havskräftsås, blåmusslor,vitsparris och spenat",
-                        "price": ""
-                    },
-                    {
-                        "name": "195 Kokt rimmad oxbringa med buljongkokta rotsaker, kål, dijonnaise, potatispuré och picklade senapsfrön 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Knaperstekt fläsk med löksås",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
+                        "name": "Jägarbiff på dovhjort med svamp och löksky,potatispuré och rårörda lingon 195",
                         "price": ""
                     },
                     {
@@ -210,11 +194,15 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT  Banankaka, vaniljgrädde och karameliserad banan",
+                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås 265",
                         "price": ""
                     },
                     {
-                        "name": "65",
+                        "name": "DESSERT  Banankaka med vaniljgrädde och karameliserad banan 65",
+                        "price": ""
+                    },
+                    {
+                        "name": "Alltid på lunchen! 55",
                         "price": ""
                     }
                 ]
@@ -226,11 +214,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré, rårörda lingon &bönor",
+                        "name": "Stekt panerad spättafilé med remouladsås, smashed potatoes & ärtor",
                         "price": "149"
                     },
                     {
-                        "name": "Korvstroganoff med ris",
+                        "name": "Lasagne med en krämig tomatsås",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 11.00-11.30 & 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
