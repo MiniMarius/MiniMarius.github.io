@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-19 03:43",
+    "last_updated": "2025-05-19 09:10",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -39,11 +39,11 @@
                         "price": "155"
                     },
                     {
-                        "name": "The greek - kryddigt gyroskött med tzatziki, tomat-& löksallad, chilimayo, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Kachang chicken - krämig kyckling med jordnötter, chili, kokos. \nserveras med nötig hoisin-mayo, \nmarinerade groddar-& suger snaps, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
-                        "name": "Juan of a kind - mexikansk kryddad vego-färs, nachos\npico de gallo & avokadokräm, rawsallad, edamame, sushiris, rättika & gari",
+                        "name": "Hot puff - friterad tzay (soya protein) med hot-mayo, \n mangosalsa & marinerade groddar, rawsallad, edamame, sushiris, rättika & gari",
                         "price": "125"
                     },
                     {
@@ -63,15 +63,15 @@
                         "price": "175"
                     },
                     {
-                        "name": "Smokey joe - 150g burgare med cheddar,chipotlemayo, coleslaw & rödlök. serveras med pommes & dipp",
+                        "name": "The original - 150g burgare med cheddar, tomat, sallad, syrad lök\n& orginaldressing. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Truffle n onion - 150g burgare med cheddar, syrad lök, \nrostad lök & tryffel-mayo. med pommes och dipp",
+                        "name": "Truffle n onion - 150g burgare med cheddar, lökring, \npulled pork & tryffelmayo. med pommes och dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Tropical - friterad halloumi med syrad lök, \nananassalsa, chipotle-mayo & sallad.\nserveras med pommes och dipp",
+                        "name": "Almost chicken - vegansk ”chicken style” burger med sallad, picklad rödkål, srirachamayo & jalapeños.\nserveras med pommes och dipp",
                         "price": "129"
                     },
                     {
@@ -262,7 +262,19 @@
                         "price": "149"
                     },
                     {
-                        "name": "Oxkind med potatismos, rödvinssås & bönor",
+                        "name": "Kokt rimmad oxbringa med senapsky & rostade rotfrukter",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Resterande meny för veckan kommer upp imorgon tisdag.",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 11.00-11.30 & 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
