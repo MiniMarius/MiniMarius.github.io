@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-18 03:41",
+    "last_updated": "2025-05-19 03:43",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Dagens husman: Slottstek med inlagd gurka och kokt potatis",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Grillad kalvpichana med pasta pesto",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Lättrimmad och pocherade torskslag med brynt smör, dill, pepparrot",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Pasta pesto toppad med knaprig skivling",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens varma grönsak: Babyspenat",
                         "price": "145"
                     }
                 ]
@@ -71,8 +87,88 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "No menu available for today"
+                        "name": "HEMLAGADE STORA KÖTTBULLAR Med gräddsås, lingonsylt och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PICCATA MILANESE Med tomatsås och ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "LAX & SCAMPISPETT Med saffransås, grönsaker och ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med oxfilé och broccoli i en krämig tryffelparmesansås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TISDAGSTEKT FLÄSK Med raggmunk och lingon alt. löksås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "FRITERAD STRÖBAKAD KYCKLINGFILÉ Med caesardressing och klyftpotatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANERAD FLUNDRAFILÉ Med dansk remouladsås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SPAGHETTI Med tonfisk, kapris, chili, citron, persilja och coctailtomater",
+                        "price": "139"
+                    },
+                    {
+                        "name": "ONSDAGPEPPARRULLAD FLÄSKKARRÉ Med champinjonsås och rösti potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "BEOUF BOURGUIGNON Med syltlök, bacon, champinjoner och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "STEKT STRÖMMING Med skirat smör, rårörda lingon och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med skinka och broccoli i en krämig dragonsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TORSDAGLÖVBIFF Med rödvinsky, bearnaisesås och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "STEKT FALUKORV Med stuvade makaroner och honung/chilidressing",
+                        "price": "139"
+                    },
+                    {
+                        "name": "LAXPUDDING Med skirat smör",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med fläskfilé och grönsaker i en krämig dijonsenapsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "VI BJUDER PANKAKOR GRÄDDE OCH SYLTFREDAGHELSTEKT FLÄSKFILÉ Med rödvinsky, bearnaisesås och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "KÅLDOLMAR Med gräddsås, lingonsylt och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "UGNSBAKAD KOLJAFILÉ Med äggsås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med kycklingfilé, grönsaker och tomatsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "VI BJUDER DESSERT VECKAN TIPS: 189: -OXFILÉ PÅ PLANKA MED POTATISMOS, GRILLAD SPARRIS, GRILLAD PARMESAN TOMAT OCH BEARNAISESÅS",
+                        "price": "139"
                     }
                 ]
             }
@@ -88,7 +184,12 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -97,15 +198,35 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Bulgur med burrata, basilikavinägrett, vindruvor, vattenmelon, tomat och rostade mandlar 195 Pasta pesto med tomater, mozzarella och pinjenötter 195",
+                        "name": "Sallad med getost, betor, fänkål, valnötter, granatäpple,chili och honungsvinägrett",
                         "price": ""
                     },
                     {
-                        "name": "Smörstekta fjärsingfiléer med senapsstuvad färsk vitkål, räkor och färskpotatis 195 Kokt rimmad oxbringa med buljongkokta rotsaker, kål, dijonnaise, potatispuré och picklade senapsfrön 195",
+                        "name": "195",
                         "price": ""
                     },
                     {
-                        "name": "Jägarbiff på dovhjort med svamp och löksky,potatispuré och rårörda lingon 195",
+                        "name": "Vegetariska biffar på potatis, kikärtor och fetaost medbulgursallad, jalapeño och korianderyoghurt",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Halstrad lättgravad svensk makrillfilé med dillstuvad potatis, citron och hovmästarsås",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Jägarbiff på dovhjort med svamp och löksky,potatispuré och rårörda lingon",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
                         "price": ""
                     },
                     {
@@ -117,7 +238,11 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT  Banankaka med vaniljgrädde och karameliserad banan 65",
+                        "name": "DESSERT  Hjortonparfait med kolakräm och kolakrisp",
+                        "price": ""
+                    },
+                    {
+                        "name": "65",
                         "price": ""
                     },
                     {
@@ -131,7 +256,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Oxkind med potatismos, rödvinssås & bönor",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
