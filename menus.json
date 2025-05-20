@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-19 09:10",
+    "last_updated": "2025-05-20 03:39",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Slottstek med inlagd gurka och kokt potatis",
+                        "name": "Dagens husman: Kroppkakor med lingon och skirat smör",
                         "price": "145"
                     },
                     {
-                        "name": "Grillad kalvpichana med pasta pesto",
+                        "name": "GFC, Garros fried chicken med varm cheddardipp och ugnsrostade rotsaker",
                         "price": "145"
                     },
                     {
-                        "name": "Lättrimmad och pocherade torskslag med brynt smör, dill, pepparrot",
+                        "name": "Fiskgratäng toppad med semitomater, basilika, tryffelpecorino",
                         "price": "145"
                     },
                     {
-                        "name": "Pasta pesto toppad med knaprig skivling",
+                        "name": "Fried NON chicken med varm cheddardipp och ugnsrostade rotsaker",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Babyspenat",
+                        "name": "Dagens varma grönsak: Sous vides tomater som grillas",
                         "price": "145"
                     }
                 ]
@@ -35,8 +35,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Köttfärslimpa - med tryffel, bacon, portabello gräddsås, kokt potatis, pressgurka & lingon",
-                        "price": "155"
+                        "name": "Pasta rigatoni - med köttfärssås, körsbärstomater, parmesan, ruccola & salamichips",
+                        "price": "145"
                     },
                     {
                         "name": "Kachang chicken - krämig kyckling med jordnötter, chili, kokos. \nserveras med nötig hoisin-mayo, \nmarinerade groddar-& suger snaps, asian crunch, sushiris, rawsallad, edamame, gari & rättika",
@@ -67,7 +67,7 @@
                         "price": "129"
                     },
                     {
-                        "name": "Truffle n onion - 150g burgare med cheddar, lökring, \npulled pork & tryffelmayo. med pommes och dipp",
+                        "name": "Little fat bastard - 150g burgare med cheddar, lökring, \npulled pork & tryffelmayo. med pommes och dipp",
                         "price": "129"
                     },
                     {
@@ -87,7 +87,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "HEMLAGADE STORA KÖTTBULLAR Med gräddsås, lingonsylt och potatismos",
+                        "name": "MÅNDAGHEMLAGADE STORA KÖTTBULLAR Med gräddsås, lingonsylt och potatismos",
                         "price": "139"
                     },
                     {
@@ -186,7 +186,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -256,28 +256,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Kokt rimmad oxbringa med senapsky & rostade rotfrukter",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Resterande meny för veckan kommer upp imorgon tisdag.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 11.00-11.30 & 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
