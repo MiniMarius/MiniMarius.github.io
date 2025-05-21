@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-20 03:39",
+    "last_updated": "2025-05-21 03:38",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Kroppkakor med lingon och skirat smör",
+                        "name": "Dagens husman: Strömmingsflundra med skirat smör, lingon och potatispuré",
                         "price": "145"
                     },
                     {
-                        "name": "GFC, Garros fried chicken med varm cheddardipp och ugnsrostade rotsaker",
+                        "name": "Steak Poivre på nötinnanlår med cognacssås och pommes risolé",
                         "price": "145"
                     },
                     {
-                        "name": "Fiskgratäng toppad med semitomater, basilika, tryffelpecorino",
+                        "name": "Fisk och skaldjursgryta med vitlök, chili, tomat, örter, serveras med aioli",
                         "price": "145"
                     },
                     {
-                        "name": "Fried NON chicken med varm cheddardipp och ugnsrostade rotsaker",
+                        "name": "Grillad portabello fylld med ratatouille, serveras med aioli",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Sous vides tomater som grillas",
+                        "name": "Dagens varma grönsak: Spetskål",
                         "price": "145"
                     }
                 ]
@@ -186,7 +186,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
