@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-23 03:38",
+    "last_updated": "2025-05-24 03:34",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,27 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillfredag, en tallrik grillmix av nedan…",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Protein:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Grillad fläskkarré sous vides, chistorra från Baskien, grillad laxfilé",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Tillbehör:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Potatisgratäng, medelhavsgrönsaker, bearnaise, rostad tomatröra",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vegetariskt: Grillat grönsak- och halloumispett med ovan tillbehör",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -43,7 +23,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Fajita chicken - fajitakryddad kyckling med pico de gallo, nacho\"crunch\"\navokadokräm & chili-mayo , sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Macho tex-mex - mexikanskkryddad nötfärs med pico de gallo, nacho\"crunch\"\navokadokräm & chili-mayo , sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -91,88 +71,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "MÅNDAGHEMLAGADE STORA KÖTTBULLAR Med gräddsås, lingonsylt och potatismos",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PICCATA MILANESE Med tomatsås och ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "LAX & SCAMPISPETT Med saffransås, grönsaker och ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA Med oxfilé och broccoli i en krämig tryffelparmesansås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "TISDAGSTEKT FLÄSK Med raggmunk och lingon alt. löksås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FRITERAD STRÖBAKAD KYCKLINGFILÉ Med caesardressing och klyftpotatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PANERAD FLUNDRAFILÉ Med dansk remouladsås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "SPAGHETTI Med tonfisk, kapris, chili, citron, persilja och coctailtomater",
-                        "price": "139"
-                    },
-                    {
-                        "name": "ONSDAGPEPPARRULLAD FLÄSKKARRÉ Med champinjonsås och rösti potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "BEOUF BOURGUIGNON Med syltlök, bacon, champinjoner och potatismos",
-                        "price": "139"
-                    },
-                    {
-                        "name": "STEKT STRÖMMING Med skirat smör, rårörda lingon och potatismos",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA Med skinka och broccoli i en krämig dragonsås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "TORSDAGLÖVBIFF Med rödvinsky, bearnaisesås och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "STEKT FALUKORV Med stuvade makaroner och honung/chilidressing",
-                        "price": "139"
-                    },
-                    {
-                        "name": "LAXPUDDING Med skirat smör",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA Med fläskfilé och grönsaker i en krämig dijonsenapsås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "VI BJUDER PANKAKOR GRÄDDE OCH SYLTFREDAGHELSTEKT FLÄSKFILÉ Med rödvinsky, bearnaisesås och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "KÅLDOLMAR Med gräddsås, lingonsylt och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "UGNSBAKAD KOLJAFILÉ Med äggsås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA Med kycklingfilé, grönsaker och tomatsås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "VI BJUDER DESSERT VECKAN TIPS: 189: -OXFILÉ PÅ PLANKA MED POTATISMOS, GRILLAD SPARRIS, GRILLAD PARMESAN TOMAT OCH BEARNAISESÅS",
-                        "price": "139"
+                        "name": "Error",
+                        "price": "No menu available for today"
                     }
                 ]
             }
@@ -188,12 +88,7 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
