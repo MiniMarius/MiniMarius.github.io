@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-26 03:46",
+    "last_updated": "2025-05-28 03:39",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Isterband med stuvad potatis",
+                        "name": "Dagens husman: Köttbullar med gräddsås, lingon och potatispuré",
                         "price": "145"
                     },
                     {
-                        "name": "Helgrillad nötinnanlår i tunna skivor fyllda med parmesan och ruccola, serveras med en sås på semitorkade tomater och ris",
+                        "name": "Schnitzel på fläskkotlett med pesto, marsalasås och rösti",
                         "price": "145"
                     },
                     {
-                        "name": "Friterade koljatails med cognacskryddad rhode island sås och ugnsstekt färskpotatis",
+                        "name": "Bouillabaisse med aioli",
                         "price": "145"
                     },
                     {
-                        "name": "Melanzane alla Parmigiana (Vegetariskt)",
+                        "name": "Vegoschnitzel på gulbeta med pesto, marsalasås och rösti",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Ugnsgrillade betor",
+                        "name": "Dagens varma grönsak: Spetskål",
                         "price": "145"
                     }
                 ]
@@ -33,7 +33,52 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Pyttipanna - med sidfläsk, stekt ägg & rödbeta",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Buffalo chicken - het kyckling i buffalosmörsås\npicklad rödkål, majssalsa , sushiris, rawsallad, edamame, gari & rättika",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Spicy tiger - friterad tofu med sesampicklad gurka\ntigersås & coleslaw, rawsallad, edamame, sushiris, rättika & gari",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
+                        "price": "175"
+                    },
+                    {
+                        "name": "Sweet onion - 150g burgare med cheddar, rostad lök\nsweet onion dressing, sallad & tomat. serveras med pommes & dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Truffle n onion - 150g burgare med cheddar, bacon, sallad \npicklad gurka & tryffelmayo. med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Spicy mex - friterad halloumi, jalapeño-mayo,\nsallad & pico de gallo\nserveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "The orkney - 150g burgare med lagrad orkney cheddar, \npicklad chili, gemsallad & lagrad cheddarkräm . serveras med pommes och dipp",
+                        "price": "145"
+                    }
+                ]
             }
         },
         {
@@ -42,8 +87,68 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "Network issue"
+                        "name": "MÅNDAGWIENERSCHNITZEL Med rödvinsky, bearnaisesås och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "WOKAD KYCKLINGFILÉ Med currysås, grönsaker och ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "FRITERAD STRÖBAKAD TORSKFILÉ Med kronärtskockscréme och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "FETTUCINE AL AVOCADO Med scampi, vitlökspersilja och vitvinssås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TISDAGSTEKT FLÄSK Med raggmunk och rårörda lingon alt. löksås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "GREKISK BIFF Med rosmarinsky, tzatziki och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "GRILLAD LAXFILÉ Med avokadocréme och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med räkor, fänkål och paprika i en krämig sås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "ONSDAGFLÄSKNOISETTE Med grönpepparsås och klyftpotatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SRIRACHA PARMESANPANERAD KYCKLINGFILÉ Med BBQ-Sås, coleslaw och klyftpotatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANERAD KAP-KUMMEL Med skinka, rödbetor, kapris, champinjoner i smör och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SPAGHETTI FRUTTI DE MARE Med skaldjur, vitlök och persilja i en het tomatsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TORSDAGKRISTI HIMMELSFÄRDSDAGÖppet från 11:30 - 22:00FREDAGKLASSISK PANNBIFF Med löksky, stekt ägg och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "KORVSTROGANOFF Med ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANERAD RÖDINGFILÉ Med skirat smör, pepparotscréme, rödbetor och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SPAGHETTI BOLOGNESEVI BJUDER DESSERTVECKAN TIPS: 169: -BLACK ANGUS HAMBURGARE MED BBQ-SÅS, CHEDDAROST,BACON, DRESSING, GRÖNT OCH POMMES",
+                        "price": "139"
                     }
                 ]
             }
@@ -61,7 +166,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -73,31 +178,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med getost, betor, fänkål, valnötter, granatäpple,chili och honungsvinägrett 195 Vegetariska biffar på potatis, kikärtor och fetaost medbulgursallad, jalapeño och korianderyoghurt 195",
+                        "name": "Kokt färsk oxbringa med buljongkoktarotsaker och pepparrotssås 195",
                         "price": ""
                     },
                     {
-                        "name": "Ångad koljafilé med räkor, ägg, brynt smöroch nyriven pepparrot 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Havets Wallenbergare, potatispurè, små gröna ärtor, färskriven pepparrot och brynt smör 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Kantarellspäckade kalvjärpar med gräddsås, svartvinbärsgelé, pressgurka och potatispure 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Parmesangratinerade laxqueneller med havskräftsås,spenat och skaldjur  295",
-                        "price": ""
-                    },
-                    {
-                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås 265",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT  Hasselnötsparfait med kolakräm 65",
+                        "name": "65",
                         "price": ""
                     },
                     {
@@ -111,56 +196,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Kokt rimmad oxbringa med senapsky & rostade rotfrukter",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Fjällbrosme med vitvinssås, potatismos & stekta grönsaker",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Kycklinglårfilé med råstekt potatis, broccoli, bönor & dragonsås",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Spättafilé med citronsås, kokt potatis, fänkål & rödbetor",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Stekt strömming med potatismos, brynt smör, rårörda lingon & bönor",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Lasagne med krämig tomatsås",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Spättafilé med brynt smör, citronsauterad kålrabbi, spenat, friterad kapris & kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjortfärsbiffar med svampsås, rårörda lingon, saltgurka & potatismos",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 11.00-11.30 & 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
