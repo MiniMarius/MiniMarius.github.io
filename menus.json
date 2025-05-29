@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-28 03:39",
+    "last_updated": "2025-05-29 03:40",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Köttbullar med gräddsås, lingon och potatispuré",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Schnitzel på fläskkotlett med pesto, marsalasås och rösti",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Bouillabaisse med aioli",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vegoschnitzel på gulbeta med pesto, marsalasås och rösti",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens varma grönsak: Spetskål",
+                        "name": "Stängt!",
                         "price": "145"
                     }
                 ]
@@ -166,7 +150,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
+                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
                         "price": "132"
                     }
                 ]
