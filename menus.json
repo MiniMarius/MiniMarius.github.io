@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-30 03:39",
+    "last_updated": "2025-05-31 03:37",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt!",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -19,11 +19,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pyttipanna - med sidfläsk, stekt ägg & rödbeta",
-                        "price": "139"
+                        "name": " - ",
+                        "price": ""
                     },
                     {
-                        "name": "Buffalo chicken - het kyckling i buffalosmörsås\npicklad rödkål, majssalsa , sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Miss piggy - friterad fläskschnitzel med  vårlök\n sweet chili-mayo & sesampicklad gurka sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -47,7 +47,7 @@
                         "price": "175"
                     },
                     {
-                        "name": "Sweet onion - 150g burgare med cheddar, rostad lök\nsweet onion dressing, sallad & tomat. serveras med pommes & dipp",
+                        "name": "Bbq madness - 150g burgare med cheddar,  bbq-slaw, \nmajssalsa & bbq-mayo. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -71,68 +71,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "MÅNDAGWIENERSCHNITZEL Med rödvinsky, bearnaisesås och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "WOKAD KYCKLINGFILÉ Med currysås, grönsaker och ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FRITERAD STRÖBAKAD TORSKFILÉ Med kronärtskockscréme och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FETTUCINE AL AVOCADO Med scampi, vitlökspersilja och vitvinssås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "TISDAGSTEKT FLÄSK Med raggmunk och rårörda lingon alt. löksås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "GREKISK BIFF Med rosmarinsky, tzatziki och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "GRILLAD LAXFILÉ Med avokadocréme och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA Med räkor, fänkål och paprika i en krämig sås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "ONSDAGFLÄSKNOISETTE Med grönpepparsås och klyftpotatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "SRIRACHA PARMESANPANERAD KYCKLINGFILÉ Med BBQ-Sås, coleslaw och klyftpotatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PANERAD KAP-KUMMEL Med skinka, rödbetor, kapris, champinjoner i smör och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "SPAGHETTI FRUTTI DE MARE Med skaldjur, vitlök och persilja i en het tomatsås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "TORSDAGKRISTI HIMMELSFÄRDSDAGÖppet från 11:30 - 22:00FREDAGKLASSISK PANNBIFF Med löksky, stekt ägg och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "KORVSTROGANOFF Med ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PANERAD RÖDINGFILÉ Med skirat smör, pepparotscréme, rödbetor och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "SPAGHETTI BOLOGNESEVI BJUDER DESSERTVECKAN TIPS: 169: -BLACK ANGUS HAMBURGARE MED BBQ-SÅS, CHEDDAROST,BACON, DRESSING, GRÖNT OCH POMMES",
-                        "price": "139"
+                        "name": "Error",
+                        "price": "No menu available for today"
                     }
                 ]
             }
@@ -148,12 +88,7 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -162,11 +97,43 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Kokt färsk oxbringa med buljongkoktarotsaker och pepparrotssås 195",
+                        "name": "Bi Bim Bap med chili- och sesamglacerad kyckling, böngroddar, vårlök, spenat, ris, stekt ägg och kimchi",
                         "price": ""
                     },
                     {
-                        "name": "65",
+                        "name": "195 Sparrisrisotto med örtsallad och parmesan",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Helstekt skärgårdsflundra med smörbrynta rödbetor, kapris, färsk potatis och dillmajonnäs",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Kokt färsk oxbringa med buljongkoktarotsaker och pepparrotssås",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Parmesangratinerade laxqueneller med havskräftsås,spenat, räkor och musslor  295",
+                        "price": ""
+                    },
+                    {
+                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås 265",
+                        "price": ""
+                    },
+                    {
+                        "name": "DESSERT Brownie med hallonmarmelad och vispad grädde",
                         "price": ""
                     },
                     {
