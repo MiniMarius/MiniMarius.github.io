@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-05-31 03:37",
+    "last_updated": "2025-06-01 04:00",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -17,52 +17,7 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": " - ",
-                        "price": ""
-                    },
-                    {
-                        "name": "Miss piggy - friterad fläskschnitzel med  vårlök\n sweet chili-mayo & sesampicklad gurka sushiris, rawsallad, edamame, gari & rättika",
-                        "price": "125"
-                    },
-                    {
-                        "name": "Spicy tiger - friterad tofu med sesampicklad gurka\ntigersås & coleslaw, rawsallad, edamame, sushiris, rättika & gari",
-                        "price": "125"
-                    },
-                    {
-                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
-                        "price": "175"
-                    },
-                    {
-                        "name": "Bbq madness - 150g burgare med cheddar,  bbq-slaw, \nmajssalsa & bbq-mayo. serveras med pommes & dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Truffle n onion - 150g burgare med cheddar, bacon, sallad \npicklad gurka & tryffelmayo. med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Spicy mex - friterad halloumi, jalapeño-mayo,\nsallad & pico de gallo\nserveras med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "The orkney - 150g burgare med lagrad orkney cheddar, \npicklad chili, gemsallad & lagrad cheddarkräm . serveras med pommes och dipp",
-                        "price": "145"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -72,7 +27,7 @@
                 "dishes": [
                     {
                         "name": "Error",
-                        "price": "No menu available for today"
+                        "price": "Network issue"
                     }
                 ]
             }
