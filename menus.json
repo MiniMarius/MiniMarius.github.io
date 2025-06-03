@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-02 09:10",
+    "last_updated": "2025-06-03 03:42",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Fläskkotlett med svampsås och ugnsstekt kulpotatis",
+                        "name": "Dagens husman: Pannbiff med löksås och vinbärsgelé",
                         "price": "145"
                     },
                     {
-                        "name": "Rostbiff på nötinnanlår med rödvinssås och fetaostpotatis",
+                        "name": "GFC, Garros fried chicken med jalapenodipp och klyftpotatis",
                         "price": "145"
                     },
                     {
-                        "name": "Ugnsgrillad färsk Uerfilé med vitlökssmör och stekt ris med salladslök och ägg",
+                        "name": "Gumbo på fisk och tigerräkor med myntayoghurt",
                         "price": "145"
                     },
                     {
-                        "name": "Bakade gulbetor med getost, balsamico och ruccola",
+                        "name": "Zucchinipiccata med tomatsås",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Haricotsverts",
+                        "name": "Dagens varma grönsak: Ugnsstekta morötter",
                         "price": "145"
                     }
                 ]
@@ -75,7 +75,7 @@
                         "price": "129"
                     },
                     {
-                        "name": "The orkney - 150g burgare med lagrad orkney cheddar, \npicklad chili, gemsallad & lagrad cheddarkräm . serveras med pommes och dipp",
+                        "name": "Italiano - 150g burgare med parmesan-& basilikakräm\n“salami chips”, dubbel ost, syrad chili & napolitansk sallad. serveras med pommes och dipp",
                         "price": "145"
                     }
                 ]
@@ -87,7 +87,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "AL CAMINETTOS STORA KÖTTBULLAR Med gräddsås, lingon och potatismos",
+                        "name": "MÅNDAGAL CAMINETTOS STORA KÖTTBULLAR Med gräddsås, lingon och potatismos",
                         "price": "139"
                     },
                     {
@@ -170,7 +170,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -222,6 +222,14 @@
                         "price": ""
                     },
                     {
+                        "name": "Raggmunk med stekt fläsk och rårörda lingon",
+                        "price": ""
+                    },
+                    {
+                        "name": "155",
+                        "price": ""
+                    },
+                    {
                         "name": "DESSERT Brownie med valnötter och lättvispad grädde  65",
                         "price": ""
                     },
@@ -238,47 +246,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Korvstroganoff med ris",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Dagens fisk med vitvinssås, rostade grönsaker & kokt potatis",
+                        "name": "Spättafilé med vitvinssås, rostade grönsaker & kokt potatis",
                         "price": "149"
                     },
                     {
                         "name": "Raggmunk med stekt fläsk & rårörda lingon",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Dagens fisk med bakad spetskål, brynt smör, kokt potatis & friterad palsternacka",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Pyttipanna med stekt ägg & rödbetor",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Stekt strömming med brynt smör, potatispuré, bönor & rårörda lingon",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Lammkorv med rostad potatis, rödvinssås, rostad paprika, tomat & spenat",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Stängt.",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 11.00-11.30 & 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
