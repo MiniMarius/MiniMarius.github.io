@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-03 03:42",
+    "last_updated": "2025-06-04 03:43",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Pannbiff med löksås och vinbärsgelé",
+                        "name": "Dagens husman: Skånsk kalops med inlagda betor",
                         "price": "145"
                     },
                     {
-                        "name": "GFC, Garros fried chicken med jalapenodipp och klyftpotatis",
+                        "name": "Rödvinsbakad högrev med charlottenlök och ugnsstekt potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Gumbo på fisk och tigerräkor med myntayoghurt",
+                        "name": "Mandelstekt färsk torsk med beurre blanc",
                         "price": "145"
                     },
                     {
-                        "name": "Zucchinipiccata med tomatsås",
+                        "name": "Vegoschnitzel NON chicken med cole slaw",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Ugnsstekta morötter",
+                        "name": "Dagens varma grönsak: Champinjoner",
                         "price": "145"
                     }
                 ]
@@ -170,7 +170,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -182,51 +182,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pokébowl  med lax, gochujangmajonnäs , kimchi, sesampicklad gurka och mango",
+                        "name": "Pokébowl  med lax, gochujangmajonnäs , kimchi, sesampicklad gurka och mango 195 Ramslöksrisotto med getost och gulbetor 195",
                         "price": ""
                     },
                     {
-                        "name": "195",
+                        "name": "Pocherad fjällbrosmefilé med färsk grön sparris, grillad rosésallad och musselskum 195",
                         "price": ""
                     },
                     {
-                        "name": "Ramslöksrisotto med getost och gulbetor",
+                        "name": "Biff Lindström med rostad färskpotatis ifrån Bjärre, persiljesmör och rödvinssky 195",
                         "price": ""
                     },
                     {
-                        "name": "195",
+                        "name": "Gryta på vitvinsbrässerad kalvhögrev med grönpeppar, skogchampinjoner, syltlök, sockerärtor och parmesanpuré 195",
                         "price": ""
                     },
                     {
-                        "name": "Skaldjursfärserad flundrafilé med havskräftsås,spenat och vit sparris",
+                        "name": "Raggmunk med stekt fläsk och rårörda lingon 155",
                         "price": ""
                     },
                     {
-                        "name": "195",
+                        "name": "Parmesangratinerade laxqueneller med havskräftsås,spenat, räkor och musslor 295",
                         "price": ""
                     },
                     {
-                        "name": "Gryta på vitvinsbrässerad kalvhögrev med grönpeppar, skogchampinjoner, syltlök, sockerärtor och parmesanpuré",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Parmesangratinerade laxqueneller med havskräftsås,spenat, räkor och musslor  295",
-                        "price": ""
-                    },
-                    {
-                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås 265",
-                        "price": ""
-                    },
-                    {
-                        "name": "Raggmunk med stekt fläsk och rårörda lingon",
-                        "price": ""
-                    },
-                    {
-                        "name": "155",
+                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås  265",
                         "price": ""
                     },
                     {
@@ -246,11 +226,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Spättafilé med vitvinssås, rostade grönsaker & kokt potatis",
+                        "name": "Laxfilé med citron/basilika crème, rödbeta, fänkål, kokt potatis & friterad palsternacka",
                         "price": "149"
                     },
                     {
-                        "name": "Raggmunk med stekt fläsk & rårörda lingon",
+                        "name": "Pyttipanna med stekt ägg & rödbetor",
                         "price": "149"
                     }
                 ]
