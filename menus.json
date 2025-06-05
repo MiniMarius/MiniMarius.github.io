@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-04 03:43",
+    "last_updated": "2025-06-05 03:43",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Skånsk kalops med inlagda betor",
+                        "name": "Dagens husman: Wallenbergare med brynt smör, lingon och potatispuré",
                         "price": "145"
                     },
                     {
-                        "name": "Rödvinsbakad högrev med charlottenlök och ugnsstekt potatis",
+                        "name": "Helgrillad karré med mojo rojo och rösti",
                         "price": "145"
                     },
                     {
-                        "name": "Mandelstekt färsk torsk med beurre blanc",
+                        "name": "Rimmad lax med dillstuvad potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Vegoschnitzel NON chicken med cole slaw",
+                        "name": "Falafel med hummus och bulgur",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Champinjoner",
+                        "name": "Dagens varma grönsak: Gröna ärtor",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Varje torsdag har vi pannkaksbuffé med vår egen hallonsylt som dessert!",
                         "price": "145"
                     }
                 ]
@@ -35,11 +39,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Boeuf bourguignon - fransk biffgryta med bacon, skogschampion, syltlök & timjan\nmed potatispuré",
-                        "price": "155"
+                        "name": "Biff stroganoff - biffgryta med svamp, lök, dijon, grädde, presilja & potatispuré",
+                        "price": "149"
                     },
                     {
-                        "name": "Lemon chic - citron-& vitlöksbakad kyckling med\naioli, tomat-& löksallad, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Garlic n' pepper - garlic & pepper fried chicken, svamp,\närtskott & syrad sojamayo, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -63,7 +67,7 @@
                         "price": "175"
                     },
                     {
-                        "name": "Spicy classic - 150g burgare med cheddar, bacon, sallad\nchili-mayo & picklad gurka serveras med pommes & dipp",
+                        "name": "Bea-trix - 150g burgare med cheddar, bacon,  sallad\ndragon-mayo & syrad lök. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -170,7 +174,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
+                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
                         "price": "132"
                     }
                 ]
@@ -226,11 +230,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Laxfilé med citron/basilika crème, rödbeta, fänkål, kokt potatis & friterad palsternacka",
+                        "name": "Stekt strömming med brynt smör, potatispuré, bönor & rårörda lingon",
                         "price": "149"
                     },
                     {
-                        "name": "Pyttipanna med stekt ägg & rödbetor",
+                        "name": "Lammkorv med rostad potatis, rödvinssås, rostad paprika, tomat & spenat",
                         "price": "149"
                     }
                 ]
