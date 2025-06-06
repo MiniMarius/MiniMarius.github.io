@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-05 03:43",
+    "last_updated": "2025-06-06 03:42",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,27 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Wallenbergare med brynt smör, lingon och potatispuré",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Helgrillad karré med mojo rojo och rösti",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Rimmad lax med dillstuvad potatis",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Falafel med hummus och bulgur",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens varma grönsak: Gröna ärtor",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Varje torsdag har vi pannkaksbuffé med vår egen hallonsylt som dessert!",
+                        "name": "Stängt!",
                         "price": "145"
                     }
                 ]
@@ -174,7 +154,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -186,7 +166,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pokébowl  med lax, gochujangmajonnäs , kimchi, sesampicklad gurka och mango 195 Ramslöksrisotto med getost och gulbetor 195",
+                        "name": "Pokébowl  med lax, gochujangmajonnäs , kimchi, sesampicklad gurka och mango 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Ramslöksrisotto med getost och gulbetor 195",
                         "price": ""
                     },
                     {
@@ -194,15 +178,11 @@
                         "price": ""
                     },
                     {
-                        "name": "Biff Lindström med rostad färskpotatis ifrån Bjärre, persiljesmör och rödvinssky 195",
+                        "name": "Biff Lindström med rostad färskpotatis ifrån Bjärre, persiljesmör, broccoli och rödvinssky 195",
                         "price": ""
                     },
                     {
                         "name": "Gryta på vitvinsbrässerad kalvhögrev med grönpeppar, skogchampinjoner, syltlök, sockerärtor och parmesanpuré 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Raggmunk med stekt fläsk och rårörda lingon 155",
                         "price": ""
                     },
                     {
@@ -230,11 +210,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stekt strömming med brynt smör, potatispuré, bönor & rårörda lingon",
+                        "name": "Stängt.",
                         "price": "149"
                     },
                     {
-                        "name": "Lammkorv med rostad potatis, rödvinssås, rostad paprika, tomat & spenat",
+                        "name": "Seniorrabatt mellan 11.00-11.30 & 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
