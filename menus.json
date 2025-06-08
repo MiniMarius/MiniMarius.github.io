@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-07 03:40",
+    "last_updated": "2025-06-08 03:53",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -17,48 +17,7 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Garlic n' pepper - garlic & pepper fried chicken, svamp,\närtskott & syrad sojamayo, sushiris, rawsallad, edamame, gari & rättika",
-                        "price": "125"
-                    },
-                    {
-                        "name": "Carribbean feta - jerkkryddad friterad fetaost, vårlök,\nananassalsa & gochujang-mayo, rawsallad, edamame, sushiris, rättika & gari",
-                        "price": "125"
-                    },
-                    {
-                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
-                        "price": "175"
-                    },
-                    {
-                        "name": "Bea-trix - 150g burgare med cheddar, bacon,  sallad\ndragon-mayo & syrad lök. serveras med pommes & dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Posh johnsson - 150g burgare med cheddar, tomat, \nsallad, lök & tryffel-mayo. med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Veggisson - sojaburgare med honungsdijonaise,  \nvegansk ost, tomat, sallad & \nkarameliserad lök.\nserveras med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Italiano - 150g burgare med parmesan-& basilikakräm\n“salami chips”, dubbel ost, syrad chili & napolitansk sallad. serveras med pommes och dipp",
-                        "price": "145"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -68,7 +27,7 @@
                 "dishes": [
                     {
                         "name": "Error",
-                        "price": "No menu available for today"
+                        "price": "Network issue"
                     }
                 ]
             }
