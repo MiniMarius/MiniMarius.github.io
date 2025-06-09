@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-09 03:48",
+    "last_updated": "2025-06-09 09:10",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -21,6 +21,10 @@
                     {
                         "name": "Färsk vit sparris café de paris med färskpotatis",
                         "price": "145"
+                    },
+                    {
+                        "name": "Fetaostsoppa, ingår i lunchen",
+                        "price": ""
                     },
                     {
                         "name": "Dagens varma grönsak: Haricotsverts",
@@ -198,27 +202,39 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Pokébowl  med lax, gochujangmajonnäs , kimchi, sesampicklad gurka och mango 195",
+                        "name": "Poke bowl på tonfisk, jalapeño, koriander,gouchangmajonnäs och rostade sesamfrön",
                         "price": ""
                     },
                     {
-                        "name": "Ramslöksrisotto med getost och gulbetor 195",
+                        "name": "195",
                         "price": ""
                     },
                     {
-                        "name": "Pocherad fjällbrosmefilé med färsk grön sparris, grillad rosésallad och musselskum 195",
+                        "name": "Smörstekt gnocchi, färsk vitkål, ramslökspesto, brynta champinjoner och rostade hasselnötter",
                         "price": ""
                     },
                     {
-                        "name": "Biff Lindström med rostad färskpotatis ifrån Bjärre, persiljesmör, broccoli och rödvinssky 195",
+                        "name": "195",
                         "price": ""
                     },
                     {
-                        "name": "Gryta på vitvinsbrässerad kalvhögrev med grönpeppar, skogchampinjoner, syltlök, sockerärtor och parmesanpuré 195",
+                        "name": "Lättgravad halstrad svensk makrillfile, dillstuvad potatis, hovmästarsås och citron",
                         "price": ""
                     },
                     {
-                        "name": "Parmesangratinerade laxqueneller med havskräftsås,spenat, räkor och musslor 295",
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Fläsksnitzel med klar potatissallad, kapris, salladslök, tomat, senap, nduja smör och rödvinsky",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
                         "price": ""
                     },
                     {
@@ -226,7 +242,7 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT Brownie med valnötter och lättvispad grädde  65",
+                        "name": "DESSERT Bakad saltkolakräm, chokladjord, kanderade hasselnötter 65",
                         "price": ""
                     },
                     {
