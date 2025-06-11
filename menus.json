@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-09 09:10",
+    "last_updated": "2025-06-11 03:44",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,27 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Kalvköttbullar med gräddsås, lingon och färskpotatis",
+                        "name": "Dagens husman: Nötrullader med gräddsås, svart vinbärsgelé och potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Grillad tri-tip med dragonmayo och ugnsstekt potatis",
+                        "name": "Pulled pork med bbq-sås, rostad majs och potatis diablo",
                         "price": "145"
                     },
                     {
-                        "name": "Pankofriterad kapkummelfilé med chilidipp och ris",
+                        "name": "Andalusisk fiskgryta med musselaioli",
                         "price": "145"
                     },
                     {
-                        "name": "Färsk vit sparris café de paris med färskpotatis",
+                        "name": "Vegopannbiff med stuvade champinjoner",
                         "price": "145"
                     },
                     {
-                        "name": "Fetaostsoppa, ingår i lunchen",
-                        "price": ""
-                    },
-                    {
-                        "name": "Dagens varma grönsak: Haricotsverts",
+                        "name": "Dagens varma grönsak: Purjolök",
                         "price": "145"
                     }
                 ]
@@ -63,10 +59,6 @@
                         "price": "159"
                     },
                     {
-                        "name": "The hot prawns - smörstekta tigerräkor med chili, vitlök,\n citron, gursalsa, syrad rödlök, rawsallad, edamame, sushiris, ”asian crunch” rättika & gari",
-                        "price": "175"
-                    },
-                    {
                         "name": "Sweet and spicy - 150g burgare med cheddar, sweet chili mayo, färsk chili, syrad lök & sallad. serveras med pommes & dipp",
                         "price": "129"
                     },
@@ -91,7 +83,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "SCHWEIZERSCHNITZEL Med rödvinsky, ärtor och rostad potatis",
+                        "name": "MÅNDAGSCHWEIZERSCHNITZEL Med rödvinsky, ärtor och rostad potatis",
                         "price": "139"
                     },
                     {
@@ -190,7 +182,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
                         "price": "132"
                     }
                 ]
@@ -218,7 +210,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Lättgravad halstrad svensk makrillfile, dillstuvad potatis, hovmästarsås och citron",
+                        "name": "Pocherad fjällbrosme filé med smörslungad vit sparris och blomkål, skärgårds tartarsås och örtslungadfärsk potatis från Bjärre",
                         "price": ""
                     },
                     {
@@ -226,11 +218,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Fläsksnitzel med klar potatissallad, kapris, salladslök, tomat, senap, nduja smör och rödvinsky",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
+                        "name": "Lammfärsbiffar på svenskt lamm med honungsglaserade rotsaker, rostad amandine potatis, vitlökssmör och lammsky 195",
                         "price": ""
                     },
                     {
@@ -238,11 +226,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Kalvlever Anglais med bacon, kapris och rödvinssås  265",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT Bakad saltkolakräm, chokladjord, kanderade hasselnötter 65",
+                        "name": "DESSERT  Passionsfrukts brulé med krossad dröm 65",
                         "price": ""
                     },
                     {
@@ -258,11 +242,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "name": "Spättafilé med citronsås, champinjon, fänkål & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Korvstroganoff med ris",
+                        "name": "Oxbringa med rostade rotfrukter & senapsky",
                         "price": "149"
                     }
                 ]
