@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-11 03:44",
+    "last_updated": "2025-06-12 03:43",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Nötrullader med gräddsås, svart vinbärsgelé och potatis",
+                        "name": "Dagens husman: Biff Rydberg med tillbehör",
                         "price": "145"
                     },
                     {
-                        "name": "Pulled pork med bbq-sås, rostad majs och potatis diablo",
+                        "name": "Boeuf Bourguignon Blanc",
                         "price": "145"
                     },
                     {
-                        "name": "Andalusisk fiskgryta med musselaioli",
+                        "name": "Fiskgratäng med gräddiserad tomatsås och ris",
                         "price": "145"
                     },
                     {
-                        "name": "Vegopannbiff med stuvade champinjoner",
+                        "name": "Ratatouille med aioli",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Purjolök",
+                        "name": "Dagens varma grönsak: Zucchini",
                         "price": "145"
                     }
                 ]
@@ -34,10 +34,6 @@
             "location": "Location details here",
             "menu": {
                 "dishes": [
-                    {
-                        "name": "Chorizo - dubbla chorizo med stekt potatis-& lök, persilja och bbq-dijonnaise",
-                        "price": "135"
-                    },
                     {
                         "name": "Sticky chicken - kycklinglårfilé slungad i hoisin med gurksalsa, vårlök, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
@@ -182,7 +178,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "The Bastard: Klassisk cheeseburgare med 120 gram svenskt nötkött, pickles, ost, mayo, senap, ketchup och gul lök.",
+                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
                         "price": "132"
                     }
                 ]
@@ -194,43 +190,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Poke bowl på tonfisk, jalapeño, koriander,gouchangmajonnäs och rostade sesamfrön",
+                        "name": "Råbiff på svensk mjölkko, med ramslökskräm, friterad kapris, inlagda rödbetor, pommes alumette och rökt märgpulver",
                         "price": ""
                     },
                     {
-                        "name": "195",
+                        "name": "Svensk biff hängmörad 21 dagar, pico de gallo på Vikentomater, jalapeñosmör serveras med pommes frites",
                         "price": ""
                     },
                     {
-                        "name": "Smörstekt gnocchi, färsk vitkål, ramslökspesto, brynta champinjoner och rostade hasselnötter",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Pocherad fjällbrosme filé med smörslungad vit sparris och blomkål, skärgårds tartarsås och örtslungadfärsk potatis från Bjärre",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Lammfärsbiffar på svenskt lamm med honungsglaserade rotsaker, rostad amandine potatis, vitlökssmör och lammsky 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT  Passionsfrukts brulé med krossad dröm 65",
-                        "price": ""
-                    },
-                    {
-                        "name": "Alltid på lunchen! 55",
+                        "name": "Ugnsbakad fjällröding, primörsallad med färsk grön sparris, taggiascaoliver, tomat, lök, argentinsk rödräka, hummerbuljong och parmesankräm",
                         "price": ""
                     }
                 ]
@@ -242,11 +210,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Spättafilé med citronsås, champinjon, fänkål & kokt potatis",
+                        "name": "Fjällbrosme med brynt smör, potatispuré & knaperstekt bacon",
                         "price": "149"
                     },
                     {
-                        "name": "Oxbringa med rostade rotfrukter & senapsky",
+                        "name": "Kyckling i vittvin med champinjoner, bönor & ris",
                         "price": "149"
                     }
                 ]
