@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-12 03:43",
+    "last_updated": "2025-06-13 03:44",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Biff Rydberg med tillbehör",
+                        "name": "Grillfredag",
                         "price": "145"
                     },
                     {
-                        "name": "Boeuf Bourguignon Blanc",
+                        "name": "(Välj som ni önskar från nedanstående)",
                         "price": "145"
                     },
                     {
-                        "name": "Fiskgratäng med gräddiserad tomatsås och ris",
+                        "name": "Från grillen: Flankstek, laxfilé, halloumi",
                         "price": "145"
                     },
                     {
-                        "name": "Ratatouille med aioli",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens varma grönsak: Zucchini",
+                        "name": "Tillbehör: Grillade grönsaker, smörkokt majs, rösti, bearnaise, mojo roj",
                         "price": "145"
                     }
                 ]
@@ -35,7 +31,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sticky chicken - kycklinglårfilé slungad i hoisin med gurksalsa, vårlök, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Lao chicken - fräst kycklingfärs med ingefära, vitlök, koriander & chili, picklad rödkål, gurksallad, srirachamayo, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
@@ -55,7 +51,7 @@
                         "price": "159"
                     },
                     {
-                        "name": "Sweet and spicy - 150g burgare med cheddar, sweet chili mayo, färsk chili, syrad lök & sallad. serveras med pommes & dipp",
+                        "name": "Texakana - 150g burgare med cheddar, pulled pork, nachokross, srirachamayo & sallad. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
@@ -178,7 +174,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -210,11 +206,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fjällbrosme med brynt smör, potatispuré & knaperstekt bacon",
+                        "name": "Dagens fisk med bakad spetskål, brynt smör & kokt potatis",
                         "price": "149"
                     },
                     {
-                        "name": "Kyckling i vittvin med champinjoner, bönor & ris",
+                        "name": "Rosastekt kalv med rödvinssås, klyftpotatis & haricotsverts",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 11.00-11.30 & 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
