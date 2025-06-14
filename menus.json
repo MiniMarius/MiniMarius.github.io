@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-13 03:44",
+    "last_updated": "2025-06-14 03:39",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillfredag",
-                        "price": "145"
-                    },
-                    {
-                        "name": "(Välj som ni önskar från nedanstående)",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Från grillen: Flankstek, laxfilé, halloumi",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Tillbehör: Grillade grönsaker, smörkokt majs, rösti, bearnaise, mojo roj",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -31,11 +19,15 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Lao chicken - fräst kycklingfärs med ingefära, vitlök, koriander & chili, picklad rödkål, gurksallad, srirachamayo, sushiris, rawsallad, edamame, gari & rättika",
+                        "name": "Schnitzel - dubbelpannerad kyckling med örtrostad färskpotatis, citron & cafe de paris smör",
+                        "price": "155"
+                    },
+                    {
+                        "name": "Chicken bahn mi - vietnam style kyckling med chili,\ngurksalsa, picklad rödkål &\nkimchi-mayo, sushiris, rawsallad, edamame, gari & rättika",
                         "price": "125"
                     },
                     {
-                        "name": "No chicken - vegansk ”no chicken” med picklad gurka, coleslaw, hot mayo, rawsallad, edamame, sushiris, rättika & gari",
+                        "name": "Hot halloumi - friterad halloumi med mangosalsa\npicklad rödkål & samurai-mayo, rawsallad, edamame, sushiris, rättika & gari",
                         "price": "125"
                     },
                     {
@@ -51,15 +43,15 @@
                         "price": "159"
                     },
                     {
-                        "name": "Texakana - 150g burgare med cheddar, pulled pork, nachokross, srirachamayo & sallad. serveras med pommes & dipp",
+                        "name": "Swenson - 150g burgare med karamelliserad lök,\ntomat, sallad, cheddar &\nhonungsdijonaise. serveras med pommes & dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Dubble cheese - 150g burgare med cheddar, pepper jack, karamelliserad lök & tryffel-mayo. med pommes och dipp",
+                        "name": "Korean truffle - 150g burgare med yakiniku, tryffel-mayo\nsesam & cheddar. med pommes och dipp",
                         "price": "129"
                     },
                     {
-                        "name": "Mango loco - friterad halloumi med mangosalsa, syrad lök, chipotle mayo & sallad\nserveras med pommes och dipp",
+                        "name": "Spanish vegan - sojaburgare med chilimayo, “cheddar”,\npico de gallo & sallad.\nserveras med pommes och dipp",
                         "price": "129"
                     },
                     {
@@ -75,88 +67,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "MÅNDAGSCHWEIZERSCHNITZEL Med rödvinsky, ärtor och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "VILTSKAVSGRYTA Med kantareller, rårörda lingon och potatismos",
-                        "price": "139"
-                    },
-                    {
-                        "name": "LAXPUDDING Med skirat smör",
-                        "price": "139"
-                    },
-                    {
-                        "name": "SPAGHETTI CARBONARA Med äggula",
-                        "price": "139"
-                    },
-                    {
-                        "name": "TISDAGSTEKT FLÄSK Med raggmunk och rårörda lingon alt. löksås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FRITERAD STRÖBAKAD KYCKLINGFILÉ Med srirascha Mayo och klyftpotatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PANERAD FLUNDRAFILÉ Med dansk remouladsås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "OXFILÉ PASTA Med grönsaker i en krämig sparrissås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "ONSDAGFLÄSKFILÉ Med kantarellsås och potatisgratäng",
-                        "price": "139"
-                    },
-                    {
-                        "name": "NÖTGRYTA Med spiskummin och ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FISK PICCATA RÖDSPÄTTAFILÉ Med tomatsås och ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA Med parmaskinka, tomat och basilika i en krämig ostsås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "TORSDAGKLASSISK PANNBIFF Med purjolöksky, haricotverts och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "KORVSTROGANOFF Med ris",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FRITERAD TORSKFILÉ Med citroncrème, rostad broccoli och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA Med skinka och räkor i en krämig dragonsås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FREDAGBIFF RYDBERG Med senapscrème, stekt lök, äggula och rösti potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PEPPARRULLAD FLÄSKKARRÉ Med champinjonsås och rösti potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "GRILLAD LAXFILÉ med gremolatasås och saffran risotto",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FLÄSKFILÉ PASTA Med grönsaker i en krämig dijonsenapsås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "VECKAN TIPS: 179: -GRILLMIX (Oxfilé, kycklingfilé & fläskfilé) Serveras med bearnaisesås och pommes frites",
-                        "price": "139"
+                        "name": "Error",
+                        "price": "No menu available for today"
                     }
                 ]
             }
@@ -172,12 +84,7 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
-                        "price": "132"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -204,24 +111,7 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Dagens fisk med bakad spetskål, brynt smör & kokt potatis",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Rosastekt kalv med rödvinssås, klyftpotatis & haricotsverts",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Seniorrabatt mellan 11.00-11.30 & 13.00-14.00",
-                        "price": "149"
-                    },
-                    {
-                        "name": "Hjärtligt välkomna!",
-                        "price": "149"
-                    }
-                ]
+                "dishes": []
             }
         }
     ]
