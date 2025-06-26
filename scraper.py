@@ -162,65 +162,65 @@ menus.append({
     "location": "Location details here",
     "menu": {"dishes": today_alcam_menu}
 })
-
-# Gustafs
-try:
-    gustafsHtml = requests.get("https://www.gustafsrestaurang.se/index.php/lunch", headers=headers)
-    gustafsHtml.raise_for_status()
-    gustafsSoup = BeautifulSoup(gustafsHtml.content, 'html.parser')
-
-    day_translationGustafs = {
-        'monday': 'Måndag',
-        'tuesday': 'Tisdag',
-        'wednesday': 'Onsdag',
-        'thursday': 'Torsdag',
-        'friday': 'Fredag',
-        'saturday': 'Lördag',
-        'sunday': 'Söndag'
-    }
-
-    current_weekday = datetime.now().strftime('%A').lower()
-    current_day_swedish = day_translationGustafs.get(current_weekday)
-
-    todays_menu = []
-    current_day = None
-
-
-    # Ensure the container is found before proceeding
-    for element in gustafsSoup.find_all(['h3', 'h5']):
-        text = element.get_text(strip=True)
-        if text in day_translationGustafs.values():
-            current_day = text
-        elif current_day == current_day_swedish:
-            items = re.split(r'(?=[A-ZÅÄÖ])', text)
-            cleaned_items = [re.sub(r'\.[a-z]+$', '', item.strip()) for item in items if item.strip()]
-            
-            combined_items = []
-            i = 0
-            while i < len(cleaned_items):
-                words = cleaned_items[i].split()
-                if len(words) <= 2 and i < len(cleaned_items) - 1:
-                    combined_items.append(cleaned_items[i] + ' ' + cleaned_items[i+1])
-                    i += 2
-                else:
-                    combined_items.append(cleaned_items[i])
-                    i += 1
-            filtered_items = [
-                item for item in combined_items
-                if len(item) >= 15 and not re.search(r'\d', item)
-            ]
-
-            todays_menu.extend([{"name": item, "price": "149"} for item in filtered_items])
-
-except requests.exceptions.RequestException as e:
-    print(f"Error fetching Gustafs menu: {e}")
-    todays_menu = []
-
-menus.append({
-    "name": "Gustafs",
-    "location": "Location details here",
-    "menu": {"dishes": todays_menu}
-})
+#
+## Gustafs
+#try:
+#    gustafsHtml = requests.get("https://www.gustafsrestaurang.se/index.php/lunch", headers=headers)
+#    gustafsHtml.raise_for_status()
+#    gustafsSoup = BeautifulSoup(gustafsHtml.content, 'html.parser')
+#
+#    day_translationGustafs = {
+#        'monday': 'Måndag',
+#        'tuesday': 'Tisdag',
+#        'wednesday': 'Onsdag',
+#        'thursday': 'Torsdag',
+#        'friday': 'Fredag',
+#        'saturday': 'Lördag',
+#        'sunday': 'Söndag'
+#    }
+#
+#    current_weekday = datetime.now().strftime('%A').lower()
+#    current_day_swedish = day_translationGustafs.get(current_weekday)
+#
+#    todays_menu = []
+#    current_day = None
+#
+#
+#    # Ensure the container is found before proceeding
+#    for element in gustafsSoup.find_all(['h3', 'h5']):
+#        text = element.get_text(strip=True)
+#        if text in day_translationGustafs.values():
+#            current_day = text
+#        elif current_day == current_day_swedish:
+#            items = re.split(r'(?=[A-ZÅÄÖ])', text)
+#            cleaned_items = [re.sub(r'\.[a-z]+$', '', item.strip()) for item in items if item.strip()]
+#            
+#            combined_items = []
+#            i = 0
+#            while i < len(cleaned_items):
+#                words = cleaned_items[i].split()
+#                if len(words) <= 2 and i < len(cleaned_items) - 1:
+#                    combined_items.append(cleaned_items[i] + ' ' + cleaned_items[i+1])
+#                    i += 2
+#                else:
+#                    combined_items.append(cleaned_items[i])
+#                    i += 1
+#            filtered_items = [
+#                item for item in combined_items
+#                if len(item) >= 15 and not re.search(r'\d', item)
+#            ]
+#
+#            todays_menu.extend([{"name": item, "price": "149"} for item in filtered_items])
+#
+#except requests.exceptions.RequestException as e:
+#    print(f"Error fetching Gustafs menu: {e}")
+#    todays_menu = []
+#
+#menus.append({
+#    "name": "Gustafs",
+#    "location": "Location details here",
+#    "menu": {"dishes": todays_menu}
+#})
 
 # Bastard Burgers
 try:
@@ -363,8 +363,7 @@ try:
 
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Melanders menu: {e}")
-    today_melanders_menu = [{"name": "Error", "price": "Network issue"}]
-
+    
 menus.append({
     "name": "Melanders",
     "location": "Location details here",
