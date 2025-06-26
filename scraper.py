@@ -308,7 +308,7 @@ try:
     melandersHtml = requests.get("https://melanders.se/restauranger/melanders-alvik/", headers=headers)
     melandersHtml.raise_for_status()
     melandersSoup = BeautifulSoup(melandersHtml.content, 'html.parser')
-
+    today_melanders_menu = []
     # Define the Swedish days of the week
     days = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag"]
 
@@ -349,7 +349,7 @@ try:
         swedish_days = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"]
         today_swedish = swedish_days[today_index]
         today_menu = menus_by_day.get(today_swedish, "No menu available for today")
-        today_melanders_menu = []
+        
         if today_menu != "No menu available for today":
             today_melanders_menu = [{"name": dish.strip(), "price": "149"} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
 
