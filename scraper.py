@@ -322,44 +322,37 @@ try:
     melanders_menu = []
     if pdf_url:
         pdf_path = "menu.pdf"
+        urllib.request.urlretrieve(pdf_url, pdf_path)
+        pdf = pdfquery.PDFQuery(pdf_path)
+        pdf.load()
+        all_text = ""
+        for page_number in range(len(pdf.pq('LTPage'))):
+            pdf.load(page_number)
+            page_text = pdf.pq('LTTextLineHorizontal').text()
+            all_text += page_text + "\n"
+        
+        split_text = re.split(f'(?=({pattern}))', all_text)
+        # Remove any leading text before the first day
+        split_text = split_text[1:]
+        menus_by_day = {}
+        for i in range(0, len(split_text), 2):
+            if i + 1 < len(split_text):
+                day = split_text[i].strip()
+                menu = split_text[i+1].strip()
+                # Remove the day's name from the menu
+                if menu.startswith(day):
+                    menu = menu[len(day):].strip()
+                menu = re.sub(r'\(.*?\)', '', menu)  # Remove text in parentheses
+                menus_by_day[day] = menu
+        # Determine today's day in Swedish
+        today_index = datetime.now().weekday()  # Monday is 0, Sunday is 6
+        swedish_days = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"]
+        today_swedish = swedish_days[today_index]
+        today_menu = menus_by_day.get(today_swedish, "No menu available for today")
+        today_melanders_menu = []
+        if today_menu != "No menu available for today":
+            today_melanders_menu = [{"name": dish.strip(), "price": "149"} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
 
-        try:
-            urllib.request.urlretrieve(pdf_url, pdf_path)
-            pdf = pdfquery.PDFQuery(pdf_path)
-            pdf.load()
-            all_text = ""
-            for page_number in range(len(pdf.pq('LTPage'))):
-                pdf.load(page_number)
-                page_text = pdf.pq('LTTextLineHorizontal').text()
-                all_text += page_text + "\n"
-            
-            split_text = re.split(f'(?=({pattern}))', all_text)
-            # Remove any leading text before the first day
-            split_text = split_text[1:]
-            menus_by_day = {}
-            for i in range(0, len(split_text), 2):
-                if i + 1 < len(split_text):
-                    day = split_text[i].strip()
-                    menu = split_text[i+1].strip()
-                    # Remove the day's name from the menu
-                    if menu.startswith(day):
-                        menu = menu[len(day):].strip()
-                    menu = re.sub(r'\(.*?\)', '', menu)  # Remove text in parentheses
-                    menus_by_day[day] = menu
-            # Determine today's day in Swedish
-            today_index = datetime.now().weekday()  # Monday is 0, Sunday is 6
-            swedish_days = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"]
-
-            today_swedish = swedish_days[today_index]
-
-            today_menu = menus_by_day.get(today_swedish, "No menu available for today")
-
-            today_melanders_menu = []
-
-            if today_menu != "No menu available for today":
-                today_melanders_menu = [{"name": dish.strip(), "price": "149"} for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
-        except Exception as e:
-            today_melanders_menu = [{"name": "Error", "price": "Error"}]
 
 except requests.exceptions.RequestException as e:
     print(f"Error fetching Melanders menu: {e}")
