@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-27 03:46",
+    "last_updated": "2025-06-28 03:40",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,19 +7,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillfredag!",
+                        "name": "Öl",
                         "price": "145"
                     },
                     {
-                        "name": "Går att få allt på tallriken..",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Från grillen: Lammrostbiff, chistorra (korv från Baskien), sparriskroketter, grillad regnbåge",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Tillbehör: Råstekt potatis, grillade grönsaker, bearnaise, tomatsalsa",
+                        "name": "Garros bistrolager 0,4 60 kr/0,5 75 kr",
                         "price": "145"
                     }
                 ]
@@ -79,92 +71,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "MÅNDAGFILÉ OSCAR Med rödvinsky, bearnaisesås, sparris, räkor och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "OXBRINGA Med pepparrotsås och rotmos",
-                        "price": "139"
-                    },
-                    {
-                        "name": "STEKT STRÖMMING Med skirat smör, rårörda lingon och potatismos",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA SALMONE Med lax och spenat i en krämig vitvinssås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "TISDAGSTEKT FLÄSK Med raggmunk och rårörda lingon alt. löksås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FÅROSTFYLLD KÖTTFÄRSLIMPA Med gräddsås, lingonsylt och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "RÄK & SPENAT FLUNDRAFILÉ Med äggsås och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA Med oxfilé och grönsaker i en krämig sparrissås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "ONSDAGSCHWEIZERSCHNITZEL Med rödvinsky, ärtor och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FRITERAD SPRÖDBAKAD KYCKLINGFILÉ Med chopotlemayo och rostad potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "UGNSBAKAD KAP-KUMMELFILÉ Med dillsås, grillad sparris och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "SPAGHETTI CARBONARA Med äggula i en krämig parmesansås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "TORSDAGWALLENBERGARE Med gräddsås, ärtor, lingonsylt och potatismos",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FLYGANDE JAKOB Med ris (Kyckling, banan, bacon och jordnötter)FISKGRATÄNG Med räkor, sparris, hummersås och potatismos",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PASTA ANTIPASTO Med italienska charketuier i en krämig basilikasås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Vi bjuder på pannkakor med sylt och grädde",
-                        "price": "139"
-                    },
-                    {
-                        "name": "FREDAGFLÄSK & KYCKLINGSPETT Med timjansky, tzatziki och klyftpotatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "GRÄDDSTUVAD PYTT I PANNA Med rödbetor och stekt ägg",
-                        "price": "139"
-                    },
-                    {
-                        "name": "PANKOPANERAD REGNBÅGSFILÉ Med skirat smör,rostade rödbetor, pepparrotscréme och kokt potatis",
-                        "price": "139"
-                    },
-                    {
-                        "name": "LASAGNE AL FORNO Toppad med ruccola, rödlök och krämig parmesansås",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Vi bjuder på dessert",
-                        "price": "139"
-                    },
-                    {
-                        "name": "VECKAN TIPS: 169: -BLACK ANGUS BURGARE Med BBQ-Sås, cheddarost, bacon, dressing, grönt och pommes",
-                        "price": "139"
+                        "name": "Error",
+                        "price": "No menu available for today"
                     }
                 ]
             }
