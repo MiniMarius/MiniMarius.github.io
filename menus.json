@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-28 03:40",
+    "last_updated": "2025-06-29 03:53",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,11 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Öl",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Garros bistrolager 0,4 60 kr/0,5 75 kr",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -23,15 +19,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Schnitzel - dubbelpanerad kyckling med vitlök-& persiljesmör, rödvinssås & örtrostad färskpotatis",
-                        "price": "155"
-                    },
-                    {
-                        "name": "Lemon chicken - smörbakad kyckling med citron & vitlök. serveras med syrad lök, timjan-& vitlöks-mayo, sushiris, rawsallad, edamame & rättika",
+                        "name": "Thai pork - stekt fläskfärs med koriander, ingefära \n& vitlök. srirachamayo, picklad rödkål, \ngurksallad, vårlök sushiris, rawsallad, edamame & rättika",
                         "price": "125"
                     },
                     {
-                        "name": "Juan of kind - mexikansk kryddad veganfärs, avokadokräm, nachokross, pico de gallo, rawsallad, edamame, sushiris, rättika & gari",
+                        "name": "Hot puff - friterad tzay (soya protein) med hot-mayo, \nananassalsa, picklad rödkål, rawsallad, edamame, sushiris, rättika & gari",
                         "price": "125"
                     },
                     {
@@ -47,15 +39,15 @@
                         "price": "159"
                     },
                     {
-                        "name": "French classic - 150g burgare med riven gruyere, \nhonungs-dijonnaise, karamelliserad lök \n& sallad. serveras med pommes & dipp",
+                        "name": "The original - 150g burgare med cheddar, tomat, sallad, syrad lök\n& orginaldressing\n& sallad. serveras med pommes & dipp",
                         "price": "135"
                     },
                     {
-                        "name": "Truffle n onion - 150g burgare med syrad lök, sallad, rostad lök & cheddar. med pommes och dipp",
+                        "name": "Crispy truffel - 150g burgare med cheddar, lökring, \nbacon, sallad & tryffelmayo. med pommes och dipp",
                         "price": "129"
                     },
                     {
-                        "name": "The tropical - friterad halloumi, ananassalsa, chipotlemayo & syrad lök\nserveras med pommes och dipp",
+                        "name": "Almost chicken - vegansk ”chicken style” burger med sallad, picklad rödkål, srirachamayo & jalapeños\nserveras med pommes och dipp",
                         "price": "129"
                     },
                     {
