@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-30 03:51",
+    "last_updated": "2025-06-30 09:12",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,43 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Uppdateras på fm",
+                        "name": "Dagens kött:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Strimlad biff i cognacssås med ugnsstekt färskpotatis",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens fisk:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Pankofriterad färsk smögensej med aivar och basmatiris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens veg:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Svamprisotto med gräslök och parmesan",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens varma grönsak:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Ugnsstekta grönsaker",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens side-soppa som ingår i lunchen:",
+                        "price": ""
+                    },
+                    {
+                        "name": "Lamm- och grönsakssoppa",
                         "price": "145"
                     }
                 ]
@@ -39,7 +75,7 @@
                         "price": "159"
                     },
                     {
-                        "name": "The original - 150g burgare med cheddar, tomat, sallad, syrad lök\n& orginaldressing\n& sallad. serveras med pommes & dipp",
+                        "name": "The original - 150g burgare med cheddar, tomat, sallad, karamelliserad lök\n& orginaldressing\n& sallad. serveras med pommes & dipp",
                         "price": "135"
                     },
                     {
@@ -150,19 +186,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Poke bowl med chilimarinerad tonfisk, mango, sojabönoroch sesampicklad gurka 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Sotad blomkål med brynt selleripuré, örtvinägrett, rostade hasselnötter och sumak 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Ångad Lofoten torsk med räkor, ägg, brynt smöroch färsk riven pepparrot 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Havets wallenbergare med potatispuré, små ärtor, brynt smöroch färsk riven pepparrot 195Biff a la Lindström med persiljesmör, kaprisskyoch rostad färsk potatis",
+                        "name": "Poke bowl med chilimarinerad tonfisk, mango, sojabönoroch sesampicklad gurka",
                         "price": ""
                     },
                     {
@@ -170,11 +194,27 @@
                         "price": ""
                     },
                     {
-                        "name": "Isterband serverad med grov senap och persiljestuvad potatis 195",
+                        "name": "Caprese, tomat, basilikakräm, mozarella serveras med smörstekt levainbröd",
                         "price": ""
                     },
                     {
-                        "name": "Silltallrik med klassiska tillbehör 185",
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Smörstekt lättrimmad Lofotenlånga med kapris, rödbetor, dillmajonnäs och färsk potatis 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Kalvragu med tomat, oliver, champinjoner, vitt vin och parmesanpuré 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Silltallrik med klassiska tillbehör",
+                        "price": ""
+                    },
+                    {
+                        "name": "185",
                         "price": ""
                     },
                     {
@@ -182,7 +222,7 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT  Citronpannacotta med färska jordgubbar och rostad vitchoklad 65",
+                        "name": "DESSERT  Citronpannacotta med rostad vitchoklad 65",
                         "price": ""
                     }
                 ]
