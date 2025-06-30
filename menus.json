@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-06-29 03:53",
+    "last_updated": "2025-06-30 03:51",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Uppdateras på fm",
                         "price": "145"
                     }
                 ]
@@ -63,8 +63,76 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "No menu available for today"
+                        "name": "FLÄSK SKOMAKARLÅDA Med purjolöksky, bacon och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANERAD FLUNDRAFILÉ Med stenbitromsröra och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med kycklingfilé och grönsaker i en krämig currysås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TISDAGSTEKT FLÄSK Med raggmunk och rårörda lingon alt. löksås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANKOPANERAD GÖSFILÈ Med purjolök, champinjoner, kapris, skirat smör och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SPAGHETTI FRUTTI DI MARE Med skaldjur i en krämig tomatsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "ONSDAGBIFF ALA LINDSTRÖM Med rödvinsky, persiljesmör och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "GRILLAD LAXFILÉ Med citroncrème och fetaost potatissallad",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med fläskfilé och grönsaker i en krämig grönpepparsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TORSDAGLÖVBIFF Med färskost/svampsås och klyftpotatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "UGNSBAKAD TORSKFILÉ Med blomkål/dillsås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SPAGHETTI Med tonfisk, kapris, coctailtomater och citron",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vi bjuder på pannkakor, grädde och sylt",
+                        "price": "139"
+                    },
+                    {
+                        "name": "FREDAGHELSTEKT FLÄSKFILÉ Med grädde, sweetchili, champinjoner och potatisgratäng",
+                        "price": "139"
+                    },
+                    {
+                        "name": "LAX & SCAMPISPETT Med saffransås, grönsaker och ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA BUSSOLA Med skinka och räkor i en krämig dragonsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vi bjuder på dessert",
+                        "price": "139"
+                    },
+                    {
+                        "name": "VECKAN TIPS: 179: -GRILLMIX (Oxfilé, kycklingfilé, fläskfilé) Med bearnaiseås och pommes",
+                        "price": "139"
                     }
                 ]
             }
