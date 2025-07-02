@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-01 03:56",
+    "last_updated": "2025-07-02 03:47",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Uppdateras på måndag kväll",
+                        "name": "Uppdateras på tisdag kväll",
                         "price": "145"
                     }
                 ]
@@ -19,7 +19,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Thai pork - stekt fläskfärs med koriander, ingefära \n& vitlök. srirachamayo, picklad rödkål, \ngurksallad, vårlök sushiris, rawsallad, edamame & rättika",
+                        "name": "Sticky beef - biff slungad i ykiniku-sås med sesampicklad gurka, vårlök sushiris, rawsallad, edamame & rättika",
                         "price": "125"
                     },
                     {
@@ -166,11 +166,15 @@
                         "price": ""
                     },
                     {
-                        "name": "Smörstekt lättrimmad Lofotenlånga med kapris, rödbetor, dillmajonnäs och färsk potatis 195",
+                        "name": "Halstrad och lättgravad laxfilé, dillstuvad potatis, citron och hovmästarsås 195",
                         "price": ""
                     },
                     {
                         "name": "Kalvragu med tomat, oliver, champinjoner, vitt vin och parmesanpuré 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Isterband med persiliestuvad potatis, senap och rödbetor 195",
                         "price": ""
                     },
                     {
