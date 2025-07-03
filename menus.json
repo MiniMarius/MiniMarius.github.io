@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-02 03:47",
+    "last_updated": "2025-07-03 03:49",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Uppdateras på tisdag kväll",
+                        "name": "Dagens kött:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Schnitzel med bearnaise och rösti",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens fisk:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Ugnsbakad färsk lax Florentine (Färsk spenat) med ris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens vegetariska:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Bakad fylld paprika med",
                         "price": "145"
                     }
                 ]
@@ -19,7 +39,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sticky beef - biff slungad i ykiniku-sås med sesampicklad gurka, vårlök sushiris, rawsallad, edamame & rättika",
+                        "name": "Sweet n spicy - panerat fläsk med sweetchili-kräm, picklad gurka, chili-slaw, sushiris, rawsallad, edamame & rättika",
                         "price": "125"
                     },
                     {
@@ -170,19 +190,11 @@
                         "price": ""
                     },
                     {
-                        "name": "Kalvragu med tomat, oliver, champinjoner, vitt vin och parmesanpuré 195",
+                        "name": "Kokt lamm I dillsås med sockerärtor och färskpotatis 195",
                         "price": ""
                     },
                     {
-                        "name": "Isterband med persiliestuvad potatis, senap och rödbetor 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Silltallrik med klassiska tillbehör",
-                        "price": ""
-                    },
-                    {
-                        "name": "185",
+                        "name": "Isterband med persiliestuvad potatis, senap och rödbetor 195 Silltallrik med klassiska tillbehör 185",
                         "price": ""
                     },
                     {
@@ -190,7 +202,7 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT  Citronpannacotta med rostad vitchoklad 65",
+                        "name": "DESSERT  Bakad yoghurt med lemoncurd och  rostad vit choklad 65",
                         "price": ""
                     }
                 ]
