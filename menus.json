@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-06 03:56",
+    "last_updated": "2025-07-07 03:52",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,43 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Dagens kött:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Strimlad biff i cognacssås med ugnsstekt färskpotatis",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens fisk:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Pankofriterad färsk smögensej med tomatsalsa och basmatiris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens veg:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Svamprisotto med gräslök och parmesan",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens varma grönsak:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Ugnsstekta grönsaker",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens side-soppa som ingår i lunchen:",
+                        "price": ""
+                    },
+                    {
+                        "name": "Lamm- och grönsakssoppa",
                         "price": "145"
                     }
                 ]
@@ -17,7 +53,44 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Bahn mi - smashad fläsksida, gurksalsa, picklad rödkål, kimchimayo, sushiris, rawsallad, edamame & rättika",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Hot puff - friterad tzay (soya protein) med hot-mayo, \nananassalsa, picklad rödkål, rawsallad, edamame, sushiris, rättika & gari",
+                        "price": "125"
+                    },
+                    {
+                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
+                        "price": "159"
+                    },
+                    {
+                        "name": "Hot mama  - 150g burgare med cheddar, rödlök, sallad, mango-& jalapeno mayo. serveras med pommes & dipp",
+                        "price": "135"
+                    },
+                    {
+                        "name": "Crispy truffel - 150g burgare med cheddar, lökring, \nbacon, sallad & tryffelmayo. med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Almost chicken - vegansk ”chicken style” burger med sallad, picklad rödkål, srirachamayo & jalapeños\nserveras med pommes och dipp",
+                        "price": "129"
+                    },
+                    {
+                        "name": "Italiano - 150g burgare med parmesan-& basilikakräm\n“salami chips”, dubbel ost, syrad chili & napolitansk sallad. serveras med pommes och dipp",
+                        "price": "145"
+                    }
+                ]
             }
         },
         {
@@ -26,8 +99,76 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Error",
-                        "price": "Network issue"
+                        "name": "FLÄSK SKOMAKARLÅDA Med purjolöksky, bacon och potatismos",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANERAD FLUNDRAFILÉ Med stenbitromsröra och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med kycklingfilé och grönsaker i en krämig currysås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TISDAGSTEKT FLÄSK Med raggmunk och rårörda lingon alt. löksås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PANKOPANERAD GÖSFILÈ Med purjolök, champinjoner, kapris, skirat smör och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SPAGHETTI FRUTTI DI MARE Med skaldjur i en krämig tomatsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "ONSDAGBIFF ALA LINDSTRÖM Med rödvinsky, persiljesmör och rostad potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "GRILLAD LAXFILÉ Med citroncrème och fetaost potatissallad",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA Med fläskfilé och grönsaker i en krämig grönpepparsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "TORSDAGLÖVBIFF Med färskost/svampsås och klyftpotatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "UGNSBAKAD TORSKFILÉ Med blomkål/dillsås och kokt potatis",
+                        "price": "139"
+                    },
+                    {
+                        "name": "SPAGHETTI Med tonfisk, kapris, coctailtomater och citron",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vi bjuder på pannkakor, grädde och sylt",
+                        "price": "139"
+                    },
+                    {
+                        "name": "FREDAGHELSTEKT FLÄSKFILÉ Med grädde, sweetchili, champinjoner och potatisgratäng",
+                        "price": "139"
+                    },
+                    {
+                        "name": "LAX & SCAMPISPETT Med saffransås, grönsaker och ris",
+                        "price": "139"
+                    },
+                    {
+                        "name": "PASTA BUSSOLA Med skinka och räkor i en krämig dragonsås",
+                        "price": "139"
+                    },
+                    {
+                        "name": "Vi bjuder på dessert",
+                        "price": "139"
+                    },
+                    {
+                        "name": "VECKAN TIPS: 179: -GRILLMIX (Oxfilé, kycklingfilé, fläskfilé) Med bearnaiseås och pommes",
+                        "price": "139"
                     }
                 ]
             }
@@ -45,27 +186,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Poke bowl med chilimarinerad tonfisk, mango, sojabönoroch sesampicklad gurka 195",
+                        "name": "Sallad med gratinerad getost, saltbakade betor, bulgur, valnötter och honung och yoghurtdressing  195",
                         "price": ""
                     },
                     {
-                        "name": "Caprese, tomat, basilikakräm, mozarella serveras med smörstekt levainbröd 195",
+                        "name": "Panko och parmesan panerad zucchini med korngrynsallad med oliver, gurka, tomat, lök och basilikacrème",
                         "price": ""
                     },
                     {
-                        "name": "Helstekt rödspätta med räkor, persiljestekta champinjoner, brynt smör och riven pepparrot 195",
+                        "name": "195",
                         "price": ""
                     },
                     {
-                        "name": "Kokt lamm I dillsås med sockerärtor och färskpotatis 195",
+                        "name": "Sill och strömmingstallrik med klassiska tillbehör",
+                        "price": "185"
+                    },
+                    {
+                        "name": "Ångad lättrimmad sejfilé med ägg och persiljesås, räkor, citron och färsk potatis 195",
                         "price": ""
                     },
                     {
-                        "name": "Rosastekt kalv med bearnaisesås, friteradfärskpotatis och brytbönor  195",
+                        "name": "Kantarellspäckade persiljejärpar med gräddsås, potatispuré, svartvinbärsgelé och pressgurka 195",
                         "price": ""
                     },
                     {
-                        "name": "Silltallrik med klassiska tillbehör 185",
+                        "name": "Rosastekt kalv med bearnaise, brytbönor ochfriterad färsk potatis 195",
                         "price": ""
                     },
                     {
@@ -73,15 +218,7 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT  Bakad yoghurt med lemoncurd och  rostad vit choklad 65",
-                        "price": ""
-                    },
-                    {
-                        "name": "Alltid på lunchen!",
-                        "price": ""
-                    },
-                    {
-                        "name": "55",
+                        "name": "DESSERT  Bakad yoghurt med rabarberkompott, kanderade pistagenötter och italiensk maräng 65",
                         "price": ""
                     }
                 ]
