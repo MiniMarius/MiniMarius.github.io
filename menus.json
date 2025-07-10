@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-09 03:50",
+    "last_updated": "2025-07-10 03:49",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -11,7 +11,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Pannbiff med gräddsås, pressgurka, lingon",
+                        "name": "Schnitzel med bearnaise och rösti",
                         "price": "145"
                     },
                     {
@@ -19,7 +19,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Torskgryta med grädde, tomat, räkor, dill, pepparrot",
+                        "name": "Ugnsbakad färsk torsk Florentine (Färsk spenat)",
                         "price": "145"
                     },
                     {
@@ -27,7 +27,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Ratatouille toppad med mozzarella di bufala",
+                        "name": "Bakad fylld paprika med halloumi och cous cous",
                         "price": "145"
                     },
                     {
@@ -35,15 +35,11 @@
                         "price": "145"
                     },
                     {
-                        "name": "Ugnsstekta morötter",
+                        "name": "Gröna ärtor",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens side-soppa som ingår i lunchen:",
-                        "price": ""
-                    },
-                    {
-                        "name": "Ost",
+                        "name": "Idag pannkaksbuffé som dessert!!",
                         "price": "145"
                     }
                 ]
