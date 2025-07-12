@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-11 03:55",
+    "last_updated": "2025-07-12 03:51",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,32 +7,8 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Grillmix:",
+                        "name": "Stängt",
                         "price": "145"
-                    },
-                    {
-                        "name": "Kalv tri-tip, räkor",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Tillbehör:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Potatis, majskolvar, grönsaksmix, bearnaise, bbq-sås",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vegetariskt:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Vegoschnitzel med ovan tillbehör",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens side-soppa som ingår i lunchen: Kyckling och brie, smaksatt med tryffel",
-                        "price": ""
                     }
                 ]
             }
@@ -85,7 +61,12 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Error",
+                        "price": "No menu available for today"
+                    }
+                ]
             }
         },
         {
@@ -101,11 +82,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med gratinerad getost, saltbakade betor, bulgur, valnötter och honung och yoghurtdressing  195",
+                        "name": "Sallad med kryddstekt kycklingfilé med hummus, thahini vinägrett och taboule  195",
                         "price": ""
                     },
                     {
-                        "name": "Panko och parmesan panerad zucchini med korngrynsallad med oliver, gurka, tomat, lök och basilikacrème",
+                        "name": "Färsk linguine med citron och vitlöksstekta kronärtskockor, tomat, oliver och persilja",
                         "price": ""
                     },
                     {
@@ -113,19 +94,15 @@
                         "price": ""
                     },
                     {
-                        "name": "Smörstekt Lofoten långa med räkor, kronärtskocka, körsbärstomater, citron, färsk potatis och aioli 195",
-                        "price": "185195"
+                        "name": "Sill och strömmingstallrik med klassiska tillbehör",
+                        "price": "185"
                     },
                     {
-                        "name": "Kantarellspäckade persiljejärpar med gräddsås, potatispuré, svartvinbärsgelé och pressgurka 195",
+                        "name": "Halstrad lättgravad svensk makrillfilé med dillstuvad potatis, citron och hovmästarsås 195",
                         "price": ""
                     },
                     {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
-                        "price": ""
-                    },
-                    {
-                        "name": "DESSERT  Liten rabarberpaj med vaniljgrädde och rostad vitchoklad 65",
+                        "name": "Pytt bellman med rå äggula, rödbetor och saltgurka 195",
                         "price": ""
                     }
                 ]
