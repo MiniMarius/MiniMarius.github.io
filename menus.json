@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-14 09:15",
+    "last_updated": "2025-07-15 03:56",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -11,7 +11,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Strimlad biff i cognacssås med ugnsstekt färskpotatis",
+                        "name": "Pulled pork fritter med röd curry dipp och ugnsrostad färskpotatis",
                         "price": "145"
                     },
                     {
@@ -19,15 +19,15 @@
                         "price": "145"
                     },
                     {
-                        "name": "Pankofriterad färsk smögensej med tomatsalsa och basmatiris",
+                        "name": "Färsk torsk i vitvinssås med färska örter och ris",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens veg:",
+                        "name": "Dagens vegetariska:",
                         "price": "145"
                     },
                     {
-                        "name": "Svamprisotto med gräslök och parmesan",
+                        "name": "Friterad brieost med hjortronsylt och syrad frissésallad",
                         "price": "145"
                     },
                     {
@@ -35,7 +35,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Ugnsstekta grönsaker",
+                        "name": "Haricotsverts",
                         "price": "145"
                     },
                     {
@@ -43,7 +43,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Lamm- och grönsakssoppa",
+                        "name": "Rödbeta",
                         "price": "145"
                     }
                 ]
