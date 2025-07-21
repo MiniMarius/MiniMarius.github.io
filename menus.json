@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-21 04:01",
+    "last_updated": "2025-07-21 09:17",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -113,10 +113,6 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med kryddstekt kycklingfilé med hummus, thahini vinägrett och taboule  195",
-                        "price": ""
-                    },
-                    {
                         "name": "Färsk linguine med citron och vitlöksstekta kronärtskockor, tomat, oliver och persilja",
                         "price": ""
                     },
@@ -125,15 +121,15 @@
                         "price": ""
                     },
                     {
-                        "name": "Sill och strömmingstallrik med klassiska tillbehör",
-                        "price": "185"
-                    },
-                    {
-                        "name": "Halstrad lättgravad svensk makrillfilé med dillstuvad potatis, citron och hovmästarsås 195",
+                        "name": "Ångad fjällbrosme med grön currykräm, musselskum, blåmusslor, och smörslungad spetskål 195",
                         "price": ""
                     },
                     {
-                        "name": "Pytt bellman med rå äggula, rödbetor och saltgurka 195",
+                        "name": "Bräckt oxbringa med potatispuré, honungsrostade rotsaker, rödvinssky 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295 Tomatrisotto med parmesan, soltorkad tomat och örtsallad 265",
                         "price": ""
                     }
                 ]
