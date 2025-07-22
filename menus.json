@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-21 09:17",
+    "last_updated": "2025-07-22 03:56",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -11,7 +11,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Strimlad biff i cognacssås med ugnsstekt färskpotatis",
+                        "name": "Pulled pork fritter med röd curry dipp och ugnsrostad färskpotatis",
                         "price": "145"
                     },
                     {
@@ -19,15 +19,15 @@
                         "price": "145"
                     },
                     {
-                        "name": "Pankofriterad färsk smögensej med tomatsalsa och basmatiris",
+                        "name": "Färsk torsk i vitvinssås med färska örter och ris",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens veg:",
+                        "name": "Dagens vegetariska:",
                         "price": "145"
                     },
                     {
-                        "name": "Svamprisotto med gräslök och parmesan",
+                        "name": "Friterad brieost med hjortronsylt och syrad frissésallad",
                         "price": "145"
                     },
                     {
@@ -35,7 +35,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Ugnsstekta grönsaker",
+                        "name": "Haricotsverts",
                         "price": "145"
                     },
                     {
@@ -43,7 +43,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Lamm- och grönsakssoppa",
+                        "name": "Rödbeta",
                         "price": "145"
                     }
                 ]
@@ -113,14 +113,6 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Färsk linguine med citron och vitlöksstekta kronärtskockor, tomat, oliver och persilja",
-                        "price": ""
-                    },
-                    {
-                        "name": "195",
-                        "price": ""
-                    },
-                    {
                         "name": "Ångad fjällbrosme med grön currykräm, musselskum, blåmusslor, och smörslungad spetskål 195",
                         "price": ""
                     },
@@ -129,7 +121,11 @@
                         "price": ""
                     },
                     {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295 Tomatrisotto med parmesan, soltorkad tomat och örtsallad 265",
+                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
+                        "price": ""
+                    },
+                    {
+                        "name": "Tomatrisotto med parmesan, soltorkad tomat och örtsallad 265",
                         "price": ""
                     }
                 ]
