@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-22 03:56",
+    "last_updated": "2025-07-23 03:58",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -11,7 +11,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Pulled pork fritter med röd curry dipp och ugnsrostad färskpotatis",
+                        "name": "Pannbiff med gräddsås, pressgurka, lingon",
                         "price": "145"
                     },
                     {
@@ -19,7 +19,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Färsk torsk i vitvinssås med färska örter och ris",
+                        "name": "Torskgryta med grädde, tomat, räkor, dill, pepparrot",
                         "price": "145"
                     },
                     {
@@ -27,7 +27,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Friterad brieost med hjortronsylt och syrad frissésallad",
+                        "name": "Ratatouille toppad med mozzarella di bufala",
                         "price": "145"
                     },
                     {
@@ -35,7 +35,7 @@
                         "price": "145"
                     },
                     {
-                        "name": "Haricotsverts",
+                        "name": "Ugnsstekta morötter",
                         "price": "145"
                     },
                     {
@@ -43,7 +43,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Rödbeta",
+                        "name": "Ost",
                         "price": "145"
                     }
                 ]
@@ -122,6 +122,10 @@
                     },
                     {
                         "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
+                        "price": ""
+                    },
+                    {
+                        "name": "Silltallrik med klassiska tillbehör 175",
                         "price": ""
                     },
                     {
