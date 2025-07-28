@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-27 04:02",
+    "last_updated": "2025-07-28 04:02",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,43 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Dagens kött:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Strimlad biff i cognacssås med ugnsstekt färskpotatis",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens fisk:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Pankofriterad färsk smögensej med tomatsalsa och basmatiris",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens veg:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Svamprisotto med gräslök och parmesan",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens varma grönsak:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Ugnsstekta grönsaker",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens side-soppa som ingår i lunchen:",
+                        "price": ""
+                    },
+                    {
+                        "name": "Lamm- och grönsakssoppa",
                         "price": "145"
                     }
                 ]
@@ -61,12 +97,7 @@
             "name": "Al Caminetto",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Error",
-                        "price": "No menu available for today"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
@@ -82,11 +113,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Ångad fjällbrosme med grön currykräm, musselskum, blåmusslor, och smörslungad spetskål 195",
+                        "name": "Kycklingsallad med risnudlar, picklad rättika, morot, gemsallad, koriander, kimchi och sesamfrön  195",
                         "price": ""
                     },
                     {
-                        "name": "Bräckt oxbringa med potatispuré, honungsrostade rotsaker, rödvinssky 195",
+                        "name": "Havets wallenbergare med potatispuré, små gröna ärtor, pepparrot, citron ochbrynt smör 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Bakad fläskfilé med skysås, kronärtskocka, dragonkräm och potatispuré smaksatt med soltorkad tomat 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Gratinerad getost med rödbetskräm, betor, rostade hasselnötter, ruccola och grillat levainbröd",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
                         "price": ""
                     },
                     {
@@ -95,10 +138,6 @@
                     },
                     {
                         "name": "Silltallrik med klassiska tillbehör 175",
-                        "price": ""
-                    },
-                    {
-                        "name": "Tomatrisotto med parmesan, soltorkad tomat och örtsallad 265",
                         "price": ""
                     }
                 ]
