@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-28 09:16",
+    "last_updated": "2025-08-01 04:15",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,43 +7,27 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens kött:",
+                        "name": "Grillfredag!",
                         "price": "145"
                     },
                     {
-                        "name": "Strimlad biff i cognacssås med ugnsstekt färskpotatis",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens fisk:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Pankofriterad färsk smögensej med tomatsalsa och basmatiris",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens veg:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Svamprisotto med gräslök och parmesan",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens varma grönsak:",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Ugnsstekta grönsaker",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens side-soppa som ingår i lunchen:",
+                        "name": "Varje fredag tänder vi grillen och serverar nedan, vegetariskt ingår inte utan är en egen rätt",
                         "price": ""
                     },
                     {
-                        "name": "Lamm- och grönsakssoppa",
+                        "name": "Från grillen: Grillat marinerat nötinnanlår, spansk chorizo, scampispett",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Tillbehör: Klyftpotatis, grillade grönsaker, bearnaise, kryddig tomat- och paprikasalsa",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Vegetariskt alternativ:",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Getostkroketter med rostade mandlar & honung",
                         "price": "145"
                     }
                 ]
@@ -53,44 +37,7 @@
             "name": "PokéBurger",
             "location": "Location details here",
             "menu": {
-                "dishes": [
-                    {
-                        "name": "Bahn mi - smashad fläsksida, gurksalsa, picklad rödkål, kimchimayo, sushiris, rawsallad, edamame & rättika",
-                        "price": "125"
-                    },
-                    {
-                        "name": "Hot puff - friterad tzay (soya protein) med hot-mayo, \nananassalsa, picklad rödkål, rawsallad, edamame, sushiris, rättika & gari",
-                        "price": "125"
-                    },
-                    {
-                        "name": "Fishcakes - friterade fishcakes gjorda på lax, torsk & räkor, med kimchimayo, mangosalsa, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "139"
-                    },
-                    {
-                        "name": "Poke bowl lax - marinerad lax med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "Poke bowl tonfisk - marinerad färsk tonfisk med ananassalsa, sjögrässallad, ponzu-mayo \navokadokräm, rawsallad, edamame, sushiris, ”asian crunch” & rättika & gari",
-                        "price": "159"
-                    },
-                    {
-                        "name": "Hot mama  - 150g burgare med cheddar, rödlök, sallad, mango-& jalapeno mayo. serveras med pommes & dipp",
-                        "price": "135"
-                    },
-                    {
-                        "name": "Crispy truffel - 150g burgare med cheddar, lökring, \nbacon, sallad & tryffelmayo. med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Almost chicken - vegansk ”chicken style” burger med sallad, picklad rödkål, srirachamayo & jalapeños\nserveras med pommes och dipp",
-                        "price": "129"
-                    },
-                    {
-                        "name": "Italiano - 150g burgare med parmesan-& basilikakräm\n“salami chips”, dubbel ost, syrad chili & napolitansk sallad. serveras med pommes och dipp",
-                        "price": "145"
-                    }
-                ]
+                "dishes": []
             }
         },
         {
