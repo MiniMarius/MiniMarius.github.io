@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-08-04 09:23",
+    "last_updated": "2025-08-11 09:18",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,27 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Garros kalvköttbullar med gräddsås, inlagd gurka & vår egen lingonsylt",
+                        "name": "Dagens husman: Kåldolmar med gräddsås, lingon och krossad färskpotatis",
                         "price": "145"
                     },
                     {
-                        "name": "Rosastekt nötinnanlår med smörad rosépepparsky",
+                        "name": "Grillad kalvpicanha med sås på krondill",
                         "price": "145"
                     },
                     {
-                        "name": "Lättrimmad och ångad Rödspättafilé med brynt smör & dill/pepparrotsmarinerade räkor",
+                        "name": "Ångad färsk koljafilé med purjolök och smörad kimchisås",
                         "price": "145"
                     },
                     {
-                        "name": "Veg: Frasig fetaost med sallad & picklad rödlök",
+                        "name": "Veg: Grönsaker Tempura med chilidipp",
                         "price": "145"
                     },
                     {
                         "name": "Dagens varma grönsak: Haricotsverts",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens side-soppa: Fänkål/morot",
                         "price": "145"
                     }
                 ]
@@ -65,27 +61,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med varmrökt lax, fänkål, syrad gurka, kapris, färskpotatis och dillmajonnäs  195",
+                        "name": "Sallad med varmrökt lax, fänkål, syrad gurka, kapris, matvete och dillmajonnäs  195",
                         "price": ""
                     },
                     {
-                        "name": "Fisk- och skaldjursfrikassé med fänkål, apelsin och saffran, serverad med smörslungad färskpotatis 195",
+                        "name": "Halstrad lax med kall romsås, rostad broccoli, citron och smörslungad färskpotatis 195 Bakad kalvtri-tip med dillsås, morötter, sockerärteroch kokt potatis    195",
                         "price": ""
                     },
                     {
-                        "name": "Bakad fläskhare med skogssvampssås, potatispuré, svartvinbärsgelé och pressgurka 195",
+                        "name": "Friterad blomkål med soyaglace, salladslök, rökt tofu, korinader, sesam och aioli, serveras med japanskt ris  195 Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur 295",
                         "price": ""
                     },
                     {
-                        "name": "Krämigt matvete med gratinerad portabellosvamp, färskostkräm och glacerade gulbetor 195",
+                        "name": "Smörstekt rödspetta på ben med rödbetor, kapris, brynt smör och färskriven pepparot  195 Silltallrik med klassiska tillbehör 175",
                         "price": ""
                     },
                     {
-                        "name": "Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur  295",
-                        "price": ""
-                    },
-                    {
-                        "name": "Silltallrik med klassiska tillbehör 175",
+                        "name": "DESSERTBrynt smör-brownie med vaniljgrädde  65",
                         "price": ""
                     }
                 ]
