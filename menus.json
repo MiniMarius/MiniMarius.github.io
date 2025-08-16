@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-08-11 09:18",
+    "last_updated": "2025-08-16 03:46",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Kåldolmar med gräddsås, lingon och krossad färskpotatis",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Grillad kalvpicanha med sås på krondill",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Ångad färsk koljafilé med purjolök och smörad kimchisås",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Veg: Grönsaker Tempura med chilidipp",
-                        "price": "145"
-                    },
-                    {
-                        "name": "Dagens varma grönsak: Haricotsverts",
+                        "name": "Stängt",
                         "price": "145"
                     }
                 ]
@@ -61,23 +45,31 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med varmrökt lax, fänkål, syrad gurka, kapris, matvete och dillmajonnäs  195",
+                        "name": "Sallad med sotad lax, fänkål, syrad gurka, kapris, matvete och dillmajonnäs  195",
                         "price": ""
                     },
                     {
-                        "name": "Halstrad lax med kall romsås, rostad broccoli, citron och smörslungad färskpotatis 195 Bakad kalvtri-tip med dillsås, morötter, sockerärteroch kokt potatis    195",
+                        "name": "Halstrad lax med kall romsås, rostad blomkål, citron och smörslungad färskpotatis 195",
                         "price": ""
                     },
                     {
-                        "name": "Friterad blomkål med soyaglace, salladslök, rökt tofu, korinader, sesam och aioli, serveras med japanskt ris  195 Parmesangratinerade gäddqueneller med havskräftsås, spenat och skaldjur 295",
+                        "name": "Rosastekt kalv med bearnaise, morötter, sockerärtor och rostad klyftpotatis    195",
                         "price": ""
                     },
                     {
-                        "name": "Smörstekt rödspetta på ben med rödbetor, kapris, brynt smör och färskriven pepparot  195 Silltallrik med klassiska tillbehör 175",
+                        "name": "Friterad blomkål med soyaglace, salladslök, rökt tofu, korinader, sesam och aioli, serveras med japanskt ris  195",
                         "price": ""
                     },
                     {
-                        "name": "DESSERTBrynt smör-brownie med vaniljgrädde  65",
+                        "name": "Parmesangratinerade laxqueneller med havskräftsås, spenat och skaldjur 295",
+                        "price": ""
+                    },
+                    {
+                        "name": "Silltallrik med klassiska tillbehör 175",
+                        "price": ""
+                    },
+                    {
+                        "name": "Brynt smör-brownie med vaniljgrädde  65",
                         "price": ""
                     }
                 ]
