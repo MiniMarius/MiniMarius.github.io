@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-08-17 03:56",
+    "last_updated": "2025-08-25 03:47",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Dagens husman: Kokt rimmad oxbringa med pepparrotsås och ugnsrostade rotsaker",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Rödvinsbrässerad högrev a la Bourguignon",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Kryddig torsk och scampigryta med limeaioli och potatiskrisp",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Veg: Friterad NON chicken med ugnsrostade rotsaker och örtdipp",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Dagens varma grönsak: Haricotsverts",
                         "price": "145"
                     }
                 ]
@@ -36,7 +52,12 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -45,19 +66,35 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med sotad lax, fänkål, syrad gurka, kapris, matvete och dillmajonnäs  195",
+                        "name": "Sallad med haloumi, pärlcouscous, rostad tomatdressing,aubergine, zucchini och kronärtskocka 195",
                         "price": ""
                     },
                     {
-                        "name": "Halstrad lax med kall romsås, rostad blomkål, citron och smörslungad färskpotatis 195",
+                        "name": "Kantarellrisotto med mozzarella och pinjenötter 195",
                         "price": ""
                     },
                     {
-                        "name": "Rosastekt kalv med bearnaise, morötter, sockerärtor och rostad klyftpotatis    195",
+                        "name": "Ångad Lofoten torsk med musselvitvinssås, skaldjur,gulbeta och spenat",
                         "price": ""
                     },
                     {
-                        "name": "Friterad blomkål med soyaglace, salladslök, rökt tofu, korinader, sesam och aioli, serveras med japanskt ris  195",
+                        "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Kokt rimmad oxbringa med buljongkokta rotfrukter, spetskål,",
+                        "price": ""
+                    },
+                    {
+                        "name": "potatispuré och dijonnaise 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Småländskt isterband med persiljestuvad potatis, rödbetoroch grov senap",
+                        "price": ""
+                    },
+                    {
+                        "name": "195",
                         "price": ""
                     },
                     {
@@ -65,11 +102,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Silltallrik med klassiska tillbehör 175",
-                        "price": ""
-                    },
-                    {
-                        "name": "Brynt smör-brownie med vaniljgrädde  65",
+                        "name": "DESSERT    Smörstekt sockerkaka med äppelkompott ochgrillad vaniljglass  65",
                         "price": ""
                     }
                 ]
@@ -79,7 +112,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Isterband med gräslökstuvad potatis, rödbetor, senap & rödvinssås",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
