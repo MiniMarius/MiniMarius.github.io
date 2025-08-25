@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-08-25 03:47",
+    "last_updated": "2025-08-25 09:15",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Kokt rimmad oxbringa med pepparrotsås och ugnsrostade rotsaker",
+                        "name": "Dagens husman: Kokt rimmad oxbringa med pepparrotsås (L,G) och ugnsrostade rotsaker",
                         "price": "145"
                     },
                     {
@@ -15,16 +15,16 @@
                         "price": "145"
                     },
                     {
-                        "name": "Kryddig torsk och scampigryta med limeaioli och potatiskrisp",
+                        "name": "Kryddig torsk och scampigryta (L) med limeaioli och potatiskrisp",
                         "price": "145"
                     },
                     {
-                        "name": "Veg: Friterad NON chicken med ugnsrostade rotsaker och örtdipp",
+                        "name": "Veg: Friterad NON chicken (G) med ugnsrostade rotsaker och örtdipp",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Haricotsverts",
-                        "price": "145"
+                        "name": "Dagens side-soppa, potatis/aubergine (L) (ingår i lunchen)",
+                        "price": ""
                     }
                 ]
             }
@@ -66,15 +66,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med haloumi, pärlcouscous, rostad tomatdressing,aubergine, zucchini och kronärtskocka 195",
+                        "name": "Sallad med krispig chili glazad kyckling, risnudlar, spetskål, koriander, yuzumajonnäs, chilirostade sesamfrön och vårlök 195",
                         "price": ""
                     },
                     {
-                        "name": "Kantarellrisotto med mozzarella och pinjenötter 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Ångad Lofoten torsk med musselvitvinssås, skaldjur,gulbeta och spenat",
+                        "name": "Stekt levainbröd med stuvade skogschampinjoner, Västerbottenost med en liten sallad",
                         "price": ""
                     },
                     {
@@ -82,19 +78,15 @@
                         "price": ""
                     },
                     {
-                        "name": "Kokt rimmad oxbringa med buljongkokta rotfrukter, spetskål,",
-                        "price": ""
-                    },
-                    {
-                        "name": "potatispuré och dijonnaise 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Småländskt isterband med persiljestuvad potatis, rödbetoroch grov senap",
+                        "name": "Halstrad Fjordlax med dijonhollandaise, spenat, gulbetoroch örtslungad potatis",
                         "price": ""
                     },
                     {
                         "name": "195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Prins Bertils pannbiffar med kantarellgräddsky, gelé, pressgurka och potatispuré 195",
                         "price": ""
                     },
                     {
@@ -102,7 +94,7 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT    Smörstekt sockerkaka med äppelkompott ochgrillad vaniljglass  65",
+                        "name": "DESSERT  Tiramisu  65",
                         "price": ""
                     }
                 ]
@@ -118,7 +110,7 @@
                         "price": "149"
                     },
                     {
-                        "name": "Isterband med gräslökstuvad potatis, rödbetor, senap & rödvinssås",
+                        "name": "Pyttbellman med äggula & rödbetor",
                         "price": "149"
                     }
                 ]
