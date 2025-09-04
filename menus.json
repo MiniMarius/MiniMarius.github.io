@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-08-25 09:15",
+    "last_updated": "2025-09-04 03:27",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,24 +7,28 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Kokt rimmad oxbringa med pepparrotsås (L,G) och ugnsrostade rotsaker",
+                        "name": "Dagens husman: Ångad fjällröding med gräslöksgrädde och färskpotatis",
                         "price": "145"
                     },
                     {
-                        "name": "Rödvinsbrässerad högrev a la Bourguignon",
+                        "name": "Fläskschnitzel på ben med hollandaise och citronettesallad",
                         "price": "145"
                     },
                     {
-                        "name": "Kryddig torsk och scampigryta (L) med limeaioli och potatiskrisp",
+                        "name": "Scampi Indiana (currystuvade) med ris",
                         "price": "145"
                     },
                     {
-                        "name": "Veg: Friterad NON chicken (G) med ugnsrostade rotsaker och örtdipp",
+                        "name": "Veg: Fetaostschnitzel med hollandaise och citronettesallad",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens side-soppa, potatis/aubergine (L) (ingår i lunchen)",
-                        "price": ""
+                        "name": "Dagens varma grönsak: Stekt lök",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Varje torsdag har vi pannkaksbuffé med vår egen hallonsylt som dessert!",
+                        "price": "145"
                     }
                 ]
             }
@@ -54,7 +58,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "New York: Vår variant av gatuköksburgaren med 120 gram svenskt nötkött, tomat, sallad, ost, Bastard originaldressing och rödlök.",
                         "price": "132"
                     }
                 ]
@@ -66,11 +70,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med krispig chili glazad kyckling, risnudlar, spetskål, koriander, yuzumajonnäs, chilirostade sesamfrön och vårlök 195",
-                        "price": ""
-                    },
-                    {
-                        "name": "Stekt levainbröd med stuvade skogschampinjoner, Västerbottenost med en liten sallad",
+                        "name": "Sallad med fetaost, kronärtskocka, couscous, oliver, mynta,gurka, sojabönor och tzatziki",
                         "price": ""
                     },
                     {
@@ -78,7 +78,11 @@
                         "price": ""
                     },
                     {
-                        "name": "Halstrad Fjordlax med dijonhollandaise, spenat, gulbetoroch örtslungad potatis",
+                        "name": "Bakad spetskål med gulärtspuré, stekt halloumioch jalapeñomajonnäs 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Ångad Lofoten torsk med musselvitvinssås, skaldjur,svartkål och gulbetor",
                         "price": ""
                     },
                     {
@@ -86,7 +90,11 @@
                         "price": ""
                     },
                     {
-                        "name": "Prins Bertils pannbiffar med kantarellgräddsky, gelé, pressgurka och potatispuré 195",
+                        "name": "Baconlindad köttfärslimpa med skogssvampsgräddsky, potatispuré, svartvinbärsgelé och pressgurka  195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Raggmunk med stekt fläsk och rårörda lingon 195",
                         "price": ""
                     },
                     {
@@ -94,7 +102,7 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT  Tiramisu  65",
+                        "name": "DESSERT Brownie med hasslnötsparfait   65",
                         "price": ""
                     }
                 ]
@@ -106,11 +114,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta med saffran, fänkål, paprika, tomat & aioli",
+                        "name": "Stekt strömming med brynt smör, potatispuré, rårörda lingon & hariotsverts",
                         "price": "149"
                     },
                     {
-                        "name": "Pyttbellman med äggula & rödbetor",
+                        "name": "Köttfärslimpa med gräddsås, kokt potatis & saltgurka",
                         "price": "149"
                     }
                 ]
