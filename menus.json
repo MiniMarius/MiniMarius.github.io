@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-09-08 09:14",
+    "last_updated": "2025-09-15 03:40",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Isterband med stuvad potatis",
+                        "name": "Dagens husman: Kåldolmar med gräddsås, lingon och kokt potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Rödvinsbakad högrev med jordärtskockscrisp och potatispuré",
+                        "name": "Högrevschili med gräddfil, ris och nachos",
                         "price": "145"
                     },
                     {
-                        "name": "Gratinerad färsk smögensej med manchego och grillad paprika",
+                        "name": "Ångad och lättsaltad färsk koljafilé med brynt smör, pepparrot, dill och kokt potatis",
                         "price": "145"
                     },
                     {
-                        "name": "Veg: Svamppytt med stekt ägg",
+                        "name": "Veg: Kantarellquiche med machésallad",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Ugnsstekta betor",
+                        "name": "Dagens varma grönsak: Haricotsverts",
                         "price": "145"
                     }
                 ]
@@ -66,7 +66,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med ceasar dressad tonfisk, ägg, potatis, oliver,rädisor och sockerärtor",
+                        "name": "Sallad med inkokt lax, syrad gurka, fänkål, rädisor,potatis och dillmajonäs",
                         "price": ""
                     },
                     {
@@ -74,7 +74,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Krämigt matvete med smörstekt svamp, kräm på lagrad prästost och pinjenötter",
+                        "name": "Chili-glazerad blomkål med portobello, picklade sotade smålökar, friterad svartkål och misomajonäs",
                         "price": ""
                     },
                     {
@@ -82,7 +82,7 @@
                         "price": ""
                     },
                     {
-                        "name": "Halstrad lättgravad fjordlax med dillstuvad potatis, citronoch hovmästarsås",
+                        "name": "Laxfärserad flundrafilé med havskräftsås,färska bönor, örtslungad potatis och broccoli",
                         "price": ""
                     },
                     {
@@ -90,19 +90,23 @@
                         "price": ""
                     },
                     {
-                        "name": "Boeuf Bourguignon på högrev med rökt fläsk, champinjoner, smålök och potatispuré 195",
+                        "name": "Fylld kycklingschnitzel “Cordon Bleu” med små ärtor, rödvinssås och rostad potatis  195",
                         "price": ""
                     },
                     {
-                        "name": "Kålpudding med gräddsås, rårörda lingon och persiljepotatis 195",
+                        "name": "Krämig kalvgryta med grönpeppar, dijonsenap,brytbönor och potatispuré",
                         "price": ""
                     },
                     {
-                        "name": "Parmesangratinerade laxqueneller med havskräftsås, spenat och skaldjur 295",
+                        "name": "195",
                         "price": ""
                     },
                     {
-                        "name": "DESSERT Tiramisu   65",
+                        "name": "Parmesangratinerade laxqueneller med havskräftsås,spenat och skaldjur 295",
+                        "price": ""
+                    },
+                    {
+                        "name": "DESSERT Chokladmousse med hallon och karameliserad vaniljkräm    65",
                         "price": ""
                     }
                 ]
