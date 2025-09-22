@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-09-20 03:26",
+    "last_updated": "2025-09-22 03:39",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,7 +7,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Stängt",
+                        "name": "Dagens husman: Köttbullar med gräddsås, lingon, pressgurka och potatispuré",
+                        "price": "145"
+                    },
+                    {
+                        "name": "Portvinsgryta med kalvkött, champinjoner, bacon, serveras med ris",
                         "price": "145"
                     }
                 ]
@@ -36,7 +40,12 @@
             "name": "Bastard Burgers",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "price": "132"
+                    }
+                ]
             }
         },
         {
@@ -45,7 +54,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med inkokt lax, syrad gurka, fänkål, rädisor,potatis och dillmajonäs",
+                        "name": "Sallad med inkokt lax, syrad gurka, fänkål, rädisor,potatis och romsås",
                         "price": ""
                     },
                     {
@@ -53,7 +62,11 @@
                         "price": ""
                     },
                     {
-                        "name": "Ångad Lofoten torsk med räkor, ägg, brynt smör ochnyriven pepparrot",
+                        "name": "Krämig pasta med Karl-Johansvamp,Halloumi och friterad svartkål Creamy pasta",
+                        "price": ""
+                    },
+                    {
+                        "name": "195Ångad Lofoten torsk med räkor, ägg,persiljesås och smörslungad potatis",
                         "price": ""
                     },
                     {
@@ -61,11 +74,11 @@
                         "price": ""
                     },
                     {
-                        "name": "Jägarbiff på kronhjort med lök och skogsvampsky, geléoch potatispuré 195",
+                        "name": "Jägarbiff på kronhjort med lök och skogsvampsky, svartvinbärsgelé och potatispuré 195",
                         "price": ""
                     },
                     {
-                        "name": "Ragu ”Bolognese” med färsk casarecce pastaoch riven parmesan",
+                        "name": "Småländskt isterband med persiljepotatis,grov senap och rödbetor",
                         "price": ""
                     },
                     {
@@ -77,7 +90,15 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT Brownie med hallon och karamelliserad vaniljcrème   65",
+                        "name": "DESSERT Jordgubbspannacotta med krossade drömmar   65",
+                        "price": ""
+                    },
+                    {
+                        "name": "Alltid på lunchen!",
+                        "price": ""
+                    },
+                    {
+                        "name": "55",
                         "price": ""
                     }
                 ]
@@ -87,7 +108,16 @@
             "name": "Melanders",
             "location": "Location details here",
             "menu": {
-                "dishes": []
+                "dishes": [
+                    {
+                        "name": "Fiskgryta m. saffran, fänkål, paprika, tomat & aioli",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Lammkorv med rödvinssås, rostad potatis, paprika & tomat",
+                        "price": "149"
+                    }
+                ]
             }
         }
     ]
