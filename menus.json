@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-10-06 03:34",
+    "last_updated": "2025-10-14 03:34",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Rimmad fläsklägg med skånsk senapssås och rotmos",
+                        "name": "Dagens husman: Rimmad oxbringa med pepparrotssås och potatis/morotspuré",
                         "price": "145"
                     },
                     {
-                        "name": "Biff stroganoff med ris och gräddfil",
+                        "name": "Boeuf Bourguignon med ris",
                         "price": "145"
                     },
                     {
-                        "name": "Pankofriterad färsk smögensej med remoulade och ugnsstekt klyftpotatis",
+                        "name": "Smörstekt regnbågsfilé med sandefjordsås",
                         "price": "145"
                     },
                     {
-                        "name": "Veg: Grillad halloumi med grillad tomat, gräddfil och kryddig bulgur",
+                        "name": "Veg: Risotto med rödgul trumpetsvamp och parmesan",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Ugnsstekt zucchini",
+                        "name": "Dagens varma grönsak: Ugnsstekt broccoli",
                         "price": "145"
                     }
                 ]
@@ -54,7 +54,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Texas Doritos: Barbequeburgare med 120 gram svenskt nötkött, Doritos Flamin' Hot, bacon, rödlök, sallad, ost, BBQ-sås och chipotledressing.",
+                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
                         "price": "132"
                     }
                 ]
@@ -66,19 +66,19 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med chillimarinerad tonfisk, kimchi, ris,sojamarinerat ägg och sesamfrön 195",
+                        "name": "Sallad med halloumi, pärlcouscous, champinjoner, oliver och Rhode Island dressing 195",
                         "price": ""
                     },
                     {
-                        "name": "Vegetariska kroppkakor med brynt smör och rårörda lingon 195Ångad lofotentorsk med ört-vitvinsås, fänkål och morotscrudité 195",
+                        "name": "Friterad arancini med tomatconcassé,råstekt blomkål och basilika 195",
                         "price": ""
                     },
                     {
-                        "name": "Pytt Bellman med rå äggula, rödbetor och saltgurka 195",
+                        "name": "Smörstekt knorrhanefilé med stuvad spetskål,räkor och råstekt blomkål 195Älgpannbiff med gräddsås, smörstekta trattkantareller,potatispuré och svartvinbärsgelé 195",
                         "price": ""
                     },
                     {
-                        "name": "Gulasch på kalvhögrev med smetana 195",
+                        "name": "Raggmunk med fläsk och rårörda lingon",
                         "price": ""
                     },
                     {
@@ -86,7 +86,7 @@
                         "price": ""
                     },
                     {
-                        "name": "DESSERT Mandelkaka med thaibasilikaglass   65",
+                        "name": "DESSERT Citronkaka med brynt smörglass   65",
                         "price": ""
                     }
                 ]
@@ -98,11 +98,11 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Fiskgryta m. saffran, fänkål, paprika, tomat & aioli",
+                        "name": "Vår egen laxpudding m. brynt smör & haricotsverts",
                         "price": "149"
                     },
                     {
-                        "name": "Bakad fläsksida m. klyftpotatis & rödvinssås",
+                        "name": "Raggmunk m. stekt fläsk & rårörda lingon",
                         "price": "149"
                     }
                 ]
