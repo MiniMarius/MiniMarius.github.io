@@ -3,9 +3,14 @@ import requests
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime
+from openai import OpenAI
+from dotenv import load_dotenv
 import pdfquery
 import json
 import re
+
+load_dotenv()
+client = OpenAI()
 
 def clean_menus(menus):
     cleaned_menus = []
@@ -37,6 +42,15 @@ def clean_menus(menus):
 # Initialize the JSON object
 menus = []
 
+client = OpenAI()
+
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[{"role": "user", "content": text}],
+    response_format={"type": "json_object"},
+)
+
+print(response.choices[0].message.content)
 # Garros
 headers = {'User-Agent': 'Mozilla/5.0'}
 try:
