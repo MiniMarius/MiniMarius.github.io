@@ -21,17 +21,25 @@ export default function Home() {
               </Accordion.Trigger>
             </Accordion.Header>
             <Accordion.Content className="p-6 border-t">
-              {restaurant.menu.dishes.length > 0 ? (
-                <ul className="list-disc list-inside">
-                  {restaurant.menu.dishes.map((dish, index) => (
-                    <li className="text-gray-700 mb-2" key={index}>
-                      {dish.name}{" "}
-                      {dish.price && (
-                        <span className="text-gray-500">- {dish.price} kr</span>
-                      )}
-                    </li>
-                  ))}
-                </ul>
+              {restaurant.menu.length > 0 ? (
+                restaurant.menu.map((section, sectionIndex) => (
+                  <div key={sectionIndex}>
+                    <h3 className="text-xl font-semibold mb-2">{section.title}</h3>
+                    <ul className="list-disc list-inside">
+                      {section.dishes.map((dish, dishIndex) => (
+                        <li className="text-gray-700 mb-2" key={dishIndex}>
+                          {dish.name}{" "}
+                          {dish.price && (
+                            <span className="text-gray-500">- {dish.price.toFixed(2)} kr</span>
+                          )}
+                          {dish.description && (
+                            <p className="text-gray-500">{dish.description}</p>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))
               ) : (
                 <p className="text-gray-500">Ingen lunch serveras här idag</p>
               )}
