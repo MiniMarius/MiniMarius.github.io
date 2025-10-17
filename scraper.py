@@ -27,18 +27,16 @@ class Restaurant(BaseModel):
     name: str
     menu_url: str
     menu: list[MenuSection] = []
-    address: str = ""
-    website: str = ""
 
 restaurants = [
-    Restaurant(name="Al Caminetto", menu_url="https://www.alcaminetto.se/index.php/lunch"),
-    Restaurant(name="Bastard Burgers", menu_url="https://bastardburgers.com/se/dagens-lunch/bromma/"),
-    Restaurant(name="Bistro Garros", menu_url="https://bistrogarros.se/menyer/meny"),
+    #Restaurant(name="Al Caminetto", menu_url="https://www.alcaminetto.se/index.php/lunch"),
+    #Restaurant(name="Bastard Burgers", menu_url="https://bastardburgers.com/se/dagens-lunch/bromma/"),
+    #Restaurant(name="Bistro Garros", menu_url="https://bistrogarros.se/menyer/meny"),
     #Restaurant(name="Brioche", menu_url="https://brioche.se/lunchmeny"),
-    Restaurant(name="Gustafs Matsal", menu_url="https://gustafs.kvartersmenyn.se/"),
-    Restaurant(name="Melanders", menu_url="https://melanders.se/restauranger/melanders-alvik/"),
+    #Restaurant(name="Gustafs Matsal", menu_url="https://gustafs.kvartersmenyn.se/"),
+    #Restaurant(name="Melanders", menu_url="https://melanders.se/restauranger/melanders-alvik/"),
     Restaurant(name="Poké Burger", menu_url="https://pokeburger.se/meny/alvik/"),
-    Restaurant(name="Sjöpaviljongen", menu_url="https://sjopaviljongen.se/lunchmeny/"),
+    #Restaurant(name="Sjöpaviljongen", menu_url="https://sjopaviljongen.se/lunchmeny/"),
     #Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
 ]
 
@@ -61,11 +59,11 @@ def fetch_and_process_menu(restaurant: Restaurant):
         response = client.responses.parse(
             model="gpt-4o-mini",
             input=[{"role": "user", "content": prompt}],
-            text_format=MenuSection
+            text_format=Restaurant
         )
         
         if response and response.output_parsed:
-            restaurant.menu = [response.output_parsed]
+            restaurant.menu = response.output_parsed.menu
             print(f"Successfully updated menu for {restaurant.name}")
         else:
             print(f"No menu data extracted for {restaurant.name}")
@@ -107,18 +105,17 @@ def fetch_melanders_menu(restaurant):
                     all_text += page_text
                 
                 all_combined_text += all_text
-        print(all_combined_text)
 
         prompt = f"Extract today's dishes for {today_swedish} and all sushi menus and pokebowls from the following combined text in Swedish:\n\n{all_combined_text}"
         print(f"Sending prompt to OpenAI for Melanders")
         response = client.responses.parse(
             model="gpt-4o-mini",
             input=[{"role": "user", "content": prompt}],
-            text_format=MenuSection
+            text_format=Restaurant
         )
 
         if response and response.output_parsed:
-            restaurant.menu = [response.output_parsed]
+            restaurant.menu = response.output_parsed.menu
             print(f"Successfully updated menu for Melanders")
         else:
             print(f"No menu data extracted for Melanders")
