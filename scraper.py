@@ -8,7 +8,6 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import pdfquery
 import json
-import re
 from pydantic import BaseModel
 
 load_dotenv()
@@ -140,10 +139,8 @@ output_data = {
 }
 
 output_path = os.path.join("public", "menus.json")
-print(f"Saving menus to {output_path}")
-
 # Save the menus to a JSON file
 with open(output_path, 'w', encoding='utf-8') as f:
     json.dump(output_data, f, ensure_ascii=False, indent=4)
 
-print("Menus saved to menus.json")
+print(f"Menus saved to {output_path}")
