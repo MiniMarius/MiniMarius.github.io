@@ -32,7 +32,15 @@ class Restaurant(BaseModel):
     website: str = ""
 
 restaurants = [
+    Restaurant(name="Al Caminetto", menu_url="https://www.alcaminetto.se/index.php/lunch"),
     Restaurant(name="Bastard Burgers", menu_url="https://bastardburgers.com/se/dagens-lunch/bromma/"),
+    Restaurant(name="Bistro Garros", menu_url="https://bistrogarros.se/menyer/meny"),
+    #Restaurant(name="Brioche", menu_url="https://brioche.se/lunchmeny"),
+    Restaurant(name="Gustafs Matsal", menu_url="https://gustafs.kvartersmenyn.se/"),
+    Restaurant(name="Melanders", menu_url="https://melanders.se/restauranger/melanders-alvik/"),
+    Restaurant(name="Poké Burger", menu_url="https://pokeburger.se/meny/alvik/"),
+    Restaurant(name="Sjöpaviljongen", menu_url="https://sjopaviljongen.se/lunchmeny/"),
+    #Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
 ]
 
 today_index = datetime.now().weekday()
@@ -49,7 +57,7 @@ def fetch_and_process_menu(restaurant: Restaurant):
         print(f"HTML content fetched for {restaurant.name}")
 
         # Use OpenAI client to process HTML and extract today's menu
-        prompt = f"Extract today's lunch menu for {today_swedish} from the following HTML content:\n\n{html_content}"
+        prompt = f"Extract all dishes for {today_swedish} from the following HTML content in Swedish. If {today_swedish} cannot be found, extract all dishes you can find:\n\n{html_content}"
         print(f"Sending prompt to OpenAI for {restaurant.name}")
         response = client.responses.parse(
             model="gpt-4o-mini",
@@ -59,11 +67,11 @@ def fetch_and_process_menu(restaurant: Restaurant):
         
         if response and response.output_parsed:
             restaurant.menu = [response.output_parsed]
-            print(f"Updated menu for {restaurant.name}:")
+            print(f"Successfully updated menu for {restaurant.name}")
         else:
             print(f"No menu data extracted for {restaurant.name}")
         
-    except requests.exceptions.RequestException as e:
+    except Exception as e:
         print(f"Error fetching menu for {restaurant.name}: {e}")
 
 def fetch_melanders_menu(restaurant):
@@ -74,44 +82,49 @@ def fetch_melanders_menu(restaurant):
         melandersSoup = BeautifulSoup(melandersHtml.content, 'html.parser')
         print("Fetched HTML for Melanders")
 
-        days = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag"]
-        pattern = '|'.join(days)
+        # Find both PDF links
+        pdf_link_tag_1 = melandersSoup.find('a', text="DAGENS LUNCH")
+        pdf_link_tag_2 = melandersSoup.find('a', text="SUSHI MENY")
+
+        pdf_urls = []
+        if pdf_link_tag_1:
+            pdf_urls.append(pdf_link_tag_1['href'])
+        if pdf_link_tag_2:
+            pdf_urls.append(pdf_link_tag_2['href'])
+
+        all_combined_text = ""
+
+        for index, pdf_url in enumerate(pdf_urls):
+            if pdf_url:
+                pdf_path = f"menu_{index}.pdf"
+                urllib.request.urlretrieve(pdf_url, pdf_path)
+                print(f"Downloaded PDF to {pdf_path}")
+                pdf = pdfquery.PDFQuery(pdf_path)
+                pdf.load()
+                all_text = ""
+                for page_number in range(len(pdf.pq('LTPage'))):
+                    pdf.load(page_number)
+                    page_text = pdf.pq('LTTextLineHorizontal').text()
+                    all_text += page_text
                 
-        pdf_link_tag = melandersSoup.find('a', text="DAGENS LUNCH")
-        pdf_url = pdf_link_tag['href'] if pdf_link_tag else None
-        print(f"PDF URL found: {pdf_url}")
+                all_combined_text += all_text
+        print(all_combined_text)
 
-        if pdf_url:
-            pdf_path = "menu.pdf"
-            urllib.request.urlretrieve(pdf_url, pdf_path)
-            print(f"Downloaded PDF to {pdf_path}")
-            pdf = pdfquery.PDFQuery(pdf_path)
-            pdf.load()
-            all_text = ""
-            for page_number in range(len(pdf.pq('LTPage'))):
-                pdf.load(page_number)
-                page_text = pdf.pq('LTTextLineHorizontal').text()
-                all_text += page_text + "\n"
-            
-            split_text = re.split(f'(?=({pattern}))', all_text)
-            split_text = split_text[1:]
-            menus_by_day = {}
-            for i in range(0, len(split_text), 2):
-                if i + 1 < len(split_text):
-                    day = split_text[i].strip()
-                    menu = split_text[i+1].strip()
-                    if menu.startswith(day):
-                        menu = menu[len(day):].strip()
-                    menu = re.sub(r'\(.*?\)', '', menu)
-                    menus_by_day[day] = menu
-            today_menu = menus_by_day.get(today_swedish, "No menu available for today")
-            print(f"Today's menu for Melanders: {today_menu}")
-            
-            if today_menu != "No menu available for today":
-                dishes = [Dish(name=dish.strip(), price=149.0) for dish in re.split(r'(?=[A-ZÅÄÖ])', today_menu) if dish.strip()]
-                restaurant.menu.append(MenuSection(title="Today's Menu", dishes=dishes))
+        prompt = f"Extract today's dishes for {today_swedish} and all sushi menus and pokebowls from the following combined text in Swedish:\n\n{all_combined_text}"
+        print(f"Sending prompt to OpenAI for Melanders")
+        response = client.responses.parse(
+            model="gpt-4o-mini",
+            input=[{"role": "user", "content": prompt}],
+            text_format=MenuSection
+        )
 
-    except requests.exceptions.RequestException as e:
+        if response and response.output_parsed:
+            restaurant.menu = [response.output_parsed]
+            print(f"Successfully updated menu for Melanders")
+        else:
+            print(f"No menu data extracted for Melanders")
+
+    except Exception as e:
         print(f"Error fetching Melanders menu: {e}")
 
 for restaurant in restaurants:
