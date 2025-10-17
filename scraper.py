@@ -54,7 +54,7 @@ def fetch_and_process_menu(restaurant: Restaurant):
         print(f"HTML content fetched for {restaurant.name}")
 
         # Use OpenAI client to process HTML and extract today's menu
-        prompt = f"Extract all dishes for {today_swedish} from the following HTML content in Swedish. If {today_swedish} cannot be found, extract all dishes you can find:\n\n{html_content}"
+        prompt = f"Extract all dishes for {today_swedish} from the following HTML content in Swedish. If {today_swedish} cannot be found, extract all dishes you can find. Also, turn off ALL CAPS from dishes:\n\n{html_content}"
         print(f"Sending prompt to OpenAI for {restaurant.name}")
         response = client.responses.parse(
             model="gpt-4o-mini",
