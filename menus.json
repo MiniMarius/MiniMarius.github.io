@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-10-14 03:34",
+    "last_updated": "2025-10-17 03:34",
     "restaurants": [
         {
             "name": "Bistro Garros",
@@ -7,23 +7,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Dagens husman: Rimmad oxbringa med pepparrotssås och potatis/morotspuré",
+                        "name": "Grillfredag!",
                         "price": "145"
                     },
                     {
-                        "name": "Boeuf Bourguignon med ris",
+                        "name": "Varje fredag tänder vi grillen och serverar nedan..",
                         "price": "145"
                     },
                     {
-                        "name": "Smörstekt regnbågsfilé med sandefjordsås",
+                        "name": "Från grillen: Grillad Tri-Tip av nöt, vår egen ankkorv, tigerräkor",
                         "price": "145"
                     },
                     {
-                        "name": "Veg: Risotto med rödgul trumpetsvamp och parmesan",
+                        "name": "Tillbehör: Salsa verde, grillad grönsaksröra, tomatsallad, rösti, grillad paprika",
                         "price": "145"
                     },
                     {
-                        "name": "Dagens varma grönsak: Ugnsstekt broccoli",
+                        "name": "Dagens vegetariska: Grillade linsbiffar med ovan tillbehör",
                         "price": "145"
                     }
                 ]
@@ -54,7 +54,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "London: Bistroburgare med 120 gram svenskt nötkött, tryffelmayo, ost, picklad rödlök och sallad.",
+                        "name": "Luleå: Norrländsk cheeseburgare med 120 gram svenskt nötkött, ost, rödlök och gurk- & jalapeñodressing.",
                         "price": "132"
                     }
                 ]
@@ -66,7 +66,7 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Sallad med halloumi, pärlcouscous, champinjoner, oliver och Rhode Island dressing 195",
+                        "name": "Sallad med halloumi, pärlcouscous, champinjoner,oliver och Rhode Island dressing 195",
                         "price": ""
                     },
                     {
@@ -74,15 +74,23 @@
                         "price": ""
                     },
                     {
-                        "name": "Smörstekt knorrhanefilé med stuvad spetskål,räkor och råstekt blomkål 195Älgpannbiff med gräddsås, smörstekta trattkantareller,potatispuré och svartvinbärsgelé 195",
+                        "name": "Halstrad lax med hollandaisesås,bakade rödbetor och smörslungad potatis 195",
                         "price": ""
                     },
                     {
-                        "name": "Raggmunk med fläsk och rårörda lingon",
+                        "name": "Skånsk kalops med inlagda rödbetor och kokt potatis 195",
                         "price": ""
                     },
                     {
-                        "name": "Parmesangratinerade laxqueneller med havskräftsås,spenat och skaldjur 295",
+                        "name": "potatispuré och svartvinbärsgelé 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Raggmunk med fläsk och rårörda lingon 195",
+                        "price": ""
+                    },
+                    {
+                        "name": "Parmesangratinerade laxquenellermed havskräftsås, spenat och skaldjur 295",
                         "price": ""
                     },
                     {
@@ -98,11 +106,23 @@
             "menu": {
                 "dishes": [
                     {
-                        "name": "Vår egen laxpudding m. brynt smör & haricotsverts",
+                        "name": "Laxfilé m. citronsås, champinjoner, fänkål, kokt potatis & rostade pumpakärnor",
                         "price": "149"
                     },
                     {
-                        "name": "Raggmunk m. stekt fläsk & rårörda lingon",
+                        "name": "Lammlägg m. potatismos, bakad tomat, morot & vitlök m. rödvinssås",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Serveras mellan 11.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Seniorrabatt mellan 11-11.30 samt 13.00-14.00",
+                        "price": "149"
+                    },
+                    {
+                        "name": "Hjärtligt välkomna!",
                         "price": "149"
                     }
                 ]
