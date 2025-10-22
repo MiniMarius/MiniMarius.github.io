@@ -26,10 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-900`}
       >
         <div className="flex-grow">{children}</div>
-        <footer className="text-center text-gray-400 pb-4 text-sm">
+        <footer className="text-center text-white pb-4 text-sm">
           Uppdaterad {menuData.last_updated}
         </footer>
       </body>
