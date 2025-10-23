@@ -10,17 +10,21 @@ export default function Home() {
 
   return (
     <div className="p-4">
-      <img
-        alt="logo"
-        src={logo.src}
-        className={"mx-auto sm:w-48 md:w-48 lg:w-48"}
-      />
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {sortedMenuData.map((restaurant) => (
-          <div key={restaurant.name} className="overflow-hidden">
-            <RestaurantCard restaurant={restaurant} />
+      <section className="hero bg-zinc-800 text-center py-16">
+        <h1 className="text-4xl font-bold text-gray-200">
+          Upptäck dagens <span className="text-yellow-400">bästa</span> lunchalternativ i Alvik!
+        </h1>
+      </section>
+      <div className="flex justify-center mt-8">
+        <div className="w-full max-w-screen-2xl">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {sortedMenuData.map((restaurant) => (
+              <div key={restaurant.name} className="overflow-hidden">
+                <RestaurantCard restaurant={restaurant} />
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </div>
   );

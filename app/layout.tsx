@@ -1,7 +1,9 @@
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import menuData from "../public/menus.json";
+import logo from "../public/alvikslunchenyellow.png";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,8 +30,19 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-900`}
       >
-        <div className="flex-grow">{children}</div>
-        <footer className="text-center text-white pb-4 text-sm">
+        <header className="bg-zinc-800 text-white p-4 flex items-center">
+          <div className="flex-shrink-0">
+            {/* Wrap the logo image in an anchor tag */}
+            <a href="/" aria-label="Homepage">
+              <img src={logo.src} alt="Logo" className="h-8 w-auto" />
+            </a>
+          </div>
+          <nav className="ml-4">
+            {/* Add navigation items here if needed */}
+          </nav>
+        </header>
+        <main className="flex-grow">{children}</main>
+        <footer className="text-center text-zinc-600 pb-4 text-sm">
           Uppdaterad {menuData.last_updated}
         </footer>
       </body>
