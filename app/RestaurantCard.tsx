@@ -1,6 +1,7 @@
 
-'use client'
-import React, { useState } from "react";
+'use client';
+
+import React, { useState, useRef, useEffect } from "react";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 
 // Import images
@@ -25,7 +26,6 @@ interface RestaurantCardProps {
   };
 }
 
-// Map restaurant names to imported images
 const restaurantImages: { [key: string]: string } = {
   "Al Caminetto": alcamImage.src,
   "Bastard Burgers": bastardImage.src,
@@ -36,15 +36,19 @@ const restaurantImages: { [key: string]: string } = {
 };
 
 const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
-  // Get the image source based on the restaurant name
   const imageSrc = restaurantImages[restaurant.name];
-
-  // State to manage the toggle
   const [isExpanded, setIsExpanded] = useState(false);
+  const contentRef = useRef<HTMLDivElement>(null);
 
   const handleToggle = () => {
     setIsExpanded((prev) => !prev);
   };
+
+  useEffect(() => {
+    if (contentRef.current) {
+      contentRef.current.style.maxHeight = isExpanded ? `${contentRef.current.scrollHeight}px` : "0px";
+    }
+  }, [isExpanded]);
 
   return (
     <div className="w-full max-w-md rounded-lg shadow-md overflow-hidden bg-zinc-800">
@@ -55,7 +59,7 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
           className="w-full h-48 object-cover"
         />
         <div className="p-4">
-          <h2 className="text-lg font-bold text-yellow-400">{restaurant.name}</h2>
+          <h2 className="text-2xl font-bold text-yellow-400">{restaurant.name}</h2>
           <div className="mt-2 text-yellow-300 flex items-center">
             <span>{isExpanded ? "Dölj meny" : "Visa meny"}</span>
             <ChevronDownIcon
@@ -67,9 +71,9 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
         </div>
       </div>
       <div
-        className={`p-4 transition-max-height duration-300 ${
-          isExpanded ? "max-h-full" : "max-h-0 overflow-hidden"
-        }`}
+        ref={contentRef}
+        className="p-4 transition-max-height duration-300 overflow-hidden"
+        style={{ maxHeight: isExpanded ? `${contentRef.current?.scrollHeight}px` : "0px" }}
       >
         {restaurant.menu.map((section, sectionIndex) => (
           <div key={sectionIndex} className="mt-4 border-t border-zinc-500 pt-4">
@@ -78,7 +82,7 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
               {section.dishes.map((dish, dishIndex) => (
                 <li className="text-yellow-300 mb-2" key={dishIndex}>
                   {dish.name}{" "}
-                  {dish.price && (
+                  {dish.price > 0 && (
                     <span className="text-yellow-200">- {dish.price.toFixed(2)} kr</span>
                   )}
                   {dish.description && (

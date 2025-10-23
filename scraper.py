@@ -106,7 +106,7 @@ def fetch_melanders_menu(restaurant):
                 
                 all_combined_text += all_text
 
-        prompt = f"Extract today's dishes for {today_swedish} and all sushi menus and pokebowls from the following combined text in Swedish. Also, turn off ALL CAPS from dishes:\n\n{all_combined_text}"
+        prompt = f"Extract today's dishes for {today_swedish} and all sushi menus and pokebowls from the following combined text in Swedish. Also, turn off ALL CAPS from dishes, also the default price is 149 if you can't find a specific price for a dish:\n\n{all_combined_text}"
         print(f"Sending prompt to OpenAI for Melanders")
         response = client.responses.parse(
             model="gpt-4o-mini",
