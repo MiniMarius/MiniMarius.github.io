@@ -40,6 +40,12 @@ restaurants = [
     #Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
 ]
 
+prompt_templates = {
+    "Bastard Burgers": "Extract the burger options for {day} from the HTML content in Swedish. There can only be one burger per day. Also, turn off ALL CAPS from dishes",
+    "Bistro Garros": "Extract all dishes for {day} from the following HTML content in Swedish. If you cannot find a price, set it to 150 for main dishes and Veg/vegatariska but not for side dishes or pannkaksbuffé which are free. Also, turn off ALL CAPS from dishes:",
+    "Poké Burger": "Extract all lunch dishes and menu sections from the following HTML content in Swedish. This means you should create a menu section for Veckans no bowl 11:00-14:00, Lunch Bowls 11:00-14:00 and The burgers 11:00-14:00. Get all dishes inside each of those sections"
+}
+
 today_index = datetime.now().weekday()
 swedish_days = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"]
 today_swedish = swedish_days[today_index]
@@ -53,9 +59,15 @@ def fetch_and_process_menu(restaurant: Restaurant):
         html_content = response.text
         print(f"HTML content fetched for {restaurant.name}")
 
-        # Use OpenAI client to process HTML and extract today's menu
-        prompt = f"Extract all dishes for {today_swedish} from the following HTML content in Swedish. If {today_swedish} cannot be found, extract all dishes you can find. Also, turn off ALL CAPS from dishes:\n\n{html_content}"
+        custom_prompt = prompt_templates.get(restaurant.name)
+        
+        if custom_prompt:
+            prompt = custom_prompt.format(day=today_swedish) + "\n\n" + html_content
+        else:
+            prompt = f"Extract all dishes for {today_swedish} from the following HTML content in Swedish. Also, turn off ALL CAPS from dishes:\n\n{html_content}"
+
         print(f"Sending prompt to OpenAI for {restaurant.name}")
+        
         response = client.responses.parse(
             model="gpt-4o-mini",
             input=[{"role": "user", "content": prompt}],
