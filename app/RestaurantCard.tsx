@@ -82,7 +82,7 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
               {section.dishes.map((dish, dishIndex) => (
                 <li className="text-yellow-300 mb-2" key={dishIndex}>
                   {dish.name}{" "}
-                  {dish.price > 0 && (
+                  {dish.price !== undefined && dish.price > 0 && (
                     <span className="text-yellow-200">- {dish.price.toFixed(2)} kr</span>
                   )}
                   {dish.description && (
