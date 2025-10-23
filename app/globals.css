@@ -13,3 +13,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes rotate-up {
+  0%, 70% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  85% {
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+.rotate-text {
+  display: inline-block;
+  animation: rotate-up 5s infinite;
+}

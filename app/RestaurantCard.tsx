@@ -67,8 +67,8 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
         </div>
       </div>
       <div
-        className={`p-4 overflow-hidden transition-max-height duration-300 ${
-          isExpanded ? "max-h-screen" : "max-h-0"
+        className={`p-4 transition-max-height duration-300 ${
+          isExpanded ? "max-h-full" : "max-h-0 overflow-hidden"
         }`}
       >
         {restaurant.menu.map((section, sectionIndex) => (
