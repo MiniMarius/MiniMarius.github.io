@@ -43,7 +43,7 @@ restaurants = [
 prompt_templates = {
     "Bastard Burgers": "Extract the burger options for {day} from the HTML content in Swedish. There can only be one burger per day. Also, turn off ALL CAPS from dishes",
     "Bistro Garros": "Extract all dishes for {day} from the following HTML content in Swedish. If you cannot find a price, set it to 150 for main dishes and Veg/vegatariska but not for side dishes or pannkaksbuffé which are free. Also, turn off ALL CAPS from dishes:",
-    "Poké Burger": "Extract all lunch dishes from the following menu sections in Swedish: Veckans no bowl 11:00-14:00, Lunch Bowls 11:00-14:00 and THE BURGERS 11:00-14:00."
+    "Poké Burger": "Extract all lunch dishes from the following menu sections in Swedish: Veckans no bowl 11:00-14:00, Lunch Bowls 11:00-14:00 and THE BURGERS 11:00-14:00. Also, turn off ALL CAPS from dishes"
 }
 
 today_index = datetime.now().weekday()
