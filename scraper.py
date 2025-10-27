@@ -38,6 +38,9 @@ restaurants = [
     Restaurant(name="Poké Burger", menu_url="https://pokeburger.se/meny/alvik/"),
     Restaurant(name="Sjöpaviljongen", menu_url="https://sjopaviljongen.se/lunchmeny/"),
     #Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
+    Restaurant(name="Caffé Nero", menu_url="https://www.caffenero.com/se/menu/mat/lunch"),
+    Restaurant(name="Joe & the Juice", menu_url="https://www.joejuice.com/store/4f08d303-6c6d-4397-b3ba-e0db2a4c6664"),
+    Restaurant(name="Meegi Art Sushi", menu_url="https://qopla.com/restaurant/meegi-art-sushi/qbgOZmj7gv/home")
 ]
 
 prompt_templates = {

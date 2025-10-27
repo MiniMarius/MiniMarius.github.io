@@ -11,6 +11,9 @@ import garrosImage from "../public/garros.jpg";
 import melandersImage from "../public/Melanders.jpg";
 import pokeburgerImage from "../public/poké-burger.jpg";
 import sjopaviljongenImage from "../public/sjopaviljongen.jpg";
+import caffenero from "../public/caffenero.jpg"
+import joejuice from "../public/joejuice.png"
+import megiart from "../public/meegisartsushi.png"
 
 interface RestaurantCardProps {
   restaurant: {
@@ -33,6 +36,9 @@ const restaurantImages: { [key: string]: string } = {
   "Melanders": melandersImage.src,
   "Poké Burger": pokeburgerImage.src,
   "Sjöpaviljongen": sjopaviljongenImage.src,
+  "Caffé Nero": caffenero.src,
+  "Joe & the Juice": joejuice.src,
+  "Meegi Art Sushi": megiart.src
 };
 
 const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
