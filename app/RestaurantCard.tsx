@@ -14,6 +14,8 @@ import sjopaviljongenImage from "../public/sjopaviljongen.jpg";
 import caffenero from "../public/caffenero.jpg"
 import joejuice from "../public/joejuice.png"
 import megiart from "../public/meegisartsushi.png"
+import brioche from "../public/brioche.jpg"
+import vedugnen from "../public/vedugnen.jpg"
 
 interface RestaurantCardProps {
   restaurant: {
@@ -38,7 +40,9 @@ const restaurantImages: { [key: string]: string } = {
   "Sjöpaviljongen": sjopaviljongenImage.src,
   "Caffé Nero": caffenero.src,
   "Joe & the Juice": joejuice.src,
-  "Meegi Art Sushi": megiart.src
+  "Meegi Art Sushi": megiart.src,
+  "Brioche": brioche.src,
+  "Vedugnen": vedugnen.src
 };
 
 const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {

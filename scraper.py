@@ -32,21 +32,24 @@ restaurants = [
     Restaurant(name="Al Caminetto", menu_url="https://www.alcaminetto.se/index.php/lunch"),
     Restaurant(name="Bastard Burgers", menu_url="https://bastardburgers.com/se/dagens-lunch/bromma/"),
     Restaurant(name="Bistro Garros", menu_url="https://bistrogarros.se/menyer/meny"),
-    #Restaurant(name="Brioche", menu_url="https://brioche.se/lunchmeny"),
+    Restaurant(name="Brioche", menu_url="https://brioche.se/lunchmeny"),
     #Restaurant(name="Gustafs Matsal", menu_url="https://gustafs.kvartersmenyn.se/"),
     Restaurant(name="Melanders", menu_url="https://melanders.se/restauranger/melanders-alvik/"),
     Restaurant(name="Poké Burger", menu_url="https://pokeburger.se/meny/alvik/"),
     Restaurant(name="Sjöpaviljongen", menu_url="https://sjopaviljongen.se/lunchmeny/"),
-    #Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
+    Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
     Restaurant(name="Caffé Nero", menu_url="https://www.caffenero.com/se/menu/mat/lunch"),
-    Restaurant(name="Joe & the Juice", menu_url="https://www.joejuice.com/store/4f08d303-6c6d-4397-b3ba-e0db2a4c6664"),
+    Restaurant(name="Joe & the Juice", menu_url="https://www.joejuice.com/store/76d02a98-93a7-4610-acf6-2bfbf6c9d51b"),
     Restaurant(name="Meegi Art Sushi", menu_url="https://qopla.com/restaurant/meegi-art-sushi/qbgOZmj7gv/home")
 ]
 
 prompt_templates = {
     "Bastard Burgers": "Extract the burger options for {day} from the HTML content in Swedish. There can only be one burger per day. Also, turn off ALL CAPS from dishes",
     "Bistro Garros": "Extract all dishes for {day} from the following HTML content in Swedish. If you cannot find a price, set it to 150 for main dishes and Veg/vegatariska but not for side dishes or pannkaksbuffé which are free. Also, turn off ALL CAPS from dishes:",
-    "Poké Burger": "Extract all lunch dishes from the following menu sections in Swedish: Veckans no bowl 11:00-14:00, Lunch Bowls 11:00-14:00 and THE BURGERS 11:00-14:00. Also, turn off ALL CAPS from dishes"
+    "Poké Burger": "Extract all lunch dishes from the following menu sections in Swedish: Veckans no bowl 11:00-14:00, Lunch Bowls 11:00-14:00 and THE BURGERS 11:00-14:00. Also, turn off ALL CAPS from dishes",
+    "Joe & the Juice": "Identify and extract info of dishes suitable for lunch. Focus on extracting menu items that are typically consumed during lunchtime, such as sandwiches, salads, and wraps. Get the info in swedish except the titles.",
+    "Meegi Art Sushi": "Identify and extract the sushi dishes only. Get the information in Swedish",
+    "Vedugnen": "Extract all pizza and pasta dishes only. Get the information and price for each dish in Swedish"
 }
 
 today_index = datetime.now().weekday()
