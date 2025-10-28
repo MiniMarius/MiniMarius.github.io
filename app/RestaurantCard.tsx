@@ -51,7 +51,9 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
   const contentRef = useRef<HTMLDivElement>(null);
 
   const handleToggle = () => {
-    setIsExpanded((prev) => !prev);
+    if (restaurant.menu.length > 0) {
+      setIsExpanded((prev) => !prev);
+    }
   };
 
   useEffect(() => {
@@ -71,7 +73,7 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
         <div className="p-4">
           <h2 className="text-2xl font-bold text-yellow-400">{restaurant.name}</h2>
           <div className="mt-2 text-yellow-300 flex items-center">
-            <span>{isExpanded ? "Dölj meny" : "Visa meny"}</span>
+          <span>{restaurant.menu.length === 0 ? "Menyn är inte tillgänglig" : isExpanded ? "Dölj meny" : "Visa meny"}</span>
             <ChevronDownIcon
               className={`ml-1 transition-transform duration-300 ${
                 isExpanded ? "rotate-180" : ""
