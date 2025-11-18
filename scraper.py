@@ -97,8 +97,14 @@ def fetch_melanders_menu(restaurant):
         melandersSoup = BeautifulSoup(melandersHtml.content, 'html.parser')
         print("Fetched HTML for Melanders")
 
+        # Get the current week number
+        current_week_number = datetime.now().isocalendar()[1]
+
+        # Construct the dynamic text string
+        dynamic_text = f"DAGENS LUNCH v.{current_week_number}"
+
         # Find both PDF links
-        pdf_link_tag_1 = melandersSoup.find('a', text="DAGENS LUNCH")
+        pdf_link_tag_1 = melandersSoup.find('a', text=dynamic_text)
         pdf_link_tag_2 = melandersSoup.find('a', text="SUSHI MENY")
 
         pdf_urls = []
