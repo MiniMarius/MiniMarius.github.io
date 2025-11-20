@@ -1,13 +1,17 @@
-
-'use client';
+"use client";
 
 import React from "react";
 import menuData from "../public/menus.json";
 import RestaurantCard from "./RestaurantCard";
 
 const daysInSwedish = [
-  "söndagens", "måndagens", "tisdagens", "onsdagens", 
-  "torsdagens", "fredagens", "lördagens"
+  "söndagens",
+  "måndagens",
+  "tisdagens",
+  "onsdagens",
+  "torsdagens",
+  "fredagens",
+  "lördagens",
 ];
 
 export default function Home() {
@@ -21,11 +25,20 @@ export default function Home() {
   const todayTextLength = todayInSwedish.length;
 
   return (
-    <div className="p-4">
-      <section className="hero bg-zinc-800 text-center py-16">
-        <h1 className="text-4xl font-bold text-gray-200">
-          Upptäck <span className={`text-yellow-400 inline-block min-w-[${todayTextLength}ch]`}>{todayInSwedish}</span> bästa lunchalternativ i Alvik!
+    <div className="">
+      <section className="relative bg-gradient-to-b from-zinc-900 to-zinc-800 text-center py-20 px-4 shadow-lg">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-100 leading-tight max-w-3xl mx-auto">
+          Upptäck{" "}
+          <span
+            className={`text-yellow-400 inline-block min-w-[${todayTextLength}ch]`}
+          >
+            {todayInSwedish}
+          </span>{" "}
+          bästa lunchalternativ i Alvik
         </h1>
+        <p className="text-gray-300 mt-4 max-w-xl mx-auto text-lg">
+          En samlad översikt över dagens menyer från restauranger nära dig.
+        </p>
       </section>
       <div className="flex justify-center mt-8">
         <div className="w-full max-w-screen-2xl">
