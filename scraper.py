@@ -30,18 +30,18 @@ class Restaurant(BaseModel):
     menu: list[MenuSection] = []
 
 restaurants = [
-    #Restaurant(name="Al Caminetto", menu_url="https://www.alcaminetto.se/index.php/lunch"),
-    #Restaurant(name="Bastard Burgers", menu_url="https://bastardburgers.com/se/dagens-lunch/bromma/"),
+    Restaurant(name="Al Caminetto", menu_url="https://www.alcaminetto.se/index.php/lunch"),
+    Restaurant(name="Bastard Burgers", menu_url="https://bastardburgers.com/se/dagens-lunch/bromma/"),
     Restaurant(name="Bistro Garros", menu_url="https://bistrogarros.se/menyer/meny"),
-    #Restaurant(name="Brioche", menu_url="https://brioche.se/lunchmeny"),
+    Restaurant(name="Brioche", menu_url="https://brioche.se/lunchmeny"),
     #Restaurant(name="Gustafs Matsal", menu_url="https://gustafs.kvartersmenyn.se/"),
-    #Restaurant(name="Melanders", menu_url="https://melanders.se/restauranger/melanders-alvik/"),
-    #Restaurant(name="Poké Burger", menu_url="https://pokeburger.se/meny/alvik/"),
-    #Restaurant(name="Sjöpaviljongen", menu_url="https://sjopaviljongen.se/lunchmeny/"),
-    #Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
-    #Restaurant(name="Caffé Nero", menu_url="https://www.caffenero.com/se/menu/mat/lunch"),
-    #Restaurant(name="Joe & the Juice", menu_url="https://www.joejuice.com/store/76d02a98-93a7-4610-acf6-2bfbf6c9d51b"),
-    #Restaurant(name="Meegi Art Sushi", menu_url="https://qopla.com/restaurant/meegi-art-sushi/qbgOZmj7gv/home")
+    Restaurant(name="Melanders", menu_url="https://melanders.se/restauranger/melanders-alvik/"),
+    Restaurant(name="Poké Burger", menu_url="https://pokeburger.se/meny/alvik/"),
+    Restaurant(name="Sjöpaviljongen", menu_url="https://sjopaviljongen.se/lunchmeny/"),
+    Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
+    Restaurant(name="Caffé Nero", menu_url="https://www.caffenero.com/se/menu/mat/lunch"),
+    Restaurant(name="Joe & the Juice", menu_url="https://www.joejuice.com/store/76d02a98-93a7-4610-acf6-2bfbf6c9d51b"),
+    Restaurant(name="Meegi Art Sushi", menu_url="https://qopla.com/restaurant/meegi-art-sushi/qbgOZmj7gv/home")
 ]
 
 prompt_templates = {
