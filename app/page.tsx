@@ -26,8 +26,8 @@ export default function Home() {
 
   return (
     <div className="">
-      <section className="relative bg-gradient-to-b from-zinc-900 to-zinc-800 text-center py-20 px-4 shadow-lg">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-100 leading-tight max-w-3xl mx-auto">
+      <section className="relative bg-gradient-to-b from-zinc-900 to-zinc-800 text-center py-12 px-4 shadow-lg">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-100 leading-tight max-w-3xl mx-auto">
           Upptäck{" "}
           <span
             className={`text-yellow-400 inline-block min-w-[${todayTextLength}ch]`}
