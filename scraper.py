@@ -1,5 +1,6 @@
 
 import os
+import random
 import requests
 import urllib.request
 from bs4 import BeautifulSoup
@@ -29,18 +30,18 @@ class Restaurant(BaseModel):
     menu: list[MenuSection] = []
 
 restaurants = [
-    Restaurant(name="Al Caminetto", menu_url="https://www.alcaminetto.se/index.php/lunch"),
-    Restaurant(name="Bastard Burgers", menu_url="https://bastardburgers.com/se/dagens-lunch/bromma/"),
+    #Restaurant(name="Al Caminetto", menu_url="https://www.alcaminetto.se/index.php/lunch"),
+    #Restaurant(name="Bastard Burgers", menu_url="https://bastardburgers.com/se/dagens-lunch/bromma/"),
     Restaurant(name="Bistro Garros", menu_url="https://bistrogarros.se/menyer/meny"),
-    Restaurant(name="Brioche", menu_url="https://brioche.se/lunchmeny"),
+    #Restaurant(name="Brioche", menu_url="https://brioche.se/lunchmeny"),
     #Restaurant(name="Gustafs Matsal", menu_url="https://gustafs.kvartersmenyn.se/"),
-    Restaurant(name="Melanders", menu_url="https://melanders.se/restauranger/melanders-alvik/"),
-    Restaurant(name="Poké Burger", menu_url="https://pokeburger.se/meny/alvik/"),
-    Restaurant(name="Sjöpaviljongen", menu_url="https://sjopaviljongen.se/lunchmeny/"),
-    Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
-    Restaurant(name="Caffé Nero", menu_url="https://www.caffenero.com/se/menu/mat/lunch"),
-    Restaurant(name="Joe & the Juice", menu_url="https://www.joejuice.com/store/76d02a98-93a7-4610-acf6-2bfbf6c9d51b"),
-    Restaurant(name="Meegi Art Sushi", menu_url="https://qopla.com/restaurant/meegi-art-sushi/qbgOZmj7gv/home")
+    #Restaurant(name="Melanders", menu_url="https://melanders.se/restauranger/melanders-alvik/"),
+    #Restaurant(name="Poké Burger", menu_url="https://pokeburger.se/meny/alvik/"),
+    #Restaurant(name="Sjöpaviljongen", menu_url="https://sjopaviljongen.se/lunchmeny/"),
+    #Restaurant(name="Vedugnen", menu_url="https://www.vedugnenialvik.se/meny"),
+    #Restaurant(name="Caffé Nero", menu_url="https://www.caffenero.com/se/menu/mat/lunch"),
+    #Restaurant(name="Joe & the Juice", menu_url="https://www.joejuice.com/store/76d02a98-93a7-4610-acf6-2bfbf6c9d51b"),
+    #Restaurant(name="Meegi Art Sushi", menu_url="https://qopla.com/restaurant/meegi-art-sushi/qbgOZmj7gv/home")
 ]
 
 prompt_templates = {
@@ -165,3 +166,80 @@ with open(output_path, 'w', encoding='utf-8') as f:
     json.dump(output_data, f, ensure_ascii=False, indent=4)
 
 print(f"Menus saved to {output_path}")
+
+
+webhook_url_platform = "https://default0d11ac4aef5e423a803be51aacfa43.d6.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/29dce9f536164244912a5df00ea8152c/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=owB9RZDiqi4JvuAdjgHaXpLMmzUb0QSFNI2uURRpqAQ"
+webhook_url_wizards = "https://default0d11ac4aef5e423a803be51aacfa43.d6.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/69f57892411340f19dd61a0b11c40ebd/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=cUjiqy1UI5UTqfwIt5pi9OQskq4EpVu6H9od39lrSsI"
+
+def send_adaptive_card_to_teams(webhook_url, adaptive_card_json):
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    response = requests.post(webhook_url, headers=headers, data=json.dumps(adaptive_card_json))
+    if response.status_code == 200 or response.status_code == 202:
+        print("Adaptive card sent successfully")
+    else:
+        print(f"Failed to send adaptive card: {response.status_code} - {response.text}")
+
+def create_adaptive_card(restaurant_highlight):
+    adaptive_card_json = {
+        "type": "message",
+        "attachments": [
+            {
+                "contentType": "application/vnd.microsoft.card.adaptive",
+                "content": {
+                    "type": "AdaptiveCard",
+                    "body": [
+                        {
+                            "type": "TextBlock",
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "text": "Alvikslunchens Lunch-Highlight!"
+                        },
+                        {
+                            "type": "Image",
+                            "url": restaurant_highlight.get('image_url', 'https://cdn-icons-png.flaticon.com/512/5787/5787016.png'),
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": f"Idag rekommenderar vi {restaurant_highlight['name']}!",
+                            "wrap": "true"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": f"Rätten heter {restaurant_highlight['dish']} och kostar {restaurant_highlight['price']} SEK.",
+                            "wrap": "true"
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Se hela lunchguiden",
+                                    "url": "https://alvikslunchen.se"
+                                }
+                            ]
+                        }
+                    ],
+                    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                    "version": "1.3"
+                }
+            }
+        ]
+    }
+    return adaptive_card_json
+
+
+# Välj en slumpmässig restaurang
+random_restaurant = random.choice(restaurants)
+restaurant_highlight = {
+    "name": random_restaurant.name,
+    "dish": random.choice(random_restaurant.menu[0].dishes).name if random_restaurant.menu else "Ingen rätt tillgänglig",
+    "price": random.choice(random_restaurant.menu[0].dishes).price if random_restaurant.menu else "Pris ej tillgängligt"
+}
+
+adaptive_card_json = create_adaptive_card(restaurant_highlight)
+
+send_adaptive_card_to_teams(webhook_url_platform, adaptive_card_json)
+send_adaptive_card_to_teams(webhook_url_wizards, adaptive_card_json)
