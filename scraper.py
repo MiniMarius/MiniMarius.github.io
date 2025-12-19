@@ -208,7 +208,7 @@ def create_adaptive_card(restaurant_highlight):
                         },
                         {
                             "type": "TextBlock",
-                            "text": f"Rätten heter {restaurant_highlight['dish']} och kostar {restaurant_highlight['price']} SEK.",
+                            "text": f"Rätten heter {restaurant_highlight['dish']}",
                             "wrap": "true"
                         },
                         {
