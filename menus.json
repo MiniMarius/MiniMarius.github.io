@@ -1,28 +1,22 @@
 {
-    "last_updated": "2026-01-03 03:53",
+    "last_updated": "2026-01-04 04:09",
     "restaurants": [
         {
             "name": "Al Caminetto",
             "menu_url": "https://www.alcaminetto.se/index.php/lunch",
             "menu": [
                 {
-                    "title": "Lördagens Rätter",
+                    "title": "Veckans Lunch",
                     "dishes": [
                         {
-                            "name": "black angusburgare med bacon, bbq, cheddarost, dressing, grönt och pommes frites",
+                            "name": "Risotto med sparris och broccoli",
                             "description": "",
-                            "price": 169.0,
-                            "allergens": []
-                        },
-                        {
-                            "name": "risotto med sparris och broccoli",
-                            "description": "Vegetarisk alternativt",
                             "price": 0.0,
                             "allergens": []
                         },
                         {
-                            "name": "cannelloni vegetarian med ricotaost kantareller",
-                            "description": "Vegetarisk alternativt",
+                            "name": "Cannelloni vegetarian med Ricotaost kantareller",
+                            "description": "",
                             "price": 0.0,
                             "allergens": []
                         }
@@ -35,15 +29,16 @@
             "menu_url": "https://bastardburgers.com/se/dagens-lunch/bromma/",
             "menu": [
                 {
-                    "title": "Lördag",
+                    "title": "Dagens Burgare",
                     "dishes": [
                         {
-                            "name": "Notorious Chili Cheese",
-                            "description": "Vår allra maffigaste burgare med chili och ost.",
-                            "price": 119.0,
+                            "name": "Crispy Chicken",
+                            "description": "En krispig kycklingburgare med coleslaw, majonnäs och pickles.",
+                            "price": 99.0,
                             "allergens": [
                                 "gluten",
-                                "laktos"
+                                "mjölk",
+                                "ägg"
                             ]
                         }
                     ]
@@ -55,40 +50,13 @@
             "menu_url": "https://bistrogarros.se/menyer/meny",
             "menu": [
                 {
-                    "title": "Lördag",
+                    "title": "Söndag",
                     "dishes": [
                         {
-                            "name": "Chef's choice",
-                            "description": "180 gram oxfilé med bearnaise, pommes, liten Caesarsallad",
-                            "price": 225.0,
-                            "allergens": []
-                        },
-                        {
-                            "name": "Caesarsallad",
-                            "description": "Med mozzarella eller handskalade räkor eller kyckling/bacon",
+                            "name": "Spaghetti bolognese eller baconsås",
+                            "description": "",
                             "price": 150.0,
                             "allergens": []
-                        },
-                        {
-                            "name": "Varmrökt laxsallad",
-                            "description": "Varmrökt lax, avokado, kokt ägg, dilldressing, mix sallad, quinoa, cocktailtomater, gurka",
-                            "price": 160.0,
-                            "allergens": []
-                        },
-                        {
-                            "name": "Garros bistroburgare",
-                            "description": "150 gram burgare på högrev/oxbringa i bröd med ost, tomat, chilidressing, picklad lök, sallad, pommes",
-                            "price": 160.0,
-                            "allergens": []
-                        },
-                        {
-                            "name": "Pannkaksbuffé",
-                            "description": "Pannkakor, serveras med sylt och grädde",
-                            "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "mjölk"
-                            ]
                         }
                     ]
                 }
@@ -99,50 +67,32 @@
             "menu_url": "https://brioche.se/lunchmeny",
             "menu": [
                 {
-                    "title": "Lördag",
+                    "title": "Söndag",
                     "dishes": [
                         {
-                            "name": "hummus med pitabröd",
-                            "description": "Läcker hummus serverad med nybakat pitabröd.",
-                            "price": 95.0,
+                            "name": "Pannkakor med sylt och grädde",
+                            "description": "Luftiga pannkakor serverade med söt sylt och vispad grädde.",
+                            "price": 75.0,
                             "allergens": [
+                                "mjölk",
                                 "gluten"
                             ]
                         },
                         {
-                            "name": "grillad kyckling med citron och örter",
-                            "description": "Saftig grillad kyckling marinerad med citron och färska örter.",
-                            "price": 145.0,
+                            "name": "Äggröra med bacon",
+                            "description": "Klassisk äggröra gjord på färska ägg, toppad med knaprig bacon.",
+                            "price": 115.0,
                             "allergens": [
-                                "kyckling"
-                            ]
-                        },
-                        {
-                            "name": "pasta med tomatsås",
-                            "description": "Pasta i en smakrik tomatsås, toppad med parmesan.",
-                            "price": 120.0,
-                            "allergens": [
-                                "gluten",
-                                "mjölk"
-                            ]
-                        },
-                        {
-                            "name": "vegetarisk lasagne",
-                            "description": "Lasagne fylld med spenat, ricotta och tomatsås.",
-                            "price": 110.0,
-                            "allergens": [
-                                "gluten",
-                                "mjölk"
-                            ]
-                        },
-                        {
-                            "name": "pannkakor med bär",
-                            "description": "Nybakade pannkakor serverade med färska bär och grädde.",
-                            "price": 90.0,
-                            "allergens": [
-                                "gluten",
                                 "ägg",
                                 "mjölk"
+                            ]
+                        },
+                        {
+                            "name": "Avokadotoast",
+                            "description": "Rostad surdegsbröd toppad med mosad avokado, chiliflakes och citron.",
+                            "price": 95.0,
+                            "allergens": [
+                                "gluten"
                             ]
                         }
                     ]
@@ -154,24 +104,24 @@
             "menu_url": "https://melanders.se/restauranger/melanders-alvik/",
             "menu": [
                 {
-                    "title": "Lördagens Rätter",
+                    "title": "Dagens Rätter",
                     "dishes": [
                         {
-                            "name": "Sushi Rolls",
-                            "description": "Färska sushi-rullar med lax och avokado.",
+                            "name": "Rökt lax med pepparrotssås",
+                            "description": "Fräsch rökt lax serverad med en krämig pepparrotssås.",
                             "price": 149.0,
                             "allergens": [
                                 "fisk",
-                                "skaldjur"
+                                "mjölk"
                             ]
                         },
                         {
-                            "name": "Tempura Udon",
-                            "description": "Udon-nudlar med tempurafriterade grönsaker.",
+                            "name": "Vegetarisk lasagne",
+                            "description": "Lasagne fylld med grönsaker och ricotta.",
                             "price": 149.0,
                             "allergens": [
-                                "gluten",
-                                "soja"
+                                "mjölk",
+                                "ägg"
                             ]
                         }
                     ]
@@ -180,20 +130,21 @@
                     "title": "Sushi Meny",
                     "dishes": [
                         {
-                            "name": "Nigiri Miso",
-                            "description": "Nigiri med miso-toppad tonfisk.",
+                            "name": "California Roll",
+                            "description": "Sushi rulle med krabba, avokado och gurka.",
                             "price": 149.0,
                             "allergens": [
-                                "fisk"
+                                "skaldjur",
+                                "ris"
                             ]
                         },
                         {
-                            "name": "Sashimi Sushi",
-                            "description": "Färsk sashimi med soja och wasabi.",
+                            "name": "Tempura Sushi",
+                            "description": "Sushi med tempurafriterad räka.",
                             "price": 149.0,
                             "allergens": [
-                                "fisk",
-                                "soja"
+                                "skaldjur",
+                                "gluten"
                             ]
                         }
                     ]
@@ -203,19 +154,20 @@
                     "dishes": [
                         {
                             "name": "Pokebowl med lax",
-                            "description": "Pokebowl med marinerad lax, ris och grönsaker.",
+                            "description": "Bowl med marinerad lax, ris och grönsaker.",
                             "price": 149.0,
                             "allergens": [
                                 "fisk",
-                                "sesam"
+                                "ris"
                             ]
                         },
                         {
-                            "name": "Vegansk Pokebowl",
-                            "description": "Pokebowl med tofu, avokado och edamame.",
+                            "name": "Vegetarisk Pokebowl",
+                            "description": "Bowl med tofu, quinoa och färska grönsaker.",
                             "price": 149.0,
                             "allergens": [
-                                "soja"
+                                "soja",
+                                "sesam"
                             ]
                         }
                     ]
@@ -227,47 +179,122 @@
             "menu_url": "https://pokeburger.se/meny/alvik/",
             "menu": [
                 {
-                    "title": "Veckans no bowl 11:00-14:00",
+                    "title": "Veckans No Bowl 11:00-14:00",
                     "dishes": [
                         {
-                            "name": "Tryffelpasta",
-                            "description": "Krämmig tryffelpasta med rostad serrano, poratbello, persilja & citron",
-                            "price": 169.0,
-                            "allergens": []
+                            "name": "Gyros n fries",
+                            "description": "Strimlad fläskkarré med pommes, tzatziki, sallad & sriracha-mayo",
+                            "price": 139.0,
+                            "allergens": [
+                                "gluten",
+                                "mjölk"
+                            ]
                         }
                     ]
                 },
                 {
-                    "title": "Lunch Bowls 11:00-14:00",
+                    "title": "Lunch Bowls 11:00 - 14:00",
                     "dishes": [
                         {
-                            "name": "Chick peace - vegan",
-                            "description": "Friterad kikärtsbollar med ananassalsa, sriracha-mayo chilipicklat rödkål, avokado, friterade glasnudlar, edamame, rättika, gari, sushiris & rawsallad.",
-                            "price": 189.0,
+                            "name": "Alla bowls serveras med sushiris, edamame, rättika & gari",
+                            "description": "",
+                            "price": 0.0,
                             "allergens": []
                         },
                         {
-                            "name": "The Norwegian",
-                            "description": "Färsk pokémarinad norsk lax med ingefära- & pepparots-mayo, syra lök, avokado, hyvlade gurka, gari, sjögrässallad, och ’Asian Crunch’",
-                            "price": 215.0,
-                            "allergens": []
+                            "name": "Lemon chic",
+                            "description": "Citron-& vitlöksbakad kyckling med aioli, tomat-& löksallad",
+                            "price": 125.0,
+                            "allergens": [
+                                "gluten",
+                                "ägg",
+                                "mjölk"
+                            ]
+                        },
+                        {
+                            "name": "Caribean feta",
+                            "description": "Jerkryddad friterad fetaost, ananassalsa & gochujang-mayo",
+                            "price": 125.0,
+                            "allergens": [
+                                "mjölk",
+                                "gluten"
+                            ]
+                        },
+                        {
+                            "name": "Lax poke bowl",
+                            "description": "Färsk lax slungad i pokesås med ananassalsa, sjögrässallad, ponzu-mayo avokadokräm",
+                            "price": 165.0,
+                            "allergens": [
+                                "fisk",
+                                "gluten",
+                                "ägg"
+                            ]
+                        },
+                        {
+                            "name": "Fish cakes",
+                            "description": "Friterade fish cakes på torsk, räka & lax mangosalsa, sjögrässallad & kimchi-mayo",
+                            "price": 165.0,
+                            "allergens": [
+                                "fisk",
+                                "skaldjur",
+                                "gluten",
+                                "ägg"
+                            ]
+                        },
+                        {
+                            "name": "Prawns",
+                            "description": "Citron-& vitlöks-smörslungade tigerräkor, picklade jalapeños, avokado, sjögrässallad, gard & asian crunch",
+                            "price": 175.0,
+                            "allergens": [
+                                "skaldjur",
+                                "gluten",
+                                "ägg"
+                            ]
                         }
                     ]
                 },
                 {
-                    "title": "THE BURGERS 11:00-14:00",
+                    "title": "The Burgers 11:00-14:00",
                     "dishes": [
                         {
-                            "name": "Månadens crispy cheese chicken",
-                            "description": "Cheese doodles-panerad kycklingburgare med chili-cheddarmayo, BBQ karamelliserad jalapenos & romansallad. Serveras med pommes.",
-                            "price": 185.0,
-                            "allergens": []
+                            "name": "Spicy classic",
+                            "description": "150g burgare med cheddar, bacon, sallad, chili-mayo & picklad gurka. Serveras med pommes & husets dipp",
+                            "price": 129.0,
+                            "allergens": [
+                                "gluten",
+                                "mjölk",
+                                "ägg"
+                            ]
                         },
                         {
-                            "name": "Hot butter chicken",
-                            "description": "Cornflakes- panerad kycklingburgare med buffolosmör, syrlad lök, kewpie mayo & chipotleslaw. Serveras med pommes.",
-                            "price": 189.0,
-                            "allergens": []
+                            "name": "Posh johnsson",
+                            "description": "150g burgare med cheddar, tomat, sallad, lök & tryffel-mayo. Serveras med pommes & husets dipp",
+                            "price": 129.0,
+                            "allergens": [
+                                "gluten",
+                                "mjölk",
+                                "ägg"
+                            ]
+                        },
+                        {
+                            "name": "Veggisson",
+                            "description": "Sojaburgare med honungsdijonais, vegansk ost, tomat, sallad & karamelliserad lök. Serveras med pommes & husets dipp",
+                            "price": 129.0,
+                            "allergens": [
+                                "gluten",
+                                "mjölk",
+                                "ägg"
+                            ]
+                        },
+                        {
+                            "name": "Crispy cheese chicken (månadens)",
+                            "description": "Cheese doodles-panierad kycklingburgare med chili-cheddarmayo, BBQ-karamelliserade jalapeños & romansallad. Serveras med pommes & husets dipp",
+                            "price": 145.0,
+                            "allergens": [
+                                "gluten",
+                                "ägg",
+                                "mjölk"
+                            ]
                         }
                     ]
                 }
@@ -278,25 +305,120 @@
             "menu_url": "https://sjopaviljongen.se/lunchmeny/",
             "menu": [
                 {
-                    "title": "Lördag",
+                    "title": "Dagens Lunch",
                     "dishes": [
                         {
                             "name": "Sallad med gratinerad getost, rödbetor och kanderade valnötter",
-                            "description": "Salad with gratinated goat cheese, beets, and candied walnuts",
+                            "description": "Salad with gratinated goat cheese, beets and candied walnuts",
                             "price": 195.0,
-                            "allergens": []
+                            "allergens": [
+                                "milk",
+                                "nuts"
+                            ]
                         },
                         {
                             "name": "Havets wallenbergare, färskriven pepparrot, små gröna ärtor, brynt smör och potatispuré",
-                            "description": "Swedish fish and seafood cake with horseradish, green peas, browned butter and potato purée",
+                            "description": "Swedish fish and seafood cake with horseradish, green peas, browned butter and potato puree",
                             "price": 195.0,
-                            "allergens": []
+                            "allergens": [
+                                "fish",
+                                "milk",
+                                "egg"
+                            ]
                         },
                         {
                             "name": "Skomakarlåda på ryggbiff med rödvinssky och potatispuré",
                             "description": "Beef steak made of sirloin steak with mashed potatoes, gravy and bacon",
                             "price": 195.0,
+                            "allergens": [
+                                "milk",
+                                "gluten"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Barnmeny",
+                    "dishes": [
+                        {
+                            "name": "Köttbullar med potatispuré och gräddsås",
+                            "description": "Meatballs with potato puree and cream sauce",
+                            "price": 95.0,
+                            "allergens": [
+                                "milk",
+                                "gluten"
+                            ]
+                        },
+                        {
+                            "name": "Pannkakor med sylt och grädde",
+                            "description": "Pancakes with jam and fresh whipped cream",
+                            "price": 95.0,
+                            "allergens": [
+                                "milk",
+                                "egg",
+                                "gluten"
+                            ]
+                        },
+                        {
+                            "name": "Dagens fångst med sås och kokt potatis",
+                            "description": "Catch of the day with sauce and boiled potatoes",
+                            "price": 95.0,
                             "allergens": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Förrätter",
+                    "dishes": [
+                        {
+                            "name": "Toast Skagen med löjrom från Kalix",
+                            "description": "Toast Skagen with bleak roe from Bottenviken",
+                            "price": 225.0,
+                            "allergens": [
+                                "fish",
+                                "gluten"
+                            ]
+                        },
+                        {
+                            "name": "Tångromstoast med lök smetana, citron och dill",
+                            "description": "Seaweed roe on toast with onion, smetana, lemon and dill",
+                            "price": 175.0,
+                            "allergens": [
+                                "fish",
+                                "gluten",
+                                "dairy"
+                            ]
+                        },
+                        {
+                            "name": "Råbiff på svensk mjölkko med karamelliserad lökkräm",
+                            "description": "Beef tartare with caramelized onion cream",
+                            "price": 245.0,
+                            "allergens": [
+                                "egg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Varmrätter",
+                    "dishes": [
+                        {
+                            "name": "Svensk premium Entrecoté med bearnaisesås",
+                            "description": "Swedish premium entrecoté with bearnaise sauce, Bella verde, tomato salad and pommes frites",
+                            "price": 475.0,
+                            "allergens": [
+                                "milk",
+                                "egg"
+                            ]
+                        },
+                        {
+                            "name": "Smörstekt gös med krämig jordärtskockspuré",
+                            "description": "Butter-fried pike-perch with Jerusalem artichoke purée",
+                            "price": 445.0,
+                            "allergens": [
+                                "fish",
+                                "milk"
+                            ]
                         }
                     ]
                 }
@@ -318,120 +440,79 @@
                             "name": "Grillad pinsa pesto prosciutto",
                             "description": "Italienskt luftigt tunnbakad bröd med pesto, riven mozzarella, färska tomater & tunnskivad prosciutto crudo som grillas och värms i ugn.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "milk"
-                            ]
+                            "allergens": []
                         },
                         {
                             "name": "Räksallad med glasnudlar",
                             "description": "Sallad direkt från vårt kök. Räkor, glasnudlar, mango, morötter och koriander.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "shellfish"
-                            ]
+                            "allergens": []
                         },
                         {
                             "name": "Grillad pinsa rökt kalkon & dijonnaise",
                             "description": "Vår egna grillade pinsa med rökt kalkon, dijonnaise, vitkål, tomat & parmesan.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "milk"
-                            ]
+                            "allergens": []
                         },
                         {
                             "name": "Grillad pinsa tryffelsalami",
                             "description": "Italienskt luftigt bröd med tryffelsalami och pecorino romano som grillas och värms i ugn.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "milk"
-                            ]
+                            "allergens": []
                         },
                         {
-                            "name": "Lasagne bolognese",
+                            "name": "Lasagne Bolognese",
                             "description": "Klassisk lasagne med lager av nötfärs, tomatsås och bechamelsås smaksatt med muskot.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "milk",
-                                "egg"
-                            ]
+                            "allergens": []
                         },
                         {
                             "name": "Lasagne vegetarisk",
                             "description": "Vegetarisk lasagne från eget recept med grönsaker, créme fraiche & arrabiata.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "milk"
-                            ]
+                            "allergens": []
                         },
                         {
                             "name": "Caesarsallad med kyckling",
                             "description": "Svensk kyckling med romansallad, tomat, bacon, grana padano & pinsakrutonger.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "egg",
-                                "milk"
-                            ]
-                        },
-                        {
-                            "name": "Wrap Caesar kalkon",
-                            "description": "Kalkon, romansallad, tomat, parmesan & caesardressing.",
-                            "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "egg",
-                                "milk"
-                            ]
+                            "allergens": []
                         },
                         {
                             "name": "Spicy hummus & rödbetsfalafel sallad",
                             "description": "Kryddig hummus med bulgur, chimichurri-gurkmix, lime picklade rotfrukter, rödbetsfalafel.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten"
-                            ]
+                            "allergens": []
                         },
                         {
                             "name": "Pannkaka med hallonsylt & vispad grädde",
-                            "description": "Pannkaka med hallonsylt och vispgrädde.",
+                            "description": "Pannkaka med hallonsylt och vispgrädde. Sortiment kan skiljas åt beroende på enhet.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "egg",
-                                "milk"
-                            ]
+                            "allergens": []
                         },
                         {
                             "name": "Grillad pinsa kyckling & fetaost",
                             "description": "Italienskt luftigt bröd med kyckling, fetaost och soltorkade tomater, som värms i ugn.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "milk"
-                            ]
+                            "allergens": []
                         },
                         {
                             "name": "Grillad pinsa caprese",
                             "description": "Italienskt luftigt bröd med mozzarella, pesto, basilika & tomat som grillas och värms i ugn.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten",
-                                "milk"
-                            ]
+                            "allergens": []
+                        },
+                        {
+                            "name": "Wrap caesar kalkon",
+                            "description": "Kalkon, romansallad, tomat, parmesan & caesardressing.",
+                            "price": 0.0,
+                            "allergens": []
                         },
                         {
                             "name": "Wrap veg",
                             "description": "Kikärt- & morotsbiff, koriander, riven kålsallad & chili-sojadressing.",
                             "price": 0.0,
-                            "allergens": [
-                                "gluten"
-                            ]
+                            "allergens": []
                         }
                     ]
                 }
@@ -442,64 +523,37 @@
             "menu_url": "https://www.joejuice.com/store/76d02a98-93a7-4610-acf6-2bfbf6c9d51b",
             "menu": [
                 {
-                    "title": "Sandwicher",
+                    "title": "Lunchtips",
                     "dishes": [
                         {
-                            "name": "Avokadosmörgås",
-                            "description": "En ljuvlig smörgås med färsk avokado, citron och peppar.",
-                            "price": 85.0,
-                            "allergens": [
-                                "gluten"
-                            ]
-                        },
-                        {
-                            "name": "Kalkonsmörgås",
-                            "description": "Smakfull kalkonsmörgås med sallad och tomat.",
-                            "price": 90.0,
-                            "allergens": [
-                                "gluten",
-                                "mjölk"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "title": "Sallader",
-                    "dishes": [
-                        {
-                            "name": "Kikärtsallad",
-                            "description": "Fräsch sallad med kikärtor, grönsaker och en smakrik dressing.",
-                            "price": 95.0,
+                            "name": "Avokadomacka",
+                            "description": "Fräsch avokado på rågbröd med lime och chili.",
+                            "price": 75.0,
                             "allergens": [
                                 "gluten"
                             ]
                         },
                         {
                             "name": "Kycklingsallad",
-                            "description": "Sallad med grillad kyckling, avokado och dressing.",
-                            "price": 110.0,
+                            "description": "Sallad med grillad kyckling, avokado, och en lätt dressing.",
+                            "price": 90.0,
                             "allergens": [
                                 "gluten",
-                                "mjölk"
+                                "ägg"
                             ]
-                        }
-                    ]
-                },
-                {
-                    "title": "Wraps",
-                    "dishes": [
+                        },
                         {
-                            "name": "Vegetarisk wrap",
-                            "description": "Wrap med färska grönsaker och hummus.",
-                            "price": 80.0,
+                            "name": "Kalkonwrap",
+                            "description": "Wrap med kalkon, grönsaker och hummus.",
+                            "price": 85.0,
                             "allergens": [
                                 "gluten"
                             ]
                         },
                         {
-                            "name": "Kycklingwrap",
-                            "description": "Smaklig wrap med grillad kyckling och grönsaker.",
-                            "price": 95.0,
+                            "name": "Vegetarisk wrap",
+                            "description": "Wrap fylld med grönsaker och fetaost.",
+                            "price": 80.0,
                             "allergens": [
                                 "gluten",
                                 "mjölk"
@@ -517,29 +571,29 @@
                     "title": "Sushi",
                     "dishes": [
                         {
-                            "name": "California Roll",
-                            "description": "Rullad sushi med krabba, avokado och gurka",
-                            "price": 95.0,
+                            "name": "Lax Sushi",
+                            "description": "Fräsch lax på ris.",
+                            "price": 120.0,
+                            "allergens": [
+                                "fisk",
+                                "gluten"
+                            ]
+                        },
+                        {
+                            "name": "Tuna Maki",
+                            "description": "Rulle med tonfisk och avokado.",
+                            "price": 100.0,
+                            "allergens": [
+                                "fisk",
+                                "gluten"
+                            ]
+                        },
+                        {
+                            "name": "Krabba Nigiri",
+                            "description": "Nigiri med krabbkött.",
+                            "price": 130.0,
                             "allergens": [
                                 "skaldjur",
-                                "gluten"
-                            ]
-                        },
-                        {
-                            "name": "Nigiri Lax",
-                            "description": "Handskuren lax på ris",
-                            "price": 110.0,
-                            "allergens": [
-                                "fisk",
-                                "gluten"
-                            ]
-                        },
-                        {
-                            "name": "Sushi Set",
-                            "description": "Blandade sushi med olika fyllningar och smaker",
-                            "price": 175.0,
-                            "allergens": [
-                                "fisk",
                                 "gluten"
                             ]
                         }
