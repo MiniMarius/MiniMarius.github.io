@@ -242,8 +242,9 @@ restaurant_highlight = {
 adaptive_card_json = create_adaptive_card(restaurant_highlight)
 
 current_time = datetime.now().time()
-if current_time < datetime.strptime("09:00", "%H:%M").time():
-    send_adaptive_card_to_teams(webhook_url_platform, adaptive_card_json)
-    send_adaptive_card_to_teams(webhook_url_wizards, adaptive_card_json)
-else:
-    print("It is past 9 AM. The adaptive card will not be sent.")
+#if current_time < datetime.strptime("09:00", "%H:%M").time():
+#    send_adaptive_card_to_teams(webhook_url_platform, adaptive_card_json)
+#    send_adaptive_card_to_teams(webhook_url_wizards, adaptive_card_json)
+#else:
+#    print("It is past 9 AM. The adaptive card will not be sent.")
+#
